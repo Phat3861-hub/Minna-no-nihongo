@@ -304,7 +304,7 @@ h1{margin:0;font-size:clamp(26px,5.4vw,36px);line-height:1.15;font-weight:700;te
 <body>
 <div class="app" id="app">
   <header>
-    <p class="kicker"><span>みんなの日本語 I</span>N5 · Bài 1–10</p>
+    <p class="kicker"><span>みんなの日本語 I</span>N5 · Bài 1–11</p>
     <h1>Từ vựng Minna no Nihongo</h1>
     <p class="lede">Ôn từ vựng theo bài, học kanji theo sách, luyện đọc số, giờ, ngày tháng và tra từ. Tiến độ “đã thuộc” được lưu trên trình duyệt này.</p>
   </header>
@@ -885,6 +885,69 @@ var LESSONS=[
 ["コーナー","","góc, khu (trong cửa hàng)"],
 ["いちばんした","いちばん下","ngăn dưới cùng, chỗ thấp nhất"],
 ["とうきょうディズニーランド","東京ディズニーランド","Tokyo Disneyland"]
+]},
+{n:11,title:"Đếm số lượng",words:[
+["[こどもが]います","[子どもが]います","có [con]","Dùng います cho người: こどもがふたりいます"],
+["[にほんに]います","[日本に]います","ở [Nhật Bản]"],
+["かかります","","mất, tốn (thời gian, tiền)","じかんがかかります, おかねがかかります"],
+["[かいしゃを]やすみます","[会社を]休みます","nghỉ [làm]","Dùng trợ từ を"],
+["ひとつ","一つ","một cái","Đếm đồ vật theo kiểu Nhật: ひとつ đến とお"],
+["ふたつ","二つ","hai cái"],
+["みっつ","三つ","ba cái"],
+["よっつ","四つ","bốn cái"],
+["いつつ","五つ","năm cái"],
+["むっつ","六つ","sáu cái"],
+["ななつ","七つ","bảy cái"],
+["やっつ","八つ","tám cái"],
+["ここのつ","九つ","chín cái"],
+["とお","十","mười cái"],
+["いくつ","","mấy cái, bao nhiêu cái"],
+["ひとり","一人","một người","Đặc biệt: không đọc いちにん"],
+["ふたり","二人","hai người","Đặc biệt: không đọc ににん"],
+["～にん","～人","~ người","Từ 3 người trở lên: さんにん, よにん (4 người)"],
+["～だい","～台","~ chiếc, ~ cái (máy móc, xe cộ)"],
+["～まい","～枚","~ tờ, ~ tấm (vật mỏng, phẳng)","Giấy, áo sơ mi, tem, đĩa…"],
+["～かい","～回","~ lần"],
+["りんご","","quả táo"],
+["みかん","","quả quýt"],
+["サンドイッチ","","bánh sandwich"],
+["カレー[ライス]","","[cơm] cà ri"],
+["アイスクリーム","","kem"],
+["きって","切手","tem"],
+["はがき","","bưu thiếp"],
+["ふうとう","封筒","phong bì"],
+["りょうしん","両親","bố mẹ"],
+["きょうだい","兄弟","anh chị em"],
+["あに","兄","anh trai (của mình)"],
+["おにいさん","お兄さん","anh trai (của người khác)"],
+["あね","姉","chị gái (của mình)"],
+["おねえさん","お姉さん","chị gái (của người khác)"],
+["おとうと","弟","em trai (của mình)"],
+["おとうとさん","弟さん","em trai (của người khác)"],
+["いもうと","妹","em gái (của mình)"],
+["いもうとさん","妹さん","em gái (của người khác)"],
+["がいこく","外国","nước ngoài"],
+["りゅうがくせい","留学生","du học sinh"],
+["クラス","","lớp học"],
+["～じかん","～時間","~ tiếng (đồng hồ)","Ví dụ: にじかん (2 tiếng)"],
+["～しゅうかん","～週間","~ tuần"],
+["～かげつ","～か月","~ tháng (khoảng thời gian)","Khác ～がつ (tháng thứ mấy): さんかげつ là 3 tháng"],
+["～ねん","～年","~ năm"],
+["～ぐらい","","khoảng ~"],
+["どのくらい","","bao lâu, khoảng bao nhiêu"],
+["ぜんぶで","全部で","tổng cộng, tất cả"],
+["みんな","","tất cả, mọi người"],
+["～だけ","","chỉ ~"],
+["かしこまりました","","tôi hiểu rồi ạ (lễ phép)"],
+["いい[お]てんきですね","いい[お]天気ですね","trời đẹp nhỉ"],
+["おでかけですか","お出かけですか","anh/chị đi ra ngoài đấy à?"],
+["ちょっと～まで","","tôi đi ~ một chút"],
+["いってらっしゃい","","anh/chị đi nhé (người ở nhà nói)"],
+["いってきます","","tôi đi đây (người đi nói)"],
+["ふなびん","船便","gửi đường biển"],
+["こうくうびん（エアメール）","航空便","gửi đường hàng không"],
+["おねがいします","お願いします","nhờ anh/chị, làm ơn"],
+["オーストラリア","","nước Úc"]
 ]}
 ];
 
@@ -982,7 +1045,14 @@ var ROM_PHRASE={
   "～や～[など]":"~ya ~ [nado]",
   "[どうも]すみません":"[doumo] sumimasen",
   "いちばんした":"ichiban shita",
-  "とうきょうディズニーランド":"toukyou dizunīrando"
+  "とうきょうディズニーランド":"toukyou dizunīrando",
+  "[こどもが]います":"[kodomo ga] imasu",
+  "[にほんに]います":"[nihon ni] imasu",
+  "[かいしゃを]やすみます":"[kaisha o] yasumimasu",
+  "いい[お]てんきですね":"ii [o]tenki desu ne",
+  "おでかけですか":"odekake desu ka",
+  "ちょっと～まで":"chotto ~ made",
+  "おねがいします":"onegai shimasu"
 };
 var ROM_SMALL_Y={"ゃ":"a","ゅ":"u","ょ":"o"};
 var ROM_SMALL_V={"ぁ":"a","ぃ":"i","ぅ":"u","ぇ":"e","ぉ":"o"};
