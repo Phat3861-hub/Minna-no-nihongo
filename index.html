@@ -280,10 +280,12 @@ h1{margin:0;font-size:clamp(26px,5.4vw,36px);line-height:1.15;font-weight:700;te
 .kpanel{border:1px solid var(--line);border-radius:12px;padding:16px;display:flex;flex-direction:column;align-items:center;gap:14px;scroll-margin-top:12px}
 .kpanel .actions{width:min(100%,440px);grid-template-columns:1fr}
 .kgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(66px,1fr));gap:8px}
-.kt{display:flex;flex-direction:column;align-items:center;padding:8px 4px 6px;border:1px solid var(--line);border-radius:10px;background:var(--surface);min-width:0}
+.kt{position:relative;display:flex;flex-direction:column;align-items:center;padding:17px 4px 6px;border:1px solid var(--line);border-radius:10px;background:var(--surface);min-width:0}
 .kt:hover{border-color:var(--accent)}
 .kt .c{font-family:var(--font-jp);font-weight:700;font-size:28px;line-height:1.2}
 .kt .h{font-size:10.5px;letter-spacing:.04em;color:var(--ink-2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
+.kt .kb{position:absolute;top:3px;left:3px;font-size:9.5px;font-weight:700;line-height:1.45;letter-spacing:.02em;color:var(--accent-ink);background:var(--accent);border-radius:4px;padding:0 4px;white-space:nowrap}
+.kt.first{border-color:var(--accent)}
 .kt.done{background:var(--accent-soft)}
 .kt[aria-pressed="true"]{border-color:var(--accent);box-shadow:inset 0 0 0 2px var(--accent)}
 .fld.srch{font-size:13.5px}
@@ -2271,7 +2273,9 @@ function kGridHtml(){
     '<div class="actions"><button type="button" class="btn'+(done?'':' primary')+'" data-act="ktoggle" data-id="'+esc(cur.id)+'">'+(done?'Bỏ đánh dấu đã thuộc':'Đánh dấu đã thuộc')+'</button></div></div>'+
     '<p class="keys">Chạm vào một chữ để xem chi tiết. Ô tô màu là chữ đã thuộc.</p>'+
     '<div class="kgrid">'+list.map(function(o){
-      return '<button type="button" class="kt'+(K.done.has(o.id)?' done':'')+'" data-act="ktile" data-id="'+esc(o.id)+'" aria-pressed="'+(o.id===cur.id)+'" aria-label="'+esc(o.k+" "+o.hv)+'">'+
+      var fg=KGROUPS.filter(function(g){return g.items[0].id===o.id})[0];
+      return '<button type="button" class="kt'+(K.done.has(o.id)?' done':'')+(fg?' first':'')+'" data-act="ktile" data-id="'+esc(o.id)+'" aria-pressed="'+(o.id===cur.id)+'" aria-label="'+esc((fg?fg.name+", chữ đầu: ":"")+o.k+" "+o.hv)+'">'+
+        (fg?'<span class="kb">'+esc(fg.name)+'</span>':'')+
         '<span class="c">'+esc(o.k)+'</span><span class="h">'+esc(o.hv)+'</span></button>';
     }).join("")+'</div>';
 }
