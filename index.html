@@ -298,22 +298,18 @@ h1{margin:0;font-size:clamp(26px,5.4vw,36px);line-height:1.15;font-weight:700;te
   .stage{padding:12px}
   .card{padding:38px 12px 24px}
 }
-/* chia đôi màn hình (chỉ màn hình rộng) */
-.side,.main{display:contents}
+/* chia đôi màn hình: hai mục cạnh nhau (chỉ màn hình rộng) */
+.panes{display:flex;flex-direction:column;gap:20px;min-width:0}
 .splitbar{display:none}
 @media (min-width:1000px){
-  .splitbar{display:flex;justify-content:flex-end;margin-top:-8px}
+  .splitbar{display:flex;flex-wrap:wrap;justify-content:flex-end;align-items:center;gap:8px 12px;margin-top:-8px}
   .splitbar .btn{padding:6px 12px;font-size:13px}
   .splitbar .btn[aria-pressed="true"]{background:var(--accent-soft);border-color:var(--accent);color:var(--ink);font-weight:600}
-  .app.has-split{max-width:1280px}
-  .pane.split{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:20px;align-items:start}
-  .pane.split>.tabs{grid-column:1/-1}
-  .pane.split>.side,.pane.split>.main{display:flex;flex-direction:column;gap:20px;min-width:0}
-  #searchView.split>.blk{grid-column:1/-1}
-  #searchView.split .blk{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:12px 20px;align-items:start}
-  #searchView.split .blk>h3,#searchView.split .blk>.fld{grid-column:1}
-  #searchView.split .blk>.summary{grid-column:1}
-  #searchView.split .blk>#sres{grid-column:2;grid-row:1/span 3}
+  .splitbar .seg button{padding:5px 11px;font-size:13px}
+  .app.has-split{max-width:1360px}
+  .panes.two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px;align-items:start}
+  .panes.two>.pane{min-width:0}
+  .panes.two>.pane.right{padding-left:28px;border-left:1px solid var(--line)}
 }
 @media (prefers-reduced-motion:reduce){
   *{transition:none!important;animation:none!important}
@@ -334,10 +330,19 @@ h1{margin:0;font-size:clamp(26px,5.4vw,36px);line-height:1.15;font-weight:700;te
     <button type="button" class="tab" data-act="view" data-v="num" aria-pressed="false">Số – giờ – ngày</button>
     <button type="button" class="tab" data-act="view" data-v="search" aria-pressed="false">Tìm từ</button>
   </div>
-  <div class="splitbar"><button type="button" class="btn ghost" id="splitBtn" data-act="split" aria-pressed="false">Chia đôi màn hình tab này</button></div>
+  <div class="splitbar">
+    <button type="button" class="btn ghost" id="splitBtn" data-act="split" aria-pressed="false">Chia đôi màn hình</button>
+    <div class="seg" id="splitPick" role="group" aria-label="Mục hiển thị ở nửa bên phải" hidden>
+      <button type="button" data-act="right" data-v="vocab" aria-pressed="false">Từ vựng</button>
+      <button type="button" data-act="right" data-v="kanji" aria-pressed="false">Kanji</button>
+      <button type="button" data-act="right" data-v="num" aria-pressed="false">Số – giờ – ngày</button>
+      <button type="button" data-act="right" data-v="search" aria-pressed="false">Tìm từ</button>
+    </div>
+  </div>
+
+  <div class="panes" id="panes">
 
   <div class="pane" id="vocabView">
-  <div class="side">
   <section class="lessons" id="lessons" aria-label="Chọn bài"></section>
 
   <section class="controls" aria-label="Chế độ ôn tập">
@@ -359,9 +364,8 @@ h1{margin:0;font-size:clamp(26px,5.4vw,36px);line-height:1.15;font-weight:700;te
     </div>
     <p class="summary" id="summary" aria-live="polite"></p>
   </section>
-  </div>
 
-  <div class="main"><section class="stage" id="stage" aria-label="Khu vực ôn tập"></section></div>
+  <section class="stage" id="stage" aria-label="Khu vực ôn tập"></section>
   </div>
 
   <div class="pane" id="kanjiView" hidden></div>
@@ -377,6 +381,7 @@ h1{margin:0;font-size:clamp(26px,5.4vw,36px);line-height:1.15;font-weight:700;te
       <p class="summary" id="sinfo" aria-live="polite"></p>
       <div id="sres"></div>
     </section>
+  </div>
   </div>
 </div>
 
@@ -1000,7 +1005,8 @@ var S={
   view:(function(){var v=load("mnn.view","vocab");return (v==="num"||v==="search"||v==="kanji")?v:"vocab"})(),
   q:"",
   ntab:(function(){var v=load("mnn.ntab","number");return (v==="time"||v==="date")?v:"number"})(),
-  split:new Set((function(){var v=load("mnn.split",[]);return Array.isArray(v)?v.filter(function(x){return x==="vocab"||x==="kanji"||x==="num"||x==="search"}):[]})()),
+  split:load("mnn.split",false)===true,
+  right:(function(){var v=load("mnn.right","search");return (v==="vocab"||v==="kanji"||v==="num"||v==="search")?v:"search"})(),
   prac:null,nv:null,
   rev:new Set(),
   done:new Set(doneInit),
@@ -1420,10 +1426,8 @@ root.addEventListener("click",function(e){
     }
     case "reveal":reveal(b.dataset.id);break;
     case "tick":tick(b.dataset.id);break;
-    case "split":{
-      if(S.split.has(S.view))S.split.delete(S.view);else S.split.add(S.view);
-      save("mnn.split",Array.from(S.split));syncSplit();break;
-    }
+    case "split":S.split=!S.split;save("mnn.split",S.split);applyView();break;
+    case "right":S.right=b.dataset.v;save("mnn.right",S.right);applyView();break;
     case "view":{
       var v=b.dataset.v;S.view=(v==="num"||v==="search"||v==="kanji")?v:"vocab";save("mnn.view",S.view);applyView();
       if(S.view==="search"){try{$("#q").focus({preventScroll:true})}catch(err){}}
@@ -1505,8 +1509,9 @@ document.addEventListener("keydown",function(e){
   if(t&&t.dataset&&t.dataset.act==="reveal"&&(e.key==="Enter"||e.key===" ")){
     reveal(t.dataset.id);e.preventDefault();return;
   }
-  if(S.view==="kanji"){kKey(e);return}
-  if(S.view!=="vocab")return;
+  var pn=t&&t.closest?t.closest(".pane"):null,cv=pn?pn.id.replace("View",""):S.view;
+  if(cv==="kanji"){kKey(e);return}
+  if(cv!=="vocab")return;
   if(S.mode==="cards"){
     var onCard=t===document.body||(t.classList&&t.classList.contains("card"));
     if(e.key==="ArrowRight"){go(1);e.preventDefault()}
@@ -1639,7 +1644,7 @@ function numberTab(){
     item("1階","いっかい",true),item("3階","さんがい",true),item("6階","ろっかい",true),item("8階","はっかい",true),item("10階","じゅっかい",true),item("何階","なんがい",true),
     item("4円","よえん",true),item("7円","ななえん",false,"cũng đọc しちえん"),item("1,000円","せんえん"),item("10,000円","いちまんえん")
   ];
-  return convBlock("number")+pracBlock()+"<!--SPLIT-->"+
+  return convBlock("number")+pracBlock()+
     blk("Số cơ bản 0–10",LEGEND,gridHtml(basic))+
     blk("Hàng chục","Số + じゅう",gridHtml(tens))+
     blk("Hàng trăm","Số + ひゃく",gridHtml(hund))+
@@ -1661,7 +1666,7 @@ function timeTab(){
   for(i=1;i<=10;i++)mins.push(item(i+"分",minKana(i),/ぷん$/.test(minKana(i))));
   [15,20,30,40,45,50].forEach(function(m){mins.push(item(m+"分",minKana(m),/ぷん$/.test(minKana(m))))});
   mins.push(item("半","はん",false,"rưỡi (30 phút)"));
-  return convBlock("time")+pracBlock()+"<!--SPLIT-->"+
+  return convBlock("time")+pracBlock()+
     blk("Giờ 1–12","Số + じ",gridHtml(hrs))+
     blk("Phút","Số + ふん hoặc ぷん. Ô tô màu là các phút đọc ぷん.",gridHtml(mins))+
     blk("Quy tắc cần nhớ","",rulesHtml([
@@ -1682,7 +1687,7 @@ function dateTab(){
     yr.push(item(p[0]+"年",yearKana(p[0]),p[1],p[0]===7?"cũng đọc しちねん":""));
   });
   yr.push(item("2000年",yearKana(2000)),item("2026年",yearKana(2026)),item("何年","なんねん"));
-  return convBlock("date")+pracBlock()+"<!--SPLIT-->"+
+  return convBlock("date")+pracBlock()+
     blk("Tháng","Số + がつ",gridHtml(mon))+
     blk("Ngày","Ngày 1–10, 14, 20, 24 đọc riêng. Các ngày còn lại: số + にち. "+LEGEND,gridHtml(days))+
     blk("Thứ","Tên thứ + ようび",gridHtml(wk))+
@@ -1762,9 +1767,7 @@ function renderNum(){
     return '<button type="button" class="tab" data-act="ntab" data-v="'+x[0]+'" aria-pressed="'+(x[0]===t)+'">'+x[1]+'</button>';
   }).join("");
   var body=t==="number"?numberTab():t==="time"?timeTab():dateTab();
-  var parts=body.split("<!--SPLIT-->");
-  $("#numView").innerHTML='<div class="tabs" role="group" aria-label="Nội dung">'+tabs+'</div>'+
-    '<div class="side">'+parts[0]+'</div><div class="main">'+parts[1]+'</div>';
+  $("#numView").innerHTML='<div class="tabs" role="group" aria-label="Nội dung">'+tabs+'</div>'+body;
   updateConv();newPrac();renderPrac();
 }
 root.addEventListener("input",function(e){
@@ -1772,29 +1775,37 @@ root.addEventListener("input",function(e){
   if(id==="nIn"||id==="tH"||id==="tM"||id==="dIn")updateConv();
   else if(id==="q"){S.q=e.target.value;renderSearch()}
 });
+var VIEWS=["vocab","kanji","num","search"],PANE={vocab:"#vocabView",kanji:"#kanjiView",num:"#numView",search:"#searchView"};
+var MQ=window.matchMedia?window.matchMedia("(min-width:1000px)"):{matches:false};
 function applyView(){
-  var num=S.view==="num";
-  $("#vocabView").hidden=S.view!=="vocab";
-  $("#numView").hidden=!num;
-  $("#searchView").hidden=S.view!=="search";
-  $("#kanjiView").hidden=S.view!=="kanji";
-  if(S.view==="search")renderSearch();
-  if(S.view==="kanji")renderKanji();
-  if(S.view==="vocab")scrollToPressed($("#lessons"));
+  var two=S.split&&MQ.matches;
+  if(S.right===S.view)S.right=VIEWS.filter(function(v){return v!==S.view})[0];
+  VIEWS.forEach(function(v){
+    var el=$(PANE[v]),shown=v===S.view||(two&&v===S.right);
+    el.hidden=!shown;
+    el.classList.toggle("right",two&&v===S.right);
+    el.style.order=(two&&v===S.right)?"1":"0";
+    if(!shown)return;
+    if(v==="search")renderSearch();
+    else if(v==="kanji")renderKanji();
+    else if(v==="num")renderNum();
+    else scrollToPressed($("#lessons"));
+  });
+  $("#panes").classList.toggle("two",two);
+  $("#app").classList.toggle("has-split",two);
   Array.prototype.forEach.call(document.querySelectorAll('[data-act="view"]'),function(b){
     b.setAttribute("aria-pressed",b.dataset.v===S.view?"true":"false");
   });
-  if(num)renderNum();
-  syncSplit();
+  var sb=$("#splitBtn");
+  sb.setAttribute("aria-pressed",S.split?"true":"false");
+  sb.textContent=S.split?"Tắt chia đôi":"Chia đôi màn hình";
+  $("#splitPick").hidden=!S.split;
+  Array.prototype.forEach.call(document.querySelectorAll('[data-act="right"]'),function(b){
+    b.hidden=b.dataset.v===S.view;
+    b.setAttribute("aria-pressed",b.dataset.v===S.right?"true":"false");
+  });
 }
-function syncSplit(){
-  var on=S.split.has(S.view),map={vocab:"#vocabView",kanji:"#kanjiView",num:"#numView",search:"#searchView"};
-  Object.keys(map).forEach(function(v){$(map[v]).classList.toggle("split",S.split.has(v))});
-  $("#app").classList.toggle("has-split",on);
-  var b=$("#splitBtn");
-  b.setAttribute("aria-pressed",on?"true":"false");
-  b.textContent=on?"Tắt chia đôi tab này":"Chia đôi màn hình tab này";
-}
+if(MQ.addEventListener)MQ.addEventListener("change",applyView);
 
 /* ---------- Tìm từ ---------- */
 /*SEARCH-PURE-START*/
@@ -2355,14 +2366,14 @@ function renderKanji(){
     var summary=!names.length?"Chưa chọn bài nào."
       :"Đang học "+(names.length===KGROUPS.length?"tất cả các bài":names.join(", "))+" · "+selItems.length+" chữ · đã thuộc "+selDone;
     box.innerHTML=
-      '<div class="side"><p class="cap">Thứ tự '+KALL.length+' chữ và âm Hán Việt theo sách luyện tập Kanji Minna no Nihongo sơ cấp I. Chọn một hoặc nhiều bài.</p>'+
+      '<p class="cap">Thứ tự '+KALL.length+' chữ và âm Hán Việt theo sách luyện tập Kanji Minna no Nihongo sơ cấp I. Chọn một hoặc nhiều bài.</p>'+
       '<section class="lessons" aria-label="Chọn bài kanji">'+chips+'</section>'+
       '<section class="controls" aria-label="Chế độ học kanji">'+
         '<div class="tabs" role="group" aria-label="Chế độ">'+modes+'</div>'+
         '<div class="opts">'+opts+'</div>'+
         '<p class="summary" aria-live="polite">'+esc(summary)+'</p>'+
-      '</section></div>'+
-      '<div class="main"><section class="stage" id="kstage" aria-label="Khu vực học kanji"></section></div>';
+      '</section>'+
+      '<section class="stage" id="kstage" aria-label="Khu vực học kanji"></section>';
     $("#kstage").innerHTML=K.mode==="cards"?kCardHtml():K.mode==="quiz"?kQuizHtml():kGridHtml();
     var row=box.querySelector(".lessons");
     if(sl!==null)row.scrollLeft=sl;else scrollToPressed(row);
