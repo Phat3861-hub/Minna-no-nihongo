@@ -338,6 +338,28 @@ h1{margin:0;font-size:clamp(26px,5.4vw,36px);line-height:1.15;font-weight:700;te
 .ewrongs li{border:1px solid var(--line);border-radius:10px;padding:10px 12px}
 .ewrongs .eq-s{font-family:var(--font-jp);font-weight:700;font-size:17px;overflow-wrap:anywhere}
 .ewrongs .ans{font-size:14px;margin-top:2px}
+.qnav{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.qnav .btn:disabled{opacity:.45;cursor:default}
+.qres{margin:0 auto}
+.qdots{display:flex;flex-wrap:wrap;gap:6px}
+.qdot{min-width:32px;height:32px;padding:0 6px;border-radius:8px;border:1px solid var(--line);background:var(--surface);font-size:13px;font-variant-numeric:tabular-nums;color:var(--ink-2)}
+.qdot.ok{background:var(--good-soft);border-color:var(--good);color:var(--ink)}
+.qdot.no{background:var(--bad-soft);border-color:var(--bad);color:var(--ink)}
+.qdot[aria-current="true"]{outline:2px solid var(--accent);outline-offset:1px;font-weight:700;color:var(--ink)}
+.qdot:disabled{opacity:.5;cursor:default}
+.rhead{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 12px}
+.rhead h4{margin:0;font-size:16px}
+.rlist{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+.rlist li{border:1px solid var(--line);border-left:4px solid var(--good);border-radius:10px;padding:10px 12px;display:flex;flex-direction:column;gap:3px;min-width:0}
+.rlist li.no{border-left-color:var(--bad)}
+.rtop{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.rtop .link{margin-left:0}
+.rn{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-2)}
+.rlist li.no .rn{color:var(--bad)}
+.rq{font-size:15px;overflow-wrap:anywhere}
+.rq .eq-s{font-family:var(--font-jp);font-weight:700;font-size:17px}
+.rlist .ans{font-size:14px}
+.elab2{display:block;font-size:12px;color:var(--ink-2)}
 .kqt .tab{font-size:13px;padding:8px 4px;line-height:1.3}
 .kul{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:6px;text-decoration-color:var(--accent)}
 .kfill{color:var(--good);font-size:.7em;margin-left:.15em}
@@ -1357,6 +1379,89 @@ function mark(v){
   syncChips();syncSummary();go(1);
 }
 
+/* ---------- Trắc nghiệm: câu trước/sau và xem lại bài làm (dùng chung cho Từ vựng, Kanji, Bài tập) ---------- */
+function qzNew(qs){return {qs:qs,i:0,view:"q",filter:"wrong",just:false}}
+function qzOk(q){return q.picked!=null&&q.opts[q.picked].ok}
+function qzScore(Q){return Q.qs.filter(qzOk).length}
+function qzDone(Q){return Q.qs.filter(function(q){return q.picked!=null}).length}
+function qzWrong(Q){return Q.qs.filter(function(q){return q.picked!=null&&!q.opts[q.picked].ok})}
+function qzPick(Q,i){
+  var q=Q&&Q.view==="q"?Q.qs[Q.i]:null;
+  if(!q||q.picked!=null||!q.opts[i])return null;
+  q.picked=i;Q.just=true;return q;
+}
+function qzMove(Q,d){
+  if(!Q)return false;
+  if(Q.view==="r"){if(d<0){Q.view="q";Q.i=Q.qs.length-1;return true}return false}
+  if(d<0){if(Q.i===0)return false;Q.i--;return true}
+  if(Q.qs[Q.i].picked==null)return false;
+  if(Q.i+1>=Q.qs.length){if(qzDone(Q)===Q.qs.length){Q.view="r";return true}return false}
+  Q.i++;return true;
+}
+function qzGo(Q,i){if(!Q||!Q.qs[i])return false;Q.view="q";Q.i=i;return true}
+function qzMeter(Q){
+  var d=qzDone(Q);
+  return '<div class="meter"><span>Câu '+(Q.i+1)+'/'+Q.qs.length+' · đúng '+qzScore(Q)+'/'+d+'</span><span class="bar"><i style="width:'+(d/Q.qs.length*100)+'%"></i></span></div>';
+}
+function qzNavHtml(Q,key){
+  var q=Q.qs[Q.i],answered=q.picked!=null,last=Q.i+1>=Q.qs.length,all=qzDone(Q)===Q.qs.length;
+  var dots=Q.qs.length<=40?'<div class="qdots" role="group" aria-label="Chuyển nhanh tới câu">'+Q.qs.map(function(x,i){
+      var st=x.picked==null?"":qzOk(x)?" ok":" no",can=x.picked!=null||i===Q.i;
+      return '<button type="button" class="qdot'+st+'" data-act="qzgo" data-v="'+key+'" data-i="'+i+'"'+(i===Q.i?' aria-current="true"':'')+(can?'':' disabled')+' aria-label="Câu '+(i+1)+'">'+(i+1)+'</button>';
+    }).join("")+'</div>':'';
+  return '<div class="qnav">'+
+      '<button type="button" class="btn" data-act="qzprev" data-v="'+key+'"'+(Q.i===0?' disabled':'')+'>‹ Câu trước</button>'+
+      '<button type="button" class="btn primary" data-act="qznext" data-v="'+key+'"'+(answered?(Q.just?' data-autofocus':''):' disabled')+'>'+(last?'Xem kết quả':'Câu sau ›')+'</button>'+
+    '</div>'+
+    (all&&!last?'<button type="button" class="link qres" data-act="qzres" data-v="'+key+'">Về trang kết quả</button>':'')+dots;
+}
+/* item(q) trả về {p: đề bài (HTML), x: phần giải thích thêm (HTML, có thể rỗng)} */
+function qzResultHtml(Q,key,msg,acts,item,jpOpts){
+  var total=Q.qs.length,score=qzScore(Q),wr=qzWrong(Q).length,f=(Q.filter==="all"||!wr)?"all":"wrong";
+  var list=Q.qs.map(function(q,i){return {q:q,i:i}}).filter(function(x){return f==="all"||!qzOk(x.q)});
+  var cls=jpOpts?' class="ejp"':'';
+  return '<div class="result"><div class="score">'+score+'/'+total+'</div><p style="margin:0;color:var(--ink-2)">'+esc(msg)+'</p></div>'+
+    '<div class="actions"><button type="button" class="btn primary" data-act="'+acts[0]+'" data-autofocus>Vòng mới</button>'+
+      (wr?'<button type="button" class="btn" data-act="'+acts[1]+'">Luyện lại '+wr+' câu sai</button>':'<button type="button" class="btn" data-act="qzgo" data-v="'+key+'" data-i="0">Xem lại từ câu 1</button>')+'</div>'+
+    '<div class="rhead"><h4>Xem lại bài làm</h4>'+
+      (wr?'<div class="seg" role="group" aria-label="Lọc câu">'+
+        '<button type="button" data-act="qzfilter" data-v="'+key+'" data-g="wrong" aria-pressed="'+(f==="wrong")+'">Câu sai ('+wr+')</button>'+
+        '<button type="button" data-act="qzfilter" data-v="'+key+'" data-g="all" aria-pressed="'+(f==="all")+'">Tất cả ('+total+')</button></div>':
+        '<span class="cap">Bạn làm đúng tất cả các câu.</span>')+'</div>'+
+    '<ol class="rlist">'+list.map(function(x){
+      var q=x.q,ok=qzOk(q),it=item(q),right=q.opts.filter(function(o){return o.ok})[0].text;
+      return '<li class="'+(ok?'ok':'no')+'"><div class="rtop"><span class="rn">Câu '+(x.i+1)+' · '+(ok?'Đúng':'Sai')+'</span>'+
+        '<button type="button" class="link" data-act="qzgo" data-v="'+key+'" data-i="'+x.i+'">Xem lại câu này</button></div>'+
+        '<div class="rq">'+it.p+'</div>'+
+        (ok?'':'<div class="ans">Bạn chọn: <b'+cls+'>'+esc(q.opts[q.picked].text)+'</b></div>')+
+        '<div class="ans">Đáp án: <b'+cls+'>'+esc(right)+'</b></div>'+(it.x||'')+'</li>';
+    }).join("")+'</ol>';
+}
+function qzCtx(v){
+  if(v==="k")return {Q:K.quiz,r:renderKStage,st:"kstage"};
+  if(v==="e")return {Q:EX.quiz,r:renderExercise,st:"estage"};
+  return {Q:S.quiz,r:renderStage,st:"stage"};
+}
+function qzAct(b){
+  var c=qzCtx(b.dataset.v),Q=c.Q,a=b.dataset.act,ch=false;if(!Q)return;
+  if(a==="qzprev")ch=qzMove(Q,-1);
+  else if(a==="qznext")ch=qzMove(Q,1);
+  else if(a==="qzgo")ch=qzGo(Q,+b.dataset.i);
+  else if(a==="qzres"){Q.view="r";ch=true}
+  else if(a==="qzfilter"){Q.filter=b.dataset.g;ch=true}
+  if(!ch)return;
+  Q.just=false;c.r();
+  if(a!=="qzfilter"){var st=document.getElementById(c.st);if(st&&st.getBoundingClientRect().top<0)st.scrollIntoView({block:"start"})}
+}
+/* Phím ← → để sang câu trước/sau */
+function qzKey(e,key){
+  var c=qzCtx(key);if(!c.Q)return false;
+  var d=e.key==="ArrowLeft"?-1:e.key==="ArrowRight"?1:0;
+  if(!d)return false;
+  if(qzMove(c.Q,d)){c.Q.just=false;c.r();e.preventDefault()}
+  return true;
+}
+
 /* quiz */
 function qLabel(x){return S.dir==="jv"?x.vi:jpLabel(x)}
 function makeQ(w){
@@ -1374,7 +1479,7 @@ function makeQ(w){
 }
 function startQuiz(ids){
   var pool=ids?ids.map(function(id){return byId[id]}):shuffled(deck()).slice(0,10);
-  S.quiz={qs:pool.map(makeQ),i:0,score:0,picked:null,wrong:[]};
+  S.quiz=qzNew(pool.map(makeQ));
 }
 function quizHtml(){
   if(!S.quiz){
@@ -1382,8 +1487,8 @@ function quizHtml(){
     startQuiz();
   }
   var Q=S.quiz;
-  if(Q.i>=Q.qs.length)return resultHtml();
-  var q=Q.qs[Q.i],w=byId[q.id],answered=Q.picked!==null;
+  if(Q.view==="r")return resultHtml();
+  var q=Q.qs[Q.i],w=byId[q.id],answered=q.picked!=null;
   var kj=hasKanji(w)?'<div class="sub">'+esc(w.kanji)+'</div>':"";
   var question=S.dir==="jv"
     ?'<div class="jp">'+esc(w.kana)+'</div>'+kj
@@ -1392,7 +1497,7 @@ function quizHtml(){
     var cls="opt";
     if(answered){
       if(o.ok)cls+=" correct";
-      else if(i===Q.picked)cls+=" wrong";
+      else if(i===q.picked)cls+=" wrong";
       else cls+=" dim";
     }
     return '<button type="button" class="'+cls+'" data-act="pick" data-i="'+i+'"'+(answered?' disabled':'')+'>'+
@@ -1400,45 +1505,28 @@ function quizHtml(){
   }).join("");
   var fb="";
   if(answered){
-    var ok=q.opts[Q.picked].ok;
+    var ok=q.opts[q.picked].ok;
     fb='<div class="fb '+(ok?'ok':'no')+'" role="status"><b>'+(ok?'Đúng rồi.':'Chưa đúng.')+'</b> '+
-      esc(jpLabel(w))+(S.rom?' ('+esc(romaji(w))+')':'')+' nghĩa là “'+esc(w.vi)+'”.'+(w.note?' '+esc(w.note)+'.':'')+'</div>'+
-      '<div class="actions" style="grid-template-columns:1fr"><button type="button" class="btn primary" data-act="nextq" data-autofocus>'+
-      (Q.i+1>=Q.qs.length?'Xem kết quả':'Câu tiếp')+'</button></div>';
+      esc(jpLabel(w))+(S.rom?' ('+esc(romaji(w))+')':'')+' nghĩa là “'+esc(w.vi)+'”.'+(w.note?' '+esc(w.note)+'.':'')+'</div>';
   }
   return ''+
-  '<div class="meter"><span>Câu '+(Q.i+1)+'/'+Q.qs.length+' · đúng '+Q.score+'</span><span class="bar"><i style="width:'+((Q.i+(answered?1:0))/Q.qs.length*100)+'%"></i></span></div>'+
+  qzMeter(Q)+
   '<div class="q">'+question+'</div>'+
-  '<div class="opts-q">'+opts+'</div>'+fb+
-  '<p class="keys kb">Phím tắt: bấm 1 đến 4 để chọn đáp án.</p>';
+  '<div class="opts-q">'+opts+'</div>'+fb+qzNavHtml(Q,"v")+
+  '<p class="keys kb">Phím tắt: bấm 1 đến 4 để chọn đáp án, ← → để sang câu trước/sau.</p>';
 }
 function resultHtml(){
-  var Q=S.quiz,total=Q.qs.length,pct=Math.round(Q.score/total*100);
+  var Q=S.quiz,pct=Math.round(qzScore(Q)/Q.qs.length*100);
   var msg=pct===100?"Trọn điểm. Bạn có thể thử nhóm bài khác hoặc đổi hướng Việt → Nhật."
     :pct>=70?"Khá tốt. Ôn lại các từ sai bên dưới rồi làm vòng mới."
     :"Cần ôn thêm. Dùng thẻ ghi nhớ cho các bài này rồi quay lại làm trắc nghiệm.";
-  var wrongs=Q.wrong.length
-    ?'<ul class="wrongs">'+Q.wrong.map(function(id){
-        var w=byId[id];
-        return '<li><span class="j">'+esc(jpLabel(w))+'</span><span>'+esc(w.vi)+'</span></li>';
-      }).join("")+'</ul>'
-    :"";
-  return ''+
-  '<div class="result"><div class="score">'+Q.score+'/'+total+'</div><p style="margin:0;color:var(--ink-2)">'+esc(msg)+'</p></div>'+
-  wrongs+
-  '<div class="actions">'+
-    '<button type="button" class="btn primary" data-act="newquiz" data-autofocus>Vòng mới</button>'+
-    (Q.wrong.length?'<button type="button" class="btn" data-act="retry">Luyện lại câu sai</button>':'')+
-  '</div>';
+  return qzResultHtml(Q,"v",msg,["newquiz","retry"],function(q){
+    var w=byId[q.id];
+    return {p:'<span class="ejp">'+esc(jpLabel(w))+'</span> · '+esc(w.vi)};
+  },S.dir!=="jv");
 }
-function pick(i){
-  var Q=S.quiz;if(!Q||Q.picked!==null||Q.i>=Q.qs.length)return;
-  var q=Q.qs[Q.i];if(!q.opts[i])return;
-  Q.picked=i;
-  if(q.opts[i].ok)Q.score++;else Q.wrong.push(q.id);
-  renderStage();
-}
-function nextQ(){var Q=S.quiz;if(!Q)return;Q.i++;Q.picked=null;renderStage()}
+function pick(i){if(qzPick(S.quiz,i))renderStage()}
+function nextQ(){if(qzMove(S.quiz,1)){S.quiz.just=false;renderStage()}}
 
 /* list */
 function rowHtml(w){
@@ -1517,11 +1605,12 @@ root.addEventListener("click",function(e){
     case "next":go(1);break;
     case "known":mark(true);break;
     case "unknown":mark(false);break;
+    case "qzprev":case "qznext":case "qzgo":case "qzres":case "qzfilter":qzAct(b);break;
     case "pick":pick(+b.dataset.i);break;
     case "nextq":nextQ();break;
     case "newquiz":S.quiz=null;renderStage();break;
     case "retry":{
-      var ids=S.quiz?S.quiz.wrong.slice():[];
+      var ids=S.quiz?qzWrong(S.quiz).map(function(q){return q.id}):[];
       if(ids.length)startQuiz(ids);else S.quiz=null;
       renderStage();break;
     }
@@ -1541,7 +1630,7 @@ root.addEventListener("click",function(e){
     case "enextq":eNextQ();break;
     case "enewquiz":EX.quiz=null;renderExercise();break;
     case "eretry":{
-      var ew=EX.quiz?EX.quiz.wrong.slice():[];
+      var ew=EX.quiz?qzWrong(EX.quiz).map(function(q){return q.id}):[];
       if(ew.length)eStart(ew);else EX.quiz=null;
       renderExercise();break;
     }
@@ -1573,7 +1662,7 @@ root.addEventListener("click",function(e){
     case "knextq":kNextQ();break;
     case "knewquiz":K.quiz=null;renderKStage();break;
     case "kretry":{
-      var kw=K.quiz?K.quiz.wrong.slice():[];
+      var kw=K.quiz?qzWrong(K.quiz).map(function(q){return {k:q.k,id:q.id}}):[];
       if(kw.length)kStartQuiz(kw);else K.quiz=null;
       renderKStage();break;
     }
@@ -1632,7 +1721,7 @@ document.addEventListener("keydown",function(e){
   }
   var pn=t&&t.closest?t.closest(".pane"):null,cv=pn?pn.id.replace("View",""):S.view;
   if(cv==="kanji"){kKey(e);return}
-  if(cv==="exercise"){if(EX.quiz&&/^[1-4]$/.test(e.key))ePick(+e.key-1);return}
+  if(cv==="exercise"){if(EX.quiz){if(/^[1-4]$/.test(e.key))ePick(+e.key-1);else qzKey(e,"e")}return}
   if(cv!=="vocab")return;
   if(S.mode==="cards"){
     var onCard=t===document.body||(t.classList&&t.classList.contains("card"));
@@ -1641,8 +1730,8 @@ document.addEventListener("keydown",function(e){
     else if((e.key===" "||e.key==="Enter")&&onCard){flip();e.preventDefault()}
     else if(e.key==="1"){mark(false)}
     else if(e.key==="2"){mark(true)}
-  }else if(S.mode==="quiz"&&S.quiz&&/^[1-4]$/.test(e.key)){
-    pick(+e.key-1);
+  }else if(S.mode==="quiz"&&S.quiz){
+    if(/^[1-4]$/.test(e.key))pick(+e.key-1);else qzKey(e,"v");
   }
 });
 
@@ -2737,7 +2826,7 @@ function kSources(){
 function kStartQuiz(list){
   var pool=list||shuffled(kSources());
   if(!list&&K.count!=="all")pool=pool.slice(0,+K.count);
-  K.quiz={qs:pool.map(kMakeQ),i:0,score:0,picked:null,wrong:[]};
+  K.quiz=qzNew(pool.map(kMakeQ));
 }
 function kEmptyQ(){
   if(K.sel.size&&(K.qtype==="sread"||K.qtype==="swrite"))
@@ -2774,8 +2863,8 @@ function kAnswer(q){
 function kQuizHtml(){
   if(!K.quiz){if(!kSources().length)return kEmptyQ();kStartQuiz()}
   var Q=K.quiz;
-  if(Q.i>=Q.qs.length)return kResultHtml();
-  var q=Q.qs[Q.i],answered=Q.picked!==null,question,o,e,s;
+  if(Q.view==="r")return kResultHtml();
+  var q=Q.qs[Q.i],answered=q.picked!=null,question,o,e,s;
   if(q.k==="mean"){
     o=kById[q.id];
     question='<div class="q"><div class="kbig">'+esc(o.k)+'</div><div class="hint">Chữ này có âm Hán Việt và nghĩa là gì?</div></div>';
@@ -2794,13 +2883,13 @@ function kQuizHtml(){
   var big=q.k==="write"||(q.k==="sent"&&ksById[q.id].t==="w");
   var opts=q.opts.map(function(op,i){
     var cls="opt";
-    if(answered){if(op.ok)cls+=" correct";else if(i===Q.picked)cls+=" wrong";else cls+=" dim"}
+    if(answered){if(op.ok)cls+=" correct";else if(i===q.picked)cls+=" wrong";else cls+=" dim"}
     return '<button type="button" class="'+cls+'" data-act="kpick" data-i="'+i+'"'+(answered?' disabled':'')+'>'+
       '<span class="k">'+(i+1)+'</span><span class="t'+(q.k==="mean"?'':big?' kopt-k':' kopt-r')+'">'+esc(op.text)+'</span></button>';
   }).join("");
   var fb="";
   if(answered){
-    var ok=q.opts[Q.picked].ok,msg;
+    var ok=q.opts[q.picked].ok,msg;
     if(q.k==="mean")msg=esc(o.k)+' ('+esc(o.hv)+') nghĩa là “'+esc(o.vi)+'”. On: '+esc(o.on)+' · Kun: '+esc(o.kun)+'.';
     else if(q.k==="read"||q.k==="write")msg='<span class="ejp">'+esc(e.w)+'</span> đọc là <span class="ejp">'+esc(e.r)+'</span> ('+esc(romaji({kana:e.r}))+'), nghĩa là “'+esc(e.m)+'”.'+kExplainHtml(e.w);
     else{
@@ -2812,37 +2901,28 @@ function kQuizHtml(){
     }
     if(!ok&&(q.k==="write"||(q.k==="sent"&&s.t==="w"))){
       var right=q.k==="write"?e.w:s.opts[0];
-      msg+=kExplainHtml(q.opts[Q.picked].text,"Chữ bạn đã chọn (khác với đáp án)",right);
+      msg+=kExplainHtml(q.opts[q.picked].text,"Chữ bạn đã chọn (khác với đáp án)",right);
     }
-    fb='<div class="fb '+(ok?'ok':'no')+'" role="status"><b>'+(ok?'Đúng rồi.':'Chưa đúng.')+'</b> '+msg+'</div>'+
-      '<div class="actions" style="grid-template-columns:1fr"><button type="button" class="btn primary" data-act="knextq" data-autofocus>'+
-      (Q.i+1>=Q.qs.length?'Xem kết quả':'Câu tiếp')+'</button></div>';
+    fb='<div class="fb '+(ok?'ok':'no')+'" role="status"><b>'+(ok?'Đúng rồi.':'Chưa đúng.')+'</b> '+msg+'</div>';
   }
   return ''+
-  '<div class="meter"><span>Câu '+(Q.i+1)+'/'+Q.qs.length+' · đúng '+Q.score+'</span><span class="bar"><i style="width:'+((Q.i+(answered?1:0))/Q.qs.length*100)+'%"></i></span></div>'+
-  question+'<div class="opts-q">'+opts+'</div>'+fb+
-  '<p class="keys kb">Phím tắt: bấm 1 đến 4 để chọn đáp án, Enter để sang câu tiếp.</p>';
+  qzMeter(Q)+
+  question+'<div class="opts-q">'+opts+'</div>'+fb+qzNavHtml(Q,"k")+
+  '<p class="keys kb">Phím tắt: bấm 1 đến 4 để chọn đáp án, ← → để sang câu trước/sau.</p>';
 }
 function kResultHtml(){
-  var Q=K.quiz,total=Q.qs.length,pct=Math.round(Q.score/total*100);
+  var Q=K.quiz,pct=Math.round(qzScore(Q)/Q.qs.length*100);
   var msg=pct===100?"Trọn điểm. Thử thêm bài khác hoặc đổi kiểu câu hỏi."
     :pct>=70?"Khá tốt. Xem lại các câu sai bên dưới rồi làm vòng mới."
     :"Cần ôn thêm. Dùng thẻ ghi nhớ cho bài này rồi quay lại làm trắc nghiệm.";
-  var wrongs=Q.wrong.length?'<ul class="ewrongs">'+Q.wrong.map(function(q){
-    return '<li><div class="eq-s">'+kPrompt(q)+'</div><div class="ans">Đáp án: <b class="ejp">'+esc(kAnswer(q))+'</b></div></li>';
-  }).join("")+'</ul>':"";
-  return '<div class="result"><div class="score">'+Q.score+'/'+total+'</div><p style="margin:0;color:var(--ink-2)">'+esc(msg)+'</p></div>'+wrongs+
-    '<div class="actions"><button type="button" class="btn primary" data-act="knewquiz" data-autofocus>Vòng mới</button>'+
-    (Q.wrong.length?'<button type="button" class="btn" data-act="kretry">Luyện lại câu sai</button>':'')+'</div>';
+  return qzResultHtml(Q,"k",msg,["knewquiz","kretry"],function(q){
+    var w=q.k==="mean"?kById[q.id].k:q.k==="sent"?(ksById[q.id].t==="r"?kTarget(ksById[q.id]):ksById[q.id].opts[0]):q.id;
+    return {p:'<span class="eq-s">'+kPrompt(q)+'</span>',x:q.k==="mean"?'':kExplainHtml(w)};
+  },true);
 }
-function kPick(i){
-  var Q=K.quiz;if(!Q||Q.picked!==null||Q.i>=Q.qs.length)return;
-  var q=Q.qs[Q.i];if(!q.opts[i])return;
-  Q.picked=i;if(q.opts[i].ok)Q.score++;else Q.wrong.push({k:q.k,id:q.id});
-  renderKStage();
-}
+function kPick(i){if(qzPick(K.quiz,i))renderKStage()}
 /*KQUIZ-CODE-END*/
-function kNextQ(){var Q=K.quiz;if(!Q)return;Q.i++;Q.picked=null;renderKStage()}
+function kNextQ(){if(qzMove(K.quiz,1)){K.quiz.just=false;renderKStage()}}
 function kGridHtml(){
   var list=kDeck();if(!list.length)return kEmpty();
   var cur=(K.pick&&list.some(function(x){return x.id===K.pick}))?kById[K.pick]:list[0];
@@ -2932,8 +3012,8 @@ function kKey(e){
     else if((e.key===" "||e.key==="Enter")&&onCard){kFlip();e.preventDefault()}
     else if(e.key==="1")kMark(false);
     else if(e.key==="2")kMark(true);
-  }else if(K.mode==="quiz"&&K.quiz&&/^[1-4]$/.test(e.key)){
-    kPick(+e.key-1);
+  }else if(K.mode==="quiz"&&K.quiz){
+    if(/^[1-4]$/.test(e.key))kPick(+e.key-1);else qzKey(e,"k");
   }
 }
 
@@ -3655,7 +3735,7 @@ function eMake(o){
 function eStart(ids){
   var pool=ids?ids.map(function(id){return eById[id]}):shuffled(eDeck());
   if(!ids&&EX.count!=="all")pool=pool.slice(0,+EX.count);
-  EX.quiz={qs:pool.map(eMake),i:0,score:0,picked:null,wrong:[]};
+  EX.quiz=qzNew(pool.map(eMake));
 }
 function eBlank(q,fill){
   var parts=esc(q).split("（　）");
@@ -3670,56 +3750,49 @@ function eEmpty(){
 function eQuizHtml(){
   if(!EX.quiz){if(!eDeck().length)return eEmpty();eStart()}
   var Q=EX.quiz;
-  if(Q.i>=Q.qs.length)return eResultHtml();
-  var q=Q.qs[Q.i],o=eById[q.id],answered=Q.picked!==null,sv=eSplitVi(o);
+  if(Q.view==="r")return eResultHtml();
+  var q=Q.qs[Q.i],o=eById[q.id],answered=q.picked!=null,sv=eSplitVi(o);
   var correct=q.opts.filter(function(x){return x.ok})[0];
   var fill=(answered&&correct.text.charAt(0)!=="（"&&correct.text.indexOf("…")<0)?correct.text:"";
   var opts=q.opts.map(function(op,i){
     var cls="opt";
-    if(answered){if(op.ok)cls+=" correct";else if(i===Q.picked)cls+=" wrong";else cls+=" dim"}
+    if(answered){if(op.ok)cls+=" correct";else if(i===q.picked)cls+=" wrong";else cls+=" dim"}
     return '<button type="button" class="'+cls+'" data-act="epick" data-i="'+i+'"'+(answered?' disabled':'')+'>'+
       '<span class="k">'+(i+1)+'</span><span class="t ejp">'+esc(op.text)+'</span></button>';
   }).join("");
   var fb="";
   if(answered){
-    var ok=q.opts[Q.picked].ok;
+    var ok=q.opts[q.picked].ok;
     fb='<div class="fb '+(ok?'ok':'no')+'" role="status"><b>'+(ok?'Đúng rồi.':'Chưa đúng.')+'</b>'+
       (ok?'':' Đáp án đúng là <b class="ejp">'+esc(correct.text)+'</b>.')+
       (sv.mean?'<div class="why"><span class="why-h">Nghĩa của câu</span>'+esc(sv.mean)+'</div>':'')+
-      '<div class="why"><span class="why-h">Giải thích ngữ pháp</span>'+esc(o.exp)+'</div></div>'+
-      '<div class="actions" style="grid-template-columns:1fr"><button type="button" class="btn primary" data-act="enextq" data-autofocus>'+
-      (Q.i+1>=Q.qs.length?'Xem kết quả':'Câu tiếp')+'</button></div>';
+      '<div class="why"><span class="why-h">Giải thích ngữ pháp</span>'+esc(o.exp)+'</div></div>';
   }
   return ''+
-  '<div class="meter"><span>Câu '+(Q.i+1)+'/'+Q.qs.length+' · đúng '+Q.score+'</span><span class="bar"><i style="width:'+((Q.i+(answered?1:0))/Q.qs.length*100)+'%"></i></span></div>'+
+  qzMeter(Q)+
   '<div class="q eqbox"><span class="elab">Bài '+o.lesson+'</span><div class="eq">'+eBlank(o.q,fill)+'</div>'+
     (sv.pre?'<div class="evi">'+esc(sv.pre)+'</div>':'')+(sv.hint?'<div class="evi">Gợi ý: '+esc(sv.hint)+'</div>':'')+'</div>'+
-  '<div class="opts-q">'+opts+'</div>'+fb+
-  '<p class="keys kb">Phím tắt: bấm 1 đến 4 để chọn đáp án, Enter để sang câu tiếp.</p>';
+  '<div class="opts-q">'+opts+'</div>'+fb+qzNavHtml(Q,"e")+
+  '<p class="keys kb">Phím tắt: bấm 1 đến 4 để chọn đáp án, ← → để sang câu trước/sau.</p>';
 }
 function eResultHtml(){
-  var Q=EX.quiz,total=Q.qs.length,pct=Math.round(Q.score/total*100);
+  var Q=EX.quiz,pct=Math.round(qzScore(Q)/Q.qs.length*100);
   var msg=pct===100?"Trọn điểm. Bạn có thể chọn thêm bài khác hoặc làm vòng mới."
     :pct>=70?"Khá tốt. Xem lại các câu sai bên dưới rồi làm vòng mới."
     :"Cần ôn thêm. Đọc lại phần Ngữ pháp của các bài này rồi quay lại làm bài tập.";
-  var wrongs=Q.wrong.length?'<ul class="ewrongs">'+Q.wrong.map(function(id){
-    var o=eById[id],c=o.opts[o.ans];
-    var mn=eSplitVi(o).mean;
-    return '<li><div class="eq-s">'+eBlank(o.q,"")+'</div><div class="ans">Đáp án: <b class="ejp">'+esc(c)+'</b></div>'+(mn?'<div class="why">Nghĩa: '+esc(mn)+'</div>':'')+'<div class="why">'+esc(o.exp)+'</div></li>';
-  }).join("")+'</ul>':"";
-  return '<div class="result"><div class="score">'+Q.score+'/'+total+'</div><p style="margin:0;color:var(--ink-2)">'+esc(msg)+'</p></div>'+wrongs+
-    '<div class="actions"><button type="button" class="btn primary" data-act="enewquiz" data-autofocus>Vòng mới</button>'+
-    (Q.wrong.length?'<button type="button" class="btn" data-act="eretry">Luyện lại câu sai</button>':'')+'</div>';
+  return qzResultHtml(Q,"e",msg,["enewquiz","eretry"],function(q){
+    var o=eById[q.id],mn=eSplitVi(o).mean;
+    return {p:'<span class="elab2">Bài '+o.lesson+'</span><span class="eq-s">'+eBlank(o.q,"")+'</span>',
+      x:(mn?'<div class="why">Nghĩa: '+esc(mn)+'</div>':'')+'<div class="why">'+esc(o.exp)+'</div>'};
+  },true);
 }
 function ePick(i){
-  var Q=EX.quiz;if(!Q||Q.picked!==null||Q.i>=Q.qs.length)return;
-  var q=Q.qs[Q.i];if(!q.opts[i])return;
-  Q.picked=i;
-  if(q.opts[i].ok){Q.score++;EX.done.add(q.id)}else{Q.wrong.push(q.id);EX.done.delete(q.id)}
+  var q=qzPick(EX.quiz,i);if(!q)return;
+  if(q.opts[i].ok)EX.done.add(q.id);else EX.done.delete(q.id);
   save("mnn.edone",Array.from(EX.done));
   renderExercise();
 }
-function eNextQ(){var Q=EX.quiz;if(!Q)return;Q.i++;Q.picked=null;renderExercise()}
+function eNextQ(){if(qzMove(EX.quiz,1)){EX.quiz.just=false;renderExercise()}}
 function renderExercise(){
   var box=$("#exerciseView");if(!box)return;
   var row0=box.querySelector(".lessons"),sl=row0?row0.scrollLeft:null;
