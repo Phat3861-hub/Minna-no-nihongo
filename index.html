@@ -236,7 +236,7 @@ h1{margin:0;font-size:clamp(26px,5.4vw,36px);line-height:1.15;font-weight:700;te
 .rc.irr{background:var(--accent-soft);border-color:var(--accent)}
 .rules{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:7px;font-size:14.5px}
 .btn:disabled{opacity:.5;cursor:default}
-.tabs.six{grid-template-columns:repeat(6,1fr)}
+.tabs.six{grid-template-columns:repeat(7,1fr)}
 /* chọn bài gọn: nút nhỏ, xuống dòng trên máy tính, vuốt ngang trên điện thoại */
 .lessons{display:flex;flex-wrap:wrap;gap:8px;position:relative}
 .lessons .chip{flex:0 0 auto;min-width:72px;padding:7px 11px 8px;border-radius:9px;gap:1px}
@@ -251,7 +251,7 @@ h1{margin:0;font-size:clamp(26px,5.4vw,36px);line-height:1.15;font-weight:700;te
   .lede{display:none}
   h1{font-size:23px}
   .kicker{margin-bottom:2px}
-  .tabs.six{grid-template-columns:repeat(3,1fr)}
+  .tabs.six{grid-template-columns:repeat(4,1fr)}
   .tabs.six .tab{font-size:12.5px;padding:8px 3px;line-height:1.25}
   .lessons{flex-wrap:nowrap;overflow-x:auto;scroll-snap-type:x proximity;padding-bottom:6px;scrollbar-width:thin;-webkit-overflow-scrolling:touch}
   .lessons .chip{scroll-snap-align:start;min-width:66px}
@@ -360,6 +360,26 @@ h1{margin:0;font-size:clamp(26px,5.4vw,36px);line-height:1.15;font-weight:700;te
 .rq .eq-s{font-family:var(--font-jp);font-weight:700;font-size:17px}
 .rlist .ans{font-size:14px}
 .elab2{display:block;font-size:12px;color:var(--ink-2)}
+/* luyện nói */
+.sp-modes{grid-template-columns:1fr 1fr}
+.sp-q,.sp-line{display:flex;align-items:flex-start;gap:8px;min-width:0}
+.sp-jp{flex:1;min-width:0;font-family:var(--font-jp);overflow-wrap:anywhere;line-height:1.9}
+.sp-q .sp-jp{font-weight:700;font-size:19px}
+.sp-big .sp-jp{font-size:clamp(20px,4.8vw,26px)}
+.sp-line .sp-jp{font-size:17px}
+.sp-jp rt{font-size:.55em;font-weight:400;color:var(--ink-2)}
+.sp-rom{display:block;font-family:var(--font-ui,inherit);font-size:13px;font-weight:400;line-height:1.4;color:var(--accent)}
+.spk{flex:none;border:1px solid var(--line);background:var(--surface);border-radius:8px;width:34px;height:34px;font-size:16px;line-height:1;padding:0}
+.spk:hover{border-color:var(--accent)}
+.sp-g{margin:0;font-size:13.5px;color:var(--ink-2)}
+.sp-a{display:flex;flex-direction:column;gap:8px;border-radius:10px;background:var(--bg);border:1px solid var(--line);padding:10px 12px}
+.fb .sp-a{background:transparent;border:0;padding:0}
+.sp-arow{display:flex;flex-direction:column;gap:1px}
+.sp-arow+.sp-arow{border-top:1px solid var(--line);padding-top:8px}
+.sp-vi{font-size:13.5px;color:var(--ink-2)}
+.sp-secjp{font-family:var(--font-jp);font-weight:400;color:var(--ink-2);margin-left:6px}
+.sp-pq{gap:10px}
+.sp-rules{margin-top:4px}
 .kqt .tab{font-size:13px;padding:8px 4px;line-height:1.3}
 .kul{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:6px;text-decoration-color:var(--accent)}
 .kfill{color:var(--good);font-size:.7em;margin-left:.15em}
@@ -381,7 +401,7 @@ h1{margin:0;font-size:clamp(26px,5.4vw,36px);line-height:1.15;font-weight:700;te
   <header>
     <p class="kicker"><span>みんなの日本語 I</span>N5 · Bài 1–12</p>
     <h1>Từ vựng Minna no Nihongo</h1>
-    <p class="lede">Ôn từ vựng theo bài, học kanji theo sách, luyện đọc số, giờ, ngày tháng và tra từ. Tiến độ “đã thuộc” được lưu trên trình duyệt này.</p>
+    <p class="lede">Ôn từ vựng theo bài, học kanji theo sách, luyện đọc số, giờ, ngày tháng, tra từ và luyện nói cho bài thi vấn đáp. Tiến độ “đã thuộc” được lưu trên trình duyệt này.</p>
   </header>
 
   <div class="tabs six" role="group" aria-label="Chọn mục">
@@ -391,6 +411,7 @@ h1{margin:0;font-size:clamp(26px,5.4vw,36px);line-height:1.15;font-weight:700;te
     <button type="button" class="tab" data-act="view" data-v="search" aria-pressed="false">Tìm từ</button>
     <button type="button" class="tab" data-act="view" data-v="grammar" aria-pressed="false">Ngữ pháp</button>
     <button type="button" class="tab" data-act="view" data-v="exercise" aria-pressed="false">Bài tập</button>
+    <button type="button" class="tab" data-act="view" data-v="speak" aria-pressed="false">Luyện nói</button>
   </div>
   <div class="splitbar">
     <button type="button" class="btn ghost" id="splitBtn" data-act="split" aria-pressed="false">Chia đôi màn hình</button>
@@ -401,6 +422,7 @@ h1{margin:0;font-size:clamp(26px,5.4vw,36px);line-height:1.15;font-weight:700;te
       <button type="button" data-act="right" data-v="search" aria-pressed="false">Tìm từ</button>
       <button type="button" data-act="right" data-v="grammar" aria-pressed="false">Ngữ pháp</button>
       <button type="button" data-act="right" data-v="exercise" aria-pressed="false">Bài tập</button>
+      <button type="button" data-act="right" data-v="speak" aria-pressed="false">Luyện nói</button>
     </div>
   </div>
 
@@ -448,6 +470,7 @@ h1{margin:0;font-size:clamp(26px,5.4vw,36px);line-height:1.15;font-weight:700;te
   </div>
   <div class="pane" id="grammarView" hidden></div>
   <div class="pane" id="exerciseView" hidden></div>
+  <div class="pane" id="speakView" hidden></div>
   </div>
 </div>
 
@@ -455,7 +478,7 @@ h1{margin:0;font-size:clamp(26px,5.4vw,36px);line-height:1.15;font-weight:700;te
 (function(){
 "use strict";
 
-var VIEWS=["vocab","kanji","num","search","grammar","exercise"];
+var VIEWS=["vocab","kanji","num","search","grammar","exercise","speak"];
 function validView(v){return VIEWS.indexOf(v)>=0?v:"vocab"}
 /* [kana, kanji hoặc "", nghĩa tiếng Việt, ghi chú (tùy chọn)] */
 var LESSONS=[
@@ -1606,6 +1629,7 @@ root.addEventListener("click",function(e){
     case "known":mark(true);break;
     case "unknown":mark(false);break;
     case "qzprev":case "qznext":case "qzgo":case "qzres":case "qzfilter":qzAct(b);break;
+    case "spsec":case "spmode":case "spshow":case "spgo":case "spsay":spAct(b);break;
     case "pick":pick(+b.dataset.i);break;
     case "nextq":nextQ();break;
     case "newquiz":S.quiz=null;renderStage();break;
@@ -1710,6 +1734,9 @@ root.addEventListener("change",function(e){
   else if(t.id==="eOnlyNew"){EX.onlyNew=t.checked;EX.quiz=null;renderExercise()}
   else if(t.id==="kOnlyNew"){K.onlyNew=t.checked;kRebuild();renderKanji()}
   else if(t.id==="kShuf"){K.shuffle=t.checked;kRebuild();renderKanji()}
+  else if(t.id==="spFuri"){SP.furi=t.checked;save("mnn.spfuri",SP.furi);renderSpeak()}
+  else if(t.id==="spRom"){SP.rom=t.checked;save("mnn.sprom",SP.rom);renderSpeak()}
+  else if(t.id==="spShuf"){SP.shuf=t.checked;spRebuild();renderSpeak()}
 });
 
 document.addEventListener("keydown",function(e){
@@ -1721,6 +1748,7 @@ document.addEventListener("keydown",function(e){
   }
   var pn=t&&t.closest?t.closest(".pane"):null,cv=pn?pn.id.replace("View",""):S.view;
   if(cv==="kanji"){kKey(e);return}
+  if(cv==="speak"){spKey(e);return}
   if(cv==="exercise"){if(EX.quiz){if(/^[1-4]$/.test(e.key))ePick(+e.key-1);else qzKey(e,"e")}return}
   if(cv!=="vocab")return;
   if(S.mode==="cards"){
@@ -1986,7 +2014,7 @@ root.addEventListener("input",function(e){
   if(id==="nIn"||id==="tH"||id==="tM"||id==="dIn")updateConv();
   else if(id==="q"){S.q=e.target.value;renderSearch()}
 });
-var PANE={vocab:"#vocabView",kanji:"#kanjiView",num:"#numView",search:"#searchView",grammar:"#grammarView",exercise:"#exerciseView"};
+var PANE={vocab:"#vocabView",kanji:"#kanjiView",num:"#numView",search:"#searchView",grammar:"#grammarView",exercise:"#exerciseView",speak:"#speakView"};
 var MQ=window.matchMedia?window.matchMedia("(min-width:1000px)"):{matches:false};
 function applyView(){
   var two=S.split&&MQ.matches;
@@ -2000,6 +2028,7 @@ function applyView(){
     if(v==="search")renderSearch();
     else if(v==="grammar")renderGrammar();
     else if(v==="exercise")renderExercise();
+    else if(v==="speak")renderSpeak();
     else if(v==="kanji")renderKanji();
     else if(v==="num")renderNum();
     else scrollToPressed($("#lessons"));
@@ -3834,6 +3863,381 @@ function renderExercise(){
 }
 /*EXERCISE-CODE-END*/
 
+/*SPEAK-DATA-START*/
+/* Câu hỏi vấn đáp giữa kỳ (Bài 1–12).
+   {chữ|cách đọc} = chữ có furigana.
+   Mỗi câu: q = câu hỏi, vi = nghĩa, g = mẫu ngữ pháp dùng để trả lời,
+   a = [[câu trả lời mẫu, nghĩa], ...], tip = mẹo (không bắt buộc). */
+var SPEAK=[
+{id:"chao",t:"Chào hỏi",jp:"{挨拶|あいさつ}",items:[
+{q:"おはようございます。／こんにちは。／こんばんは。",vi:"Chào buổi sáng. / Xin chào. / Chào buổi tối.",g:"Bài 1: câu chào",
+ a:[["おはようございます。","Chào buổi sáng (thầy/cô)."],["こんにちは。","Xin chào (ban ngày)."],["こんばんは。","Chào buổi tối."]],
+ tip:"Chào lại đúng câu mà giáo viên vừa nói, kèm cúi chào nhẹ."},
+{q:"{始|はじ}めましょう。",vi:"Chúng ta bắt đầu nhé.",g:"Bài 6: V ましょう (đề nghị cùng làm)",
+ a:[["はい、よろしく おねがいします。","Vâng, em mong thầy/cô giúp đỡ."]],
+ tip:"Chỉ cần đáp “はい、よろしく おねがいします” một cách lịch sự."}
+]},
+{id:"jikan",t:"Thời gian",jp:"{時間|じかん}",items:[
+{q:"{今|いま} {何時|なんじ}ですか。",vi:"Bây giờ là mấy giờ?",g:"Bài 4: いま ～じ ～ふん です",
+ a:[["{今|いま} ７じ １５ふんです。","Bây giờ là 7 giờ 15 phút."],["{今|いま} ごご ６じ はんです。","Bây giờ là 6 giờ rưỡi chiều."]],
+ tip:"Nhìn đồng hồ và nói giờ thật. Giờ đặc biệt: 4じ よじ, 7じ しちじ, 9じ くじ. Phút: いっぷん, にふん, さんぷん, よんぷん, ごふん, ろっぷん, ななふん, はっぷん, きゅうふん, じゅっぷん. Rưỡi: はん."},
+{q:"{今日|きょう}・あしたは {何月何日|なんがつなんにち}ですか。",vi:"Hôm nay / ngày mai là ngày mấy tháng mấy?",g:"Bài 5: ～がつ ～にち です",
+ a:[["{今日|きょう}は １１がつ １２にちです。","Hôm nay là ngày 12 tháng 11."],["あしたは １１がつ １３にちです。","Ngày mai là ngày 13 tháng 11."]],
+ tip:"Nói đúng ngày thi của bạn. Ngày đặc biệt: 1 ついたち, 2 ふつか, 3 みっか, 4 よっか, 5 いつか, 6 むいか, 7 なのか, 8 ようか, 9 ここのか, 10 とおか, 14 じゅうよっか, 20 はつか, 24 にじゅうよっか. Tháng: 4 しがつ, 7 しちがつ, 9 くがつ."},
+{q:"{今日|きょう}・あしたは {何曜日|なんようび}ですか。",vi:"Hôm nay / ngày mai là thứ mấy?",g:"Bài 4: ～ようび です",
+ a:[["{今日|きょう}は {木曜日|もくようび}です。","Hôm nay là thứ Năm."],["あしたは {金曜日|きんようび}です。","Ngày mai là thứ Sáu."]],
+ tip:"Thứ Hai げつようび, thứ Ba かようび, thứ Tư すいようび, thứ Năm もくようび, thứ Sáu きんようび, thứ Bảy どようび, Chủ nhật にちようび."},
+{q:"お{誕生日|たんじょうび}は いつですか。",vi:"Sinh nhật của bạn là khi nào?",g:"Bài 5: いつ ── ～がつ ～にち です",
+ a:[["わたしの {誕生日|たんじょうび}は ５がつ {８日|ようか}です。","Sinh nhật tôi là ngày 8 tháng 5."],["{誕生日|たんじょうび}は １がつ {２０日|はつか}です。","Sinh nhật tôi là ngày 20 tháng 1."]],
+ tip:"Thay bằng ngày sinh của bạn. Nhớ cách đọc ngày đặc biệt: 8日 ようか, 20日 はつか."}
+]},
+{id:"gakko",t:"Trường học, công ty",jp:"{学校|がっこう}・{会社|かいしゃ}",items:[
+{q:"{学校|がっこう}・{会社|かいしゃ}は {何時|なんじ}から {何時|なんじ}までですか。",vi:"Trường học / công ty bắt đầu từ mấy giờ đến mấy giờ?",g:"Bài 4: N1 から N2 まで です",
+ a:[["{学校|がっこう}は ごご ６じ はんから ８じ はんまでです。","Trường học từ 6 giờ rưỡi đến 8 giờ rưỡi tối."],["{会社|かいしゃ}は ８じから ５じまでです。","Công ty làm việc từ 8 giờ đến 5 giờ."]],
+ tip:"Dùng ごぜん (sáng) / ごご (chiều) nếu cần rõ ràng."},
+{q:"{昼休|ひるやす}みは {何時|なんじ}から {何時|なんじ}までですか。",vi:"Giờ nghỉ trưa từ mấy giờ đến mấy giờ?",g:"Bài 4: N1 から N2 まで です",
+ a:[["{昼休|ひるやす}みは １２じから １じまでです。","Nghỉ trưa từ 12 giờ đến 1 giờ."],["{昼休|ひるやす}みは １１じ はんから １じまでです。","Nghỉ trưa từ 11 giờ rưỡi đến 1 giờ."]]},
+{q:"いつも どこで {昼|ひる}ご{飯|はん}を {食|た}べますか。",vi:"Bạn thường ăn trưa ở đâu?",g:"Bài 6: N(địa điểm) で V",
+ a:[["いつも {会社|かいしゃ}の しょくどうで {食|た}べます。","Tôi thường ăn ở nhà ăn của công ty."],["いつも うちで {食|た}べます。","Tôi thường ăn ở nhà."],["いつも {会社|かいしゃ}の ちかくの レストランで {食|た}べます。","Tôi thường ăn ở nhà hàng gần công ty."]],
+ tip:"Nơi diễn ra hành động đi với で, không dùng に."},
+{q:"{今日|きょう} {何時|なんじ}に {学校|がっこう}へ {来|き}ましたか。",vi:"Hôm nay bạn đến trường lúc mấy giờ?",g:"Bài 4: ～じに V ました",
+ a:[["６じ ２０ぷんに {来|き}ました。","Tôi đến lúc 6 giờ 20 phút."],["６じ はんに {来|き}ました。","Tôi đến lúc 6 giờ rưỡi."]],
+ tip:"Câu hỏi ～ましたか (quá khứ) thì trả lời ～ました. Giờ cụ thể đi với に."},
+{q:"なんで {学校|がっこう}へ {来|き}ましたか。",vi:"Bạn đến trường bằng gì?",g:"Bài 5: N(phương tiện) で きます",
+ a:[["バイクで {来|き}ました。","Tôi đến bằng xe máy."],["バスで {来|き}ました。","Tôi đến bằng xe buýt."],["あるいて {来|き}ました。","Tôi đi bộ đến."]],
+ tip:"なんで = なにで: bằng gì. Đi bộ là あるいて (không thêm で). Xe đạp: じてんしゃで, ô tô: くるまで, taxi: タクシーで."},
+{q:"{一週間|いっしゅうかん}に {何回|なんかい} {会社|かいしゃ}へ {行|い}きますか。",vi:"Một tuần bạn đi làm mấy lần?",g:"Bài 11: khoảng thời gian に ～かい V",
+ a:[["{一週間|いっしゅうかん}に ５かい {行|い}きます。","Một tuần tôi đi 5 lần."],["{一週間|いっしゅうかん}に ６かい {行|い}きます。","Một tuần tôi đi 6 lần."]],
+ tip:"Số lần: いっかい, にかい, さんかい, よんかい, ごかい, ろっかい, ななかい."},
+{q:"{一週間|いっしゅうかん}に {何回|なんかい} {学校|がっこう}へ {来|き}ますか。",vi:"Một tuần bạn đến trường mấy lần?",g:"Bài 11: khoảng thời gian に ～かい V",
+ a:[["{一週間|いっしゅうかん}に ３かい {来|き}ます。","Một tuần tôi đến 3 lần."],["{一週間|いっしゅうかん}に ２かい {来|き}ます。","Một tuần tôi đến 2 lần."]],
+ tip:"Câu hỏi dùng 来ます (đến, vì bạn đang ở trường) nên trả lời cũng dùng 来ます."},
+{q:"{土曜日|どようび}・{日曜日|にちようび} {働|はたら}きますか。",vi:"Thứ Bảy, Chủ nhật bạn có làm việc không?",g:"Bài 4: V ます／V ません",
+ a:[["はい、{土曜日|どようび}は {働|はたら}きます。でも、{日曜日|にちようび}は {働|はたら}きません。","Có, thứ Bảy tôi làm. Nhưng Chủ nhật thì không."],["いいえ、{働|はたら}きません。","Không, tôi không làm việc."]],
+ tip:"Câu hỏi có/không thì trả lời はい／いいえ rồi lặp lại động từ. でも: nhưng (đứng đầu câu)."},
+{q:"{土曜日|どようび}・{日曜日|にちようび} {学校|がっこう}へ {来|き}ますか。",vi:"Thứ Bảy, Chủ nhật bạn có đến trường không?",g:"Bài 4–5: V ます／V ません",
+ a:[["いいえ、{来|き}ません。{土曜日|どようび}と {日曜日|にちようび}は やすみです。","Không, tôi không đến. Thứ Bảy và Chủ nhật là ngày nghỉ."],["はい、{土曜日|どようび}は {来|き}ます。","Có, thứ Bảy tôi đến."]]},
+{q:"お{仕事|しごと}は どうですか。",vi:"Công việc của bạn thế nào?",g:"Bài 8: N は どうですか ── tính từ; S1 が、S2",
+ a:[["いそがしいですが、おもしろいです。","Bận nhưng thú vị."],["たいへんですが、たのしいです。","Vất vả nhưng vui."]],
+ tip:"Trả lời bằng tính từ: いそがしい (bận), たいへん (vất vả), おもしろい (thú vị), たのしい (vui), むずかしい (khó). Nối hai ý ngược nhau bằng が."},
+{q:"{大学|だいがく}・{学校|がっこう}の {勉強|べんきょう}は どうですか。",vi:"Việc học ở đại học / trường thế nào?",g:"Bài 8: N は どうですか ── tính từ",
+ a:[["むずかしいですが、おもしろいです。","Khó nhưng thú vị."],["とても たのしいです。","Rất vui."]],
+ tip:"とても + khẳng định (rất), あまり + phủ định (không ~ lắm): あまり むずかしくないです."}
+]},
+{id:"seikatsu",t:"Cuộc sống",jp:"{生活|せいかつ}",items:[
+{q:"{今朝|けさ} {何時|なんじ}に {起|お}きましたか。",vi:"Sáng nay bạn dậy lúc mấy giờ?",g:"Bài 4: ～じに V ました",
+ a:[["６じに {起|お}きました。","Tôi dậy lúc 6 giờ."],["{今朝|けさ} ５じ はんに {起|お}きました。","Sáng nay tôi dậy lúc 5 giờ rưỡi."]],
+ tip:"けさ không đi với に; giờ cụ thể (６じ) đi với に."},
+{q:"{昨日|きのう}の {晩|ばん} {何時|なんじ}に {寝|ね}ましたか。",vi:"Tối qua bạn đi ngủ lúc mấy giờ?",g:"Bài 4: ～じに V ました",
+ a:[["１１じ はんに {寝|ね}ました。","Tôi ngủ lúc 11 giờ rưỡi."],["１２じに {寝|ね}ました。","Tôi ngủ lúc 12 giờ."]]},
+{q:"{毎朝|まいあさ} {何時|なんじ}に {起|お}きますか。",vi:"Mỗi sáng bạn dậy lúc mấy giờ?",g:"Bài 4: ～じに V ます (thói quen)",
+ a:[["{毎朝|まいあさ} ６じ はんに {起|お}きます。","Mỗi sáng tôi dậy lúc 6 giờ rưỡi."]],
+ tip:"Thói quen hằng ngày dùng V ます."},
+{q:"{毎晩|まいばん} {何時|なんじ}に {寝|ね}ますか。",vi:"Mỗi tối bạn đi ngủ lúc mấy giờ?",g:"Bài 4: ～じに V ます (thói quen)",
+ a:[["{毎晩|まいばん} １１じに {寝|ね}ます。","Mỗi tối tôi ngủ lúc 11 giờ."],["{毎晩|まいばん} １２じ ごろ {寝|ね}ます。","Mỗi tối tôi ngủ vào khoảng 12 giờ."]],
+ tip:"ごろ: khoảng (dùng sau giờ cụ thể)."},
+{q:"{今朝|けさ} {何|なに}を {食|た}べましたか。どうでしたか。",vi:"Sáng nay bạn đã ăn gì? Món đó thế nào?",g:"Bài 6: なにを V ましたか; Bài 12: quá khứ của tính từ (～かったです)",
+ a:[["フォーを {食|た}べました。とても おいしかったです。","Tôi ăn phở. Rất ngon."],["パンを {食|た}べました。あまり おいしくなかったです。","Tôi ăn bánh mì. Không ngon lắm."],["なにも {食|た}べませんでした。","Tôi không ăn gì cả."]],
+ tip:"Quá khứ của tính từ い: おいしい → おいしかったです, phủ định: おいしくなかったです. Tính từ な: しずか → しずかでした."},
+{q:"{今週|こんしゅう}の {日曜日|にちようび} {何|なに}を しますか。",vi:"Chủ nhật tuần này bạn sẽ làm gì?",g:"Bài 6: N を V",
+ a:[["ともだちと えいがを {見|み}ます。","Tôi xem phim với bạn."],["うちで にほんごを べんきょうします。","Tôi học tiếng Nhật ở nhà."],["かぞくと かいものを します。","Tôi đi mua sắm với gia đình."]]},
+{q:"{今週|こんしゅう}の {日曜日|にちようび} どこへ {行|い}きますか。",vi:"Chủ nhật tuần này bạn đi đâu?",g:"Bài 5: N(địa điểm) へ いきます; どこ[へ]も いきません",
+ a:[["かぞくと こうえんへ {行|い}きます。","Tôi đi công viên với gia đình."],["デパートへ {行|い}きます。","Tôi đi trung tâm thương mại."],["どこも {行|い}きません。","Tôi không đi đâu cả."]],
+ tip:"Không đi đâu: どこ[へ]も いきません (động từ phủ định)."},
+{q:"だれと {行|い}きますか。なんで {行|い}きますか。",vi:"Bạn đi với ai? Đi bằng gì?",g:"Bài 5: N(người) と; N(phương tiện) で",
+ a:[["ともだちと {行|い}きます。バイクで {行|い}きます。","Tôi đi với bạn. Tôi đi bằng xe máy."],["ひとりで {行|い}きます。バスで {行|い}きます。","Tôi đi một mình. Tôi đi bằng xe buýt."]],
+ tip:"Một mình là ひとりで (không dùng と)."},
+{q:"いなかは どちらですか。",vi:"Quê bạn ở đâu?",g:"Bài 3: どちら (cách nói lịch sự của どこ)",
+ a:[["いなかは ダナンです。","Quê tôi ở Đà Nẵng."],["わたしの いなかは ハノイです。","Quê tôi ở Hà Nội."]],
+ tip:"Thay bằng quê bạn: フエ, カントー, ニャチャン, ハイフォン…"},
+{q:"いなかは どうですか。",vi:"Quê bạn thế nào?",g:"Bài 8: tính từ; そして／が",
+ a:[["しずかな まちです。そして、きれいです。","Là thành phố yên tĩnh. Và đẹp nữa."],["あまり おおきくないですが、にぎやかです。","Không lớn lắm nhưng nhộn nhịp."],["ひとが とても しんせつです。","Mọi người rất tốt bụng."]],
+ tip:"Tính từ đứng trước danh từ: しずかな まち, きれいな うみ, おおきい まち. そして: và (nối hai ý cùng chiều)."},
+{q:"いっかげつに {何回|なんかい} いなかへ {帰|かえ}りますか。",vi:"Một tháng bạn về quê mấy lần?",g:"Bài 11: khoảng thời gian に ～かい V",
+ a:[["いっかげつに １かい {帰|かえ}ります。","Một tháng tôi về 1 lần."],["１ねんに ２かい ぐらい {帰|かえ}ります。","Một năm tôi về khoảng 2 lần."]],
+ tip:"1 lần đọc いっかい. ぐらい: khoảng."},
+{q:"～さん（の いなか）から ホーチミン{市|し}まで バイク・{車|くるま}・{飛行機|ひこうき}で どのくらい かかりますか。",vi:"Từ quê bạn đến TP. Hồ Chí Minh đi bằng xe máy / ô tô / máy bay mất bao lâu?",g:"Bài 11: どのくらい かかりますか ── ～じかん ぐらい かかります",
+ a:[["{飛行機|ひこうき}で １じかん ぐらい かかります。","Đi máy bay mất khoảng 1 tiếng."],["バイクで ３じかん ぐらい かかります。","Đi xe máy mất khoảng 3 tiếng."],["{車|くるま}で ５じかん はん かかります。","Đi ô tô mất 5 tiếng rưỡi."]],
+ tip:"Khoảng thời gian: ～じかん (tiếng), ～ふん／ぷん (phút). Không dùng に trước かかります."}
+]},
+{id:"kazoku",t:"Gia đình",jp:"{家族|かぞく}",items:[
+{q:"{家族|かぞく}・{兄弟|きょうだい}は {何人|なんにん}ですか。",vi:"Gia đình bạn có mấy người? Anh chị em có mấy người?",g:"Bài 11: đếm người (ひとり, ふたり, ～にん)",
+ a:[["{４人|よにん}です。{父|ちち}と {母|はは}と {兄|あに}と わたしです。","4 người. Bố, mẹ, anh trai và tôi."],["{兄弟|きょうだい}は {３人|さんにん}です。{姉|あね}と {弟|おとうと}と わたしです。","Anh chị em có 3 người. Chị gái, em trai và tôi."]],
+ tip:"Đếm người: ひとり, ふたり, さんにん, よにん, ごにん, ろくにん. Nói về gia đình mình dùng từ khiêm nhường: 父 ちち, 母 はは, 兄 あに, 姉 あね, 弟 おとうと, 妹 いもうと."},
+{q:"～さん・お{父|とう}さん・お{母|かあ}さん・お{姉|ねえ}さん・お{兄|にい}さん・{妹|いもうと}さん・{弟|おとうと}さんは {何歳|なんさい}ですか。",vi:"Bạn / bố / mẹ / chị gái / anh trai / em gái / em trai của bạn bao nhiêu tuổi?",g:"Bài 1: ～さい です",
+ a:[["わたしは ２５さいです。","Tôi 25 tuổi."],["{父|ちち}は ５５さいです。{母|はは}は ５２さいです。","Bố tôi 55 tuổi. Mẹ tôi 52 tuổi."],["{妹|いもうと}は ２０さいです。","Em gái tôi 20 tuổi."]],
+ tip:"Giáo viên hỏi お父さん (bố của bạn) nhưng khi trả lời phải đổi thành 父 (bố tôi). Tuổi đặc biệt: 1 いっさい, 8 はっさい, 10 じゅっさい, 20 はたち."},
+{q:"お{父|とう}さん・お{母|かあ}さん・お{姉|ねえ}さん・お{兄|にい}さん・{妹|いもうと}さん・{弟|おとうと}さんは どんな {人|ひと}ですか。",vi:"Bố / mẹ / chị / anh / em của bạn là người như thế nào?",g:"Bài 8: どんな N ですか ── Aい N／Aな N",
+ a:[["{父|ちち}は やさしい {人|ひと}です。","Bố tôi là người hiền."],["{母|はは}は きれいな {人|ひと}です。そして、りょうりが じょうずです。","Mẹ tôi là người đẹp. Và mẹ nấu ăn giỏi."],["{兄|あに}は おもしろい {人|ひと}です。","Anh tôi là người vui tính."]],
+ tip:"Tính từ い + danh từ: やさしい ひと, おもしろい ひと. Tính từ な + な + danh từ: しんせつな ひと, げんきな ひと, まじめな ひと. N が じょうずです: giỏi N (Bài 9)."},
+{q:"～さん、お{父|とう}さん・お{母|かあ}さん・お{姉|ねえ}さん・お{兄|にい}さん・{妹|いもうと}さん・{弟|おとうと}さんの {誕生日|たんじょうび}は いつですか。",vi:"Sinh nhật của bạn / bố / mẹ / anh chị em bạn là khi nào?",g:"Bài 5: いつ ── ～がつ ～にち です",
+ a:[["{母|はは}の {誕生日|たんじょうび}は ７がつ {２０日|はつか}です。","Sinh nhật mẹ tôi là ngày 20 tháng 7."],["{父|ちち}の {誕生日|たんじょうび}は １がつ {１日|ついたち}です。","Sinh nhật bố tôi là ngày 1 tháng 1."]],
+ tip:"20日 はつか, 1日 ついたち. Nói về gia đình mình: 母の, 父の (không dùng お母さん)."},
+{q:"お{父|とう}さん・お{母|かあ}さん・お{姉|ねえ}さん・お{兄|にい}さん・{妹|いもうと}さん・{弟|おとうと}さんの {誕生日|たんじょうび}に なにを あげましたか。",vi:"Vào sinh nhật của bố / mẹ / anh chị em, bạn đã tặng gì?",g:"Bài 7: N(người) に N(vật) を あげます",
+ a:[["{母|はは}に はなを あげました。","Tôi đã tặng hoa cho mẹ."],["{父|ちち}に ネクタイを あげました。","Tôi đã tặng cà vạt cho bố."],["{妹|いもうと}に かばんを あげました。","Tôi đã tặng cặp cho em gái."]],
+ tip:"Người nhận đi với に, món quà đi với を. Câu hỏi ～ましたか nên trả lời ～ました."},
+{q:"{両親|りょうしん}は {今|いま} どこに いますか。",vi:"Bố mẹ bạn bây giờ đang ở đâu?",g:"Bài 10: N は (địa điểm) に います",
+ a:[["{両親|りょうしん}は いなかに います。","Bố mẹ tôi ở quê."],["{両親|りょうしん}は ハノイに います。","Bố mẹ tôi ở Hà Nội."],["{両親|りょうしん}は ホーチミン{市|し}に います。","Bố mẹ tôi ở TP. Hồ Chí Minh."]],
+ tip:"Người và động vật dùng います (đồ vật mới dùng あります). Địa điểm đi với に."},
+{q:"{一週間|いっしゅうかん}に {何回|なんかい} {家族|かぞく}に {電話|でんわ}を かけますか。",vi:"Một tuần bạn gọi điện cho gia đình mấy lần?",g:"Bài 7: N(người) に でんわを かけます; Bài 11: ～かい",
+ a:[["{一週間|いっしゅうかん}に ２かい {電話|でんわ}を かけます。","Một tuần tôi gọi 2 lần."],["{毎日|まいにち} {電話|でんわ}を かけます。","Ngày nào tôi cũng gọi."]]}
+]},
+{id:"ie",t:"Nhà",jp:"いえ",items:[
+{q:"いえ・うちは どちらですか。",vi:"Nhà bạn ở đâu?",g:"Bài 3: どちら ── N です",
+ a:[["うちは ７{区|く}です。","Nhà tôi ở Quận 7."],["うちは ビンタン{区|く}です。","Nhà tôi ở quận Bình Thạnh."]],
+ tip:"Quận: ～く (区). Có thể nói thêm: ～の ちかくです (gần ～)."},
+{q:"いえ・うちの ちかくに {公園|こうえん}が ありますか。",vi:"Gần nhà bạn có công viên không?",g:"Bài 10: N1(địa điểm) に N2 が あります",
+ a:[["はい、あります。","Vâng, có."],["はい、おおきい {公園|こうえん}が あります。","Vâng, có một công viên lớn."],["いいえ、ありません。","Không, không có."]]},
+{q:"いえ・うちの ちかくに なにが ありますか。",vi:"Gần nhà bạn có những gì?",g:"Bài 10: N1 に N2 が あります; N や N",
+ a:[["スーパーや びょういんが あります。","Có siêu thị, bệnh viện, v.v."],["コンビニと ぎんこうが あります。","Có cửa hàng tiện lợi và ngân hàng."]],
+ tip:"や: liệt kê vài thứ tiêu biểu (còn thứ khác). と: liệt kê đủ."},
+{q:"いえ・うちに {猫|ねこ}・{犬|いぬ}が いますか。",vi:"Nhà bạn có mèo / chó không?",g:"Bài 10: N が います (người, động vật)",
+ a:[["はい、{犬|いぬ}が います。","Vâng, nhà tôi có chó."],["いいえ、いません。","Không, không có."],["{犬|いぬ}は いませんが、{猫|ねこ}が います。","Không có chó nhưng có mèo."]],
+ tip:"Động vật dùng います, không dùng あります."},
+{q:"いえ・うちは どうですか。",vi:"Nhà bạn thế nào?",g:"Bài 8: tính từ; S1 が、S2",
+ a:[["あまり ひろくないですが、きれいです。","Không rộng lắm nhưng sạch đẹp."],["ちいさいですが、べんりです。","Nhỏ nhưng tiện lợi."],["あたらしい いえです。","Là ngôi nhà mới."]]},
+{q:"～さんの {部屋|へや}・うちに {何|なに}が ありますか。",vi:"Trong phòng / nhà bạn có những gì?",g:"Bài 10: N1 に N2 が あります",
+ a:[["ベッドと つくえと テレビが あります。","Có giường, bàn và tivi."],["ほんや しゃしんが あります。","Có sách, ảnh, v.v."]]},
+{q:"～さんの {部屋|へや}・うちに テレビ・エアコン・ベッドが ありますか。",vi:"Trong phòng / nhà bạn có tivi, máy lạnh, giường không?",g:"Bài 10: N が あります／ありません",
+ a:[["はい、テレビと エアコンが あります。","Vâng, có tivi và máy lạnh."],["ベッドは ありません。","Không có giường."]],
+ tip:"Đồ vật dùng あります."},
+{q:"{何台|なんだい}・いくつ ありますか。",vi:"Có mấy cái?",g:"Bài 11: đếm máy móc (～だい), đồ vật (～つ)",
+ a:[["テレビが １だい あります。","Có 1 cái tivi."],["エアコンは ２だい あります。","Máy lạnh có 2 cái."],["いすが よっつ あります。","Có 4 cái ghế."]],
+ tip:"Máy móc, xe: いちだい, にだい, さんだい… Đồ vật chung: ひとつ, ふたつ, みっつ, よっつ, いつつ… Số lượng đứng ngay trước động từ."}
+]},
+{id:"shumi",t:"Sở thích",jp:"{趣味|しゅみ}",items:[
+{q:"{料理|りょうり}・スポーツ・{映画|えいが}が {好|す}きですか。",vi:"Bạn có thích nấu ăn / thể thao / phim không?",g:"Bài 9: N が すきです",
+ a:[["はい、とても {好|す}きです。","Vâng, tôi rất thích."],["はい、{好|す}きです。","Vâng, tôi thích."],["いいえ、あまり {好|す}きじゃありません。","Không, tôi không thích lắm."]],
+ tip:"すき là tính từ な: phủ định すきじゃありません. Đối tượng đi với が."},
+{q:"{一週間|いっしゅうかん}に {何回|なんかい} スポーツを しますか。",vi:"Một tuần bạn chơi thể thao mấy lần?",g:"Bài 6: N を します; Bài 11: ～かい",
+ a:[["{一週間|いっしゅうかん}に ２かい サッカーを します。","Một tuần tôi đá bóng 2 lần."],["{一週間|いっしゅうかん}に ３かい ジョギングを します。","Một tuần tôi chạy bộ 3 lần."],["あまり しません。","Tôi không hay chơi lắm."]]},
+{q:"{一週間|いっしゅうかん}に {何回|なんかい} {映画|えいが}を {見|み}ますか。",vi:"Một tuần bạn xem phim mấy lần?",g:"Bài 11: khoảng thời gian に ～かい V",
+ a:[["{一週間|いっしゅうかん}に １かい {見|み}ます。","Một tuần tôi xem 1 lần."],["いっかげつに ２かい ぐらい {見|み}ます。","Một tháng tôi xem khoảng 2 lần."]]},
+{q:"どんな {食|た}べ{物|もの}・{料理|りょうり}・{飲|の}み{物|もの}・スポーツ・{映画|えいが}・{人|ひと}が すきですか。",vi:"Bạn thích đồ ăn / món ăn / đồ uống / môn thể thao / phim / người như thế nào?",g:"Bài 9: どんな N が すきですか",
+ a:[["にほんりょうりが {好|す}きです。","Tôi thích món Nhật."],["コーヒーが {好|す}きです。","Tôi thích cà phê."],["サッカーが {好|す}きです。","Tôi thích bóng đá."],["やさしい {人|ひと}が {好|す}きです。","Tôi thích người hiền lành."]],
+ tip:"Trả lời bằng tên cụ thể: (đồ ăn) フォー, すし, ラーメン; (đồ uống) コーヒー, おちゃ, ジュース; (thể thao) サッカー, テニス; (phim) かんこくの えいが, アニメ."},
+{q:"だれに {料理|りょうり}・スポーツを {習|なら}いましたか。",vi:"Bạn đã học nấu ăn / thể thao từ ai?",g:"Bài 7: N(người) に ならいます",
+ a:[["{母|はは}に {料理|りょうり}を {習|なら}いました。","Tôi học nấu ăn từ mẹ."],["{父|ちち}に サッカーを {習|なら}いました。","Tôi học đá bóng từ bố."],["ともだちに テニスを {習|なら}いました。","Tôi học tennis từ bạn."]],
+ tip:"Người dạy đi với に, môn học đi với を."},
+{q:"いつも どこで コーヒーを {飲|の}みます・{買|か}いますか。",vi:"Bạn thường uống / mua cà phê ở đâu?",g:"Bài 6: N(địa điểm) で V",
+ a:[["いつも {会社|かいしゃ}の ちかくの きっさてんで {飲|の}みます。","Tôi thường uống ở quán cà phê gần công ty."],["いつも コンビニで {買|か}います。","Tôi thường mua ở cửa hàng tiện lợi."],["いつも うちで {飲|の}みます。","Tôi thường uống ở nhà."]]},
+{q:"いつも どこで {買|か}い{物|もの}しますか。",vi:"Bạn thường mua sắm ở đâu?",g:"Bài 6: N(địa điểm) で かいものします",
+ a:[["いつも スーパーで {買|か}い{物|もの}します。","Tôi thường mua sắm ở siêu thị."],["いつも いちばで {買|か}い{物|もの}します。","Tôi thường mua sắm ở chợ."]]},
+{q:"{韓国|かんこく}の {映画|えいが}と {中国|ちゅうごく}の {映画|えいが}と {日本|にほん}の {映画|えいが}の {中|なか}で どれが {一番|いちばん} {好|す}きですか。",vi:"Trong phim Hàn, phim Trung và phim Nhật, bạn thích phim nào nhất?",g:"Bài 12: N の なかで どれが いちばん ～ですか",
+ a:[["{日本|にほん}の {映画|えいが}が {一番|いちばん} {好|す}きです。","Tôi thích phim Nhật nhất."],["{韓国|かんこく}の {映画|えいが}が {一番|いちばん} {好|す}きです。","Tôi thích phim Hàn nhất."]],
+ tip:"Trả lời: N が いちばん すきです (dùng が, không dùng は)."},
+{q:"{海|うみ}と {山|やま}と どちらが {好|す}きですか。",vi:"Biển và núi, bạn thích bên nào hơn?",g:"Bài 12: N1 と N2 と どちらが ～ですか ── N の ほうが ～です",
+ a:[["{海|うみ}の ほうが {好|す}きです。","Tôi thích biển hơn."],["どちらも {好|す}きです。","Tôi thích cả hai."]],
+ tip:"So sánh hai thứ: ～の ほうが すきです. Thích cả hai: どちらも すきです."},
+{q:"{犬|いぬ}と {猫|ねこ}と どちらが {好|す}きですか。",vi:"Chó và mèo, bạn thích con nào hơn?",g:"Bài 12: N1 と N2 と どちらが ～ですか",
+ a:[["{猫|ねこ}の ほうが {好|す}きです。","Tôi thích mèo hơn."],["{犬|いぬ}の ほうが {好|す}きです。","Tôi thích chó hơn."]]},
+{q:"{週末|しゅうまつ}は いつも {何|なに}を しますか。",vi:"Cuối tuần bạn thường làm gì?",g:"Bài 6: いつも／ときどき; N を V",
+ a:[["いつも うちで テレビを {見|み}ます。","Tôi thường xem tivi ở nhà."],["ときどき ともだちと かいものを します。","Thỉnh thoảng tôi đi mua sắm với bạn."],["いつも にほんごを べんきょうします。","Tôi thường học tiếng Nhật."]]}
+]},
+{id:"nihongo",t:"Việc học tiếng Nhật",jp:"{日本語|にほんご}の {勉強|べんきょう}",items:[
+{q:"どこで {日本語|にほんご}を {習|なら}いますか。",vi:"Bạn học tiếng Nhật ở đâu?",g:"Bài 6: N(địa điểm) で V",
+ a:[["この {学校|がっこう}で {習|なら}います。","Tôi học ở trường này."],["{会社|かいしゃ}で {習|なら}います。","Tôi học ở công ty."]]},
+{q:"だれに {日本語|にほんご}を {習|なら}いますか。",vi:"Bạn học tiếng Nhật với ai?",g:"Bài 7: N(người) に ならいます",
+ a:[["～{先生|せんせい}に {習|なら}います。","Tôi học với thầy/cô ～."]],
+ tip:"Thay ～ bằng tên giáo viên của bạn, luôn thêm せんせい."},
+{q:"{一週間|いっしゅうかん}に {何回|なんかい} {日本語|にほんご}を {習|なら}いますか。",vi:"Một tuần bạn học tiếng Nhật mấy buổi?",g:"Bài 11: khoảng thời gian に ～かい V",
+ a:[["{一週間|いっしゅうかん}に ３かい {習|なら}います。","Một tuần tôi học 3 buổi."],["{一週間|いっしゅうかん}に ２かい {習|なら}います。","Một tuần tôi học 2 buổi."]]},
+{q:"{日本語|にほんご}の {勉強|べんきょう}は どうですか。",vi:"Việc học tiếng Nhật thế nào?",g:"Bài 8: tính từ; S1 が、S2",
+ a:[["むずかしいですが、おもしろいです。","Khó nhưng thú vị."],["かんじは むずかしいですが、たのしいです。","Chữ Hán khó nhưng vui."]]},
+{q:"{日本語|にほんご}が {好|す}きですか。",vi:"Bạn có thích tiếng Nhật không?",g:"Bài 9: N が すきです",
+ a:[["はい、とても {好|す}きです。","Vâng, tôi rất thích."]]},
+{q:"どうして {日本語|にほんご}を {勉強|べんきょう}しますか。",vi:"Tại sao bạn học tiếng Nhật?",g:"Bài 9: どうして ～か ── ～から です",
+ a:[["{日本|にほん}の アニメが {好|す}きですから。","Vì tôi thích anime Nhật."],["{会社|かいしゃ}に {日本人|にほんじん}が たくさん いますから。","Vì ở công ty có nhiều người Nhật."],["{日本|にほん}の {会社|かいしゃ}で {働|はたら}きますから。","Vì tôi sẽ làm việc ở công ty Nhật."]],
+ tip:"Câu hỏi どうして (tại sao) trả lời bằng lý do + から."},
+{q:"{今|いま}まで どのくらい {日本語|にほんご}を {勉強|べんきょう}しましたか。",vi:"Đến nay bạn đã học tiếng Nhật được bao lâu?",g:"Bài 11: khoảng thời gian (～かげつ, ～ねん) ぐらい",
+ a:[["３かげつ ぐらい {勉強|べんきょう}しました。","Tôi đã học khoảng 3 tháng."],["はんとし {勉強|べんきょう}しました。","Tôi đã học nửa năm."]],
+ tip:"Số tháng: いっかげつ, にかげつ, さんかげつ, ろっかげつ, じゅっかげつ. Nửa năm: はんとし. 1 năm: いちねん."},
+{q:"{日本語|にほんご}の {勉強|べんきょう}で {何|なに}が {一番|いちばん} {難|むずか}しいですか。",vi:"Trong việc học tiếng Nhật, cái gì khó nhất?",g:"Bài 12: ～で なにが いちばん ～ですか",
+ a:[["かんじが {一番|いちばん} {難|むずか}しいです。","Chữ Hán khó nhất."],["かいわが {一番|いちばん} {難|むずか}しいです。","Hội thoại khó nhất."]]},
+{q:"{毎晩|まいばん} どのくらい {日本語|にほんご}を {勉強|べんきょう}しますか。",vi:"Mỗi tối bạn học tiếng Nhật bao lâu?",g:"Bài 11: khoảng thời gian ぐらい V",
+ a:[["{毎晩|まいばん} １じかん ぐらい {勉強|べんきょう}します。","Mỗi tối tôi học khoảng 1 tiếng."],["３０ぷん ぐらい {勉強|べんきょう}します。","Tôi học khoảng 30 phút."]],
+ tip:"Khoảng thời gian (１じかん, ３０ぷん) không đi với に."},
+{q:"{昨日|きのう} どのくらい {日本語|にほんご}を {勉強|べんきょう}しましたか。",vi:"Hôm qua bạn đã học tiếng Nhật bao lâu?",g:"Bài 11: khoảng thời gian; V ました",
+ a:[["{昨日|きのう}は ２じかん {勉強|べんきょう}しました。","Hôm qua tôi học 2 tiếng."],["{昨日|きのう}は {勉強|べんきょう}しませんでした。","Hôm qua tôi không học."]]},
+{q:"{学校|がっこう}で {何時|なんじ}から {何時|なんじ}まで {日本語|にほんご}を {勉強|べんきょう}しますか。",vi:"Ở trường bạn học tiếng Nhật từ mấy giờ đến mấy giờ?",g:"Bài 4: N1 から N2 まで V",
+ a:[["ごご ６じ はんから ８じ はんまで {勉強|べんきょう}します。","Tôi học từ 6 giờ rưỡi đến 8 giờ rưỡi tối."]]},
+{q:"{昨日|きのう} {何時|なんじ}から {何時|なんじ}まで {日本語|にほんご}を {勉強|べんきょう}しましたか。",vi:"Hôm qua bạn học tiếng Nhật từ mấy giờ đến mấy giờ?",g:"Bài 4: N1 から N2 まで V ました",
+ a:[["９じから １０じまで {勉強|べんきょう}しました。","Tôi học từ 9 giờ đến 10 giờ."]]},
+{q:"{日本語|にほんご}と {英語|えいご}と どちらが {難|むずか}しいですか。",vi:"Tiếng Nhật và tiếng Anh, tiếng nào khó hơn?",g:"Bài 12: N1 と N2 と どちらが ～ですか ── N の ほうが ～です",
+ a:[["{日本語|にほんご}の ほうが {難|むずか}しいです。","Tiếng Nhật khó hơn."],["{日本語|にほんご}の ほうが ずっと {難|むずか}しいです。","Tiếng Nhật khó hơn nhiều."]],
+ tip:"ずっと: hơn hẳn, hơn nhiều."}
+]},
+{id:"owari",t:"Kết thúc",jp:"おわり",items:[
+{q:"これで {終|お}わります。ありがとうございました。",vi:"Đến đây là kết thúc. Cảm ơn em.",g:"Câu chào khi kết thúc",
+ a:[["ありがとうございました。","Em cảm ơn thầy/cô."],["しつれいします。","Em xin phép (nói khi ra khỏi phòng)."]]}
+]}
+];
+/* Câu cứu nguy khi thi vấn đáp */
+var SPEAK_HELP=[
+["すみません、もう いちど おねがいします。","Xin lỗi, thầy/cô nói lại một lần nữa được không ạ?"],
+["すみません、ゆっくり おねがいします。","Xin lỗi, thầy/cô nói chậm giúp em được không ạ?"],
+["すみません、わかりません。","Xin lỗi, em không hiểu."],
+["ええと…","Ờ… (khi đang nghĩ câu trả lời)"]
+];
+/*SPEAK-DATA-END*/
+/* ---------- Luyện nói (câu hỏi vấn đáp giữa kỳ) ---------- */
+/*SPEAK-CODE-START*/
+var SPALL=[],spById={};
+SPEAK.forEach(function(sec){
+  sec.items.forEach(function(it,i){
+    var o={id:sec.id+":"+i,sec:sec.id,n:i+1,q:it.q,vi:it.vi,g:it.g,a:it.a,tip:it.tip||""};
+    SPALL.push(o);spById[o.id]=o;
+  });
+});
+var SP={
+  sec:(function(){var v=load("mnn.spsec","all");return (v==="all"||SPEAK.some(function(s){return s.id===v}))?v:"all"})(),
+  mode:load("mnn.spmode","list")==="prac"?"prac":"list",
+  furi:load("mnn.spfuri",true)!==false,
+  rom:load("mnn.sprom",false)===true,
+  shuf:false,order:[],idx:0,show:0
+};
+/* {chữ|đọc} → <ruby> (hoặc chỉ chữ khi tắt furigana) */
+function spRuby(s){
+  var out="",re=/\{([^{}|]+)\|([^{}|]+)\}/g,last=0,m;
+  while((m=re.exec(s))){
+    out+=esc(s.slice(last,m.index))+(SP.furi?'<ruby>'+esc(m[1])+'<rt>'+esc(m[2])+'</rt></ruby>':esc(m[1]));
+    last=re.lastIndex;
+  }
+  return out+esc(s.slice(last));
+}
+function spKana(s){return s.replace(/\{([^{}|]+)\|([^{}|]+)\}/g,"$2")}
+function spPlain(s){return s.replace(/\{([^{}|]+)\|([^{}|]+)\}/g,"$1")}
+function spRom(s){
+  var k=spKana(s).replace(/[０-９]/g,function(c){return String.fromCharCode(c.charCodeAt(0)-0xFEE0)});
+  /* tách theo khoảng trắng và dấu câu; trợ từ は／へ／を ở cuối cụm đọc là wa／e／o */
+  return k.split(/(\s+|[。、・／？！])/).map(function(t){
+    if(!t||/^\s+$/.test(t))return " ";
+    if(/^[。、・／？！]$/.test(t))return romaji({kana:t});
+    var m=t.match(/^(.+?)(は|へ|を)$/);
+    if(m)return romaji({kana:m[1]})+" "+({"は":"wa","へ":"e","を":"o"})[m[2]];
+    return romaji({kana:t});
+  }).join("").replace(/\s+([.,?!])/g,"$1").replace(/([.?!])(?=\S)/g,"$1 ").replace(/\s+/g," ").trim();
+}
+var SP_TTS=typeof window!=="undefined"&&"speechSynthesis" in window&&typeof SpeechSynthesisUtterance!=="undefined";
+function spSay(text){
+  if(!SP_TTS)return;
+  try{
+    var u=new SpeechSynthesisUtterance(spKana(text).replace(/～/g,""));
+    u.lang="ja-JP";u.rate=.85;
+    var vs=window.speechSynthesis.getVoices().filter(function(v){return /^ja/i.test(v.lang)});
+    if(vs.length)u.voice=vs[0];
+    window.speechSynthesis.cancel();window.speechSynthesis.speak(u);
+  }catch(e){}
+}
+function spSayBtn(id,i){
+  return SP_TTS?'<button type="button" class="spk" data-act="spsay" data-id="'+id+'" data-i="'+i+'" aria-label="Nghe đọc">🔊</button>':'';
+}
+function spLine(s,id,i,cls){
+  return '<div class="'+cls+'"><div class="sp-jp">'+spRuby(s)+(SP.rom?'<span class="sp-rom">'+esc(spRom(s))+'</span>':'')+'</div>'+spSayBtn(id,i)+'</div>';
+}
+function spDeck(){return SPALL.filter(function(o){return SP.sec==="all"||o.sec===SP.sec})}
+function spRebuild(){
+  var ids=spDeck().map(function(o){return o.id});
+  SP.order=SP.shuf?shuffled(ids):ids;SP.idx=0;SP.show=0;
+}
+function spSecName(id){for(var i=0;i<SPEAK.length;i++)if(SPEAK[i].id===id)return SPEAK[i].t;return ""}
+function spAnswersHtml(o){
+  return '<div class="sp-a"><span class="why-h">Câu trả lời mẫu</span>'+o.a.map(function(x,i){
+      return '<div class="sp-arow">'+spLine(x[0],o.id,i,"sp-line")+'<div class="sp-vi">'+esc(x[1])+'</div></div>';
+    }).join("")+'</div>'+
+    (o.tip?'<p class="gp-note"><b>Mẹo.</b> '+esc(o.tip)+'</p>':'');
+}
+function spCardHtml(o,num){
+  return '<article class="gp sp-card"><div class="gp-n">'+num+'</div><div class="gp-b">'+
+    spLine(o.q,o.id,-1,"sp-q")+
+    '<p class="gp-m">'+esc(o.vi)+'</p>'+
+    '<p class="sp-g">Ngữ pháp: '+esc(o.g)+'</p>'+
+    spAnswersHtml(o)+
+  '</div></article>';
+}
+function spHelpHtml(){
+  return '<section class="blk"><h3>Câu cứu nguy khi thi</h3><p class="cap">Dùng khi không nghe rõ hoặc chưa hiểu câu hỏi. Đừng im lặng, hãy nói một trong các câu sau.</p>'+
+    SPEAK_HELP.map(function(x,i){return '<div class="sp-arow">'+spLine(x[0],"help",i,"sp-line")+'<div class="sp-vi">'+esc(x[1])+'</div></div>'}).join("")+
+    '<ul class="gp-d sp-rules">'+
+      '<li>Câu hỏi có／không (～ますか, ～ですか không có từ để hỏi): bắt đầu bằng はい／いいえ.</li>'+
+      '<li>Câu hỏi có từ để hỏi (なに, どこ, だれ, いつ, なんじ, なんで…): không nói はい／いいえ, trả lời thẳng thông tin.</li>'+
+      '<li>Giữ đúng thì: hỏi ～ますか → trả lời ～ます; hỏi ～ましたか → trả lời ～ました.</li>'+
+      '<li>Nói về gia đình mình dùng 父, 母, 兄, 姉 (không dùng お父さん, お母さん…).</li>'+
+      '<li>Trả lời thành câu đầy đủ, nói chậm và rõ. Có thể nói thêm một câu để ghi điểm (ví dụ: とても おいしかったです).</li>'+
+    '</ul></section>';
+}
+function spListHtml(){
+  var secs=SPEAK.filter(function(s){return SP.sec==="all"||s.id===SP.sec});
+  return (SP.sec==="all"?spHelpHtml():'')+secs.map(function(s){
+    var items=SPALL.filter(function(o){return o.sec===s.id});
+    return '<section class="blk"><h3>'+esc(s.t)+' <span class="sp-secjp">'+spRuby(s.jp)+'</span></h3><p class="cap">'+items.length+' câu</p></section>'+
+      items.map(function(o){return spCardHtml(o,o.n)}).join("");
+  }).join("");
+}
+function spPracHtml(){
+  var n=SP.order.length;if(!n)return '<div class="empty"><p class="big">Không có câu hỏi</p></div>';
+  var o=spById[SP.order[SP.idx]];
+  var body='<div class="q eqbox sp-pq"><span class="elab">'+esc(spSecName(o.sec))+' · câu '+o.n+'</span>'+spLine(o.q,o.id,-1,"sp-q sp-big")+
+    (SP.show>=1?'<p class="gp-m">'+esc(o.vi)+'</p><p class="sp-g">Ngữ pháp: '+esc(o.g)+'</p>':'<p class="evi">Hãy tự trả lời to bằng tiếng Nhật trước, rồi mới xem gợi ý.</p>')+'</div>';
+  var reveal=SP.show<1?'<button type="button" class="btn" data-act="spshow" data-v="1">Xem nghĩa và gợi ý ngữ pháp</button>':'';
+  reveal+=SP.show<2?'<button type="button" class="btn primary" data-act="spshow" data-v="2">Xem câu trả lời mẫu</button>':'';
+  return '<div class="meter"><span>Câu '+(SP.idx+1)+'/'+n+'</span><span class="bar"><i style="width:'+((SP.idx+1)/n*100)+'%"></i></span></div>'+
+    body+
+    (reveal?'<div class="actions">'+reveal+'</div>':'')+
+    (SP.show>=2?'<div class="fb ok">'+spAnswersHtml(o)+'</div>':'')+
+    '<div class="qnav"><button type="button" class="btn" data-act="spgo" data-v="-1"'+(SP.idx===0?' disabled':'')+'>‹ Câu trước</button>'+
+    '<button type="button" class="btn primary" data-act="spgo" data-v="1"'+(SP.idx+1>=n?' disabled':'')+'>Câu sau ›</button></div>'+
+    '<p class="keys kb">Phím tắt: ← → chuyển câu · Space xem gợi ý / câu trả lời mẫu.</p>';
+}
+function renderSpeak(){
+  var box=$("#speakView");if(!box)return;
+  var row0=box.querySelector(".lessons"),sl=row0?row0.scrollLeft:null;
+  if(!SP.order.length)spRebuild();
+  withFocus(box,function(){
+    var chips='<button type="button" class="chip" data-act="spsec" data-v="all" aria-pressed="'+(SP.sec==="all")+'"><span class="chip-n">Tất cả</span><span class="chip-c">'+SPALL.length+' câu</span></button>'+
+      SPEAK.map(function(s){
+        return '<button type="button" class="chip" data-act="spsec" data-v="'+s.id+'" aria-pressed="'+(SP.sec===s.id)+'"><span class="chip-n">'+esc(s.t)+'</span><span class="chip-c">'+s.items.length+' câu</span></button>';
+      }).join("");
+    var modes='<div class="tabs sp-modes" role="group" aria-label="Chế độ">'+
+      '<button type="button" class="tab" data-act="spmode" data-v="list" aria-pressed="'+(SP.mode==="list")+'">Hướng dẫn trả lời</button>'+
+      '<button type="button" class="tab" data-act="spmode" data-v="prac" aria-pressed="'+(SP.mode==="prac")+'">Luyện tập từng câu</button></div>';
+    var opts='<label class="chk"><input type="checkbox" id="spFuri"'+(SP.furi?' checked':'')+'> Hiện furigana</label>'+
+      '<label class="chk"><input type="checkbox" id="spRom"'+(SP.rom?' checked':'')+'> Hiện romaji</label>'+
+      (SP.mode==="prac"?'<label class="chk"><input type="checkbox" id="spShuf"'+(SP.shuf?' checked':'')+'> Hỏi ngẫu nhiên</label>':'');
+    box.innerHTML=
+      '<p class="cap">Câu hỏi vấn đáp giữa kỳ (Bài 1–12). Mỗi câu có nghĩa, mẫu ngữ pháp cần dùng, câu trả lời mẫu và mẹo. Hãy thay phần thông tin (giờ, ngày, tên, quê…) bằng thông tin thật của bạn.'+
+        (SP_TTS?' Bấm 🔊 để nghe đọc.':'')+'</p>'+
+      '<section class="lessons" aria-label="Chọn chủ đề">'+chips+'</section>'+
+      '<section class="controls" aria-label="Tùy chọn luyện nói">'+modes+'<div class="opts">'+opts+'</div></section>'+
+      (SP.mode==="list"?spListHtml():'<section class="stage" id="spstage" aria-label="Luyện tập">'+spPracHtml()+'</section>');
+    var row=box.querySelector(".lessons");
+    if(sl!==null)row.scrollLeft=sl;else scrollToPressed(row);
+  });
+}
+function spAct(b){
+  var a=b.dataset.act;
+  if(a==="spsec"){SP.sec=b.dataset.v;save("mnn.spsec",SP.sec);spRebuild();renderSpeak();return}
+  if(a==="spmode"){SP.mode=b.dataset.v;save("mnn.spmode",SP.mode);SP.show=0;renderSpeak();return}
+  if(a==="spshow"){SP.show=Math.max(SP.show,+b.dataset.v);renderSpeak();return}
+  if(a==="spgo"){spMove(+b.dataset.v);return}
+  if(a==="spsay"){
+    var id=b.dataset.id,i=+b.dataset.i;
+    if(id==="help"){spSay(SPEAK_HELP[i][0]);return}
+    var o=spById[id];if(o)spSay(i<0?o.q:o.a[i][0]);
+  }
+}
+function spMove(d){
+  var n=SP.order.length,j=SP.idx+d;if(j<0||j>=n)return;
+  SP.idx=j;SP.show=0;renderSpeak();
+  var st=document.getElementById("spstage");if(st&&st.getBoundingClientRect().top<0)st.scrollIntoView({block:"start"});
+}
+function spKey(e){
+  if(SP.mode!=="prac")return;
+  if(e.key==="ArrowRight"){spMove(1);e.preventDefault()}
+  else if(e.key==="ArrowLeft"){spMove(-1);e.preventDefault()}
+  else if(e.key===" "&&(e.target===document.body||!/^(BUTTON|A)$/.test(e.target.tagName))){if(SP.show<2){SP.show++;renderSpeak()}e.preventDefault()}
+}
+/*SPEAK-CODE-END*/
 /*EXTRA-END*/
 /* ---------- init ---------- */
 buildChips();
