@@ -342,6 +342,11 @@ h1{margin:0;font-size:clamp(26px,5.4vw,36px);line-height:1.15;font-weight:700;te
 .kul{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:6px;text-decoration-color:var(--accent)}
 .kfill{color:var(--good);font-size:.7em;margin-left:.15em}
 .kopt-r{font-family:var(--font-jp);font-size:18px}
+.kx{list-style:none;margin:2px 0 0;padding:0;display:flex;flex-direction:column;gap:6px}
+.kx li{display:flex;gap:10px;align-items:flex-start}
+.kx-k{flex:none;font-family:var(--font-jp);font-weight:700;font-size:26px;line-height:1.1;min-width:1.2em;text-align:center}
+.kx-b{min-width:0;display:flex;flex-direction:column}
+.kx-r{font-size:12.5px;color:var(--ink-2);font-family:var(--font-jp)}
 .kopt-k{font-family:var(--font-jp);font-size:22px;font-weight:600}
 @media (max-width:420px){.gp{padding:12px;gap:10px}}
 @media (prefers-reduced-motion:reduce){
@@ -2626,7 +2631,7 @@ var KSIM={};
 });
 /* Cách đọc khác cũng đúng của một số từ: không dùng làm phương án sai */
 var KALT={"日本":["にっぽん"],"十分":["じっぷん","じゅうぶん"],"今日":["こんにち"],"七日":["なぬか"],"上手":["うわて","かみて"],"下手":["したて","しもて"],
-  "十":["じゅう"],"何":["なん"],"今年":["こんねん"],"行きます":["ゆきます"],"魚":["うお"],"中":["じゅう","うち"],"何人":["なにじん","なんぴと","なんびと"],"一本":["いちほん"],"五分":["ごぶん"]};
+  "十":["じゅう"],"何":["なん"],"今年":["こんねん"],"行きます":["ゆきます"],"魚":["うお"],"中":["じゅう","うち","ちゅう"],"何人":["なにじん","なんぴと","なんびと"],"一本":["いちほん"],"五分":["ごぶん"]};
 var KDAK={};
 ["かが","きぎ","くぐ","けげ","こご","さざ","しじ","すず","せぜ","そぞ","ただ","てで","とど","はばぱ","ひびぴ","ふぶぷ","へべぺ","ほぼぽ"].forEach(function(g){
   var a=Array.from(g);a.forEach(function(c){KDAK[c]=a.filter(function(x){return x!==c})});
@@ -2751,6 +2756,15 @@ function kPrompt(q){
   if(q.k==="write")return esc(KW[q.id].r);
   return kSentHtml(ksById[q.id],"");
 }
+/* Giải thích từng chữ kanji có trong từ: Hán Việt, nghĩa, âm On/Kun, bài */
+function kExplainHtml(w,title,skip){
+  var seen={},rows=Array.from(w).filter(function(c){if(!kById[c]||seen[c]||(skip&&skip.indexOf(c)>=0))return false;seen[c]=1;return true}).map(function(c){
+    var o=kById[c];
+    return '<li><span class="kx-k">'+esc(o.k)+'</span><span class="kx-b"><span><b>'+esc(o.hv)+'</b> · '+esc(o.vi)+'</span>'+
+      '<span class="kx-r">On: '+esc(o.on)+' · Kun: '+esc(o.kun)+' · '+esc(kGroupName(o.g))+'</span></span></li>';
+  });
+  return rows.length?'<div class="why"><span class="why-h">'+(title||"Giải thích chữ kanji")+'</span><ul class="kx">'+rows.join("")+'</ul></div>':'';
+}
 function kAnswer(q){
   if(q.k==="mean"){var o=kById[q.id];return o.hv+" · "+o.vi}
   if(q.k==="read")return KW[q.id].r;
@@ -2767,10 +2781,10 @@ function kQuizHtml(){
     question='<div class="q"><div class="kbig">'+esc(o.k)+'</div><div class="hint">Chữ này có âm Hán Việt và nghĩa là gì?</div></div>';
   }else if(q.k==="read"){
     e=KW[q.id];
-    question='<div class="q"><div class="jp">'+esc(e.w)+'</div><div class="hint">Từ này đọc là gì? (nghĩa: '+esc(e.m)+')</div></div>';
+    question='<div class="q"><div class="jp">'+esc(e.w)+'</div><div class="hint">Từ này đọc là gì? Chọn cách viết bằng hiragana.</div></div>';
   }else if(q.k==="write"){
     e=KW[q.id];
-    question='<div class="q"><div class="jp">'+esc(e.r)+'</div><div class="hint">Từ này viết bằng kanji thế nào? (nghĩa: '+esc(e.m)+')</div></div>';
+    question='<div class="q"><div class="jp">'+esc(e.r)+'</div><div class="hint">Từ này viết bằng kanji thế nào?</div></div>';
   }else{
     s=ksById[q.id];
     question='<div class="q eqbox"><span class="elab">'+esc(kGroupName(s.g))+' · '+(s.t==="r"?"Cách đọc":"Cách viết")+'</span>'+
@@ -2788,12 +2802,17 @@ function kQuizHtml(){
   if(answered){
     var ok=q.opts[Q.picked].ok,msg;
     if(q.k==="mean")msg=esc(o.k)+' ('+esc(o.hv)+') nghĩa là “'+esc(o.vi)+'”. On: '+esc(o.on)+' · Kun: '+esc(o.kun)+'.';
-    else if(q.k==="read"||q.k==="write")msg='<span class="ejp">'+esc(e.w)+'</span> đọc là <span class="ejp">'+esc(e.r)+'</span> ('+esc(romaji({kana:e.r}))+'), nghĩa là “'+esc(e.m)+'”.';
+    else if(q.k==="read"||q.k==="write")msg='<span class="ejp">'+esc(e.w)+'</span> đọc là <span class="ejp">'+esc(e.r)+'</span> ('+esc(romaji({kana:e.r}))+'), nghĩa là “'+esc(e.m)+'”.'+kExplainHtml(e.w);
     else{
       var tg=kTarget(s),w=s.t==="r"?tg:s.opts[0],rd=s.t==="r"?s.opts[0]:tg;
       msg='<span class="ejp">'+esc(w)+'</span> đọc là <span class="ejp">'+esc(rd)+'</span> ('+esc(romaji({kana:rd}))+'), nghĩa là “'+esc(s.m)+'”.'+
+        kExplainHtml(w)+
         (s.tip?'<div class="why"><span class="why-h">Mẹo nhớ</span>'+esc(s.tip)+'</div>':'')+
         '<div class="why"><span class="why-h">Nghĩa của câu</span>'+esc(s.vi)+'</div>';
+    }
+    if(!ok&&(q.k==="write"||(q.k==="sent"&&s.t==="w"))){
+      var right=q.k==="write"?e.w:s.opts[0];
+      msg+=kExplainHtml(q.opts[Q.picked].text,"Chữ bạn đã chọn (khác với đáp án)",right);
     }
     fb='<div class="fb '+(ok?'ok':'no')+'" role="status"><b>'+(ok?'Đúng rồi.':'Chưa đúng.')+'</b> '+msg+'</div>'+
       '<div class="actions" style="grid-template-columns:1fr"><button type="button" class="btn primary" data-act="knextq" data-autofocus>'+
@@ -3445,7 +3464,7 @@ var EXRAW={
 ["にほんごが（　）わかります。","Tôi hiểu tiếng Nhật rất rõ.",["よく","ぜんぜん","あまり","すこし"],0,"よく わかります nghĩa là hiểu rõ."],
 ["かんじが あまり わかり（　）。","Tôi không hiểu chữ Hán lắm.",["ません","ます","ました","ましょう"],0,"あまり đi với dạng phủ định."],
 ["おかねが（　）あります。","Tôi có nhiều tiền.",["たくさん","ぜんぜん","あまり","すこしも"],0,"たくさん đi với あります nghĩa là nhiều."],
-["ジャズが すきです（　）、よく ききます。","Vì thích nhạc jazz nên tôi hay nghe.",["から","が","を","ので"],0,"S1 から S2: vì S1 nên S2."],
+["ジャズが すきです（　）、よく ききます。","Vì thích nhạc jazz nên tôi hay nghe.",["から","が","を","で"],0,"S1 から S2: vì S1 nên S2."],
 ["「どうして きのう かいしゃを やすみましたか。」「ようじが ありました（　）。」","Tại sao hôm qua bạn nghỉ làm? ── Vì tôi có việc bận.",["から","が","を","に"],0,"Trả lời câu hỏi どうして bằng lý do + から."],
 ["（　）あした かいしゃを やすみますか。── こどもの たんじょうびですから。","Tại sao ngày mai bạn nghỉ làm? ── Vì là sinh nhật con tôi.",["どうして","どこ","いつ","なに"],0,"どうして hỏi lý do (tại sao)."],
 ["かんじは むずかしいですから、（　）。","Vì chữ Hán khó nên tôi ghét nó.",["きらいです","すきです","ありません","しませんか"],0,"Vế sau là kết quả hợp lý với lý do “khó”."],
@@ -3496,7 +3515,7 @@ var EXRAW={
 ["「すみません。この ちかくに エーティーエムが ありますか。」「（　）」","Xin lỗi, gần đây có cây ATM không? ── (chọn câu trả lời đúng)",["ええ、あの コンビニの なかに あります。","ええ、あの コンビニの なかに います。","ええ、あの コンビニの なかで あります。","いいえ、あの コンビニの なかに あります。"],0,"ATM là đồ vật nên dùng あります, nơi tồn tại đi với に. Có ATM thì trả lời ええ."]
 ],
 11:[
-["りんごを（　）かいました。","Tôi đã mua 3 quả táo.",["みっつ","さんこ","みっつを","さん"],0,"Đếm đồ vật theo kiểu Nhật: ひとつ, ふたつ, みっつ..."],
+["りんごを（　）かいました。（３こ）","Tôi đã mua 3 quả táo.",["みっつ","さんつ","みっつを","さん"],0,"Đếm đồ vật theo kiểu Nhật: ひとつ, ふたつ, みっつ..."],
 ["「９つ」は どう よみますか。","Cách đọc “9 cái” là gì?",["ここのつ","きゅうつ","くつ","ここのこ"],0,"9 cái đọc là ここのつ."],
 ["「とお」は いくつですか。","とお là bao nhiêu cái?",["10 cái","8 cái","9 cái","11 cái"],0,"とお nghĩa là 10 cái. Từ 11 trở đi dùng số thường."],
 ["こどもが ２（　）います。","Có 2 đứa trẻ.",["ふたり","にいん","ににん","ふたにん"],0,"2 người đọc là ふたり (đặc biệt)."],
@@ -3609,6 +3628,25 @@ var EX={
   count:(function(){var v=load("mnn.ecount","10");return (v==="20"||v==="all")?v:"10"})(),
   onlyNew:false,quiz:null
 };
+/* Gợi ý ngữ pháp ngắn (không phải bản dịch) cho các câu mà nếu thiếu thì có hơn một đáp án đúng */
+var EHINT={"1:2":"câu hỏi","4:5":"phủ định, quá khứ","4:6":"khẳng định, thói quen","4:7":"khẳng định","4:21":"phủ định",
+  "6:5":"lời rủ người khác cùng làm","6:6":"đề nghị cùng làm","6:18":"lời rủ người khác cùng làm","7:4":"chị Karina là người cho mượn",
+  "7:9":"bố là người nhận cuộc gọi","7:10":"“tôi” là người tặng","8:1":"khẳng định","8:3":"phủ định, hiện tại","8:5":"khẳng định",
+  "8:9":"khen ở mức độ cao","9:6":"hiểu ở mức độ tốt","10:2":"khẳng định","10:3":"khẳng định","10:6":"vị trí: bên cạnh",
+  "10:9":"liệt kê không đầy đủ (còn thứ khác)","11:15":"chỉ có một ngày","11:16":"ước lượng thời gian","12:1":"phủ định",
+  "12:16":"chưa từng đến trước đó"};
+/* Tách phần hiện trước khi trả lời (đề bài, gợi ý) và phần nghĩa câu (chỉ hiện sau khi trả lời) */
+function eSplitVi(o){
+  var m;
+  if(o.q.indexOf("★")>=0){
+    m=o.vi.match(/^(.*?★\.)\s*\((.*)\)\s*$/);
+    return {pre:m?m[1]:"Sắp xếp các từ cho đúng thứ tự và chọn từ ở vị trí ★.",hint:"",mean:m?m[2]:""};
+  }
+  if(o.q.indexOf("（　）")<0)return {pre:o.vi,hint:"",mean:""};
+  m=o.vi.match(/^(.*?)\s*\(([^()]*)\)\s*$/);
+  var mean=(m?m[1]:o.vi).replace(/\s*──\s*$/,"");
+  return {pre:"",hint:EHINT[o.id]||(m?m[2]:""),mean:mean};
+}
 function eDeck(){return EALL.filter(function(o){return EX.sel.has(o.lesson)&&(!EX.onlyNew||!EX.done.has(o.id))})}
 function eMake(o){
   var opts=o.opts.map(function(t,i){return {text:t,ok:i===o.ans}});
@@ -3633,7 +3671,7 @@ function eQuizHtml(){
   if(!EX.quiz){if(!eDeck().length)return eEmpty();eStart()}
   var Q=EX.quiz;
   if(Q.i>=Q.qs.length)return eResultHtml();
-  var q=Q.qs[Q.i],o=eById[q.id],answered=Q.picked!==null;
+  var q=Q.qs[Q.i],o=eById[q.id],answered=Q.picked!==null,sv=eSplitVi(o);
   var correct=q.opts.filter(function(x){return x.ok})[0];
   var fill=(answered&&correct.text.charAt(0)!=="（"&&correct.text.indexOf("…")<0)?correct.text:"";
   var opts=q.opts.map(function(op,i){
@@ -3647,13 +3685,15 @@ function eQuizHtml(){
     var ok=q.opts[Q.picked].ok;
     fb='<div class="fb '+(ok?'ok':'no')+'" role="status"><b>'+(ok?'Đúng rồi.':'Chưa đúng.')+'</b>'+
       (ok?'':' Đáp án đúng là <b class="ejp">'+esc(correct.text)+'</b>.')+
+      (sv.mean?'<div class="why"><span class="why-h">Nghĩa của câu</span>'+esc(sv.mean)+'</div>':'')+
       '<div class="why"><span class="why-h">Giải thích ngữ pháp</span>'+esc(o.exp)+'</div></div>'+
       '<div class="actions" style="grid-template-columns:1fr"><button type="button" class="btn primary" data-act="enextq" data-autofocus>'+
       (Q.i+1>=Q.qs.length?'Xem kết quả':'Câu tiếp')+'</button></div>';
   }
   return ''+
   '<div class="meter"><span>Câu '+(Q.i+1)+'/'+Q.qs.length+' · đúng '+Q.score+'</span><span class="bar"><i style="width:'+((Q.i+(answered?1:0))/Q.qs.length*100)+'%"></i></span></div>'+
-  '<div class="q eqbox"><span class="elab">Bài '+o.lesson+'</span><div class="eq">'+eBlank(o.q,fill)+'</div>'+(o.vi?'<div class="evi">'+esc(o.vi)+'</div>':'')+'</div>'+
+  '<div class="q eqbox"><span class="elab">Bài '+o.lesson+'</span><div class="eq">'+eBlank(o.q,fill)+'</div>'+
+    (sv.pre?'<div class="evi">'+esc(sv.pre)+'</div>':'')+(sv.hint?'<div class="evi">Gợi ý: '+esc(sv.hint)+'</div>':'')+'</div>'+
   '<div class="opts-q">'+opts+'</div>'+fb+
   '<p class="keys kb">Phím tắt: bấm 1 đến 4 để chọn đáp án, Enter để sang câu tiếp.</p>';
 }
@@ -3664,7 +3704,8 @@ function eResultHtml(){
     :"Cần ôn thêm. Đọc lại phần Ngữ pháp của các bài này rồi quay lại làm bài tập.";
   var wrongs=Q.wrong.length?'<ul class="ewrongs">'+Q.wrong.map(function(id){
     var o=eById[id],c=o.opts[o.ans];
-    return '<li><div class="eq-s">'+eBlank(o.q,"")+'</div><div class="ans">Đáp án: <b class="ejp">'+esc(c)+'</b></div><div class="why">'+esc(o.exp)+'</div></li>';
+    var mn=eSplitVi(o).mean;
+    return '<li><div class="eq-s">'+eBlank(o.q,"")+'</div><div class="ans">Đáp án: <b class="ejp">'+esc(c)+'</b></div>'+(mn?'<div class="why">Nghĩa: '+esc(mn)+'</div>':'')+'<div class="why">'+esc(o.exp)+'</div></li>';
   }).join("")+'</ul>':"";
   return '<div class="result"><div class="score">'+Q.score+'/'+total+'</div><p style="margin:0;color:var(--ink-2)">'+esc(msg)+'</p></div>'+wrongs+
     '<div class="actions"><button type="button" class="btn primary" data-act="enewquiz" data-autofocus>Vòng mới</button>'+
