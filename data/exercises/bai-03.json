@@ -1,0 +1,322 @@
+{
+  "lesson": 3,
+  "questions": [
+    {
+      "question": "トイレは（　）ですか。── あそこです。",
+      "meaning": "Nhà vệ sinh ở đâu? ── Ở chỗ kia.",
+      "options": [
+        "どこ",
+        "だれ",
+        "なん",
+        "いくら"
+      ],
+      "answer": 0,
+      "explanation": "どこ là từ để hỏi nơi chốn."
+    },
+    {
+      "question": "（　）は しょくどうです。",
+      "hint": "gần người nói",
+      "meaning": "Chỗ này là nhà ăn.",
+      "options": [
+        "ここ",
+        "これ",
+        "この",
+        "そこ"
+      ],
+      "answer": 0,
+      "explanation": "ここ chỉ nơi chốn gần người nói. これ chỉ vật, この cần có danh từ."
+    },
+    {
+      "question": "でんわは（　）です。",
+      "hint": "gần người nghe",
+      "meaning": "Điện thoại ở chỗ đó.",
+      "options": [
+        "そこ",
+        "ここ",
+        "あそこ",
+        "どこ"
+      ],
+      "answer": 0,
+      "explanation": "そこ chỉ chỗ ở gần người nghe."
+    },
+    {
+      "question": "「どこ」の ていねいな いいかたは どれですか。",
+      "instruction": "Cách nói lịch sự của どこ là gì?",
+      "options": [
+        "どちら",
+        "どれ",
+        "だれ",
+        "どなた"
+      ],
+      "answer": 0,
+      "explanation": "どちら là cách nói lịch sự của どこ (và cũng chỉ phương hướng)."
+    },
+    {
+      "question": "おくには（　）ですか。── ベトナムです。",
+      "meaning": "Đất nước của bạn là nước nào? ── Việt Nam.",
+      "options": [
+        "どちら",
+        "だれ",
+        "なんがい",
+        "いくら"
+      ],
+      "answer": 0,
+      "explanation": "どちら lịch sự, dùng để hỏi quốc gia, công ty, trường của người nghe."
+    },
+    {
+      "question": "この ワインは（　）ですか。── ３,０００えんです。",
+      "meaning": "Chai rượu này bao nhiêu tiền? ── 3.000 yên.",
+      "options": [
+        "いくら",
+        "どこ",
+        "だれ",
+        "なん"
+      ],
+      "answer": 0,
+      "explanation": "いくら hỏi giá tiền."
+    },
+    {
+      "question": "これは イタリア（　）くつです。",
+      "meaning": "Đây là giày của Ý.",
+      "options": [
+        "の",
+        "に",
+        "を",
+        "は"
+      ],
+      "answer": 0,
+      "explanation": "N1 の N2 chỉ xuất xứ: giày do Ý sản xuất."
+    },
+    {
+      "question": "レストランは（　）ですか。── ５かいです。",
+      "meaning": "Nhà hàng ở tầng mấy? ── Tầng 5.",
+      "options": [
+        "なんがい",
+        "いくら",
+        "どこ",
+        "なんじ"
+      ],
+      "answer": 0,
+      "explanation": "なんがい hỏi số tầng. Đáp lại bằng số + かい."
+    },
+    {
+      "question": "「３かい」は どう よみますか。",
+      "instruction": "Cách đọc “3 tầng” là gì?",
+      "options": [
+        "さんがい",
+        "さんかい",
+        "みっかい",
+        "さんけい"
+      ],
+      "answer": 0,
+      "explanation": "3 tầng đọc là さんがい (biến âm か thành が)."
+    },
+    {
+      "question": "「６かい」は どう よみますか。",
+      "instruction": "Cách đọc “6 tầng” là gì?",
+      "options": [
+        "ろっかい",
+        "ろくかい",
+        "ろくがい",
+        "むっかい"
+      ],
+      "answer": 0,
+      "explanation": "6 tầng đọc là ろっかい (ろく biến thành ろっ)."
+    },
+    {
+      "question": "８００えんは どう よみますか。",
+      "instruction": "Cách đọc 800 yên là gì?",
+      "options": [
+        "はっぴゃくえん",
+        "はちひゃくえん",
+        "はっひゃくえん",
+        "やっぴゃくえん"
+      ],
+      "answer": 0,
+      "explanation": "800 đọc là はっぴゃく. Các số biến âm: 300 さんびゃく, 600 ろっぴゃく, 800 はっぴゃく."
+    },
+    {
+      "question": "３００えんは どう よみますか。",
+      "instruction": "Cách đọc 300 yên là gì?",
+      "options": [
+        "さんびゃくえん",
+        "さんひゃくえん",
+        "さんぴゃくえん",
+        "みっひゃくえん"
+      ],
+      "answer": 0,
+      "explanation": "300 đọc là さんびゃく (ひゃく biến thành びゃく sau さん)."
+    },
+    {
+      "question": "あれ（　）みせて ください。",
+      "meaning": "Xin cho tôi xem cái kia.",
+      "options": [
+        "を",
+        "は",
+        "が",
+        "の"
+      ],
+      "answer": 0,
+      "explanation": "N を みせて ください: xin cho tôi xem N."
+    },
+    {
+      "question": "じゃ、これ（　）ください。",
+      "meaning": "Vậy thì cho tôi cái này.",
+      "options": [
+        "を",
+        "が",
+        "に",
+        "で"
+      ],
+      "answer": 0,
+      "explanation": "N を ください: xin cho tôi N."
+    },
+    {
+      "question": "「うけつけは ２かいです」を ただしく かいた ぶんは どれですか。",
+      "instruction": "Chọn câu đúng nói “Quầy tiếp tân ở tầng 2”.",
+      "options": [
+        "うけつけは にかいです。",
+        "うけつけは にかいに です。",
+        "うけつけが にかいです。",
+        "うけつけの にかいです。"
+      ],
+      "answer": 0,
+      "explanation": "Mẫu câu: N1 は N2(vị trí) です."
+    },
+    {
+      "question": "これは（　）の ネクタイですか。── フランスのです。",
+      "meaning": "Đây là cà vạt của nơi nào? ── Của Pháp.",
+      "options": [
+        "どこ",
+        "だれ",
+        "なん",
+        "いくつ"
+      ],
+      "answer": 0,
+      "explanation": "どこの N hỏi xuất xứ (nơi sản xuất)."
+    },
+    {
+      "question": "エレベーターは（　）ですか。── あちらです。",
+      "meaning": "Thang máy ở đâu ạ? ── Ở phía kia ạ.",
+      "options": [
+        "どちら",
+        "どれ",
+        "だれ",
+        "なん"
+      ],
+      "answer": 0,
+      "explanation": "どちら là cách nói lịch sự của どこ, trả lời bằng こちら／そちら／あちら."
+    },
+    {
+      "question": "くつうりばは（　）ですか。── ちか １かいです。",
+      "meaning": "Quầy bán giày ở tầng mấy? ── Tầng hầm 1.",
+      "options": [
+        "なんがい",
+        "なんかい",
+        "いくら",
+        "どなた"
+      ],
+      "answer": 0,
+      "explanation": "Hỏi tầng dùng なんがい (biến âm か thành が). なんかい là “mấy lần”."
+    },
+    {
+      "question": "これは どこの ワインですか。── フランス（　）です。",
+      "meaning": "Đây là rượu vang của nước nào? ── Là của Pháp.",
+      "options": [
+        "の",
+        "じん",
+        "ご",
+        "を"
+      ],
+      "answer": 0,
+      "explanation": "N の thay cho N の ワイン: フランスの = (rượu) của Pháp. じん là người, ご là ngôn ngữ."
+    },
+    {
+      "question": "かいしゃは（　）ですか。── IMCです。",
+      "meaning": "Công ty của anh là công ty nào ạ? ── Là IMC.",
+      "options": [
+        "どちら",
+        "どなた",
+        "おいくつ",
+        "いくら"
+      ],
+      "answer": 0,
+      "explanation": "どちら lịch sự, dùng hỏi tên công ty, trường, nước của người nghe. どなた chỉ hỏi người."
+    },
+    {
+      "question": "この かばんは（　）えんです。（６００えん）",
+      "meaning": "Cái cặp này 600 yên.",
+      "options": [
+        "ろっぴゃく",
+        "ろくひゃく",
+        "ろっひゃく",
+        "ろくびゃく"
+      ],
+      "answer": 0,
+      "explanation": "600 đọc là ろっぴゃく (ろく → ろっ, ひゃく → ぴゃく). Tương tự: 300 さんびゃく, 800 はっぴゃく."
+    },
+    {
+      "question": "じゃ、この かさを（　）。",
+      "meaning": "Vậy thì cho tôi cái ô này.",
+      "options": [
+        "ください",
+        "です",
+        "ありません",
+        "どこですか"
+      ],
+      "answer": 0,
+      "explanation": "N を ください: xin cho tôi N (khi mua hàng). じゃ dùng khi đã quyết định."
+    },
+    {
+      "question": "＿＿ ＿＿ ★ ＿＿ か。",
+      "instruction": "Sắp xếp các từ cho đúng thứ tự và chọn từ ở vị trí ★.",
+      "meaning": "Cái cà vạt đó là của nước nào?",
+      "options": [
+        "どこの",
+        "その",
+        "ネクタイは",
+        "です"
+      ],
+      "answer": 0,
+      "explanation": "Câu đúng: その ネクタイは どこの です か。 どこの hỏi xuất xứ (nước, công ty sản xuất); の thay cho danh từ ネクタイ đã rõ."
+    },
+    {
+      "question": "＿＿ ＿＿ ★ ＿＿ ください。",
+      "instruction": "Sắp xếp các từ cho đúng thứ tự và chọn từ ở vị trí ★.",
+      "meaning": "Xin cho tôi xem đôi giày đó.",
+      "options": [
+        "を",
+        "その",
+        "くつ",
+        "みせて"
+      ],
+      "answer": 0,
+      "explanation": "Câu đúng: その くつ を みせて ください。 その + danh từ, vật muốn xem đi với を: N を みせて ください."
+    },
+    {
+      "question": "正しい ぶんは どれですか。",
+      "instruction": "Chọn câu đúng.",
+      "options": [
+        "おくには どちらですか。",
+        "おくには どなたですか。",
+        "おくには だれですか。",
+        "おくには いくらですか。"
+      ],
+      "answer": 0,
+      "explanation": "Hỏi đất nước của người nghe một cách lịch sự: おくには どちらですか. どなた／だれ hỏi người, いくら hỏi giá."
+    },
+    {
+      "question": "「この ワインは いくらですか。」「（　）」",
+      "hint": "chọn câu trả lời đúng",
+      "meaning": "Chai rượu vang này bao nhiêu tiền?",
+      "options": [
+        "２,５００えんです。",
+        "イタリアの ワインです。",
+        "ちかです。",
+        "はい、そうです。"
+      ],
+      "answer": 0,
+      "explanation": "いくら hỏi giá tiền, nên trả lời bằng số + えん."
+    }
+  ]
+}

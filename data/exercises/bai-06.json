@@ -1,0 +1,347 @@
+{
+  "lesson": 6,
+  "questions": [
+    {
+      "question": "ごはん（　）たべます。",
+      "meaning": "Tôi ăn cơm.",
+      "options": [
+        "を",
+        "が",
+        "に",
+        "へ"
+      ],
+      "answer": 0,
+      "explanation": "を chỉ đối tượng của động từ (tha động từ)."
+    },
+    {
+      "question": "「なに（　）のみますか。」「おちゃを のみます。」",
+      "meaning": "Bạn uống gì? Tôi uống trà.",
+      "options": [
+        "を",
+        "に",
+        "で",
+        "へ"
+      ],
+      "answer": 0,
+      "explanation": "Từ để hỏi なに ở vị trí đối tượng cũng đi với を."
+    },
+    {
+      "question": "えき（　）しんぶんを かいます。",
+      "meaning": "Tôi mua báo ở ga.",
+      "options": [
+        "で",
+        "を",
+        "に",
+        "へ"
+      ],
+      "answer": 0,
+      "explanation": "で chỉ nơi diễn ra hành động."
+    },
+    {
+      "question": "ともだち（　）レストランで ごはんを たべます。",
+      "meaning": "Tôi ăn cơm với bạn ở nhà hàng.",
+      "options": [
+        "と",
+        "を",
+        "が",
+        "に"
+      ],
+      "answer": 0,
+      "explanation": "と chỉ người cùng làm."
+    },
+    {
+      "question": "きのう サッカー（　）しました。",
+      "meaning": "Hôm qua tôi đã chơi bóng đá.",
+      "options": [
+        "を",
+        "に",
+        "で",
+        "へ"
+      ],
+      "answer": 0,
+      "explanation": "N を します: làm, chơi N."
+    },
+    {
+      "question": "いっしょに ひるごはんを（　）。",
+      "hint": "lời rủ người khác cùng làm",
+      "meaning": "Cùng ăn trưa nhé?",
+      "options": [
+        "たべませんか",
+        "たべません",
+        "たべました",
+        "たべます"
+      ],
+      "answer": 0,
+      "explanation": "V ませんか dùng để rủ ai cùng làm việc gì."
+    },
+    {
+      "question": "いっしょに おはなみを（　）。",
+      "hint": "đề nghị cùng làm",
+      "meaning": "Chúng ta cùng ngắm hoa nào.",
+      "options": [
+        "しましょう",
+        "しませんか",
+        "しました",
+        "しません"
+      ],
+      "answer": 0,
+      "explanation": "V ましょう dùng để đề nghị hoặc hưởng ứng việc cùng làm."
+    },
+    {
+      "question": "「いっしょに ビールを のみませんか。」「ええ、（　）。」",
+      "meaning": "Cùng uống bia không? ── Vâng, hay đấy.",
+      "options": [
+        "いいですね",
+        "いいえ",
+        "ちがいます",
+        "そうじゃありません"
+      ],
+      "answer": 0,
+      "explanation": "Đồng ý lời mời: ええ、いいですね."
+    },
+    {
+      "question": "「いっしょに ごはんを たべませんか。」を ことわる ときの ていねいな いいかたは どれですか。",
+      "instruction": "Cách từ chối khéo lời mời “Vませんか” là câu nào?",
+      "options": [
+        "すみません、ちょっと…",
+        "ええ、いいですね",
+        "ええ、たべましょう",
+        "はい、そうです"
+      ],
+      "answer": 0,
+      "explanation": "Từ chối nhẹ nhàng: すみません、ちょっと…"
+    },
+    {
+      "question": "けさ なにも（　）。",
+      "meaning": "Sáng nay tôi không ăn gì cả.",
+      "options": [
+        "たべませんでした",
+        "たべました",
+        "たべます",
+        "たべましょう"
+      ],
+      "answer": 0,
+      "explanation": "なにも + động từ phủ định: không ~ gì cả. Sáng nay đã qua nên dùng ませんでした."
+    },
+    {
+      "question": "あした なに（　）しますか。",
+      "meaning": "Ngày mai bạn làm gì?",
+      "options": [
+        "を",
+        "に",
+        "で",
+        "へ"
+      ],
+      "answer": 0,
+      "explanation": "なにを しますか: bạn làm gì?"
+    },
+    {
+      "question": "まいあさ しんぶん（　）よみます。",
+      "meaning": "Mỗi sáng tôi đọc báo.",
+      "options": [
+        "を",
+        "に",
+        "の",
+        "も"
+      ],
+      "answer": 0,
+      "explanation": "よみます là tha động từ nên đối tượng đi với を."
+    },
+    {
+      "question": "えきで ともだち（　）あいます。",
+      "meaning": "Tôi gặp bạn ở ga.",
+      "options": [
+        "に",
+        "を",
+        "が",
+        "と"
+      ],
+      "answer": 0,
+      "explanation": "あいます đi với に: gặp ai."
+    },
+    {
+      "question": "みせ（　）かいものを します。",
+      "meaning": "Tôi mua sắm ở cửa hàng.",
+      "options": [
+        "で",
+        "へ",
+        "に",
+        "を"
+      ],
+      "answer": 0,
+      "explanation": "で chỉ nơi diễn ra hành động mua sắm."
+    },
+    {
+      "question": "「いつも」の いみは どれですか。",
+      "instruction": "いつも có nghĩa là gì?",
+      "options": [
+        "Luôn luôn",
+        "Thỉnh thoảng",
+        "Không bao giờ",
+        "Một chút"
+      ],
+      "answer": 0,
+      "explanation": "いつも là luôn luôn, ときどき là thỉnh thoảng."
+    },
+    {
+      "question": "正しい ぶんは どれですか。",
+      "instruction": "Chọn câu đúng.",
+      "options": [
+        "ごはんを たべます。",
+        "ごはんが たべます。",
+        "ごはんに たべます。",
+        "ごはんへ たべます。"
+      ],
+      "answer": 0,
+      "explanation": "Đối tượng của たべます đi với を."
+    },
+    {
+      "question": "「たべます」の ひてい（げんざい）は どれですか。",
+      "instruction": "Dạng phủ định (hiện tại) của たべます là gì?",
+      "options": [
+        "たべません",
+        "たべませんでした",
+        "たべないます",
+        "たべました"
+      ],
+      "answer": 0,
+      "explanation": "Phủ định hiện tại của ます là ません."
+    },
+    {
+      "question": "「いっしょに ひるごはんを たべませんか。」に「はい」と こたえる とき、どう いいますか。",
+      "instruction": "Khi đồng ý lời rủ “いっしょに ひるごはんを たべませんか”, ta đáp thế nào?",
+      "options": [
+        "ええ、たべましょう",
+        "いいえ、ちがいます",
+        "ええ、たべました",
+        "すみません、はい"
+      ],
+      "answer": 0,
+      "explanation": "Đồng ý: ええ、V ましょう hoặc ええ、いいですね."
+    },
+    {
+      "question": "あした いっしょに としょかんで べんきょう（　）。",
+      "hint": "lời rủ người khác cùng làm",
+      "meaning": "Ngày mai cùng học ở thư viện không?",
+      "options": [
+        "しませんか",
+        "しませんでしたか",
+        "しましたか",
+        "しません"
+      ],
+      "answer": 0,
+      "explanation": "V ませんか dùng để rủ người khác cùng làm gì."
+    },
+    {
+      "question": "きのう デパート（　）くつを かいました。",
+      "meaning": "Hôm qua tôi đã mua giày ở bách hóa.",
+      "options": [
+        "で",
+        "を",
+        "へ",
+        "が"
+      ],
+      "answer": 0,
+      "explanation": "で chỉ nơi diễn ra hành động (mua giày ở bách hóa)."
+    },
+    {
+      "question": "「ちょっと やすみ（　）。」「ええ、やすみましょう。」",
+      "meaning": "Chúng ta nghỉ một chút nhé. ── Vâng, nghỉ thôi.",
+      "options": [
+        "ましょう",
+        "ません",
+        "ませんでした",
+        "ました"
+      ],
+      "answer": 0,
+      "explanation": "V ましょう: đề nghị cùng làm gì; người nghe hưởng ứng cũng bằng V ましょう."
+    },
+    {
+      "question": "きのう なに（　）しませんでした。",
+      "meaning": "Hôm qua tôi không làm gì cả.",
+      "options": [
+        "も",
+        "を",
+        "が",
+        "に"
+      ],
+      "answer": 0,
+      "explanation": "なにも + động từ phủ định: không ~ gì cả."
+    },
+    {
+      "question": "にちようびに ともだちと テニス（　）します。",
+      "meaning": "Chủ nhật tôi chơi tennis với bạn.",
+      "options": [
+        "を",
+        "で",
+        "に",
+        "と"
+      ],
+      "answer": 0,
+      "explanation": "N を します: chơi/làm N. と đã dùng cho người cùng chơi (ともだちと)."
+    },
+    {
+      "question": "わたしは まいにち レポート（　）かきます。",
+      "meaning": "Mỗi ngày tôi viết báo cáo.",
+      "options": [
+        "を",
+        "で",
+        "に",
+        "が"
+      ],
+      "answer": 0,
+      "explanation": "かきます là tha động từ, đối tượng (レポート) đi với を."
+    },
+    {
+      "question": "わたしは ＿＿ ＿＿ ★ ＿＿ よみます。",
+      "instruction": "Sắp xếp các từ cho đúng thứ tự và chọn từ ở vị trí ★.",
+      "meaning": "Tôi đọc báo của Nhật.",
+      "options": [
+        "しんぶん",
+        "にほん",
+        "の",
+        "を"
+      ],
+      "answer": 0,
+      "explanation": "Câu đúng: わたしは にほん の しんぶん を よみます。 N1 の N2 (にほんの しんぶん), đối tượng đi với を."
+    },
+    {
+      "question": "あなたは まいあさ ＿＿ ＿＿ ★ ＿＿。",
+      "instruction": "Sắp xếp các từ cho đúng thứ tự và chọn từ ở vị trí ★.",
+      "meaning": "Mỗi sáng bạn ăn gì?",
+      "options": [
+        "たべます",
+        "なに",
+        "を",
+        "か"
+      ],
+      "answer": 0,
+      "explanation": "Câu đúng: あなたは まいあさ なに を たべます か。 なにを hỏi đối tượng, động từ rồi か ở cuối."
+    },
+    {
+      "question": "正しい ぶんは どれですか。",
+      "instruction": "Chọn câu đúng.",
+      "options": [
+        "としょかんで ほんを よみます。",
+        "としょかんを ほんで よみます。",
+        "としょかんへ ほんを よみます。",
+        "としょかんで ほんが よみます。"
+      ],
+      "answer": 0,
+      "explanation": "Nơi diễn ra hành động đi với で, đối tượng của よみます đi với を."
+    },
+    {
+      "question": "「きのう なにを しましたか。」「（　）」",
+      "hint": "chọn câu trả lời đúng",
+      "meaning": "Hôm qua bạn đã làm gì?",
+      "options": [
+        "としょかんで べんきょうしました。",
+        "としょかんで べんきょうします。",
+        "としょかんへ べんきょうしました。",
+        "としょかんを べんきょうしました。"
+      ],
+      "answer": 0,
+      "explanation": "Câu hỏi quá khứ thì trả lời bằng V ました. Nơi diễn ra hành động dùng で."
+    }
+  ]
+}

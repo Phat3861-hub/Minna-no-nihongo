@@ -1,0 +1,336 @@
+{
+  "lesson": 8,
+  "questions": [
+    {
+      "question": "この まちは（　）です。",
+      "meaning": "Thành phố này nhộn nhịp.",
+      "options": [
+        "にぎやか",
+        "にぎやかい",
+        "にぎやくない",
+        "にぎいです"
+      ],
+      "answer": 0,
+      "explanation": "にぎやか là tính từ な nên dùng như N: にぎやかです."
+    },
+    {
+      "question": "この ほんは（　）です。",
+      "hint": "khẳng định",
+      "meaning": "Quyển sách này hay.",
+      "options": [
+        "おもしろい",
+        "おもしろな",
+        "おもしろく",
+        "おもしろくない"
+      ],
+      "answer": 0,
+      "explanation": "おもしろい là tính từ い, thêm です trực tiếp."
+    },
+    {
+      "question": "ここは（　）。",
+      "meaning": "Ở đây không yên tĩnh.",
+      "options": [
+        "しずかじゃありません",
+        "しずかくないです",
+        "しずかなじゃありません",
+        "しずくないです"
+      ],
+      "answer": 0,
+      "explanation": "Tính từ な phủ định: bỏ な thêm じゃありません."
+    },
+    {
+      "question": "この りょうりは（　）。",
+      "hint": "phủ định, hiện tại",
+      "meaning": "Món này không ngon.",
+      "options": [
+        "おいしくないです",
+        "おいしいじゃありません",
+        "おいしじゃありません",
+        "おいしくありませんでした"
+      ],
+      "answer": 0,
+      "explanation": "Tính từ い phủ định: bỏ い thêm くないです."
+    },
+    {
+      "question": "きょうは てんきが（　）。",
+      "meaning": "Hôm nay thời tiết không tốt.",
+      "options": [
+        "よくないです",
+        "いくないです",
+        "いいくないです",
+        "いいじゃないです"
+      ],
+      "answer": 0,
+      "explanation": "いい là ngoại lệ: phủ định là よくないです."
+    },
+    {
+      "question": "ふじさんは（　）やまです。",
+      "hint": "khẳng định",
+      "meaning": "Núi Phú Sĩ là ngọn núi cao.",
+      "options": [
+        "たかい",
+        "たかいな",
+        "たかな",
+        "たかくない"
+      ],
+      "answer": 0,
+      "explanation": "Tính từ い đặt trước danh từ giữ nguyên い."
+    },
+    {
+      "question": "ならは（　）まちです。",
+      "meaning": "Nara là thị trấn yên tĩnh.",
+      "options": [
+        "しずかな",
+        "しずかい",
+        "しずか",
+        "しずかの"
+      ],
+      "answer": 0,
+      "explanation": "Tính từ な đặt trước danh từ thì thêm な."
+    },
+    {
+      "question": "あの ひとは（　）ひとです。",
+      "meaning": "Người kia là người nổi tiếng.",
+      "options": [
+        "ゆうめいな",
+        "ゆうめいい",
+        "ゆうめい",
+        "ゆうめいの"
+      ],
+      "answer": 0,
+      "explanation": "ゆうめい là tính từ な nên thêm な khi đứng trước danh từ."
+    },
+    {
+      "question": "この ラーメンは あまり（　）。",
+      "meaning": "Món mì này không ngon lắm.",
+      "options": [
+        "おいしくないです",
+        "おいしいです",
+        "おいしかったです",
+        "おいしかない"
+      ],
+      "answer": 0,
+      "explanation": "あまり đi với dạng phủ định."
+    },
+    {
+      "question": "この ほんは（　）おもしろいです。",
+      "hint": "khen ở mức độ cao",
+      "meaning": "Quyển sách này rất hay.",
+      "options": [
+        "とても",
+        "あまり",
+        "ぜんぜん",
+        "いつも"
+      ],
+      "answer": 0,
+      "explanation": "とても có nghĩa là rất, đi với khẳng định."
+    },
+    {
+      "question": "にほんの せいかつは（　）ですか。── おもしろいです。",
+      "meaning": "Cuộc sống ở Nhật thế nào? ── Thú vị.",
+      "options": [
+        "どう",
+        "どんな",
+        "どれ",
+        "いくら"
+      ],
+      "answer": 0,
+      "explanation": "どう hỏi cảm nhận, tình trạng, không có danh từ phía sau."
+    },
+    {
+      "question": "ふじさんは（　）やまですか。── たかい やまです。",
+      "meaning": "Núi Phú Sĩ là ngọn núi như thế nào?",
+      "options": [
+        "どんな",
+        "どう",
+        "どれ",
+        "なに"
+      ],
+      "answer": 0,
+      "explanation": "どんな luôn đi kèm danh từ phía sau."
+    },
+    {
+      "question": "にほんの たべものは おいしいです（　）、たかいです。",
+      "meaning": "Đồ ăn Nhật ngon nhưng đắt.",
+      "options": [
+        "が",
+        "から",
+        "を",
+        "で"
+      ],
+      "answer": 0,
+      "explanation": "S1 が S2 nối hai vế có ý trái ngược."
+    },
+    {
+      "question": "ミラーさんは しんせつです。（　）ハンサムです。",
+      "meaning": "Anh Miller tốt bụng. Và còn đẹp trai nữa.",
+      "options": [
+        "そして",
+        "しかし",
+        "でも",
+        "が"
+      ],
+      "answer": 0,
+      "explanation": "そして nối thêm thông tin cùng chiều: và, hơn nữa."
+    },
+    {
+      "question": "ぶんるい： どれが な-けいようしですか。",
+      "instruction": "Từ nào là tính từ な?",
+      "options": [
+        "きれい",
+        "おおきい",
+        "やすい",
+        "あたらしい"
+      ],
+      "answer": 0,
+      "explanation": "きれい là tính từ な dù kết thúc bằng い. Các từ còn lại là tính từ い."
+    },
+    {
+      "question": "ぶんるい： どれが い-けいようしですか。",
+      "instruction": "Từ nào là tính từ い?",
+      "options": [
+        "いい",
+        "ゆうめい",
+        "しずか",
+        "げんき"
+      ],
+      "answer": 0,
+      "explanation": "いい là tính từ い (phủ định là よくない). Các từ còn lại là tính từ な."
+    },
+    {
+      "question": "この ほんは あまり（　）。",
+      "meaning": "Quyển sách này không thú vị lắm.",
+      "options": [
+        "おもしろくないです",
+        "おもしろいです",
+        "おもしろなです",
+        "おもしろいじゃないです"
+      ],
+      "answer": 0,
+      "explanation": "Tính từ い phủ định: bỏ い thêm くないです."
+    },
+    {
+      "question": "わたしの へやは（　）へやです。",
+      "meaning": "Phòng tôi là căn phòng nhỏ.",
+      "options": [
+        "ちいさい",
+        "ちいさいな",
+        "ちいさの",
+        "ちいさく"
+      ],
+      "answer": 0,
+      "explanation": "Tính từ い đứng trước danh từ giữ nguyên い, không thêm な hay の."
+    },
+    {
+      "question": "ミラーさんは（　）ひとです。",
+      "meaning": "Anh Miller là người tốt bụng.",
+      "options": [
+        "しんせつな",
+        "しんせつ",
+        "しんせつい",
+        "しんせつの"
+      ],
+      "answer": 0,
+      "explanation": "しんせつ là tính từ な, đứng trước danh từ phải thêm な."
+    },
+    {
+      "question": "この かばんは あまり（　）。",
+      "meaning": "Cái cặp này không mới lắm.",
+      "options": [
+        "あたらしくないです",
+        "あたらしいです",
+        "あたらしくです",
+        "あたらしいじゃありません"
+      ],
+      "answer": 0,
+      "explanation": "あまり đi với phủ định. Tính từ い phủ định: bỏ い thêm くないです."
+    },
+    {
+      "question": "この まちは あまり（　）。",
+      "meaning": "Thành phố này không nhộn nhịp lắm.",
+      "options": [
+        "にぎやかじゃありません",
+        "にぎやかくないです",
+        "にぎやかなじゃありません",
+        "にぎやかです"
+      ],
+      "answer": 0,
+      "explanation": "Tính từ な phủ định: bỏ な thêm じゃありません. あまり đi với phủ định."
+    },
+    {
+      "question": "「にほんごの べんきょうは どうですか。」「むずかしいです（　）、おもしろいです。」",
+      "meaning": "Việc học tiếng Nhật thế nào? ── Khó nhưng thú vị.",
+      "options": [
+        "が",
+        "そして",
+        "と",
+        "を"
+      ],
+      "answer": 0,
+      "explanation": "S1 が、S2: nối hai vế có ý trái ngược (khó nhưng thú vị)."
+    },
+    {
+      "question": "ミラーさんの かばんは（　）ですか。── あの あかい かばんです。",
+      "meaning": "Cặp của anh Miller là cái nào? ── Là cái cặp màu đỏ kia.",
+      "options": [
+        "どれ",
+        "どんな",
+        "どう",
+        "なん"
+      ],
+      "answer": 0,
+      "explanation": "どれ hỏi “cái nào” trong nhiều vật. どんな phải có danh từ theo sau, どう hỏi cảm nhận."
+    },
+    {
+      "question": "あの ひとは ＿＿ ★ ＿＿ ＿＿。",
+      "instruction": "Sắp xếp các từ cho đúng thứ tự và chọn từ ở vị trí ★.",
+      "meaning": "Người kia là người rất nổi tiếng.",
+      "options": [
+        "ゆうめいな",
+        "とても",
+        "ひと",
+        "です"
+      ],
+      "answer": 0,
+      "explanation": "Câu đúng: あの ひとは とても ゆうめいな ひと です。 とても đứng trước tính từ; tính từ な + な + danh từ."
+    },
+    {
+      "question": "にほんの ＿＿ ＿＿ ★ ＿＿。",
+      "instruction": "Sắp xếp các từ cho đúng thứ tự và chọn từ ở vị trí ★.",
+      "meaning": "Đồ ăn Nhật ngon nhưng đắt.",
+      "options": [
+        "が",
+        "たべものは",
+        "おいしいです",
+        "たかいです"
+      ],
+      "answer": 0,
+      "explanation": "Câu đúng: にほんの たべものは おいしいです が、たかいです。 が nối hai vế trái ngược, đứng sau vế thứ nhất."
+    },
+    {
+      "question": "正しい ぶんは どれですか。",
+      "instruction": "Chọn câu đúng.",
+      "options": [
+        "この りょうりは とても おいしいです。",
+        "この りょうりは あまり おいしいです。",
+        "この りょうりは とても おいしいなです。",
+        "この りょうりは おいしいくないです。"
+      ],
+      "answer": 0,
+      "explanation": "とても + khẳng định, あまり + phủ định. Tính từ い không thêm な; phủ định là おいしくないです."
+    },
+    {
+      "question": "「もう いっぱい いかがですか。」「（　）」",
+      "hint": "từ chối lịch sự",
+      "meaning": "Anh dùng thêm một chén nữa nhé?",
+      "options": [
+        "いいえ、けっこうです。",
+        "いいえ、いかがです。",
+        "はい、けっこうですか。",
+        "いいえ、ちがいます。"
+      ],
+      "answer": 0,
+      "explanation": "Từ chối lịch sự khi được mời thêm: いいえ、けっこうです (không, đủ rồi ạ)."
+    }
+  ]
+}

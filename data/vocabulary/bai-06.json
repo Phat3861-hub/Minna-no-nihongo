@@ -1,0 +1,261 @@
+{
+  "lesson": 6,
+  "title": "Ăn uống và hành động hằng ngày",
+  "words": [
+    {
+      "kana": "たべます",
+      "kanji": "食べます",
+      "vi": "ăn"
+    },
+    {
+      "kana": "のみます",
+      "kanji": "飲みます",
+      "vi": "uống"
+    },
+    {
+      "kana": "すいます",
+      "kanji": "吸います",
+      "vi": "hút (thuốc lá)"
+    },
+    {
+      "kana": "みます",
+      "kanji": "見ます",
+      "vi": "xem, nhìn"
+    },
+    {
+      "kana": "ききます",
+      "kanji": "聞きます",
+      "vi": "nghe"
+    },
+    {
+      "kana": "よみます",
+      "kanji": "読みます",
+      "vi": "đọc"
+    },
+    {
+      "kana": "かきます",
+      "kanji": "書きます",
+      "vi": "viết, vẽ"
+    },
+    {
+      "kana": "かいます",
+      "kanji": "買います",
+      "vi": "mua"
+    },
+    {
+      "kana": "とります",
+      "kanji": "撮ります",
+      "vi": "chụp (ảnh)"
+    },
+    {
+      "kana": "します",
+      "kanji": "",
+      "vi": "làm"
+    },
+    {
+      "kana": "あいます",
+      "kanji": "会います",
+      "vi": "gặp (bạn)"
+    },
+    {
+      "kana": "ごはん",
+      "kanji": "ご飯",
+      "vi": "cơm, bữa ăn"
+    },
+    {
+      "kana": "あさごはん",
+      "kanji": "朝ご飯",
+      "vi": "bữa sáng"
+    },
+    {
+      "kana": "ひるごはん",
+      "kanji": "昼ご飯",
+      "vi": "bữa trưa"
+    },
+    {
+      "kana": "ばんごはん",
+      "kanji": "晩ご飯",
+      "vi": "bữa tối"
+    },
+    {
+      "kana": "パン",
+      "kanji": "",
+      "vi": "bánh mì"
+    },
+    {
+      "kana": "たまご",
+      "kanji": "卵",
+      "vi": "trứng"
+    },
+    {
+      "kana": "にく",
+      "kanji": "肉",
+      "vi": "thịt"
+    },
+    {
+      "kana": "さかな",
+      "kanji": "魚",
+      "vi": "cá"
+    },
+    {
+      "kana": "やさい",
+      "kanji": "野菜",
+      "vi": "rau"
+    },
+    {
+      "kana": "くだもの",
+      "kanji": "果物",
+      "vi": "trái cây, hoa quả"
+    },
+    {
+      "kana": "みず",
+      "kanji": "水",
+      "vi": "nước"
+    },
+    {
+      "kana": "おちゃ",
+      "kanji": "お茶",
+      "vi": "trà (trà xanh)"
+    },
+    {
+      "kana": "こうちゃ",
+      "kanji": "紅茶",
+      "vi": "trà đen, hồng trà"
+    },
+    {
+      "kana": "ぎゅうにゅう",
+      "kanji": "牛乳",
+      "vi": "sữa bò"
+    },
+    {
+      "kana": "ジュース",
+      "kanji": "",
+      "vi": "nước ép, nước ngọt"
+    },
+    {
+      "kana": "ビール",
+      "kanji": "",
+      "vi": "bia"
+    },
+    {
+      "kana": "おさけ",
+      "kanji": "お酒",
+      "vi": "rượu, rượu sake"
+    },
+    {
+      "kana": "ビデオ",
+      "kanji": "",
+      "vi": "băng video, đầu video"
+    },
+    {
+      "kana": "シーディー",
+      "kanji": "CD",
+      "vi": "đĩa CD"
+    },
+    {
+      "kana": "てがみ",
+      "kanji": "手紙",
+      "vi": "thư"
+    },
+    {
+      "kana": "レポート",
+      "kanji": "",
+      "vi": "báo cáo"
+    },
+    {
+      "kana": "しゃしん",
+      "kanji": "写真",
+      "vi": "ảnh"
+    },
+    {
+      "kana": "みせ",
+      "kanji": "店",
+      "vi": "cửa hàng, quán"
+    },
+    {
+      "kana": "レストラン",
+      "kanji": "",
+      "vi": "nhà hàng"
+    },
+    {
+      "kana": "にわ",
+      "kanji": "庭",
+      "vi": "vườn"
+    },
+    {
+      "kana": "しゅくだい",
+      "kanji": "宿題",
+      "vi": "bài tập về nhà"
+    },
+    {
+      "kana": "テニス",
+      "kanji": "",
+      "vi": "tennis"
+    },
+    {
+      "kana": "サッカー",
+      "kanji": "",
+      "vi": "bóng đá"
+    },
+    {
+      "kana": "おはなみ",
+      "kanji": "お花見",
+      "vi": "ngắm hoa anh đào"
+    },
+    {
+      "kana": "なに",
+      "kanji": "何",
+      "vi": "cái gì"
+    },
+    {
+      "kana": "いっしょに",
+      "kanji": "一緒に",
+      "vi": "cùng nhau"
+    },
+    {
+      "kana": "ちょっと",
+      "kanji": "",
+      "vi": "một chút"
+    },
+    {
+      "kana": "いつも",
+      "kanji": "",
+      "vi": "luôn luôn"
+    },
+    {
+      "kana": "ときどき",
+      "kanji": "時々",
+      "vi": "thỉnh thoảng"
+    },
+    {
+      "kana": "それから",
+      "kanji": "",
+      "vi": "sau đó, và rồi"
+    },
+    {
+      "kana": "ええ",
+      "kanji": "",
+      "vi": "vâng, ừ"
+    },
+    {
+      "kana": "いいですね",
+      "kanji": "",
+      "vi": "hay nhỉ, tốt nhỉ"
+    },
+    {
+      "kana": "わかりました",
+      "kanji": "",
+      "vi": "tôi hiểu rồi"
+    },
+    {
+      "kana": "なんですか",
+      "kanji": "何ですか",
+      "vi": "có chuyện gì vậy ạ?"
+    },
+    {
+      "kana": "じゃ、また[あした]",
+      "kanji": "",
+      "vi": "hẹn gặp lại [ngày mai]"
+    }
+  ]
+}

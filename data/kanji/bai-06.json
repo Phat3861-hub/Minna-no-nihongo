@@ -1,0 +1,529 @@
+{
+  "id": "b6",
+  "name": "Bài 6",
+  "kanji": [
+    {
+      "char": "高",
+      "hanViet": "CAO",
+      "meaning": "cao, đắt",
+      "on": "コウ",
+      "kun": "たか・い",
+      "examples": [
+        {
+          "word": "高い",
+          "reading": "たかい",
+          "meaning": "cao, đắt"
+        },
+        {
+          "word": "高校",
+          "reading": "こうこう",
+          "meaning": "trường cấp 3"
+        }
+      ]
+    },
+    {
+      "char": "安",
+      "hanViet": "AN",
+      "meaning": "rẻ, yên ổn",
+      "on": "アン",
+      "kun": "やす・い",
+      "examples": [
+        {
+          "word": "安い",
+          "reading": "やすい",
+          "meaning": "rẻ"
+        },
+        {
+          "word": "安心",
+          "reading": "あんしん",
+          "meaning": "yên tâm"
+        }
+      ]
+    },
+    {
+      "char": "大",
+      "hanViet": "ĐẠI",
+      "meaning": "to, lớn",
+      "on": "ダイ、タイ",
+      "kun": "おお・きい",
+      "examples": [
+        {
+          "word": "大きい",
+          "reading": "おおきい",
+          "meaning": "to"
+        },
+        {
+          "word": "大学",
+          "reading": "だいがく",
+          "meaning": "đại học"
+        },
+        {
+          "word": "大切",
+          "reading": "たいせつ",
+          "meaning": "quan trọng"
+        }
+      ]
+    },
+    {
+      "char": "小",
+      "hanViet": "TIỂU",
+      "meaning": "nhỏ",
+      "on": "ショウ",
+      "kun": "ちい・さい",
+      "examples": [
+        {
+          "word": "小さい",
+          "reading": "ちいさい",
+          "meaning": "nhỏ"
+        },
+        {
+          "word": "小学校",
+          "reading": "しょうがっこう",
+          "meaning": "trường tiểu học"
+        }
+      ]
+    },
+    {
+      "char": "新",
+      "hanViet": "TÂN",
+      "meaning": "mới",
+      "on": "シン",
+      "kun": "あたら・しい",
+      "examples": [
+        {
+          "word": "新しい",
+          "reading": "あたらしい",
+          "meaning": "mới"
+        },
+        {
+          "word": "新聞",
+          "reading": "しんぶん",
+          "meaning": "báo"
+        }
+      ]
+    },
+    {
+      "char": "古",
+      "hanViet": "CỔ",
+      "meaning": "cũ",
+      "on": "コ",
+      "kun": "ふる・い",
+      "examples": [
+        {
+          "word": "古い",
+          "reading": "ふるい",
+          "meaning": "cũ"
+        }
+      ]
+    },
+    {
+      "char": "青",
+      "hanViet": "THANH",
+      "meaning": "xanh",
+      "on": "セイ",
+      "kun": "あお、あお・い",
+      "examples": [
+        {
+          "word": "青い",
+          "reading": "あおい",
+          "meaning": "xanh da trời"
+        },
+        {
+          "word": "青年",
+          "reading": "せいねん",
+          "meaning": "thanh niên"
+        }
+      ]
+    },
+    {
+      "char": "白",
+      "hanViet": "BẠCH",
+      "meaning": "trắng",
+      "on": "ハク",
+      "kun": "しろ、しろ・い",
+      "examples": [
+        {
+          "word": "白い",
+          "reading": "しろい",
+          "meaning": "trắng"
+        }
+      ]
+    },
+    {
+      "char": "赤",
+      "hanViet": "XÍCH",
+      "meaning": "đỏ",
+      "on": "セキ",
+      "kun": "あか、あか・い",
+      "examples": [
+        {
+          "word": "赤い",
+          "reading": "あかい",
+          "meaning": "đỏ"
+        },
+        {
+          "word": "赤ちゃん",
+          "reading": "あかちゃん",
+          "meaning": "em bé"
+        }
+      ]
+    },
+    {
+      "char": "黒",
+      "hanViet": "HẮC",
+      "meaning": "đen",
+      "on": "コク",
+      "kun": "くろ、くろ・い",
+      "examples": [
+        {
+          "word": "黒い",
+          "reading": "くろい",
+          "meaning": "đen"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "type": "read",
+      "sentence": "この かばんは {高い}です。",
+      "meaning": "Cái cặp này đắt.",
+      "options": [
+        "たかい",
+        "こうい",
+        "たけい",
+        "だかい"
+      ],
+      "wordMeaning": "cao, đắt"
+    },
+    {
+      "type": "read",
+      "sentence": "この みせの くつは {安い}です。",
+      "meaning": "Giày ở cửa hàng này rẻ.",
+      "options": [
+        "やすい",
+        "あんい",
+        "やさい",
+        "あすい"
+      ],
+      "wordMeaning": "rẻ"
+    },
+    {
+      "type": "read",
+      "sentence": "{大きい} いえですね。",
+      "meaning": "Ngôi nhà to nhỉ.",
+      "options": [
+        "おおきい",
+        "おうきい",
+        "おきい",
+        "だいきい"
+      ],
+      "wordMeaning": "to, lớn",
+      "tip": "大きい viết là おおきい (với お), không phải おうきい."
+    },
+    {
+      "type": "read",
+      "sentence": "{小さい} ねこが います。",
+      "meaning": "Có một con mèo nhỏ.",
+      "options": [
+        "ちいさい",
+        "ちさい",
+        "しょうさい",
+        "ちいざい"
+      ],
+      "wordMeaning": "nhỏ"
+    },
+    {
+      "type": "read",
+      "sentence": "{新しい} くつを かいました。",
+      "meaning": "Tôi đã mua giày mới.",
+      "options": [
+        "あたらしい",
+        "あらたしい",
+        "しんしい",
+        "あたらいい"
+      ],
+      "wordMeaning": "mới"
+    },
+    {
+      "type": "read",
+      "sentence": "この じしょは {古い}です。",
+      "meaning": "Cuốn từ điển này cũ.",
+      "options": [
+        "ふるい",
+        "ふろい",
+        "こい",
+        "ぶるい"
+      ],
+      "wordMeaning": "cũ"
+    },
+    {
+      "type": "read",
+      "sentence": "{青い} そらが きれいです。",
+      "meaning": "Bầu trời xanh thật đẹp.",
+      "options": [
+        "あおい",
+        "あうい",
+        "せいい",
+        "あをい"
+      ],
+      "wordMeaning": "xanh da trời"
+    },
+    {
+      "type": "read",
+      "sentence": "{白い} シャツを きます。",
+      "meaning": "Tôi mặc áo sơ mi trắng.",
+      "options": [
+        "しろい",
+        "しらい",
+        "はくい",
+        "じろい"
+      ],
+      "wordMeaning": "trắng"
+    },
+    {
+      "type": "read",
+      "sentence": "{赤い} はなが すきです。",
+      "meaning": "Tôi thích hoa màu đỏ.",
+      "options": [
+        "あかい",
+        "あがい",
+        "せきい",
+        "あけい"
+      ],
+      "wordMeaning": "đỏ"
+    },
+    {
+      "type": "read",
+      "sentence": "{黒い} かばんは だれのですか。",
+      "meaning": "Cái cặp màu đen là của ai?",
+      "options": [
+        "くろい",
+        "くらい",
+        "こくい",
+        "ぐろい"
+      ],
+      "wordMeaning": "đen"
+    },
+    {
+      "type": "read",
+      "sentence": "{大学}の せんせいです。",
+      "meaning": "Tôi là giảng viên đại học.",
+      "options": [
+        "だいがく",
+        "たいがく",
+        "だいかく",
+        "おおがく"
+      ],
+      "wordMeaning": "đại học"
+    },
+    {
+      "type": "read",
+      "sentence": "{小学校}の となりに あります。",
+      "meaning": "Nó ở bên cạnh trường tiểu học.",
+      "options": [
+        "しょうがっこう",
+        "しょがっこう",
+        "ちいがっこう",
+        "しょうがこう"
+      ],
+      "wordMeaning": "trường tiểu học"
+    },
+    {
+      "type": "read",
+      "sentence": "{赤ちゃん}が ないて います。",
+      "meaning": "Em bé đang khóc.",
+      "options": [
+        "あかちゃん",
+        "あがちゃん",
+        "せきちゃん",
+        "あかじゃん"
+      ],
+      "wordMeaning": "em bé"
+    },
+    {
+      "type": "read",
+      "sentence": "{大切}な しゃしんです。",
+      "meaning": "Đây là tấm ảnh quan trọng.",
+      "options": [
+        "たいせつ",
+        "だいせつ",
+        "おおせつ",
+        "たいせっつ"
+      ],
+      "wordMeaning": "quan trọng",
+      "tip": "大 đọc là たい trong 大切, đọc だい trong 大学."
+    },
+    {
+      "type": "read",
+      "sentence": "この ほんは {新しくない}です。",
+      "meaning": "Quyển sách này không mới.",
+      "options": [
+        "あたらしくない",
+        "あらたしくない",
+        "しんしくない",
+        "あたらしない"
+      ],
+      "wordMeaning": "không mới"
+    },
+    {
+      "type": "read",
+      "sentence": "{安心}して ください。",
+      "meaning": "Xin hãy yên tâm.",
+      "options": [
+        "あんしん",
+        "あんじん",
+        "やすしん",
+        "あいしん"
+      ],
+      "wordMeaning": "yên tâm"
+    },
+    {
+      "type": "write",
+      "sentence": "この とけいは {たかい}です。",
+      "meaning": "Cái đồng hồ này đắt.",
+      "options": [
+        "高い",
+        "京い",
+        "亭い",
+        "商い"
+      ],
+      "wordMeaning": "cao, đắt"
+    },
+    {
+      "type": "write",
+      "sentence": "この みせは {やすい}です。",
+      "meaning": "Cửa hàng này rẻ.",
+      "options": [
+        "安い",
+        "家い",
+        "女い",
+        "宇い"
+      ],
+      "wordMeaning": "rẻ",
+      "tip": "安 = 宀 (mái nhà) + 女 (phụ nữ)."
+    },
+    {
+      "type": "write",
+      "sentence": "{おおきい} かばんですね。",
+      "meaning": "Cái cặp to nhỉ.",
+      "options": [
+        "大きい",
+        "太きい",
+        "犬きい",
+        "天きい"
+      ],
+      "wordMeaning": "to, lớn",
+      "tip": "大 (to), 太 (béo, có chấm ở dưới), 犬 (chó, có chấm ở trên phải)."
+    },
+    {
+      "type": "write",
+      "sentence": "{ちいさい} かさを かいました。",
+      "meaning": "Tôi đã mua cái ô nhỏ.",
+      "options": [
+        "小さい",
+        "少さい",
+        "水さい",
+        "心さい"
+      ],
+      "wordMeaning": "nhỏ",
+      "tip": "小 (nhỏ) và 少 (ít, có nét phẩy dưới) dễ nhầm."
+    },
+    {
+      "type": "write",
+      "sentence": "{あたらしい} くるまですね。",
+      "meaning": "Xe ô tô mới nhỉ.",
+      "options": [
+        "新しい",
+        "親しい",
+        "薪しい",
+        "析しい"
+      ],
+      "wordMeaning": "mới"
+    },
+    {
+      "type": "write",
+      "sentence": "この いえは {ふるい}です。",
+      "meaning": "Ngôi nhà này cũ.",
+      "options": [
+        "古い",
+        "吉い",
+        "右い",
+        "舌い"
+      ],
+      "wordMeaning": "cũ"
+    },
+    {
+      "type": "write",
+      "sentence": "{あおい} シャツを かいました。",
+      "meaning": "Tôi đã mua áo sơ mi xanh.",
+      "options": [
+        "青い",
+        "晴い",
+        "清い",
+        "静い"
+      ],
+      "wordMeaning": "xanh da trời"
+    },
+    {
+      "type": "write",
+      "sentence": "{しろい} かみを ください。",
+      "meaning": "Cho tôi tờ giấy trắng.",
+      "options": [
+        "白い",
+        "百い",
+        "自い",
+        "日い"
+      ],
+      "wordMeaning": "trắng"
+    },
+    {
+      "type": "write",
+      "sentence": "{あかい} かさは わたしのです。",
+      "meaning": "Cái ô màu đỏ là của tôi.",
+      "options": [
+        "赤い",
+        "走い",
+        "亦い",
+        "赦い"
+      ],
+      "wordMeaning": "đỏ"
+    },
+    {
+      "type": "write",
+      "sentence": "{くろい} ねこが います。",
+      "meaning": "Có con mèo đen.",
+      "options": [
+        "黒い",
+        "里い",
+        "墨い",
+        "黙い"
+      ],
+      "wordMeaning": "đen"
+    },
+    {
+      "type": "write",
+      "sentence": "わたしは {だいがく}の がくせいです。",
+      "meaning": "Tôi là sinh viên đại học.",
+      "options": [
+        "大学",
+        "太学",
+        "大字",
+        "犬学"
+      ],
+      "wordMeaning": "đại học"
+    },
+    {
+      "type": "write",
+      "sentence": "{こうこう}の ともだちに あいました。",
+      "meaning": "Tôi đã gặp bạn cấp 3.",
+      "options": [
+        "高校",
+        "高枚",
+        "京校",
+        "高交"
+      ],
+      "wordMeaning": "trường cấp 3"
+    }
+  ]
+}

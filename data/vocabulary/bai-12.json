@@ -1,0 +1,255 @@
+{
+  "lesson": 12,
+  "title": "So sánh, thời tiết và mùa",
+  "words": [
+    {
+      "kana": "かんたん[な]",
+      "kanji": "簡単[な]",
+      "vi": "đơn giản, dễ",
+      "note": "Tính từ な"
+    },
+    {
+      "kana": "ちかい",
+      "kanji": "近い",
+      "vi": "gần"
+    },
+    {
+      "kana": "とおい",
+      "kanji": "遠い",
+      "vi": "xa"
+    },
+    {
+      "kana": "はやい",
+      "kanji": "速い・早い",
+      "vi": "nhanh, sớm",
+      "note": "速い: nhanh; 早い: sớm"
+    },
+    {
+      "kana": "おそい",
+      "kanji": "遅い",
+      "vi": "chậm, muộn"
+    },
+    {
+      "kana": "[ひとが]おおい",
+      "kanji": "[人が]多い",
+      "vi": "[người] đông, nhiều"
+    },
+    {
+      "kana": "[ひとが]すくない",
+      "kanji": "[人が]少ない",
+      "vi": "[người] ít"
+    },
+    {
+      "kana": "あたたかい",
+      "kanji": "暖かい・温かい",
+      "vi": "ấm",
+      "note": "暖かい: thời tiết; 温かい: đồ vật, đồ ăn"
+    },
+    {
+      "kana": "すずしい",
+      "kanji": "涼しい",
+      "vi": "mát"
+    },
+    {
+      "kana": "あまい",
+      "kanji": "甘い",
+      "vi": "ngọt"
+    },
+    {
+      "kana": "からい",
+      "kanji": "辛い",
+      "vi": "cay"
+    },
+    {
+      "kana": "おもい",
+      "kanji": "重い",
+      "vi": "nặng"
+    },
+    {
+      "kana": "かるい",
+      "kanji": "軽い",
+      "vi": "nhẹ"
+    },
+    {
+      "kana": "いい[コーヒーが～]",
+      "kanji": "",
+      "vi": "thích, chọn [cà phê]",
+      "note": "Dùng khi chọn: コーヒーがいいです"
+    },
+    {
+      "kana": "きせつ",
+      "kanji": "季節",
+      "vi": "mùa"
+    },
+    {
+      "kana": "はる",
+      "kanji": "春",
+      "vi": "mùa xuân"
+    },
+    {
+      "kana": "なつ",
+      "kanji": "夏",
+      "vi": "mùa hè"
+    },
+    {
+      "kana": "あき",
+      "kanji": "秋",
+      "vi": "mùa thu"
+    },
+    {
+      "kana": "ふゆ",
+      "kanji": "冬",
+      "vi": "mùa đông"
+    },
+    {
+      "kana": "てんき",
+      "kanji": "天気",
+      "vi": "thời tiết"
+    },
+    {
+      "kana": "あめ",
+      "kanji": "雨",
+      "vi": "mưa"
+    },
+    {
+      "kana": "ゆき",
+      "kanji": "雪",
+      "vi": "tuyết"
+    },
+    {
+      "kana": "くもり",
+      "kanji": "曇り",
+      "vi": "có mây, trời âm u"
+    },
+    {
+      "kana": "ホテル",
+      "kanji": "",
+      "vi": "khách sạn"
+    },
+    {
+      "kana": "くうこう",
+      "kanji": "空港",
+      "vi": "sân bay"
+    },
+    {
+      "kana": "うみ",
+      "kanji": "海",
+      "vi": "biển, đại dương"
+    },
+    {
+      "kana": "せかい",
+      "kanji": "世界",
+      "vi": "thế giới"
+    },
+    {
+      "kana": "パーティー",
+      "kanji": "",
+      "vi": "tiệc",
+      "note": "Dùng với をします: パーティーをします"
+    },
+    {
+      "kana": "[お]まつり",
+      "kanji": "[お]祭り",
+      "vi": "lễ hội"
+    },
+    {
+      "kana": "しけん",
+      "kanji": "試験",
+      "vi": "kỳ thi, bài thi"
+    },
+    {
+      "kana": "すきやき",
+      "kanji": "",
+      "vi": "sukiyaki (lẩu thịt bò kiểu Nhật)"
+    },
+    {
+      "kana": "さしみ",
+      "kanji": "刺身",
+      "vi": "sashimi (cá sống thái lát)"
+    },
+    {
+      "kana": "[お]すし",
+      "kanji": "",
+      "vi": "sushi"
+    },
+    {
+      "kana": "てんぷら",
+      "kanji": "",
+      "vi": "tempura (đồ chiên tẩm bột)"
+    },
+    {
+      "kana": "いけばな",
+      "kanji": "生け花",
+      "vi": "nghệ thuật cắm hoa",
+      "note": "Dùng với をします: いけばなをします"
+    },
+    {
+      "kana": "もみじ",
+      "kanji": "紅葉",
+      "vi": "lá đỏ mùa thu, cây phong"
+    },
+    {
+      "kana": "どちら",
+      "kanji": "",
+      "vi": "cái nào, bên nào (so sánh giữa hai thứ)"
+    },
+    {
+      "kana": "どちらも",
+      "kanji": "",
+      "vi": "cả hai đều"
+    },
+    {
+      "kana": "ずっと",
+      "kanji": "",
+      "vi": "hơn hẳn, suốt",
+      "note": "Dùng để nhấn mạnh sự khác biệt khi so sánh"
+    },
+    {
+      "kana": "はじめて",
+      "kanji": "初めて",
+      "vi": "lần đầu tiên"
+    },
+    {
+      "kana": "ただいま",
+      "kanji": "",
+      "vi": "tôi đã về rồi đây",
+      "note": "Nói khi về đến nhà"
+    },
+    {
+      "kana": "おかえりなさい",
+      "kanji": "お帰りなさい",
+      "vi": "anh/chị đã về đấy à",
+      "note": "Đáp lại ただいま"
+    },
+    {
+      "kana": "すごいですね",
+      "kanji": "",
+      "vi": "giỏi quá nhỉ, tuyệt quá nhỉ"
+    },
+    {
+      "kana": "でも",
+      "kanji": "",
+      "vi": "nhưng, tuy nhiên (đầu câu)"
+    },
+    {
+      "kana": "つかれました",
+      "kanji": "疲れました",
+      "vi": "tôi mệt rồi"
+    },
+    {
+      "kana": "ホンコン",
+      "kanji": "香港",
+      "vi": "Hồng Kông"
+    },
+    {
+      "kana": "シンガポール",
+      "kanji": "",
+      "vi": "Singapore"
+    },
+    {
+      "kana": "ぎおんまつり",
+      "kanji": "祇園祭",
+      "vi": "lễ hội Gion (Kyoto)"
+    }
+  ]
+}

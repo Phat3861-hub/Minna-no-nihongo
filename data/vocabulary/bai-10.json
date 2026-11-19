@@ -1,0 +1,252 @@
+{
+  "lesson": 10,
+  "title": "Có, ở và vị trí",
+  "words": [
+    {
+      "kana": "あります",
+      "kanji": "",
+      "vi": "có, ở (đồ vật, cây cối)",
+      "note": "Dùng cho vật không tự chuyển động: つくえのうえにほんがあります"
+    },
+    {
+      "kana": "います",
+      "kanji": "",
+      "vi": "có, ở (người, động vật)",
+      "note": "Dùng cho người và động vật: こうえんにこどもがいます"
+    },
+    {
+      "kana": "いろいろ[な]",
+      "kanji": "",
+      "vi": "nhiều loại, đa dạng",
+      "note": "Tính từ な"
+    },
+    {
+      "kana": "おとこのひと",
+      "kanji": "男の人",
+      "vi": "người đàn ông"
+    },
+    {
+      "kana": "おんなのひと",
+      "kanji": "女の人",
+      "vi": "người phụ nữ"
+    },
+    {
+      "kana": "おとこのこ",
+      "kanji": "男の子",
+      "vi": "cậu bé, bé trai"
+    },
+    {
+      "kana": "おんなのこ",
+      "kanji": "女の子",
+      "vi": "cô bé, bé gái"
+    },
+    {
+      "kana": "いぬ",
+      "kanji": "犬",
+      "vi": "con chó"
+    },
+    {
+      "kana": "ねこ",
+      "kanji": "猫",
+      "vi": "con mèo"
+    },
+    {
+      "kana": "パンダ",
+      "kanji": "",
+      "vi": "gấu trúc"
+    },
+    {
+      "kana": "ぞう",
+      "kanji": "象",
+      "vi": "con voi"
+    },
+    {
+      "kana": "き",
+      "kanji": "木",
+      "vi": "cây, gỗ"
+    },
+    {
+      "kana": "もの",
+      "kanji": "物",
+      "vi": "đồ vật, đồ"
+    },
+    {
+      "kana": "でんち",
+      "kanji": "電池",
+      "vi": "pin"
+    },
+    {
+      "kana": "はこ",
+      "kanji": "箱",
+      "vi": "cái hộp"
+    },
+    {
+      "kana": "スイッチ",
+      "kanji": "",
+      "vi": "công tắc"
+    },
+    {
+      "kana": "れいぞうこ",
+      "kanji": "冷蔵庫",
+      "vi": "tủ lạnh"
+    },
+    {
+      "kana": "テーブル",
+      "kanji": "",
+      "vi": "cái bàn"
+    },
+    {
+      "kana": "ベッド",
+      "kanji": "",
+      "vi": "cái giường"
+    },
+    {
+      "kana": "たな",
+      "kanji": "棚",
+      "vi": "cái giá, kệ"
+    },
+    {
+      "kana": "ドア",
+      "kanji": "",
+      "vi": "cửa"
+    },
+    {
+      "kana": "まど",
+      "kanji": "窓",
+      "vi": "cửa sổ"
+    },
+    {
+      "kana": "ポスト",
+      "kanji": "",
+      "vi": "hòm thư, hộp thư"
+    },
+    {
+      "kana": "ビル",
+      "kanji": "",
+      "vi": "tòa nhà cao tầng"
+    },
+    {
+      "kana": "エーティーエム",
+      "kanji": "ATM",
+      "vi": "máy rút tiền tự động"
+    },
+    {
+      "kana": "コンビニ",
+      "kanji": "",
+      "vi": "cửa hàng tiện lợi"
+    },
+    {
+      "kana": "こうえん",
+      "kanji": "公園",
+      "vi": "công viên"
+    },
+    {
+      "kana": "きっさてん",
+      "kanji": "喫茶店",
+      "vi": "quán cà phê, quán giải khát"
+    },
+    {
+      "kana": "～や",
+      "kanji": "～屋",
+      "vi": "cửa hàng ~, tiệm ~",
+      "note": "Ví dụ: ほんや (hiệu sách), パンや (tiệm bánh mì)"
+    },
+    {
+      "kana": "のりば",
+      "kanji": "乗り場",
+      "vi": "bến, chỗ lên xe"
+    },
+    {
+      "kana": "けん",
+      "kanji": "県",
+      "vi": "tỉnh"
+    },
+    {
+      "kana": "うえ",
+      "kanji": "上",
+      "vi": "trên, phía trên"
+    },
+    {
+      "kana": "した",
+      "kanji": "下",
+      "vi": "dưới, phía dưới"
+    },
+    {
+      "kana": "まえ",
+      "kanji": "前",
+      "vi": "trước, phía trước"
+    },
+    {
+      "kana": "うしろ",
+      "kanji": "後ろ",
+      "vi": "sau, phía sau"
+    },
+    {
+      "kana": "みぎ",
+      "kanji": "右",
+      "vi": "bên phải"
+    },
+    {
+      "kana": "ひだり",
+      "kanji": "左",
+      "vi": "bên trái"
+    },
+    {
+      "kana": "なか",
+      "kanji": "中",
+      "vi": "trong, bên trong"
+    },
+    {
+      "kana": "そと",
+      "kanji": "外",
+      "vi": "ngoài, bên ngoài"
+    },
+    {
+      "kana": "となり",
+      "kanji": "隣",
+      "vi": "bên cạnh, sát bên",
+      "note": "Dùng cho hai thứ cùng loại đứng sát nhau"
+    },
+    {
+      "kana": "ちかく",
+      "kanji": "近く",
+      "vi": "gần, chỗ gần"
+    },
+    {
+      "kana": "あいだ",
+      "kanji": "間",
+      "vi": "giữa, ở giữa"
+    },
+    {
+      "kana": "～や～[など]",
+      "kanji": "",
+      "vi": "~ và ~ (v.v.)",
+      "note": "Liệt kê vài thứ tiêu biểu, khác với と là liệt kê đủ"
+    },
+    {
+      "kana": "[どうも]すみません",
+      "kanji": "",
+      "vi": "cảm ơn (vì đã làm phiền)"
+    },
+    {
+      "kana": "ナンプラー",
+      "kanji": "",
+      "vi": "nước mắm"
+    },
+    {
+      "kana": "コーナー",
+      "kanji": "",
+      "vi": "góc, khu (trong cửa hàng)"
+    },
+    {
+      "kana": "いちばんした",
+      "kanji": "いちばん下",
+      "vi": "ngăn dưới cùng, chỗ thấp nhất"
+    },
+    {
+      "kana": "とうきょうディズニーランド",
+      "kanji": "東京ディズニーランド",
+      "vi": "Tokyo Disneyland"
+    }
+  ]
+}

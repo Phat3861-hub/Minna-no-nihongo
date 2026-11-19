@@ -1,0 +1,206 @@
+{
+  "id": "b14",
+  "name": "Bài 14",
+  "kanji": [
+    {
+      "char": "便",
+      "hanViet": "TIỆN",
+      "meaning": "tiện lợi, thư tín",
+      "on": "ベン、ビン",
+      "kun": "たよ・り",
+      "examples": [
+        {
+          "word": "便利",
+          "reading": "べんり",
+          "meaning": "tiện lợi"
+        },
+        {
+          "word": "郵便局",
+          "reading": "ゆうびんきょく",
+          "meaning": "bưu điện"
+        }
+      ]
+    },
+    {
+      "char": "利",
+      "hanViet": "LỢI",
+      "meaning": "lợi ích",
+      "on": "リ",
+      "kun": "—",
+      "examples": [
+        {
+          "word": "便利",
+          "reading": "べんり",
+          "meaning": "tiện lợi"
+        }
+      ]
+    },
+    {
+      "char": "元",
+      "hanViet": "NGUYÊN",
+      "meaning": "gốc, nguồn",
+      "on": "ゲン",
+      "kun": "もと",
+      "examples": [
+        {
+          "word": "元気",
+          "reading": "げんき",
+          "meaning": "khỏe"
+        }
+      ]
+    },
+    {
+      "char": "気",
+      "hanViet": "KHÍ",
+      "meaning": "khí, tinh thần",
+      "on": "キ、ケ",
+      "kun": "—",
+      "examples": [
+        {
+          "word": "元気",
+          "reading": "げんき",
+          "meaning": "khỏe"
+        },
+        {
+          "word": "天気",
+          "reading": "てんき",
+          "meaning": "thời tiết"
+        },
+        {
+          "word": "電気",
+          "reading": "でんき",
+          "meaning": "điện, đèn"
+        }
+      ]
+    },
+    {
+      "char": "親",
+      "hanViet": "THÂN",
+      "meaning": "cha mẹ, thân thiết",
+      "on": "シン",
+      "kun": "おや",
+      "examples": [
+        {
+          "word": "親切",
+          "reading": "しんせつ",
+          "meaning": "tốt bụng"
+        },
+        {
+          "word": "両親",
+          "reading": "りょうしん",
+          "meaning": "bố mẹ"
+        }
+      ]
+    },
+    {
+      "char": "有",
+      "hanViet": "HỮU",
+      "meaning": "có",
+      "on": "ユウ",
+      "kun": "あ・る",
+      "examples": [
+        {
+          "word": "有名",
+          "reading": "ゆうめい",
+          "meaning": "nổi tiếng"
+        }
+      ]
+    },
+    {
+      "char": "名",
+      "hanViet": "DANH",
+      "meaning": "tên",
+      "on": "メイ、ミョウ",
+      "kun": "な",
+      "examples": [
+        {
+          "word": "名前",
+          "reading": "なまえ",
+          "meaning": "tên"
+        },
+        {
+          "word": "名刺",
+          "reading": "めいし",
+          "meaning": "danh thiếp"
+        },
+        {
+          "word": "有名",
+          "reading": "ゆうめい",
+          "meaning": "nổi tiếng"
+        }
+      ]
+    },
+    {
+      "char": "地",
+      "hanViet": "ĐỊA",
+      "meaning": "đất, địa",
+      "on": "チ、ジ",
+      "kun": "—",
+      "examples": [
+        {
+          "word": "地下",
+          "reading": "ちか",
+          "meaning": "tầng hầm"
+        },
+        {
+          "word": "地下鉄",
+          "reading": "ちかてつ",
+          "meaning": "tàu điện ngầm"
+        },
+        {
+          "word": "地図",
+          "reading": "ちず",
+          "meaning": "bản đồ"
+        }
+      ]
+    },
+    {
+      "char": "鉄",
+      "hanViet": "THIẾT",
+      "meaning": "sắt",
+      "on": "テツ",
+      "kun": "—",
+      "examples": [
+        {
+          "word": "地下鉄",
+          "reading": "ちかてつ",
+          "meaning": "tàu điện ngầm"
+        }
+      ]
+    },
+    {
+      "char": "仕",
+      "hanViet": "SĨ",
+      "meaning": "làm việc, phục vụ",
+      "on": "シ",
+      "kun": "つか・える",
+      "examples": [
+        {
+          "word": "仕事",
+          "reading": "しごと",
+          "meaning": "công việc"
+        }
+      ]
+    },
+    {
+      "char": "事",
+      "hanViet": "SỰ",
+      "meaning": "việc",
+      "on": "ジ、ズ",
+      "kun": "こと",
+      "examples": [
+        {
+          "word": "仕事",
+          "reading": "しごと",
+          "meaning": "công việc"
+        },
+        {
+          "word": "食事",
+          "reading": "しょくじ",
+          "meaning": "bữa ăn"
+        }
+      ]
+    }
+  ],
+  "sentences": []
+}

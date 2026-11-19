@@ -1,0 +1,197 @@
+{
+  "lesson": 13,
+  "title": "Mong muốn và mục đích",
+  "words": [
+    {
+      "kana": "あそびます",
+      "kanji": "遊びます",
+      "vi": "chơi"
+    },
+    {
+      "kana": "およぎます",
+      "kanji": "泳ぎます",
+      "vi": "bơi"
+    },
+    {
+      "kana": "むかえます",
+      "kanji": "迎えます",
+      "vi": "đón",
+      "note": "Ví dụ: えきへ ともだちを むかえに いきます"
+    },
+    {
+      "kana": "つかれます",
+      "kanji": "疲れます",
+      "vi": "mệt",
+      "note": "Thường dùng つかれました để nói đang mệt"
+    },
+    {
+      "kana": "けっこんします",
+      "kanji": "結婚します",
+      "vi": "kết hôn, lập gia đình"
+    },
+    {
+      "kana": "かいものします",
+      "kanji": "買い物します",
+      "vi": "mua sắm",
+      "note": "Đi mua sắm: かいものに いきます"
+    },
+    {
+      "kana": "しょくじします",
+      "kanji": "食事します",
+      "vi": "ăn cơm, dùng bữa"
+    },
+    {
+      "kana": "[こうえんを]さんぽします",
+      "kanji": "[公園を]散歩します",
+      "vi": "đi dạo [ở công viên]",
+      "note": "Trợ từ を chỉ nơi đi qua"
+    },
+    {
+      "kana": "たいへん[な]",
+      "kanji": "大変[な]",
+      "vi": "vất vả, khó khăn, gay go",
+      "note": "Tính từ な"
+    },
+    {
+      "kana": "ほしい",
+      "kanji": "欲しい",
+      "vi": "muốn có",
+      "note": "Tính từ い: N が ほしいです"
+    },
+    {
+      "kana": "さびしい",
+      "kanji": "寂しい",
+      "vi": "buồn, cô đơn"
+    },
+    {
+      "kana": "ひろい",
+      "kanji": "広い",
+      "vi": "rộng"
+    },
+    {
+      "kana": "せまい",
+      "kanji": "狭い",
+      "vi": "chật, hẹp"
+    },
+    {
+      "kana": "しやくしょ",
+      "kanji": "市役所",
+      "vi": "tòa thị chính, ủy ban thành phố"
+    },
+    {
+      "kana": "プール",
+      "kanji": "",
+      "vi": "bể bơi"
+    },
+    {
+      "kana": "かわ",
+      "kanji": "川",
+      "vi": "sông"
+    },
+    {
+      "kana": "けいざい",
+      "kanji": "経済",
+      "vi": "kinh tế"
+    },
+    {
+      "kana": "びじゅつ",
+      "kanji": "美術",
+      "vi": "mỹ thuật"
+    },
+    {
+      "kana": "つり",
+      "kanji": "釣り",
+      "vi": "việc câu cá",
+      "note": "つりを します: câu cá"
+    },
+    {
+      "kana": "スキー",
+      "kanji": "",
+      "vi": "trượt tuyết",
+      "note": "スキーを します: trượt tuyết"
+    },
+    {
+      "kana": "かいぎ",
+      "kanji": "会議",
+      "vi": "cuộc họp",
+      "note": "かいぎを します: họp"
+    },
+    {
+      "kana": "とうろく",
+      "kanji": "登録",
+      "vi": "đăng ký",
+      "note": "とうろくを します: đăng ký"
+    },
+    {
+      "kana": "しゅうまつ",
+      "kanji": "週末",
+      "vi": "cuối tuần"
+    },
+    {
+      "kana": "[お]しょうがつ",
+      "kanji": "[お]正月",
+      "vi": "Tết, năm mới"
+    },
+    {
+      "kana": "～ごろ",
+      "kanji": "",
+      "vi": "khoảng ~ (thời điểm)",
+      "note": "Khác ～ぐらい (lượng, độ dài thời gian): ７じごろ, ２じかんぐらい"
+    },
+    {
+      "kana": "なにか",
+      "kanji": "何か",
+      "vi": "cái gì đó"
+    },
+    {
+      "kana": "どこか",
+      "kanji": "",
+      "vi": "đâu đó, chỗ nào đó"
+    },
+    {
+      "kana": "のどがかわきます",
+      "kanji": "のどが渇きます",
+      "vi": "khát",
+      "note": "Thường dùng のどが かわきました"
+    },
+    {
+      "kana": "おなかがすきます",
+      "kanji": "",
+      "vi": "đói",
+      "note": "Thường dùng おなかが すきました"
+    },
+    {
+      "kana": "そうしましょう",
+      "kanji": "",
+      "vi": "làm thế đi, nhất trí vậy",
+      "note": "Đồng ý với lời rủ của người khác"
+    },
+    {
+      "kana": "[ご]ちゅうもんは？",
+      "kanji": "[ご]注文は？",
+      "vi": "quý khách gọi món gì ạ?",
+      "note": "Nhân viên nhà hàng hỏi"
+    },
+    {
+      "kana": "ていしょく",
+      "kanji": "定食",
+      "vi": "suất ăn, cơm suất"
+    },
+    {
+      "kana": "ぎゅうどん",
+      "kanji": "牛どん",
+      "vi": "cơm thịt bò (gyudon)"
+    },
+    {
+      "kana": "[しょうしょう]おまちください",
+      "kanji": "[少々]お待ちください",
+      "vi": "xin vui lòng đợi [một chút]"
+    },
+    {
+      "kana": "べつべつに",
+      "kanji": "別々に",
+      "vi": "riêng ra (tính tiền riêng)",
+      "note": "べつべつに おねがいします: cho tính tiền riêng"
+    }
+  ]
+}

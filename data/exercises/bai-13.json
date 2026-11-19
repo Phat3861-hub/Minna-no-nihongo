@@ -1,0 +1,349 @@
+{
+  "lesson": 13,
+  "questions": [
+    {
+      "question": "わたしは あたらしい くるま（　）ほしいです。",
+      "meaning": "Tôi muốn có một chiếc ô tô mới.",
+      "options": [
+        "が",
+        "を",
+        "に",
+        "で"
+      ],
+      "answer": 0,
+      "explanation": "N が ほしいです: đối tượng muốn có đi với trợ từ が, không dùng を."
+    },
+    {
+      "question": "いま なにが いちばん（　）ですか。",
+      "meaning": "Bây giờ bạn muốn có cái gì nhất?",
+      "options": [
+        "ほしい",
+        "ほしく",
+        "ほしいたい",
+        "ほし"
+      ],
+      "answer": 0,
+      "explanation": "なにが ほしいですか: hỏi muốn có cái gì. ほしい là tính từ い, giữ nguyên い trước です."
+    },
+    {
+      "question": "わたしは すしを（　）です。",
+      "meaning": "Tôi muốn ăn sushi.",
+      "options": [
+        "たべたい",
+        "たべます",
+        "たべほしい",
+        "たべるたい"
+      ],
+      "answer": 0,
+      "explanation": "V bỏ ます + たいです: muốn làm V. たべます → たべたいです."
+    },
+    {
+      "question": "なにも（　）。",
+      "meaning": "Tôi không muốn ăn gì cả.",
+      "options": [
+        "たべたくないです",
+        "たべたいじゃありません",
+        "たべたいないです",
+        "たべないたいです"
+      ],
+      "answer": 0,
+      "explanation": "たい chia như tính từ い: phủ định là ～たくないです. なにも đi với phủ định."
+    },
+    {
+      "question": "のどが かわきましたね。なにか（　）です。",
+      "meaning": "Khát quá nhỉ. Tôi muốn uống gì đó.",
+      "options": [
+        "のみたい",
+        "のみ",
+        "のむたい",
+        "のみました"
+      ],
+      "answer": 0,
+      "explanation": "V bỏ ます + たいです: のみます → のみたいです."
+    },
+    {
+      "question": "こうべへ インドりょうりを たべ（　）いきます。",
+      "meaning": "Tôi đi Kobe để ăn món Ấn Độ.",
+      "options": [
+        "に",
+        "へ",
+        "で",
+        "を"
+      ],
+      "answer": 0,
+      "explanation": "N(địa điểm) へ V(bỏ ます) に いきます: đi đến đâu để làm gì."
+    },
+    {
+      "question": "デパートへ（　）に いきます。",
+      "meaning": "Tôi đi cửa hàng bách hóa để mua sắm.",
+      "options": [
+        "かいもの",
+        "かいものを",
+        "かいものします",
+        "かいものた"
+      ],
+      "answer": 0,
+      "explanation": "Với động từ dạng N します (かいものします) có thể dùng N に いきます: かいものに いきます."
+    },
+    {
+      "question": "きょうとの おまつり（　）いきます。",
+      "meaning": "Tôi đi lễ hội ở Kyoto.",
+      "options": [
+        "に",
+        "を",
+        "で",
+        "が"
+      ],
+      "answer": 0,
+      "explanation": "Danh từ chỉ sự kiện (おまつり, パーティー, コンサート) + に いきます: đi xem, đi dự sự kiện đó."
+    },
+    {
+      "question": "えきへ ともだちを（　）に いきます。",
+      "meaning": "Tôi ra ga để đón bạn.",
+      "options": [
+        "むかえ",
+        "むかえます",
+        "むかえる",
+        "むかえて"
+      ],
+      "answer": 0,
+      "explanation": "V bỏ ます + に いきます: むかえます → むかえに いきます."
+    },
+    {
+      "question": "にちようびは どこ（　）いきましたか。── いいえ、どこも いきませんでした。",
+      "meaning": "Chủ nhật bạn có đi đâu không? ── Không, tôi không đi đâu cả.",
+      "options": [
+        "か",
+        "も",
+        "が",
+        "に"
+      ],
+      "answer": 0,
+      "explanation": "Câu trả lời bắt đầu bằng いいえ nên câu hỏi là câu hỏi có/không: dùng どこか (đâu đó), trợ từ へ được lược. どこも + phủ định: không đi đâu cả."
+    },
+    {
+      "question": "のどが かわきましたから、（　）のみたいです。",
+      "meaning": "Vì khát nên tôi muốn uống cái gì đó.",
+      "options": [
+        "なにか",
+        "なにも",
+        "なにが",
+        "なんで"
+      ],
+      "answer": 0,
+      "explanation": "なにか: cái gì đó, trợ từ を sau なにか có thể lược. なにも chỉ đi với phủ định."
+    },
+    {
+      "question": "「いっしょに ひるごはんを たべに いきませんか。」「ええ、（　）。」",
+      "meaning": "Cùng đi ăn trưa không? ── Ừ, đi thôi.",
+      "options": [
+        "そう しましょう",
+        "そう しません",
+        "そうじゃ ありません",
+        "いいえ"
+      ],
+      "answer": 0,
+      "explanation": "ええ、そう しましょう: đồng ý với lời rủ của người khác."
+    },
+    {
+      "question": "まいばん ７じ（　）うちへ かえります。",
+      "hint": "khoảng một thời điểm",
+      "meaning": "Mỗi tối tôi về nhà khoảng 7 giờ.",
+      "options": [
+        "ごろ",
+        "ぐらい",
+        "だけ",
+        "まで"
+      ],
+      "answer": 0,
+      "explanation": "～ごろ: khoảng, đặt sau từ chỉ thời điểm (７じごろ). ～ぐらい dùng với số lượng, độ dài thời gian."
+    },
+    {
+      "question": "えきから がっこうまで ３０ぷん（　）かかります。",
+      "meaning": "Từ ga đến trường mất khoảng 30 phút.",
+      "options": [
+        "ぐらい",
+        "ごろ",
+        "に",
+        "を"
+      ],
+      "answer": 0,
+      "explanation": "Độ dài thời gian + ぐらい. ～ごろ chỉ dùng với thời điểm (３じごろ)."
+    },
+    {
+      "question": "「ごちゅうもんは？」「ていしょくを（　）。」",
+      "meaning": "Quý khách gọi món gì ạ? ── Cho tôi suất cơm.",
+      "options": [
+        "おねがいします",
+        "ほしいです",
+        "でございます",
+        "しましょう"
+      ],
+      "answer": 0,
+      "explanation": "Gọi món: N を おねがいします (hoặc N を ください). ほしい không đi với を."
+    },
+    {
+      "question": "すみません、（　）おねがいします。",
+      "hint": "mỗi người trả phần của mình",
+      "meaning": "Xin lỗi, cho chúng tôi tính tiền riêng.",
+      "options": [
+        "べつべつに",
+        "いっしょに",
+        "ぜんぶで",
+        "ちょっと"
+      ],
+      "answer": 0,
+      "explanation": "べつべつに: riêng ra. べつべつに おねがいします: mỗi người trả phần của mình."
+    },
+    {
+      "question": "きのう たくさん あるきましたから、とても（　）。",
+      "hint": "trạng thái sau khi đã đi bộ",
+      "meaning": "Hôm qua đi bộ nhiều nên tôi rất mệt.",
+      "options": [
+        "つかれました",
+        "つかれます",
+        "つかれたいです",
+        "ほしいです"
+      ],
+      "answer": 0,
+      "explanation": "Nói trạng thái mệt sau một hoạt động đã xảy ra dùng つかれました."
+    },
+    {
+      "question": "「ひろい」の はんたいの ことばは どれですか。",
+      "instruction": "Từ trái nghĩa với ひろい (rộng) là từ nào?",
+      "options": [
+        "せまい",
+        "ちいさい",
+        "みじかい",
+        "ひくい"
+      ],
+      "answer": 0,
+      "explanation": "ひろい (rộng) ↔ せまい (chật, hẹp). ちいさい ↔ おおきい, みじかい ↔ ながい, ひくい ↔ たかい."
+    },
+    {
+      "question": "正しい ぶんは どれですか。",
+      "instruction": "Chọn câu đúng.",
+      "options": [
+        "わたしは カメラが ほしいです。",
+        "わたしは カメラを ほしいです。",
+        "わたしは カメラが ほしいたいです。",
+        "わたしは カメラに ほしいです。"
+      ],
+      "answer": 0,
+      "explanation": "N が ほしいです. ほしい không đi với を và không ghép với たい."
+    },
+    {
+      "question": "正しい ぶんは どれですか。",
+      "instruction": "Chọn câu đúng.",
+      "options": [
+        "にほんへ にほんごを べんきょうしに きました。",
+        "にほんへ にほんごを べんきょうに きました。",
+        "にほんへ にほんごを べんきょうしますに きました。",
+        "にほんへ にほんごを べんきょうしたい きました。"
+      ],
+      "answer": 0,
+      "explanation": "Khi có tân ngữ (にほんごを) phải dùng V bỏ ます + に: べんきょうしに きました. Dạng N に chỉ dùng khi không có を: にほんごの べんきょうに きました."
+    },
+    {
+      "question": "きのうは えいがを（　）ですが、じかんが ありませんでした。",
+      "hint": "quá khứ, trái với thực tế",
+      "meaning": "Hôm qua tôi đã muốn xem phim nhưng không có thời gian.",
+      "options": [
+        "みたかった",
+        "みたい",
+        "みたくない",
+        "みました"
+      ],
+      "answer": 0,
+      "explanation": "Quá khứ của ～たい: ～たかったです (chia như tính từ い)."
+    },
+    {
+      "question": "「ふゆやすみは どこか いきましたか。」「（　）」",
+      "hint": "chọn câu trả lời đúng",
+      "meaning": "Kỳ nghỉ đông bạn có đi đâu không?",
+      "options": [
+        "はい、ほっかいどうへ いきました。",
+        "はい、どこへも いきません。",
+        "いいえ、ほっかいどうへ いきました。",
+        "はい、どこへ いきましたか。"
+      ],
+      "answer": 0,
+      "explanation": "Câu hỏi có どこか là câu hỏi có/không: trả lời はい rồi nói nơi đã đi, hoặc いいえ、どこ[へ]も いきませんでした."
+    },
+    {
+      "question": "こうえん（　）さんぽします。",
+      "meaning": "Tôi đi dạo ở công viên.",
+      "options": [
+        "を",
+        "が",
+        "へ",
+        "と"
+      ],
+      "answer": 0,
+      "explanation": "さんぽします dùng trợ từ を chỉ nơi đi qua: こうえんを さんぽします."
+    },
+    {
+      "question": "のどが（　）。",
+      "meaning": "Tôi khát rồi.",
+      "options": [
+        "かわきました",
+        "すきました",
+        "ほしいです",
+        "さびしいです"
+      ],
+      "answer": 0,
+      "explanation": "のどが かわきます: khát. おなかが すきます: đói."
+    },
+    {
+      "question": "おなかが（　）。なにか たべたいです。",
+      "meaning": "Tôi đói rồi. Tôi muốn ăn gì đó.",
+      "options": [
+        "すきました",
+        "かわきました",
+        "つかれました",
+        "ひろいです"
+      ],
+      "answer": 0,
+      "explanation": "おなかが すきました: đói rồi. のどが かわきました: khát rồi."
+    },
+    {
+      "question": "わたしは ＿＿ ＿＿ ★ ＿＿。",
+      "instruction": "Sắp xếp các từ cho đúng thứ tự và chọn từ ở vị trí ★.",
+      "meaning": "Tôi đi thư viện để mượn sách.",
+      "options": [
+        "かりに",
+        "としょかんへ",
+        "ほんを",
+        "いきます"
+      ],
+      "answer": 0,
+      "explanation": "Câu đúng: わたしは としょかんへ ほんを かりに いきます。 N(địa điểm) へ N を V(bỏ ます) に いきます."
+    },
+    {
+      "question": "きょうは ＿＿ ＿＿ ★ ＿＿。",
+      "instruction": "Sắp xếp các từ cho đúng thứ tự và chọn từ ở vị trí ★.",
+      "meaning": "Hôm nay tôi không muốn đi đâu cả.",
+      "options": [
+        "いきたく",
+        "どこ",
+        "へも",
+        "ないです"
+      ],
+      "answer": 0,
+      "explanation": "Câu đúng: きょうは どこ へも いきたく ないです。 どこ[へ]も + phủ định; phủ định của ～たい là ～たくないです."
+    },
+    {
+      "question": "せんせい、コーヒーは（　）。",
+      "hint": "mời người trên một cách lịch sự",
+      "meaning": "Thưa thầy, thầy dùng cà phê không ạ?",
+      "options": [
+        "いかがですか",
+        "のみたいですか",
+        "ほしいですか",
+        "ほしかったですか"
+      ],
+      "answer": 0,
+      "explanation": "Khi mời người khác, nhất là người trên, dùng ～は いかがですか. Hỏi ～たいですか／ほしいですか là thiếu lịch sự."
+    }
+  ]
+}

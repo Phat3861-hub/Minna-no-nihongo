@@ -1,0 +1,315 @@
+{
+  "lesson": 8,
+  "title": "Tính từ い và な",
+  "words": [
+    {
+      "kana": "ハンサム[な]",
+      "kanji": "",
+      "vi": "đẹp trai",
+      "note": "Tính từ な"
+    },
+    {
+      "kana": "きれい[な]",
+      "kanji": "",
+      "vi": "đẹp, sạch",
+      "note": "Tính từ な dù kết thúc bằng い"
+    },
+    {
+      "kana": "しずか[な]",
+      "kanji": "静か[な]",
+      "vi": "yên tĩnh",
+      "note": "Tính từ な"
+    },
+    {
+      "kana": "にぎやか[な]",
+      "kanji": "",
+      "vi": "náo nhiệt, nhộn nhịp",
+      "note": "Tính từ な"
+    },
+    {
+      "kana": "ゆうめい[な]",
+      "kanji": "有名[な]",
+      "vi": "nổi tiếng",
+      "note": "Tính từ な dù kết thúc bằng い"
+    },
+    {
+      "kana": "しんせつ[な]",
+      "kanji": "親切[な]",
+      "vi": "tốt bụng, thân thiện",
+      "note": "Tính từ な, dùng cho người khác, không dùng cho người nhà mình"
+    },
+    {
+      "kana": "げんき[な]",
+      "kanji": "元気[な]",
+      "vi": "khỏe mạnh, khỏe",
+      "note": "Tính từ な"
+    },
+    {
+      "kana": "ひま[な]",
+      "kanji": "暇[な]",
+      "vi": "rảnh rỗi",
+      "note": "Tính từ な"
+    },
+    {
+      "kana": "べんり[な]",
+      "kanji": "便利[な]",
+      "vi": "tiện lợi",
+      "note": "Tính từ な"
+    },
+    {
+      "kana": "すてき[な]",
+      "kanji": "素敵[な]",
+      "vi": "đẹp, hay, tuyệt",
+      "note": "Tính từ な"
+    },
+    {
+      "kana": "おおきい",
+      "kanji": "大きい",
+      "vi": "to, lớn"
+    },
+    {
+      "kana": "ちいさい",
+      "kanji": "小さい",
+      "vi": "bé, nhỏ"
+    },
+    {
+      "kana": "あたらしい",
+      "kanji": "新しい",
+      "vi": "mới"
+    },
+    {
+      "kana": "ふるい",
+      "kanji": "古い",
+      "vi": "cũ",
+      "note": "Không dùng để nói tuổi của người"
+    },
+    {
+      "kana": "いい（よい）",
+      "kanji": "",
+      "vi": "tốt",
+      "note": "Phủ định là よくない"
+    },
+    {
+      "kana": "わるい",
+      "kanji": "悪い",
+      "vi": "xấu, tồi"
+    },
+    {
+      "kana": "あつい",
+      "kanji": "暑い・熱い",
+      "vi": "nóng",
+      "note": "暑い: thời tiết; 熱い: đồ vật"
+    },
+    {
+      "kana": "さむい",
+      "kanji": "寒い",
+      "vi": "lạnh (thời tiết)"
+    },
+    {
+      "kana": "つめたい",
+      "kanji": "冷たい",
+      "vi": "lạnh, buốt (cảm giác khi chạm)"
+    },
+    {
+      "kana": "むずかしい",
+      "kanji": "難しい",
+      "vi": "khó"
+    },
+    {
+      "kana": "やさしい",
+      "kanji": "易しい",
+      "vi": "dễ"
+    },
+    {
+      "kana": "たかい",
+      "kanji": "高い",
+      "vi": "đắt, cao"
+    },
+    {
+      "kana": "やすい",
+      "kanji": "安い",
+      "vi": "rẻ"
+    },
+    {
+      "kana": "ひくい",
+      "kanji": "低い",
+      "vi": "thấp"
+    },
+    {
+      "kana": "おもしろい",
+      "kanji": "面白い",
+      "vi": "thú vị, hay"
+    },
+    {
+      "kana": "おいしい",
+      "kanji": "",
+      "vi": "ngon"
+    },
+    {
+      "kana": "いそがしい",
+      "kanji": "忙しい",
+      "vi": "bận"
+    },
+    {
+      "kana": "たのしい",
+      "kanji": "楽しい",
+      "vi": "vui"
+    },
+    {
+      "kana": "しろい",
+      "kanji": "白い",
+      "vi": "trắng"
+    },
+    {
+      "kana": "くろい",
+      "kanji": "黒い",
+      "vi": "đen"
+    },
+    {
+      "kana": "あかい",
+      "kanji": "赤い",
+      "vi": "đỏ"
+    },
+    {
+      "kana": "あおい",
+      "kanji": "青い",
+      "vi": "xanh da trời"
+    },
+    {
+      "kana": "さくら",
+      "kanji": "桜",
+      "vi": "hoa anh đào"
+    },
+    {
+      "kana": "やま",
+      "kanji": "山",
+      "vi": "núi"
+    },
+    {
+      "kana": "まち",
+      "kanji": "町",
+      "vi": "thị trấn, thành phố"
+    },
+    {
+      "kana": "たべもの",
+      "kanji": "食べ物",
+      "vi": "đồ ăn"
+    },
+    {
+      "kana": "ところ",
+      "kanji": "所",
+      "vi": "nơi, chỗ"
+    },
+    {
+      "kana": "りょう",
+      "kanji": "寮",
+      "vi": "ký túc xá"
+    },
+    {
+      "kana": "せいかつ",
+      "kanji": "生活",
+      "vi": "cuộc sống, sinh hoạt"
+    },
+    {
+      "kana": "[お]しごと",
+      "kanji": "[お]仕事",
+      "vi": "công việc"
+    },
+    {
+      "kana": "どう",
+      "kanji": "",
+      "vi": "thế nào"
+    },
+    {
+      "kana": "どんな～",
+      "kanji": "",
+      "vi": "~ như thế nào"
+    },
+    {
+      "kana": "どれ",
+      "kanji": "",
+      "vi": "cái nào (trong 3 thứ trở lên)"
+    },
+    {
+      "kana": "とても",
+      "kanji": "",
+      "vi": "rất, lắm"
+    },
+    {
+      "kana": "あまり",
+      "kanji": "",
+      "vi": "không ~ lắm",
+      "note": "Đi với thể phủ định"
+    },
+    {
+      "kana": "そして",
+      "kanji": "",
+      "vi": "và, thêm nữa (nối hai câu)"
+    },
+    {
+      "kana": "～が、～",
+      "kanji": "",
+      "vi": "~ nhưng ~"
+    },
+    {
+      "kana": "おげんきですか",
+      "kanji": "お元気ですか",
+      "vi": "anh/chị có khỏe không?"
+    },
+    {
+      "kana": "そうですね",
+      "kanji": "",
+      "vi": "ừ nhỉ, để tôi xem"
+    },
+    {
+      "kana": "もういっぱいいかがですか",
+      "kanji": "もう一杯いかがですか",
+      "vi": "anh/chị dùng thêm một chén nữa nhé?"
+    },
+    {
+      "kana": "いいえ、けっこうです",
+      "kanji": "",
+      "vi": "không, đủ rồi ạ"
+    },
+    {
+      "kana": "もう～ですね",
+      "kanji": "",
+      "vi": "đã ~ rồi nhỉ"
+    },
+    {
+      "kana": "そろそろしつれいします",
+      "kanji": "そろそろ失礼します",
+      "vi": "sắp đến lúc tôi phải xin phép"
+    },
+    {
+      "kana": "またいらっしゃってください",
+      "kanji": "",
+      "vi": "lần sau anh/chị lại đến chơi nhé"
+    },
+    {
+      "kana": "ふじさん",
+      "kanji": "富士山",
+      "vi": "núi Phú Sĩ"
+    },
+    {
+      "kana": "びわこ",
+      "kanji": "琵琶湖",
+      "vi": "hồ Biwa"
+    },
+    {
+      "kana": "シャンハイ",
+      "kanji": "上海",
+      "vi": "Thượng Hải"
+    },
+    {
+      "kana": "きんかくじ",
+      "kanji": "金閣寺",
+      "vi": "chùa Vàng (Kinkakuji)"
+    },
+    {
+      "kana": "ならこうえん",
+      "kanji": "奈良公園",
+      "vi": "công viên Nara"
+    }
+  ]
+}

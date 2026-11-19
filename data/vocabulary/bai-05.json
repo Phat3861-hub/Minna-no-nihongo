@@ -1,0 +1,281 @@
+{
+  "lesson": 5,
+  "title": "Di chuyển và ngày tháng",
+  "words": [
+    {
+      "kana": "いきます",
+      "kanji": "行きます",
+      "vi": "đi"
+    },
+    {
+      "kana": "きます",
+      "kanji": "来ます",
+      "vi": "đến"
+    },
+    {
+      "kana": "かえります",
+      "kanji": "帰ります",
+      "vi": "về"
+    },
+    {
+      "kana": "がっこう",
+      "kanji": "学校",
+      "vi": "trường học"
+    },
+    {
+      "kana": "スーパー",
+      "kanji": "",
+      "vi": "siêu thị"
+    },
+    {
+      "kana": "えき",
+      "kanji": "駅",
+      "vi": "ga, nhà ga"
+    },
+    {
+      "kana": "ひこうき",
+      "kanji": "飛行機",
+      "vi": "máy bay"
+    },
+    {
+      "kana": "ふね",
+      "kanji": "船",
+      "vi": "tàu thủy, thuyền"
+    },
+    {
+      "kana": "でんしゃ",
+      "kanji": "電車",
+      "vi": "tàu điện"
+    },
+    {
+      "kana": "ちかてつ",
+      "kanji": "地下鉄",
+      "vi": "tàu điện ngầm"
+    },
+    {
+      "kana": "しんかんせん",
+      "kanji": "新幹線",
+      "vi": "tàu cao tốc Shinkansen"
+    },
+    {
+      "kana": "バス",
+      "kanji": "",
+      "vi": "xe buýt"
+    },
+    {
+      "kana": "タクシー",
+      "kanji": "",
+      "vi": "taxi"
+    },
+    {
+      "kana": "じてんしゃ",
+      "kanji": "自転車",
+      "vi": "xe đạp"
+    },
+    {
+      "kana": "あるいて",
+      "kanji": "歩いて",
+      "vi": "đi bộ"
+    },
+    {
+      "kana": "ひと",
+      "kanji": "人",
+      "vi": "người"
+    },
+    {
+      "kana": "ともだち",
+      "kanji": "友達",
+      "vi": "bạn bè"
+    },
+    {
+      "kana": "かれ",
+      "kanji": "彼",
+      "vi": "anh ấy, bạn trai"
+    },
+    {
+      "kana": "かのじょ",
+      "kanji": "彼女",
+      "vi": "cô ấy, bạn gái"
+    },
+    {
+      "kana": "かぞく",
+      "kanji": "家族",
+      "vi": "gia đình"
+    },
+    {
+      "kana": "ひとりで",
+      "kanji": "一人で",
+      "vi": "một mình"
+    },
+    {
+      "kana": "せんしゅう",
+      "kanji": "先週",
+      "vi": "tuần trước"
+    },
+    {
+      "kana": "こんしゅう",
+      "kanji": "今週",
+      "vi": "tuần này"
+    },
+    {
+      "kana": "らいしゅう",
+      "kanji": "来週",
+      "vi": "tuần sau"
+    },
+    {
+      "kana": "せんげつ",
+      "kanji": "先月",
+      "vi": "tháng trước"
+    },
+    {
+      "kana": "こんげつ",
+      "kanji": "今月",
+      "vi": "tháng này"
+    },
+    {
+      "kana": "らいげつ",
+      "kanji": "来月",
+      "vi": "tháng sau"
+    },
+    {
+      "kana": "きょねん",
+      "kanji": "去年",
+      "vi": "năm ngoái"
+    },
+    {
+      "kana": "ことし",
+      "kanji": "今年",
+      "vi": "năm nay"
+    },
+    {
+      "kana": "らいねん",
+      "kanji": "来年",
+      "vi": "năm sau"
+    },
+    {
+      "kana": "～がつ",
+      "kanji": "～月",
+      "vi": "tháng ~"
+    },
+    {
+      "kana": "なんがつ",
+      "kanji": "何月",
+      "vi": "tháng mấy"
+    },
+    {
+      "kana": "ついたち",
+      "kanji": "一日",
+      "vi": "ngày mùng 1"
+    },
+    {
+      "kana": "ふつか",
+      "kanji": "二日",
+      "vi": "ngày mùng 2, 2 ngày"
+    },
+    {
+      "kana": "みっか",
+      "kanji": "三日",
+      "vi": "ngày mùng 3"
+    },
+    {
+      "kana": "よっか",
+      "kanji": "四日",
+      "vi": "ngày mùng 4"
+    },
+    {
+      "kana": "いつか",
+      "kanji": "五日",
+      "vi": "ngày mùng 5"
+    },
+    {
+      "kana": "むいか",
+      "kanji": "六日",
+      "vi": "ngày mùng 6"
+    },
+    {
+      "kana": "なのか",
+      "kanji": "七日",
+      "vi": "ngày mùng 7"
+    },
+    {
+      "kana": "ようか",
+      "kanji": "八日",
+      "vi": "ngày mùng 8"
+    },
+    {
+      "kana": "ここのか",
+      "kanji": "九日",
+      "vi": "ngày mùng 9"
+    },
+    {
+      "kana": "とおか",
+      "kanji": "十日",
+      "vi": "ngày mùng 10"
+    },
+    {
+      "kana": "じゅうよっか",
+      "kanji": "十四日",
+      "vi": "ngày 14"
+    },
+    {
+      "kana": "はつか",
+      "kanji": "二十日",
+      "vi": "ngày 20"
+    },
+    {
+      "kana": "にじゅうよっか",
+      "kanji": "二十四日",
+      "vi": "ngày 24"
+    },
+    {
+      "kana": "～にち",
+      "kanji": "～日",
+      "vi": "ngày ~"
+    },
+    {
+      "kana": "なんにち",
+      "kanji": "何日",
+      "vi": "ngày mấy"
+    },
+    {
+      "kana": "いつ",
+      "kanji": "",
+      "vi": "khi nào, bao giờ"
+    },
+    {
+      "kana": "たんじょうび",
+      "kanji": "誕生日",
+      "vi": "sinh nhật"
+    },
+    {
+      "kana": "ふつう",
+      "kanji": "普通",
+      "vi": "tàu thường (dừng mọi ga)"
+    },
+    {
+      "kana": "きゅうこう",
+      "kanji": "急行",
+      "vi": "tàu nhanh"
+    },
+    {
+      "kana": "とっきゅう",
+      "kanji": "特急",
+      "vi": "tàu tốc hành"
+    },
+    {
+      "kana": "つぎの",
+      "kanji": "次の",
+      "vi": "tiếp theo"
+    },
+    {
+      "kana": "どういたしまして",
+      "kanji": "",
+      "vi": "không có chi"
+    },
+    {
+      "kana": "～ばんせん",
+      "kanji": "～番線",
+      "vi": "đường ray số ~, sân ga số ~"
+    }
+  ]
+}

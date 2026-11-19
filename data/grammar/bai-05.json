@@ -1,0 +1,114 @@
+{
+  "lesson": 5,
+  "title": "Di chuyển và ngày tháng",
+  "points": [
+    {
+      "pattern": "N(địa điểm) へ いきます／きます／かえります",
+      "meaning": "Đi／đến／về N",
+      "explanations": [
+        "へ chỉ hướng di chuyển, viết là へ nhưng đọc là え (e).",
+        "Dùng với các động từ chuyển động: いきます, きます, かえります."
+      ],
+      "examples": [
+        {
+          "jp": "わたしは きょうとへ いきます。",
+          "vi": "Tôi đi Kyoto."
+        },
+        {
+          "jp": "あした うちへ かえります。",
+          "vi": "Ngày mai tôi về nhà."
+        }
+      ]
+    },
+    {
+      "pattern": "どこ[へ]も いきません",
+      "meaning": "Không đi đâu cả",
+      "explanations": [
+        "どこ[へ]も + động từ phủ định: không đi đâu cả.",
+        "Khi hỏi どこへ いきましたか, trả lời phủ định là どこへも いきませんでした."
+      ],
+      "examples": [
+        {
+          "jp": "きのう どこへも いきませんでした。",
+          "vi": "Hôm qua tôi không đi đâu cả."
+        }
+      ]
+    },
+    {
+      "pattern": "N(phương tiện) で いきます",
+      "meaning": "Đi bằng N",
+      "explanations": [
+        "で chỉ phương tiện giao thông.",
+        "Đi bộ là あるいて, không dùng で."
+      ],
+      "examples": [
+        {
+          "jp": "でんしゃで かいしゃへ いきます。",
+          "vi": "Tôi đi đến công ty bằng tàu điện."
+        },
+        {
+          "jp": "あるいて かえります。",
+          "vi": "Tôi đi bộ về."
+        }
+      ]
+    },
+    {
+      "pattern": "N(người) と V",
+      "meaning": "Làm gì cùng với ai",
+      "explanations": [
+        "と chỉ người đi cùng. Đi một mình là ひとりで, không có と."
+      ],
+      "examples": [
+        {
+          "jp": "ともだちと がっこうへ いきます。",
+          "vi": "Tôi đi đến trường cùng bạn."
+        },
+        {
+          "jp": "ひとりで うちへ かえります。",
+          "vi": "Tôi về nhà một mình."
+        }
+      ]
+    },
+    {
+      "pattern": "いつ",
+      "meaning": "Khi nào",
+      "explanations": [
+        "いつ hỏi thời điểm. Không đi kèm に."
+      ],
+      "examples": [
+        {
+          "jp": "いつ にほんへ きましたか。── ３がつ ２５にちに きました。",
+          "vi": "Bạn đến Nhật khi nào? ── Tôi đến vào ngày 25 tháng 3."
+        }
+      ]
+    },
+    {
+      "pattern": "Ngày tháng",
+      "meaning": "～がつ ～にち",
+      "explanations": [
+        "Tháng: いちがつ, にがつ... đặc biệt: しがつ (4), しちがつ (7), くがつ (9).",
+        "Ngày 1 đến 10: ついたち, ふつか, みっか, よっか, いつか, むいか, なのか, ようか, ここのか, とおか. Ngày 14: じゅうよっか. Ngày 20: はつか. Ngày 24: にじゅうよっか. Các ngày còn lại: số + にち.",
+        "Hỏi: なんがつ なんにち, いつ."
+      ],
+      "examples": [
+        {
+          "jp": "たんじょうびは いつですか。── ６がつ ２５にちです。",
+          "vi": "Sinh nhật bạn khi nào? ── Ngày 25 tháng 6."
+        }
+      ]
+    },
+    {
+      "pattern": "～よ",
+      "meaning": "Đấy (nhấn mạnh thông tin mới)",
+      "explanations": [
+        "Đặt cuối câu để cho người nghe biết thông tin mà họ chưa biết, hoặc nhấn mạnh ý kiến của mình."
+      ],
+      "examples": [
+        {
+          "jp": "この でんしゃは こうしえんへ いきますか。── いいえ、いきません。つぎの ふつうですよ。",
+          "vi": "Tàu này có đi Koshien không? ── Không. Chuyến thường tiếp theo mới đi đấy."
+        }
+      ]
+    }
+  ]
+}

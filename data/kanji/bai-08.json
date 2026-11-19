@@ -1,0 +1,149 @@
+{
+  "id": "b8",
+  "name": "Bài 8",
+  "kanji": [
+    {
+      "char": "近",
+      "hanViet": "CẬN",
+      "meaning": "gần",
+      "on": "キン",
+      "kun": "ちか・い",
+      "examples": [
+        {
+          "word": "近い",
+          "reading": "ちかい",
+          "meaning": "gần"
+        },
+        {
+          "word": "近く",
+          "reading": "ちかく",
+          "meaning": "chỗ gần"
+        },
+        {
+          "word": "最近",
+          "reading": "さいきん",
+          "meaning": "gần đây"
+        }
+      ]
+    },
+    {
+      "char": "間",
+      "hanViet": "GIAN",
+      "meaning": "khoảng, ở giữa",
+      "on": "カン",
+      "kun": "あいだ、ま",
+      "examples": [
+        {
+          "word": "時間",
+          "reading": "じかん",
+          "meaning": "thời gian"
+        },
+        {
+          "word": "間",
+          "reading": "あいだ",
+          "meaning": "ở giữa"
+        }
+      ]
+    },
+    {
+      "char": "右",
+      "hanViet": "HỮU",
+      "meaning": "bên phải",
+      "on": "ユウ、ウ",
+      "kun": "みぎ",
+      "examples": [
+        {
+          "word": "右",
+          "reading": "みぎ",
+          "meaning": "bên phải"
+        }
+      ]
+    },
+    {
+      "char": "左",
+      "hanViet": "TẢ",
+      "meaning": "bên trái",
+      "on": "サ",
+      "kun": "ひだり",
+      "examples": [
+        {
+          "word": "左",
+          "reading": "ひだり",
+          "meaning": "bên trái"
+        }
+      ]
+    },
+    {
+      "char": "外",
+      "hanViet": "NGOẠI",
+      "meaning": "bên ngoài",
+      "on": "ガイ",
+      "kun": "そと",
+      "examples": [
+        {
+          "word": "外",
+          "reading": "そと",
+          "meaning": "bên ngoài"
+        },
+        {
+          "word": "外国",
+          "reading": "がいこく",
+          "meaning": "nước ngoài"
+        }
+      ]
+    },
+    {
+      "char": "男",
+      "hanViet": "NAM",
+      "meaning": "đàn ông, nam",
+      "on": "ナン、ダン",
+      "kun": "おとこ",
+      "examples": [
+        {
+          "word": "男の人",
+          "reading": "おとこのひと",
+          "meaning": "người đàn ông"
+        },
+        {
+          "word": "男の子",
+          "reading": "おとこのこ",
+          "meaning": "bé trai"
+        }
+      ]
+    },
+    {
+      "char": "女",
+      "hanViet": "NỮ",
+      "meaning": "phụ nữ, nữ",
+      "on": "ジョ",
+      "kun": "おんな",
+      "examples": [
+        {
+          "word": "女の人",
+          "reading": "おんなのひと",
+          "meaning": "người phụ nữ"
+        },
+        {
+          "word": "彼女",
+          "reading": "かのじょ",
+          "meaning": "cô ấy, bạn gái"
+        }
+      ]
+    },
+    {
+      "char": "犬",
+      "hanViet": "KHUYỂN",
+      "meaning": "con chó",
+      "on": "ケン",
+      "kun": "いぬ",
+      "examples": [
+        {
+          "word": "犬",
+          "reading": "いぬ",
+          "meaning": "con chó"
+        }
+      ]
+    }
+  ],
+  "sentences": []
+}

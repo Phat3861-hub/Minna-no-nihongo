@@ -1,0 +1,210 @@
+{
+  "id": "b18",
+  "name": "Bài 18",
+  "kanji": [
+    {
+      "char": "春",
+      "hanViet": "XUÂN",
+      "meaning": "mùa xuân",
+      "on": "シュン",
+      "kun": "はる",
+      "examples": [
+        {
+          "word": "春",
+          "reading": "はる",
+          "meaning": "mùa xuân"
+        }
+      ]
+    },
+    {
+      "char": "夏",
+      "hanViet": "HẠ",
+      "meaning": "mùa hè",
+      "on": "カ",
+      "kun": "なつ",
+      "examples": [
+        {
+          "word": "夏",
+          "reading": "なつ",
+          "meaning": "mùa hè"
+        },
+        {
+          "word": "夏休み",
+          "reading": "なつやすみ",
+          "meaning": "nghỉ hè"
+        }
+      ]
+    },
+    {
+      "char": "秋",
+      "hanViet": "THU",
+      "meaning": "mùa thu",
+      "on": "シュウ",
+      "kun": "あき",
+      "examples": [
+        {
+          "word": "秋",
+          "reading": "あき",
+          "meaning": "mùa thu"
+        }
+      ]
+    },
+    {
+      "char": "冬",
+      "hanViet": "ĐÔNG",
+      "meaning": "mùa đông",
+      "on": "トウ",
+      "kun": "ふゆ",
+      "examples": [
+        {
+          "word": "冬",
+          "reading": "ふゆ",
+          "meaning": "mùa đông"
+        },
+        {
+          "word": "冬休み",
+          "reading": "ふゆやすみ",
+          "meaning": "nghỉ đông"
+        }
+      ]
+    },
+    {
+      "char": "道",
+      "hanViet": "ĐẠO",
+      "meaning": "đường",
+      "on": "ドウ",
+      "kun": "みち",
+      "examples": [
+        {
+          "word": "道",
+          "reading": "みち",
+          "meaning": "con đường"
+        },
+        {
+          "word": "北海道",
+          "reading": "ほっかいどう",
+          "meaning": "Hokkaido"
+        }
+      ]
+    },
+    {
+      "char": "堂",
+      "hanViet": "ĐƯỜNG",
+      "meaning": "gian phòng lớn",
+      "on": "ドウ",
+      "kun": "—",
+      "examples": [
+        {
+          "word": "食堂",
+          "reading": "しょくどう",
+          "meaning": "nhà ăn"
+        }
+      ]
+    },
+    {
+      "char": "建",
+      "hanViet": "KIẾN",
+      "meaning": "xây dựng",
+      "on": "ケン",
+      "kun": "た・てる",
+      "examples": [
+        {
+          "word": "建物",
+          "reading": "たてもの",
+          "meaning": "tòa nhà"
+        }
+      ]
+    },
+    {
+      "char": "病",
+      "hanViet": "BỆNH",
+      "meaning": "bệnh",
+      "on": "ビョウ",
+      "kun": "やまい",
+      "examples": [
+        {
+          "word": "病院",
+          "reading": "びょういん",
+          "meaning": "bệnh viện"
+        },
+        {
+          "word": "病気",
+          "reading": "びょうき",
+          "meaning": "bệnh"
+        }
+      ]
+    },
+    {
+      "char": "院",
+      "hanViet": "VIỆN",
+      "meaning": "viện",
+      "on": "イン",
+      "kun": "—",
+      "examples": [
+        {
+          "word": "病院",
+          "reading": "びょういん",
+          "meaning": "bệnh viện"
+        },
+        {
+          "word": "大学院",
+          "reading": "だいがくいん",
+          "meaning": "cao học"
+        }
+      ]
+    },
+    {
+      "char": "体",
+      "hanViet": "THỂ",
+      "meaning": "cơ thể",
+      "on": "タイ",
+      "kun": "からだ",
+      "examples": [
+        {
+          "word": "体",
+          "reading": "からだ",
+          "meaning": "cơ thể"
+        },
+        {
+          "word": "体育",
+          "reading": "たいいく",
+          "meaning": "thể dục"
+        }
+      ]
+    },
+    {
+      "char": "運",
+      "hanViet": "VẬN",
+      "meaning": "vận chuyển, vận may",
+      "on": "ウン",
+      "kun": "はこ・ぶ",
+      "examples": [
+        {
+          "word": "運転",
+          "reading": "うんてん",
+          "meaning": "lái xe"
+        },
+        {
+          "word": "運動",
+          "reading": "うんどう",
+          "meaning": "vận động"
+        }
+      ]
+    },
+    {
+      "char": "乗",
+      "hanViet": "THỪA",
+      "meaning": "lên (xe), cưỡi",
+      "on": "ジョウ",
+      "kun": "の・る",
+      "examples": [
+        {
+          "word": "乗ります",
+          "reading": "のります",
+          "meaning": "lên (xe)"
+        }
+      ]
+    }
+  ],
+  "sentences": []
+}

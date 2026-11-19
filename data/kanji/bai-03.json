@@ -1,0 +1,605 @@
+{
+  "id": "b3",
+  "name": "Bài 3",
+  "kanji": [
+    {
+      "char": "学",
+      "hanViet": "HỌC",
+      "meaning": "học",
+      "on": "ガク",
+      "kun": "まな・ぶ",
+      "examples": [
+        {
+          "word": "学生",
+          "reading": "がくせい",
+          "meaning": "sinh viên"
+        },
+        {
+          "word": "大学",
+          "reading": "だいがく",
+          "meaning": "đại học"
+        },
+        {
+          "word": "学校",
+          "reading": "がっこう",
+          "meaning": "trường học"
+        }
+      ]
+    },
+    {
+      "char": "生",
+      "hanViet": "SINH",
+      "meaning": "sống, sinh ra",
+      "on": "セイ",
+      "kun": "い・きる、う・まれる",
+      "examples": [
+        {
+          "word": "学生",
+          "reading": "がくせい",
+          "meaning": "sinh viên"
+        },
+        {
+          "word": "先生",
+          "reading": "せんせい",
+          "meaning": "giáo viên"
+        },
+        {
+          "word": "生まれます",
+          "reading": "うまれます",
+          "meaning": "được sinh ra"
+        }
+      ]
+    },
+    {
+      "char": "先",
+      "hanViet": "TIÊN",
+      "meaning": "trước, đầu tiên",
+      "on": "セン",
+      "kun": "さき",
+      "examples": [
+        {
+          "word": "先生",
+          "reading": "せんせい",
+          "meaning": "giáo viên"
+        },
+        {
+          "word": "先週",
+          "reading": "せんしゅう",
+          "meaning": "tuần trước"
+        },
+        {
+          "word": "先月",
+          "reading": "せんげつ",
+          "meaning": "tháng trước"
+        }
+      ]
+    },
+    {
+      "char": "会",
+      "hanViet": "HỘI",
+      "meaning": "gặp, hội",
+      "on": "カイ",
+      "kun": "あ・う",
+      "examples": [
+        {
+          "word": "会社",
+          "reading": "かいしゃ",
+          "meaning": "công ty"
+        },
+        {
+          "word": "会議",
+          "reading": "かいぎ",
+          "meaning": "cuộc họp"
+        },
+        {
+          "word": "会います",
+          "reading": "あいます",
+          "meaning": "gặp"
+        }
+      ]
+    },
+    {
+      "char": "社",
+      "hanViet": "XÃ",
+      "meaning": "công ty, xã hội",
+      "on": "シャ",
+      "kun": "やしろ",
+      "examples": [
+        {
+          "word": "会社",
+          "reading": "かいしゃ",
+          "meaning": "công ty"
+        },
+        {
+          "word": "社員",
+          "reading": "しゃいん",
+          "meaning": "nhân viên công ty"
+        },
+        {
+          "word": "社長",
+          "reading": "しゃちょう",
+          "meaning": "giám đốc"
+        }
+      ]
+    },
+    {
+      "char": "員",
+      "hanViet": "VIÊN",
+      "meaning": "nhân viên, thành viên",
+      "on": "イン",
+      "kun": "—",
+      "examples": [
+        {
+          "word": "会社員",
+          "reading": "かいしゃいん",
+          "meaning": "nhân viên công ty"
+        },
+        {
+          "word": "銀行員",
+          "reading": "ぎんこういん",
+          "meaning": "nhân viên ngân hàng"
+        }
+      ]
+    },
+    {
+      "char": "医",
+      "hanViet": "Y",
+      "meaning": "y, chữa bệnh",
+      "on": "イ",
+      "kun": "—",
+      "examples": [
+        {
+          "word": "医者",
+          "reading": "いしゃ",
+          "meaning": "bác sĩ"
+        },
+        {
+          "word": "医学",
+          "reading": "いがく",
+          "meaning": "y học"
+        }
+      ]
+    },
+    {
+      "char": "者",
+      "hanViet": "GIẢ",
+      "meaning": "người (làm việc gì đó)",
+      "on": "シャ",
+      "kun": "もの",
+      "examples": [
+        {
+          "word": "医者",
+          "reading": "いしゃ",
+          "meaning": "bác sĩ"
+        },
+        {
+          "word": "研究者",
+          "reading": "けんきゅうしゃ",
+          "meaning": "nhà nghiên cứu"
+        }
+      ]
+    },
+    {
+      "char": "本",
+      "hanViet": "BẢN",
+      "meaning": "sách, gốc",
+      "on": "ホン",
+      "kun": "もと",
+      "examples": [
+        {
+          "word": "本",
+          "reading": "ほん",
+          "meaning": "sách"
+        },
+        {
+          "word": "日本",
+          "reading": "にほん",
+          "meaning": "Nhật Bản"
+        },
+        {
+          "word": "一本",
+          "reading": "いっぽん",
+          "meaning": "một cái (vật dài)"
+        }
+      ]
+    },
+    {
+      "char": "中",
+      "hanViet": "TRUNG",
+      "meaning": "giữa, bên trong",
+      "on": "チュウ",
+      "kun": "なか",
+      "examples": [
+        {
+          "word": "中",
+          "reading": "なか",
+          "meaning": "bên trong"
+        },
+        {
+          "word": "中国",
+          "reading": "ちゅうごく",
+          "meaning": "Trung Quốc"
+        }
+      ]
+    },
+    {
+      "char": "国",
+      "hanViet": "QUỐC",
+      "meaning": "nước, quốc gia",
+      "on": "コク",
+      "kun": "くに",
+      "examples": [
+        {
+          "word": "国",
+          "reading": "くに",
+          "meaning": "đất nước"
+        },
+        {
+          "word": "中国",
+          "reading": "ちゅうごく",
+          "meaning": "Trung Quốc"
+        },
+        {
+          "word": "外国",
+          "reading": "がいこく",
+          "meaning": "nước ngoài"
+        }
+      ]
+    },
+    {
+      "char": "人",
+      "hanViet": "NHÂN",
+      "meaning": "người",
+      "on": "ジン、ニン",
+      "kun": "ひと",
+      "examples": [
+        {
+          "word": "日本人",
+          "reading": "にほんじん",
+          "meaning": "người Nhật"
+        },
+        {
+          "word": "三人",
+          "reading": "さんにん",
+          "meaning": "ba người"
+        },
+        {
+          "word": "あの人",
+          "reading": "あのひと",
+          "meaning": "người kia"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "type": "read",
+      "sentence": "わたしは {学生}です。",
+      "meaning": "Tôi là sinh viên.",
+      "options": [
+        "がくせい",
+        "がっせい",
+        "かくせい",
+        "がくせ"
+      ],
+      "wordMeaning": "sinh viên"
+    },
+    {
+      "type": "read",
+      "sentence": "やまださんは {先生}です。",
+      "meaning": "Thầy Yamada là giáo viên.",
+      "options": [
+        "せんせい",
+        "せんせ",
+        "せいせん",
+        "さきせい"
+      ],
+      "wordMeaning": "giáo viên"
+    },
+    {
+      "type": "read",
+      "sentence": "ミラーさんは {会社員}です。",
+      "meaning": "Anh Miller là nhân viên công ty.",
+      "options": [
+        "かいしゃいん",
+        "かいしゃにん",
+        "がいしゃいん",
+        "かいしゃいいん"
+      ],
+      "wordMeaning": "nhân viên công ty"
+    },
+    {
+      "type": "read",
+      "sentence": "あの 人は {医者}です。",
+      "meaning": "Người kia là bác sĩ.",
+      "options": [
+        "いしゃ",
+        "いっしゃ",
+        "いじゃ",
+        "いしょ"
+      ],
+      "wordMeaning": "bác sĩ"
+    },
+    {
+      "type": "read",
+      "sentence": "これは {日本}の くるまです。",
+      "meaning": "Đây là xe ô tô của Nhật.",
+      "options": [
+        "にほん",
+        "ひほん",
+        "にちほん",
+        "にぼん"
+      ],
+      "wordMeaning": "Nhật Bản"
+    },
+    {
+      "type": "read",
+      "sentence": "それは わたしの {本}です。",
+      "meaning": "Đó là sách của tôi.",
+      "options": [
+        "ほん",
+        "もと",
+        "ぼん",
+        "ぽん"
+      ],
+      "wordMeaning": "sách"
+    },
+    {
+      "type": "read",
+      "sentence": "ワンさんは {中国}から きました。",
+      "meaning": "Anh Wang đến từ Trung Quốc.",
+      "options": [
+        "ちゅうごく",
+        "ちゅうこく",
+        "なかごく",
+        "ちゅごく"
+      ],
+      "wordMeaning": "Trung Quốc"
+    },
+    {
+      "type": "read",
+      "sentence": "マイさんは ベトナム{人}です。",
+      "meaning": "Chị Mai là người Việt Nam.",
+      "options": [
+        "じん",
+        "にん",
+        "ひと",
+        "びと"
+      ],
+      "wordMeaning": "người (nước ~)",
+      "tip": "Quốc tịch: tên nước + 人 (じん). Đếm người: 三人 さんにん."
+    },
+    {
+      "type": "read",
+      "sentence": "{会社}は とおいです。",
+      "meaning": "Công ty ở xa.",
+      "options": [
+        "かいしゃ",
+        "がいしゃ",
+        "かいしゃあ",
+        "あいしゃ"
+      ],
+      "wordMeaning": "công ty"
+    },
+    {
+      "type": "read",
+      "sentence": "へやに {三人} います。",
+      "meaning": "Trong phòng có ba người.",
+      "options": [
+        "さんにん",
+        "さんじん",
+        "みにん",
+        "みっにん"
+      ],
+      "wordMeaning": "ba người"
+    },
+    {
+      "type": "read",
+      "sentence": "わたしの {国}は ベトナムです。",
+      "meaning": "Đất nước của tôi là Việt Nam.",
+      "options": [
+        "くに",
+        "こく",
+        "ごく",
+        "くね"
+      ],
+      "wordMeaning": "đất nước"
+    },
+    {
+      "type": "read",
+      "sentence": "{先月} にほんへ きました。",
+      "meaning": "Tháng trước tôi đến Nhật.",
+      "options": [
+        "せんげつ",
+        "せんがつ",
+        "さきげつ",
+        "せんつき"
+      ],
+      "wordMeaning": "tháng trước"
+    },
+    {
+      "type": "read",
+      "sentence": "{あの人}は だれですか。",
+      "meaning": "Người kia là ai?",
+      "options": [
+        "あのひと",
+        "あのじん",
+        "あのにん",
+        "あのびと"
+      ],
+      "wordMeaning": "người kia"
+    },
+    {
+      "type": "read",
+      "sentence": "かばんの {中}に さいふが あります。",
+      "meaning": "Trong cặp có cái ví.",
+      "options": [
+        "なか",
+        "ちゅう",
+        "うち",
+        "じゅう"
+      ],
+      "wordMeaning": "bên trong"
+    },
+    {
+      "type": "read",
+      "sentence": "{日本人}の ともだちが います。",
+      "meaning": "Tôi có bạn người Nhật.",
+      "options": [
+        "にほんじん",
+        "にほんにん",
+        "にっぽんにん",
+        "にほんひと"
+      ],
+      "wordMeaning": "người Nhật"
+    },
+    {
+      "type": "read",
+      "sentence": "かのじょは {社員}です。",
+      "meaning": "Cô ấy là nhân viên công ty.",
+      "options": [
+        "しゃいん",
+        "じゃいん",
+        "しゃにん",
+        "しゃいいん"
+      ],
+      "wordMeaning": "nhân viên công ty"
+    },
+    {
+      "type": "write",
+      "sentence": "わたしは {がくせい}です。",
+      "meaning": "Tôi là sinh viên.",
+      "options": [
+        "学生",
+        "字生",
+        "学先",
+        "学性"
+      ],
+      "wordMeaning": "sinh viên",
+      "tip": "学 (học) và 字 (chữ) có phần trên khác nhau."
+    },
+    {
+      "type": "write",
+      "sentence": "{せんせい}、おはよう ございます。",
+      "meaning": "Em chào thầy ạ.",
+      "options": [
+        "先生",
+        "光生",
+        "先王",
+        "失生"
+      ],
+      "wordMeaning": "giáo viên"
+    },
+    {
+      "type": "write",
+      "sentence": "{かいしゃ}は どこですか。",
+      "meaning": "Công ty ở đâu?",
+      "options": [
+        "会社",
+        "今社",
+        "会仕",
+        "合社"
+      ],
+      "wordMeaning": "công ty"
+    },
+    {
+      "type": "write",
+      "sentence": "ちちは {いしゃ}です。",
+      "meaning": "Bố tôi là bác sĩ.",
+      "options": [
+        "医者",
+        "区者",
+        "医書",
+        "医着"
+      ],
+      "wordMeaning": "bác sĩ"
+    },
+    {
+      "type": "write",
+      "sentence": "これは わたしの {ほん}です。",
+      "meaning": "Đây là sách của tôi.",
+      "options": [
+        "本",
+        "木",
+        "体",
+        "休"
+      ],
+      "wordMeaning": "sách"
+    },
+    {
+      "type": "write",
+      "sentence": "かばんの {なか}を みて ください。",
+      "meaning": "Hãy xem bên trong cặp.",
+      "options": [
+        "中",
+        "申",
+        "由",
+        "虫"
+      ],
+      "wordMeaning": "bên trong"
+    },
+    {
+      "type": "write",
+      "sentence": "{くに}は どちらですか。",
+      "meaning": "Đất nước của bạn là nước nào?",
+      "options": [
+        "国",
+        "困",
+        "図",
+        "固"
+      ],
+      "wordMeaning": "đất nước",
+      "tip": "国 bên trong là 玉 (ngọc); 困 bên trong là 木; 図 là bản đồ."
+    },
+    {
+      "type": "write",
+      "sentence": "あの {ひと}は せんせいです。",
+      "meaning": "Người kia là giáo viên.",
+      "options": [
+        "人",
+        "入",
+        "八",
+        "久"
+      ],
+      "wordMeaning": "người",
+      "tip": "人 (người): nét phẩy trái dài hơn. 入 (vào): nét mác phải dài hơn."
+    },
+    {
+      "type": "write",
+      "sentence": "かれは {にほんじん}です。",
+      "meaning": "Anh ấy là người Nhật.",
+      "options": [
+        "日本人",
+        "日木人",
+        "目本人",
+        "日本入"
+      ],
+      "wordMeaning": "người Nhật"
+    },
+    {
+      "type": "write",
+      "sentence": "ミラーさんは {かいしゃいん}です。",
+      "meaning": "Anh Miller là nhân viên công ty.",
+      "options": [
+        "会社員",
+        "会社貝",
+        "会社負",
+        "会社買"
+      ],
+      "wordMeaning": "nhân viên công ty",
+      "tip": "員 có bộ 口 ở trên 貝."
+    },
+    {
+      "type": "write",
+      "sentence": "{ちゅうごく}から きました。",
+      "meaning": "Tôi đến từ Trung Quốc.",
+      "options": [
+        "中国",
+        "中困",
+        "申国",
+        "中図"
+      ],
+      "wordMeaning": "Trung Quốc"
+    }
+  ]
+}

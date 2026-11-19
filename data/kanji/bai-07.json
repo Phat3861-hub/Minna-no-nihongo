@@ -1,0 +1,726 @@
+{
+  "id": "b7",
+  "name": "Bài 7",
+  "kanji": [
+    {
+      "char": "上",
+      "hanViet": "THƯỢNG",
+      "meaning": "trên",
+      "on": "ジョウ",
+      "kun": "うえ",
+      "examples": [
+        {
+          "word": "上",
+          "reading": "うえ",
+          "meaning": "phía trên"
+        },
+        {
+          "word": "上手",
+          "reading": "じょうず",
+          "meaning": "giỏi"
+        }
+      ]
+    },
+    {
+      "char": "下",
+      "hanViet": "HẠ",
+      "meaning": "dưới",
+      "on": "カ、ゲ",
+      "kun": "した",
+      "examples": [
+        {
+          "word": "下",
+          "reading": "した",
+          "meaning": "phía dưới"
+        },
+        {
+          "word": "地下",
+          "reading": "ちか",
+          "meaning": "tầng hầm"
+        },
+        {
+          "word": "下手",
+          "reading": "へた",
+          "meaning": "kém"
+        }
+      ]
+    },
+    {
+      "char": "父",
+      "hanViet": "PHỤ",
+      "meaning": "bố, cha",
+      "on": "フ",
+      "kun": "ちち",
+      "examples": [
+        {
+          "word": "父",
+          "reading": "ちち",
+          "meaning": "bố (của mình)"
+        },
+        {
+          "word": "お父さん",
+          "reading": "おとうさん",
+          "meaning": "bố (của người khác)"
+        }
+      ]
+    },
+    {
+      "char": "母",
+      "hanViet": "MẪU",
+      "meaning": "mẹ",
+      "on": "ボ",
+      "kun": "はは",
+      "examples": [
+        {
+          "word": "母",
+          "reading": "はは",
+          "meaning": "mẹ (của mình)"
+        },
+        {
+          "word": "お母さん",
+          "reading": "おかあさん",
+          "meaning": "mẹ (của người khác)"
+        }
+      ]
+    },
+    {
+      "char": "子",
+      "hanViet": "TỬ",
+      "meaning": "con, trẻ con",
+      "on": "シ、ス",
+      "kun": "こ",
+      "examples": [
+        {
+          "word": "子ども",
+          "reading": "こども",
+          "meaning": "trẻ con"
+        },
+        {
+          "word": "女の子",
+          "reading": "おんなのこ",
+          "meaning": "bé gái"
+        }
+      ]
+    },
+    {
+      "char": "手",
+      "hanViet": "THỦ",
+      "meaning": "tay",
+      "on": "シュ",
+      "kun": "て",
+      "examples": [
+        {
+          "word": "手",
+          "reading": "て",
+          "meaning": "tay"
+        },
+        {
+          "word": "手紙",
+          "reading": "てがみ",
+          "meaning": "thư"
+        },
+        {
+          "word": "上手",
+          "reading": "じょうず",
+          "meaning": "giỏi"
+        }
+      ]
+    },
+    {
+      "char": "好",
+      "hanViet": "HẢO",
+      "meaning": "thích, tốt",
+      "on": "コウ",
+      "kun": "す・き",
+      "examples": [
+        {
+          "word": "好き",
+          "reading": "すき",
+          "meaning": "thích"
+        },
+        {
+          "word": "大好き",
+          "reading": "だいすき",
+          "meaning": "rất thích"
+        }
+      ]
+    },
+    {
+      "char": "主",
+      "hanViet": "CHỦ",
+      "meaning": "chủ, chính",
+      "on": "シュ",
+      "kun": "ぬし、おも",
+      "examples": [
+        {
+          "word": "主人",
+          "reading": "しゅじん",
+          "meaning": "chồng (của mình)"
+        },
+        {
+          "word": "ご主人",
+          "reading": "ごしゅじん",
+          "meaning": "chồng (của người khác)"
+        }
+      ]
+    },
+    {
+      "char": "肉",
+      "hanViet": "NHỤC",
+      "meaning": "thịt",
+      "on": "ニク",
+      "kun": "—",
+      "examples": [
+        {
+          "word": "肉",
+          "reading": "にく",
+          "meaning": "thịt"
+        },
+        {
+          "word": "牛肉",
+          "reading": "ぎゅうにく",
+          "meaning": "thịt bò"
+        }
+      ]
+    },
+    {
+      "char": "魚",
+      "hanViet": "NGƯ",
+      "meaning": "cá",
+      "on": "ギョ",
+      "kun": "さかな",
+      "examples": [
+        {
+          "word": "魚",
+          "reading": "さかな",
+          "meaning": "cá"
+        },
+        {
+          "word": "金魚",
+          "reading": "きんぎょ",
+          "meaning": "cá vàng"
+        }
+      ]
+    },
+    {
+      "char": "食",
+      "hanViet": "THỰC",
+      "meaning": "ăn",
+      "on": "ショク",
+      "kun": "た・べる",
+      "examples": [
+        {
+          "word": "食べます",
+          "reading": "たべます",
+          "meaning": "ăn"
+        },
+        {
+          "word": "食堂",
+          "reading": "しょくどう",
+          "meaning": "nhà ăn"
+        },
+        {
+          "word": "食べ物",
+          "reading": "たべもの",
+          "meaning": "đồ ăn"
+        }
+      ]
+    },
+    {
+      "char": "飲",
+      "hanViet": "ẨM",
+      "meaning": "uống",
+      "on": "イン",
+      "kun": "の・む",
+      "examples": [
+        {
+          "word": "飲みます",
+          "reading": "のみます",
+          "meaning": "uống"
+        },
+        {
+          "word": "飲み物",
+          "reading": "のみもの",
+          "meaning": "đồ uống"
+        }
+      ]
+    },
+    {
+      "char": "物",
+      "hanViet": "VẬT",
+      "meaning": "đồ vật",
+      "on": "ブツ、モツ",
+      "kun": "もの",
+      "examples": [
+        {
+          "word": "食べ物",
+          "reading": "たべもの",
+          "meaning": "đồ ăn"
+        },
+        {
+          "word": "荷物",
+          "reading": "にもつ",
+          "meaning": "hành lý"
+        },
+        {
+          "word": "動物",
+          "reading": "どうぶつ",
+          "meaning": "động vật"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "type": "read",
+      "sentence": "つくえの {上}に ほんが あります。",
+      "meaning": "Trên bàn có quyển sách.",
+      "options": [
+        "うえ",
+        "じょう",
+        "した",
+        "うい"
+      ],
+      "wordMeaning": "phía trên"
+    },
+    {
+      "type": "read",
+      "sentence": "いすの {下}に ねこが います。",
+      "meaning": "Dưới ghế có con mèo.",
+      "options": [
+        "した",
+        "か",
+        "げ",
+        "しだ"
+      ],
+      "wordMeaning": "phía dưới"
+    },
+    {
+      "type": "read",
+      "sentence": "{父}は かいしゃいんです。",
+      "meaning": "Bố tôi là nhân viên công ty.",
+      "options": [
+        "ちち",
+        "ちぢ",
+        "ふ",
+        "とう"
+      ],
+      "wordMeaning": "bố (của mình)",
+      "tip": "Nói về bố mình với người khác: 父 (ちち). Bố người khác: お父さん (おとうさん)."
+    },
+    {
+      "type": "read",
+      "sentence": "{母}は せんせいです。",
+      "meaning": "Mẹ tôi là giáo viên.",
+      "options": [
+        "はは",
+        "ぼ",
+        "ばば",
+        "かあ"
+      ],
+      "wordMeaning": "mẹ (của mình)"
+    },
+    {
+      "type": "read",
+      "sentence": "{お父さん}は おげんきですか。",
+      "meaning": "Bố bạn có khỏe không?",
+      "options": [
+        "おとうさん",
+        "おちちさん",
+        "おとさん",
+        "おとおさん"
+      ],
+      "wordMeaning": "bố (của người khác)",
+      "tip": "お父さん viết là おとうさん (với う)."
+    },
+    {
+      "type": "read",
+      "sentence": "{お母さん}は どこに いますか。",
+      "meaning": "Mẹ bạn ở đâu?",
+      "options": [
+        "おかあさん",
+        "おははさん",
+        "おかさん",
+        "おかおさん"
+      ],
+      "wordMeaning": "mẹ (của người khác)"
+    },
+    {
+      "type": "read",
+      "sentence": "{子ども}が ３人 います。",
+      "meaning": "Tôi có ba đứa con.",
+      "options": [
+        "こども",
+        "しども",
+        "ことも",
+        "こどお"
+      ],
+      "wordMeaning": "trẻ con, con cái"
+    },
+    {
+      "type": "read",
+      "sentence": "{手}を あらいます。",
+      "meaning": "Tôi rửa tay.",
+      "options": [
+        "て",
+        "しゅ",
+        "で",
+        "た"
+      ],
+      "wordMeaning": "tay"
+    },
+    {
+      "type": "read",
+      "sentence": "マリアさんは にほんごが {上手}です。",
+      "meaning": "Chị Maria giỏi tiếng Nhật.",
+      "options": [
+        "じょうず",
+        "じょうて",
+        "うえて",
+        "じょず"
+      ],
+      "wordMeaning": "giỏi"
+    },
+    {
+      "type": "read",
+      "sentence": "わたしは うたが {下手}です。",
+      "meaning": "Tôi hát kém.",
+      "options": [
+        "へた",
+        "へだ",
+        "かて",
+        "げしゅ"
+      ],
+      "wordMeaning": "kém, dở",
+      "tip": "上手 (じょうず) và 下手 (へた) là cách đọc đặc biệt."
+    },
+    {
+      "type": "read",
+      "sentence": "わたしは さかなが {好き}です。",
+      "meaning": "Tôi thích cá.",
+      "options": [
+        "すき",
+        "こうき",
+        "ずき",
+        "すぎ"
+      ],
+      "wordMeaning": "thích"
+    },
+    {
+      "type": "read",
+      "sentence": "{主人}は ぎんこういんです。",
+      "meaning": "Chồng tôi là nhân viên ngân hàng.",
+      "options": [
+        "しゅじん",
+        "しゅうじん",
+        "しゅにん",
+        "ぬしじん"
+      ],
+      "wordMeaning": "chồng (của mình)"
+    },
+    {
+      "type": "read",
+      "sentence": "{肉}を たべません。",
+      "meaning": "Tôi không ăn thịt.",
+      "options": [
+        "にく",
+        "にこ",
+        "じく",
+        "にぐ"
+      ],
+      "wordMeaning": "thịt"
+    },
+    {
+      "type": "read",
+      "sentence": "この {魚}は おいしいです。",
+      "meaning": "Con cá này ngon.",
+      "options": [
+        "さかな",
+        "さがな",
+        "さかの",
+        "ぎょう"
+      ],
+      "wordMeaning": "cá"
+    },
+    {
+      "type": "read",
+      "sentence": "いっしょに ひるごはんを {食べます}。",
+      "meaning": "Chúng tôi ăn trưa cùng nhau.",
+      "options": [
+        "たべます",
+        "しょくべます",
+        "だべます",
+        "たばます"
+      ],
+      "wordMeaning": "ăn"
+    },
+    {
+      "type": "read",
+      "sentence": "まいあさ コーヒーを {飲みます}。",
+      "meaning": "Mỗi sáng tôi uống cà phê.",
+      "options": [
+        "のみます",
+        "いんみます",
+        "のうみます",
+        "のまます"
+      ],
+      "wordMeaning": "uống"
+    },
+    {
+      "type": "read",
+      "sentence": "すきな {食べ物}は なんですか。",
+      "meaning": "Món ăn bạn thích là gì?",
+      "options": [
+        "たべもの",
+        "たべぶつ",
+        "しょくもの",
+        "たべもつ"
+      ],
+      "wordMeaning": "đồ ăn"
+    },
+    {
+      "type": "read",
+      "sentence": "{飲み物}は なにが いいですか。",
+      "meaning": "Bạn muốn uống gì?",
+      "options": [
+        "のみもの",
+        "のみぶつ",
+        "いんもの",
+        "のもの"
+      ],
+      "wordMeaning": "đồ uống"
+    },
+    {
+      "type": "read",
+      "sentence": "{金魚}が ２ひき います。",
+      "meaning": "Có hai con cá vàng.",
+      "options": [
+        "きんぎょ",
+        "きんさかな",
+        "かねぎょ",
+        "きんきょ"
+      ],
+      "wordMeaning": "cá vàng"
+    },
+    {
+      "type": "read",
+      "sentence": "{動物}が すきです。",
+      "meaning": "Tôi thích động vật.",
+      "options": [
+        "どうぶつ",
+        "どうもつ",
+        "どうぶち",
+        "とうぶつ"
+      ],
+      "wordMeaning": "động vật"
+    },
+    {
+      "type": "read",
+      "sentence": "{牛肉}を かいました。",
+      "meaning": "Tôi đã mua thịt bò.",
+      "options": [
+        "ぎゅうにく",
+        "ぎゅにく",
+        "うしにく",
+        "ぎゅうにこ"
+      ],
+      "wordMeaning": "thịt bò"
+    },
+    {
+      "type": "read",
+      "sentence": "{女の子}が あそんで います。",
+      "meaning": "Có bé gái đang chơi.",
+      "options": [
+        "おんなのこ",
+        "おんなのし",
+        "じょのこ",
+        "おなのこ"
+      ],
+      "wordMeaning": "bé gái"
+    },
+    {
+      "type": "write",
+      "sentence": "はこの {うえ}に ねこが います。",
+      "meaning": "Trên cái hộp có con mèo.",
+      "options": [
+        "上",
+        "土",
+        "止",
+        "下"
+      ],
+      "wordMeaning": "phía trên"
+    },
+    {
+      "type": "write",
+      "sentence": "つくえの {した}を みて ください。",
+      "meaning": "Hãy nhìn dưới bàn.",
+      "options": [
+        "下",
+        "不",
+        "上",
+        "卞"
+      ],
+      "wordMeaning": "phía dưới"
+    },
+    {
+      "type": "write",
+      "sentence": "{ちち}は ５０さいです。",
+      "meaning": "Bố tôi 50 tuổi.",
+      "options": [
+        "父",
+        "交",
+        "文",
+        "又"
+      ],
+      "wordMeaning": "bố (của mình)"
+    },
+    {
+      "type": "write",
+      "sentence": "{はは}は りょうりが じょうずです。",
+      "meaning": "Mẹ tôi nấu ăn giỏi.",
+      "options": [
+        "母",
+        "毎",
+        "舟",
+        "冊"
+      ],
+      "wordMeaning": "mẹ (của mình)",
+      "tip": "母 (mẹ) và 毎 (mỗi) trông giống nhau; 毎 có thêm nét ở trên."
+    },
+    {
+      "type": "write",
+      "sentence": "{て}が つめたいです。",
+      "meaning": "Tay tôi lạnh.",
+      "options": [
+        "手",
+        "毛",
+        "牛",
+        "午"
+      ],
+      "wordMeaning": "tay",
+      "tip": "手 (tay) nét cuối có móc; 毛 (lông) nét cuối cong sang phải."
+    },
+    {
+      "type": "write",
+      "sentence": "わたしは ねこが {すき}です。",
+      "meaning": "Tôi thích mèo.",
+      "options": [
+        "好き",
+        "妙き",
+        "子き",
+        "女き"
+      ],
+      "wordMeaning": "thích",
+      "tip": "好 = 女 (phụ nữ) + 子 (con)."
+    },
+    {
+      "type": "write",
+      "sentence": "{にく}を かいます。",
+      "meaning": "Tôi mua thịt.",
+      "options": [
+        "肉",
+        "内",
+        "円",
+        "同"
+      ],
+      "wordMeaning": "thịt"
+    },
+    {
+      "type": "write",
+      "sentence": "{さかな}を たべます。",
+      "meaning": "Tôi ăn cá.",
+      "options": [
+        "魚",
+        "黒",
+        "鳥",
+        "角"
+      ],
+      "wordMeaning": "cá"
+    },
+    {
+      "type": "write",
+      "sentence": "パンを {たべます}。",
+      "meaning": "Tôi ăn bánh mì.",
+      "options": [
+        "食べます",
+        "良べます",
+        "飲べます",
+        "会べます"
+      ],
+      "wordMeaning": "ăn"
+    },
+    {
+      "type": "write",
+      "sentence": "おちゃを {のみます}。",
+      "meaning": "Tôi uống trà.",
+      "options": [
+        "飲みます",
+        "飯みます",
+        "欽みます",
+        "食みます"
+      ],
+      "wordMeaning": "uống",
+      "tip": "飲 (uống) = 食 + 欠; 飯 (cơm) = 食 + 反."
+    },
+    {
+      "type": "write",
+      "sentence": "{こども}が すきです。",
+      "meaning": "Tôi thích trẻ con.",
+      "options": [
+        "子ども",
+        "字ども",
+        "予ども",
+        "了ども"
+      ],
+      "wordMeaning": "trẻ con"
+    },
+    {
+      "type": "write",
+      "sentence": "すきな {たべもの}は すしです。",
+      "meaning": "Món ăn tôi thích là sushi.",
+      "options": [
+        "食べ物",
+        "食べ牛",
+        "食べ勿",
+        "食べ持"
+      ],
+      "wordMeaning": "đồ ăn"
+    },
+    {
+      "type": "write",
+      "sentence": "かのじょは テニスが {じょうず}です。",
+      "meaning": "Cô ấy chơi tennis giỏi.",
+      "options": [
+        "上手",
+        "上毛",
+        "土手",
+        "下手"
+      ],
+      "wordMeaning": "giỏi"
+    },
+    {
+      "type": "write",
+      "sentence": "{のみもの}は なにが いいですか。",
+      "meaning": "Bạn muốn uống gì?",
+      "options": [
+        "飲み物",
+        "飯み物",
+        "飲み持",
+        "食み物"
+      ],
+      "wordMeaning": "đồ uống"
+    },
+    {
+      "type": "write",
+      "sentence": "{ごしゅじん}は おげんきですか。",
+      "meaning": "Chồng chị có khỏe không?",
+      "options": [
+        "ご主人",
+        "ご王人",
+        "ご住人",
+        "ご主入"
+      ],
+      "wordMeaning": "chồng (của người khác)"
+    }
+  ]
+}

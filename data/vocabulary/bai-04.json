@@ -1,0 +1,266 @@
+{
+  "lesson": 4,
+  "title": "Giờ giấc và các ngày trong tuần",
+  "words": [
+    {
+      "kana": "おきます",
+      "kanji": "起きます",
+      "vi": "thức dậy, dậy"
+    },
+    {
+      "kana": "ねます",
+      "kanji": "寝ます",
+      "vi": "ngủ, đi ngủ"
+    },
+    {
+      "kana": "はたらきます",
+      "kanji": "働きます",
+      "vi": "làm việc"
+    },
+    {
+      "kana": "やすみます",
+      "kanji": "休みます",
+      "vi": "nghỉ, nghỉ ngơi"
+    },
+    {
+      "kana": "べんきょうします",
+      "kanji": "勉強します",
+      "vi": "học"
+    },
+    {
+      "kana": "おわります",
+      "kanji": "終わります",
+      "vi": "kết thúc, xong"
+    },
+    {
+      "kana": "デパート",
+      "kanji": "",
+      "vi": "cửa hàng bách hóa"
+    },
+    {
+      "kana": "ぎんこう",
+      "kanji": "銀行",
+      "vi": "ngân hàng"
+    },
+    {
+      "kana": "ゆうびんきょく",
+      "kanji": "郵便局",
+      "vi": "bưu điện"
+    },
+    {
+      "kana": "としょかん",
+      "kanji": "図書館",
+      "vi": "thư viện"
+    },
+    {
+      "kana": "びじゅつかん",
+      "kanji": "美術館",
+      "vi": "bảo tàng mỹ thuật"
+    },
+    {
+      "kana": "いま",
+      "kanji": "今",
+      "vi": "bây giờ"
+    },
+    {
+      "kana": "～じ",
+      "kanji": "～時",
+      "vi": "~ giờ"
+    },
+    {
+      "kana": "～ふん（ぷん）",
+      "kanji": "～分",
+      "vi": "~ phút"
+    },
+    {
+      "kana": "はん",
+      "kanji": "半",
+      "vi": "rưỡi, một nửa"
+    },
+    {
+      "kana": "なんじ",
+      "kanji": "何時",
+      "vi": "mấy giờ"
+    },
+    {
+      "kana": "なんぷん",
+      "kanji": "何分",
+      "vi": "mấy phút"
+    },
+    {
+      "kana": "ごぜん",
+      "kanji": "午前",
+      "vi": "sáng, trước 12 giờ trưa (AM)"
+    },
+    {
+      "kana": "ごご",
+      "kanji": "午後",
+      "vi": "chiều, sau 12 giờ trưa (PM)"
+    },
+    {
+      "kana": "あさ",
+      "kanji": "朝",
+      "vi": "buổi sáng"
+    },
+    {
+      "kana": "ひる",
+      "kanji": "昼",
+      "vi": "buổi trưa"
+    },
+    {
+      "kana": "ばん",
+      "kanji": "晩",
+      "vi": "buổi tối"
+    },
+    {
+      "kana": "よる",
+      "kanji": "夜",
+      "vi": "ban đêm, buổi tối"
+    },
+    {
+      "kana": "おととい",
+      "kanji": "",
+      "vi": "hôm kia"
+    },
+    {
+      "kana": "きのう",
+      "kanji": "",
+      "vi": "hôm qua"
+    },
+    {
+      "kana": "きょう",
+      "kanji": "",
+      "vi": "hôm nay"
+    },
+    {
+      "kana": "あした",
+      "kanji": "",
+      "vi": "ngày mai"
+    },
+    {
+      "kana": "あさって",
+      "kanji": "",
+      "vi": "ngày kia"
+    },
+    {
+      "kana": "けさ",
+      "kanji": "",
+      "vi": "sáng nay"
+    },
+    {
+      "kana": "こんばん",
+      "kanji": "今晩",
+      "vi": "tối nay"
+    },
+    {
+      "kana": "やすみ",
+      "kanji": "休み",
+      "vi": "nghỉ, ngày nghỉ"
+    },
+    {
+      "kana": "ひるやすみ",
+      "kanji": "昼休み",
+      "vi": "nghỉ trưa"
+    },
+    {
+      "kana": "しけん",
+      "kanji": "試験",
+      "vi": "kỳ thi, bài thi"
+    },
+    {
+      "kana": "かいぎ",
+      "kanji": "会議",
+      "vi": "cuộc họp, hội nghị"
+    },
+    {
+      "kana": "えいが",
+      "kanji": "映画",
+      "vi": "phim, điện ảnh"
+    },
+    {
+      "kana": "まいあさ",
+      "kanji": "毎朝",
+      "vi": "mỗi sáng"
+    },
+    {
+      "kana": "まいばん",
+      "kanji": "毎晩",
+      "vi": "mỗi tối"
+    },
+    {
+      "kana": "まいにち",
+      "kanji": "毎日",
+      "vi": "mỗi ngày"
+    },
+    {
+      "kana": "げつようび",
+      "kanji": "月曜日",
+      "vi": "thứ Hai"
+    },
+    {
+      "kana": "かようび",
+      "kanji": "火曜日",
+      "vi": "thứ Ba"
+    },
+    {
+      "kana": "すいようび",
+      "kanji": "水曜日",
+      "vi": "thứ Tư"
+    },
+    {
+      "kana": "もくようび",
+      "kanji": "木曜日",
+      "vi": "thứ Năm"
+    },
+    {
+      "kana": "きんようび",
+      "kanji": "金曜日",
+      "vi": "thứ Sáu"
+    },
+    {
+      "kana": "どようび",
+      "kanji": "土曜日",
+      "vi": "thứ Bảy"
+    },
+    {
+      "kana": "にちようび",
+      "kanji": "日曜日",
+      "vi": "Chủ nhật"
+    },
+    {
+      "kana": "なんようび",
+      "kanji": "何曜日",
+      "vi": "thứ mấy"
+    },
+    {
+      "kana": "ばんごう",
+      "kanji": "番号",
+      "vi": "số, số hiệu"
+    },
+    {
+      "kana": "なんばん",
+      "kanji": "何番",
+      "vi": "số mấy"
+    },
+    {
+      "kana": "～から",
+      "kanji": "",
+      "vi": "từ ~"
+    },
+    {
+      "kana": "～まで",
+      "kanji": "",
+      "vi": "đến ~"
+    },
+    {
+      "kana": "～と",
+      "kanji": "",
+      "vi": "và ~"
+    },
+    {
+      "kana": "たいへんですね",
+      "kanji": "大変ですね",
+      "vi": "vất vả nhỉ"
+    }
+  ]
+}

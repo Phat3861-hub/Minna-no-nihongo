@@ -1,0 +1,243 @@
+{
+  "lesson": 7,
+  "title": "Cho, nhận và dụng cụ",
+  "words": [
+    {
+      "kana": "きります",
+      "kanji": "切ります",
+      "vi": "cắt"
+    },
+    {
+      "kana": "おくります",
+      "kanji": "送ります",
+      "vi": "gửi"
+    },
+    {
+      "kana": "あげます",
+      "kanji": "",
+      "vi": "cho, tặng",
+      "note": "Người cho là mình hoặc người ngang hàng, bậc dưới"
+    },
+    {
+      "kana": "もらいます",
+      "kanji": "",
+      "vi": "nhận"
+    },
+    {
+      "kana": "かします",
+      "kanji": "貸します",
+      "vi": "cho mượn, cho vay"
+    },
+    {
+      "kana": "かります",
+      "kanji": "借ります",
+      "vi": "mượn, vay"
+    },
+    {
+      "kana": "おしえます",
+      "kanji": "教えます",
+      "vi": "dạy, chỉ"
+    },
+    {
+      "kana": "ならいます",
+      "kanji": "習います",
+      "vi": "học (từ ai đó)"
+    },
+    {
+      "kana": "かけます",
+      "kanji": "",
+      "vi": "gọi (điện thoại)",
+      "note": "Dùng với でんわを"
+    },
+    {
+      "kana": "て",
+      "kanji": "手",
+      "vi": "tay"
+    },
+    {
+      "kana": "はし",
+      "kanji": "箸",
+      "vi": "đũa"
+    },
+    {
+      "kana": "スプーン",
+      "kanji": "",
+      "vi": "thìa, muỗng"
+    },
+    {
+      "kana": "ナイフ",
+      "kanji": "",
+      "vi": "dao (ăn)"
+    },
+    {
+      "kana": "フォーク",
+      "kanji": "",
+      "vi": "nĩa"
+    },
+    {
+      "kana": "はさみ",
+      "kanji": "",
+      "vi": "cái kéo"
+    },
+    {
+      "kana": "ファクス",
+      "kanji": "",
+      "vi": "máy fax"
+    },
+    {
+      "kana": "ワープロ",
+      "kanji": "",
+      "vi": "máy đánh chữ"
+    },
+    {
+      "kana": "パソコン",
+      "kanji": "",
+      "vi": "máy tính cá nhân"
+    },
+    {
+      "kana": "パンチ",
+      "kanji": "",
+      "vi": "cái đục lỗ"
+    },
+    {
+      "kana": "ホッチキス",
+      "kanji": "",
+      "vi": "cái dập ghim"
+    },
+    {
+      "kana": "セロテープ",
+      "kanji": "",
+      "vi": "băng dính"
+    },
+    {
+      "kana": "けしゴム",
+      "kanji": "消しゴム",
+      "vi": "cục tẩy"
+    },
+    {
+      "kana": "かみ",
+      "kanji": "紙",
+      "vi": "giấy"
+    },
+    {
+      "kana": "はな",
+      "kanji": "花",
+      "vi": "hoa"
+    },
+    {
+      "kana": "シャツ",
+      "kanji": "",
+      "vi": "áo sơ mi"
+    },
+    {
+      "kana": "プレゼント",
+      "kanji": "",
+      "vi": "quà tặng"
+    },
+    {
+      "kana": "にもつ",
+      "kanji": "荷物",
+      "vi": "hành lý"
+    },
+    {
+      "kana": "おかね",
+      "kanji": "お金",
+      "vi": "tiền"
+    },
+    {
+      "kana": "きっぷ",
+      "kanji": "切符",
+      "vi": "vé (tàu, xe)"
+    },
+    {
+      "kana": "クリスマス",
+      "kanji": "",
+      "vi": "Giáng sinh"
+    },
+    {
+      "kana": "ちち",
+      "kanji": "父",
+      "vi": "bố (của mình)"
+    },
+    {
+      "kana": "はは",
+      "kanji": "母",
+      "vi": "mẹ (của mình)"
+    },
+    {
+      "kana": "おとうさん",
+      "kanji": "お父さん",
+      "vi": "bố (của người khác, gọi bố mình)"
+    },
+    {
+      "kana": "おかあさん",
+      "kanji": "お母さん",
+      "vi": "mẹ (của người khác, gọi mẹ mình)"
+    },
+    {
+      "kana": "もう",
+      "kanji": "",
+      "vi": "đã ... rồi"
+    },
+    {
+      "kana": "まだ",
+      "kanji": "",
+      "vi": "chưa"
+    },
+    {
+      "kana": "これから",
+      "kanji": "",
+      "vi": "từ bây giờ, sắp tới"
+    },
+    {
+      "kana": "すてきですね",
+      "kanji": "素敵ですね",
+      "vi": "đẹp quá nhỉ, tuyệt nhỉ"
+    },
+    {
+      "kana": "ごめんください",
+      "kanji": "",
+      "vi": "xin lỗi, có ai ở nhà không?"
+    },
+    {
+      "kana": "いらっしゃい",
+      "kanji": "",
+      "vi": "chào mừng, hoan nghênh"
+    },
+    {
+      "kana": "どうぞおあがりください",
+      "kanji": "どうぞお上がりください",
+      "vi": "xin mời vào"
+    },
+    {
+      "kana": "しつれいします",
+      "kanji": "失礼します",
+      "vi": "xin phép (khi vào, khi ra về)"
+    },
+    {
+      "kana": "いただきます",
+      "kanji": "",
+      "vi": "xin phép ăn, xin nhận"
+    },
+    {
+      "kana": "りょこう",
+      "kanji": "旅行",
+      "vi": "du lịch"
+    },
+    {
+      "kana": "おみやげ",
+      "kanji": "お土産",
+      "vi": "quà lưu niệm"
+    },
+    {
+      "kana": "ヨーロッパ",
+      "kanji": "",
+      "vi": "châu Âu"
+    },
+    {
+      "kana": "スペイン",
+      "kanji": "",
+      "vi": "Tây Ban Nha"
+    }
+  ]
+}

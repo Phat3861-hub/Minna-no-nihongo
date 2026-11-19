@@ -1,0 +1,105 @@
+{
+  "lesson": 7,
+  "title": "Cho, nhận và dụng cụ",
+  "points": [
+    {
+      "pattern": "N(dụng cụ・phương tiện) で V",
+      "meaning": "Làm V bằng N",
+      "explanations": [
+        "で chỉ công cụ, phương tiện, hoặc ngôn ngữ dùng để làm việc gì.",
+        "Ngôn ngữ cũng dùng で: にほんごで, えいごで."
+      ],
+      "examples": [
+        {
+          "jp": "はしで ごはんを たべます。",
+          "vi": "Tôi ăn cơm bằng đũa."
+        },
+        {
+          "jp": "にほんごで レポートを かきます。",
+          "vi": "Tôi viết báo cáo bằng tiếng Nhật."
+        }
+      ]
+    },
+    {
+      "pattern": "“Từ／câu” は ～ごで なんですか",
+      "meaning": "“...” trong tiếng ~ là gì?",
+      "explanations": [
+        "Dùng để hỏi cách nói của một từ bằng ngôn ngữ khác."
+      ],
+      "examples": [
+        {
+          "jp": "「ありがとう」は えいごで なんですか。── 「Thank you」です。",
+          "vi": "“ありがとう” tiếng Anh là gì? ── Là “Thank you”."
+        }
+      ]
+    },
+    {
+      "pattern": "N(người) に あげます／かします／おしえます／おくります",
+      "meaning": "Cho／cho mượn／dạy／gửi cho ai",
+      "explanations": [
+        "に chỉ người nhận, を chỉ vật được cho: người nhận + に, vật + を.",
+        "Các động từ khác đi cùng mẫu này: かけます (gọi điện)."
+      ],
+      "examples": [
+        {
+          "jp": "わたしは きむらさんに はなを あげます。",
+          "vi": "Tôi tặng hoa cho anh Kimura."
+        },
+        {
+          "jp": "ミラーさんは さとうさんに えいごを おしえます。",
+          "vi": "Anh Miller dạy tiếng Anh cho anh Sato."
+        }
+      ]
+    },
+    {
+      "pattern": "N(người) に もらいます／かります／ならいます",
+      "meaning": "Nhận／mượn／học từ ai",
+      "explanations": [
+        "に chỉ nguồn nhận (người cho). Nếu nguồn là tổ chức (công ty, trường) thì dùng から."
+      ],
+      "examples": [
+        {
+          "jp": "わたしは きむらさんに ほんを もらいました。",
+          "vi": "Tôi đã nhận sách từ anh Kimura."
+        },
+        {
+          "jp": "ミラーさんに えいごを ならいます。",
+          "vi": "Tôi học tiếng Anh từ anh Miller."
+        }
+      ]
+    },
+    {
+      "pattern": "もう V ました／まだです",
+      "meaning": "Đã ~ rồi／Chưa",
+      "explanations": [
+        "Hỏi: もう V ましたか (đã ~ chưa?).",
+        "Trả lời: はい、もう V ました (rồi) hoặc いいえ、まだです (chưa)."
+      ],
+      "examples": [
+        {
+          "jp": "もう ひるごはんを たべましたか。",
+          "vi": "Bạn đã ăn trưa chưa?"
+        },
+        {
+          "jp": "はい、もう たべました。／いいえ、まだです。",
+          "vi": "Rồi, tôi đã ăn. ／ Chưa, vẫn chưa."
+        }
+      ]
+    },
+    {
+      "pattern": "Câu chào khi thăm nhà",
+      "meaning": "ごめんください／いらっしゃい／どうぞ おあがりください／いただきます",
+      "explanations": [
+        "ごめんください: xin lỗi, có ai ở nhà không (khi đến nhà).",
+        "いらっしゃい: chào mừng. どうぞ おあがりください: xin mời vào.",
+        "しつれいします: xin phép. いただきます: xin phép ăn (trước khi ăn)."
+      ],
+      "examples": [
+        {
+          "jp": "ごめんください。── いらっしゃい。どうぞ おあがりください。",
+          "vi": "Xin lỗi, có ai ở nhà không ạ? ── Mời vào."
+        }
+      ]
+    }
+  ]
+}

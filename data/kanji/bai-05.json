@@ -1,0 +1,615 @@
+{
+  "id": "b5",
+  "name": "Bài 5",
+  "kanji": [
+    {
+      "char": "行",
+      "hanViet": "HÀNH",
+      "meaning": "đi",
+      "on": "コウ",
+      "kun": "い・く",
+      "examples": [
+        {
+          "word": "行きます",
+          "reading": "いきます",
+          "meaning": "đi"
+        },
+        {
+          "word": "銀行",
+          "reading": "ぎんこう",
+          "meaning": "ngân hàng"
+        },
+        {
+          "word": "旅行",
+          "reading": "りょこう",
+          "meaning": "du lịch"
+        }
+      ]
+    },
+    {
+      "char": "来",
+      "hanViet": "LAI",
+      "meaning": "đến",
+      "on": "ライ",
+      "kun": "く・る、き・ます",
+      "examples": [
+        {
+          "word": "来ます",
+          "reading": "きます",
+          "meaning": "đến"
+        },
+        {
+          "word": "来年",
+          "reading": "らいねん",
+          "meaning": "năm sau"
+        },
+        {
+          "word": "来週",
+          "reading": "らいしゅう",
+          "meaning": "tuần sau"
+        }
+      ]
+    },
+    {
+      "char": "校",
+      "hanViet": "HIỆU",
+      "meaning": "trường học",
+      "on": "コウ",
+      "kun": "—",
+      "examples": [
+        {
+          "word": "学校",
+          "reading": "がっこう",
+          "meaning": "trường học"
+        },
+        {
+          "word": "高校",
+          "reading": "こうこう",
+          "meaning": "trường cấp 3"
+        }
+      ]
+    },
+    {
+      "char": "週",
+      "hanViet": "CHU",
+      "meaning": "tuần",
+      "on": "シュウ",
+      "kun": "—",
+      "examples": [
+        {
+          "word": "今週",
+          "reading": "こんしゅう",
+          "meaning": "tuần này"
+        },
+        {
+          "word": "来週",
+          "reading": "らいしゅう",
+          "meaning": "tuần sau"
+        },
+        {
+          "word": "毎週",
+          "reading": "まいしゅう",
+          "meaning": "mỗi tuần"
+        }
+      ]
+    },
+    {
+      "char": "去",
+      "hanViet": "KHỨ",
+      "meaning": "đi qua, đã qua",
+      "on": "キョ",
+      "kun": "さ・る",
+      "examples": [
+        {
+          "word": "去年",
+          "reading": "きょねん",
+          "meaning": "năm ngoái"
+        }
+      ]
+    },
+    {
+      "char": "年",
+      "hanViet": "NIÊN",
+      "meaning": "năm",
+      "on": "ネン",
+      "kun": "とし",
+      "examples": [
+        {
+          "word": "今年",
+          "reading": "ことし",
+          "meaning": "năm nay"
+        },
+        {
+          "word": "来年",
+          "reading": "らいねん",
+          "meaning": "năm sau"
+        },
+        {
+          "word": "去年",
+          "reading": "きょねん",
+          "meaning": "năm ngoái"
+        }
+      ]
+    },
+    {
+      "char": "駅",
+      "hanViet": "DỊCH",
+      "meaning": "nhà ga",
+      "on": "エキ",
+      "kun": "—",
+      "examples": [
+        {
+          "word": "駅",
+          "reading": "えき",
+          "meaning": "nhà ga"
+        },
+        {
+          "word": "東京駅",
+          "reading": "とうきょうえき",
+          "meaning": "ga Tokyo"
+        }
+      ]
+    },
+    {
+      "char": "電",
+      "hanViet": "ĐIỆN",
+      "meaning": "điện",
+      "on": "デン",
+      "kun": "—",
+      "examples": [
+        {
+          "word": "電話",
+          "reading": "でんわ",
+          "meaning": "điện thoại"
+        },
+        {
+          "word": "電車",
+          "reading": "でんしゃ",
+          "meaning": "tàu điện"
+        },
+        {
+          "word": "電気",
+          "reading": "でんき",
+          "meaning": "điện, đèn"
+        }
+      ]
+    },
+    {
+      "char": "車",
+      "hanViet": "XA",
+      "meaning": "xe",
+      "on": "シャ",
+      "kun": "くるま",
+      "examples": [
+        {
+          "word": "車",
+          "reading": "くるま",
+          "meaning": "ô tô"
+        },
+        {
+          "word": "電車",
+          "reading": "でんしゃ",
+          "meaning": "tàu điện"
+        },
+        {
+          "word": "自動車",
+          "reading": "じどうしゃ",
+          "meaning": "ô tô"
+        }
+      ]
+    },
+    {
+      "char": "自",
+      "hanViet": "TỰ",
+      "meaning": "tự mình",
+      "on": "ジ、シ",
+      "kun": "みずか・ら",
+      "examples": [
+        {
+          "word": "自転車",
+          "reading": "じてんしゃ",
+          "meaning": "xe đạp"
+        },
+        {
+          "word": "自分",
+          "reading": "じぶん",
+          "meaning": "bản thân"
+        }
+      ]
+    },
+    {
+      "char": "転",
+      "hanViet": "CHUYỂN",
+      "meaning": "xoay, lăn, chuyển",
+      "on": "テン",
+      "kun": "ころ・ぶ",
+      "examples": [
+        {
+          "word": "自転車",
+          "reading": "じてんしゃ",
+          "meaning": "xe đạp"
+        },
+        {
+          "word": "運転",
+          "reading": "うんてん",
+          "meaning": "lái xe"
+        }
+      ]
+    },
+    {
+      "char": "動",
+      "hanViet": "ĐỘNG",
+      "meaning": "chuyển động",
+      "on": "ドウ",
+      "kun": "うご・く",
+      "examples": [
+        {
+          "word": "自動車",
+          "reading": "じどうしゃ",
+          "meaning": "ô tô"
+        },
+        {
+          "word": "動きます",
+          "reading": "うごきます",
+          "meaning": "chuyển động, chạy"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "type": "read",
+      "sentence": "あした きょうとへ {行きます}。",
+      "meaning": "Ngày mai tôi đi Kyoto.",
+      "options": [
+        "いきます",
+        "くきます",
+        "こきます",
+        "ぎきます"
+      ],
+      "wordMeaning": "đi"
+    },
+    {
+      "type": "read",
+      "sentence": "{来週} にほんへ きます。",
+      "meaning": "Tuần sau tôi đến Nhật.",
+      "options": [
+        "らいしゅう",
+        "らいしゅ",
+        "らいしゅく",
+        "きしゅう"
+      ],
+      "wordMeaning": "tuần sau"
+    },
+    {
+      "type": "read",
+      "sentence": "あるいて {学校}へ いきます。",
+      "meaning": "Tôi đi bộ đến trường.",
+      "options": [
+        "がっこう",
+        "がくこう",
+        "がっこ",
+        "かっこう"
+      ],
+      "wordMeaning": "trường học",
+      "tip": "学 (がく) + 校 (こう) → がっこう: く biến thành っ."
+    },
+    {
+      "type": "read",
+      "sentence": "{去年} にほんへ きました。",
+      "meaning": "Năm ngoái tôi đến Nhật.",
+      "options": [
+        "きょねん",
+        "きょうねん",
+        "こねん",
+        "きょとし"
+      ],
+      "wordMeaning": "năm ngoái"
+    },
+    {
+      "type": "read",
+      "sentence": "{来年} けっこんします。",
+      "meaning": "Năm sau tôi kết hôn.",
+      "options": [
+        "らいねん",
+        "らいとし",
+        "くるねん",
+        "らいねい"
+      ],
+      "wordMeaning": "năm sau"
+    },
+    {
+      "type": "read",
+      "sentence": "{今年}は ２０２６ねんです。",
+      "meaning": "Năm nay là năm 2026.",
+      "options": [
+        "ことし",
+        "こんとし",
+        "いまとし",
+        "ことしい"
+      ],
+      "wordMeaning": "năm nay",
+      "tip": "今年 là cách đọc đặc biệt: ことし."
+    },
+    {
+      "type": "read",
+      "sentence": "{駅}で ともだちに あいます。",
+      "meaning": "Tôi gặp bạn ở ga.",
+      "options": [
+        "えき",
+        "えぎ",
+        "えっき",
+        "いき"
+      ],
+      "wordMeaning": "nhà ga"
+    },
+    {
+      "type": "read",
+      "sentence": "{電車}で かいしゃへ いきます。",
+      "meaning": "Tôi đi đến công ty bằng tàu điện.",
+      "options": [
+        "でんしゃ",
+        "てんしゃ",
+        "でんじゃ",
+        "でんしや"
+      ],
+      "wordMeaning": "tàu điện"
+    },
+    {
+      "type": "read",
+      "sentence": "{自転車}で がっこうへ いきます。",
+      "meaning": "Tôi đến trường bằng xe đạp.",
+      "options": [
+        "じてんしゃ",
+        "じでんしゃ",
+        "じてんじゃ",
+        "してんしゃ"
+      ],
+      "wordMeaning": "xe đạp"
+    },
+    {
+      "type": "read",
+      "sentence": "{車}で うちへ かえります。",
+      "meaning": "Tôi về nhà bằng ô tô.",
+      "options": [
+        "くるま",
+        "しゃ",
+        "ぐるま",
+        "くろま"
+      ],
+      "wordMeaning": "ô tô"
+    },
+    {
+      "type": "read",
+      "sentence": "ともだちが うちへ {来ます}。",
+      "meaning": "Bạn tôi đến nhà.",
+      "options": [
+        "きます",
+        "くます",
+        "らいます",
+        "こます"
+      ],
+      "wordMeaning": "đến",
+      "tip": "来ます đọc là きます. Âm On ライ dùng trong 来週, 来年."
+    },
+    {
+      "type": "read",
+      "sentence": "{毎週} テニスを します。",
+      "meaning": "Tuần nào tôi cũng chơi tennis.",
+      "options": [
+        "まいしゅう",
+        "まいしゅ",
+        "まいじゅう",
+        "まいしゅく"
+      ],
+      "wordMeaning": "mỗi tuần"
+    },
+    {
+      "type": "read",
+      "sentence": "{自動車}の かいしゃで はたらきます。",
+      "meaning": "Tôi làm việc ở công ty ô tô.",
+      "options": [
+        "じどうしゃ",
+        "じとうしゃ",
+        "じどしゃ",
+        "じどうじゃ"
+      ],
+      "wordMeaning": "ô tô"
+    },
+    {
+      "type": "read",
+      "sentence": "{来月} くにへ かえります。",
+      "meaning": "Tháng sau tôi về nước.",
+      "options": [
+        "らいげつ",
+        "らいがつ",
+        "くるげつ",
+        "らいつき"
+      ],
+      "wordMeaning": "tháng sau"
+    },
+    {
+      "type": "read",
+      "sentence": "{東京駅}まで いきます。",
+      "meaning": "Tôi đi đến ga Tokyo.",
+      "options": [
+        "とうきょうえき",
+        "ときょうえき",
+        "とうきょえき",
+        "とうきょうえっき"
+      ],
+      "wordMeaning": "ga Tokyo"
+    },
+    {
+      "type": "read",
+      "sentence": "{銀行}は ９じからです。",
+      "meaning": "Ngân hàng mở cửa từ 9 giờ.",
+      "options": [
+        "ぎんこう",
+        "きんこう",
+        "ぎんいき",
+        "ぎんぎょう"
+      ],
+      "wordMeaning": "ngân hàng"
+    },
+    {
+      "type": "read",
+      "sentence": "{先週} きょうとへ いきました。",
+      "meaning": "Tuần trước tôi đã đi Kyoto.",
+      "options": [
+        "せんしゅう",
+        "さきしゅう",
+        "せんしゅ",
+        "ぜんしゅう"
+      ],
+      "wordMeaning": "tuần trước"
+    },
+    {
+      "type": "write",
+      "sentence": "あるいて {がっこう}へ いきます。",
+      "meaning": "Tôi đi bộ đến trường.",
+      "options": [
+        "学校",
+        "学枚",
+        "字校",
+        "学交"
+      ],
+      "wordMeaning": "trường học",
+      "tip": "校 (trường) = 木 + 交; 枚 là từ đếm vật mỏng."
+    },
+    {
+      "type": "write",
+      "sentence": "{えき}は どこですか。",
+      "meaning": "Nhà ga ở đâu?",
+      "options": [
+        "駅",
+        "馬",
+        "験",
+        "訳"
+      ],
+      "wordMeaning": "nhà ga"
+    },
+    {
+      "type": "write",
+      "sentence": "{でんしゃ}で いきます。",
+      "meaning": "Tôi đi bằng tàu điện.",
+      "options": [
+        "電車",
+        "雷車",
+        "電東",
+        "雲車"
+      ],
+      "wordMeaning": "tàu điện",
+      "tip": "電 (điện) phần dưới có nét móc; 雷 (sấm) phần dưới là 田."
+    },
+    {
+      "type": "write",
+      "sentence": "あたらしい {くるま}を かいました。",
+      "meaning": "Tôi đã mua ô tô mới.",
+      "options": [
+        "車",
+        "東",
+        "軍",
+        "更"
+      ],
+      "wordMeaning": "ô tô"
+    },
+    {
+      "type": "write",
+      "sentence": "デパートへ {いきます}。",
+      "meaning": "Tôi đi đến cửa hàng bách hóa.",
+      "options": [
+        "行きます",
+        "往きます",
+        "待きます",
+        "街きます"
+      ],
+      "wordMeaning": "đi"
+    },
+    {
+      "type": "write",
+      "sentence": "ともだちが {きます}。",
+      "meaning": "Bạn tôi đến.",
+      "options": [
+        "来ます",
+        "米ます",
+        "未ます",
+        "末ます"
+      ],
+      "wordMeaning": "đến"
+    },
+    {
+      "type": "write",
+      "sentence": "{らいねん} だいがくに はいります。",
+      "meaning": "Năm sau tôi vào đại học.",
+      "options": [
+        "来年",
+        "来牛",
+        "米年",
+        "来午"
+      ],
+      "wordMeaning": "năm sau"
+    },
+    {
+      "type": "write",
+      "sentence": "{こんしゅう}は ひまです。",
+      "meaning": "Tuần này tôi rảnh.",
+      "options": [
+        "今週",
+        "今周",
+        "令週",
+        "今過"
+      ],
+      "wordMeaning": "tuần này"
+    },
+    {
+      "type": "write",
+      "sentence": "{じてんしゃ}で かいしゃへ いきます。",
+      "meaning": "Tôi đi đến công ty bằng xe đạp.",
+      "options": [
+        "自転車",
+        "白転車",
+        "自軽車",
+        "自転東"
+      ],
+      "wordMeaning": "xe đạp",
+      "tip": "自 (tự) có 3 nét ngang bên trong; 白 (trắng) chỉ có 2."
+    },
+    {
+      "type": "write",
+      "sentence": "{きょねん} にほんへ きました。",
+      "meaning": "Năm ngoái tôi đến Nhật.",
+      "options": [
+        "去年",
+        "法年",
+        "去午",
+        "云年"
+      ],
+      "wordMeaning": "năm ngoái"
+    },
+    {
+      "type": "write",
+      "sentence": "{らいしゅう} テストが あります。",
+      "meaning": "Tuần sau có bài kiểm tra.",
+      "options": [
+        "来週",
+        "米週",
+        "来周",
+        "来過"
+      ],
+      "wordMeaning": "tuần sau"
+    },
+    {
+      "type": "write",
+      "sentence": "{じどうしゃ}の こうじょうです。",
+      "meaning": "Đây là nhà máy ô tô.",
+      "options": [
+        "自動車",
+        "自働車",
+        "自重車",
+        "白動車"
+      ],
+      "wordMeaning": "ô tô"
+    }
+  ]
+}

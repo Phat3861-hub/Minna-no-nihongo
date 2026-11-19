@@ -1,0 +1,1239 @@
+{
+  "_ghi_chu": "{chữ|cách đọc} = chữ có furigana.",
+  "sections": [
+    {
+      "id": "chao",
+      "title": "Chào hỏi",
+      "jp": "{挨拶|あいさつ}",
+      "items": [
+        {
+          "question": "おはようございます。／こんにちは。／こんばんは。",
+          "meaning": "Chào buổi sáng. / Xin chào. / Chào buổi tối.",
+          "grammar": "Bài 1: câu chào",
+          "answers": [
+            {
+              "jp": "おはようございます。",
+              "vi": "Chào buổi sáng (thầy/cô)."
+            },
+            {
+              "jp": "こんにちは。",
+              "vi": "Xin chào (ban ngày)."
+            },
+            {
+              "jp": "こんばんは。",
+              "vi": "Chào buổi tối."
+            }
+          ],
+          "tip": "Chào lại đúng câu mà giáo viên vừa nói, kèm cúi chào nhẹ."
+        },
+        {
+          "question": "{始|はじ}めましょう。",
+          "meaning": "Chúng ta bắt đầu nhé.",
+          "grammar": "Bài 6: V ましょう (đề nghị cùng làm)",
+          "answers": [
+            {
+              "jp": "はい、よろしく おねがいします。",
+              "vi": "Vâng, em mong thầy/cô giúp đỡ."
+            }
+          ],
+          "tip": "Chỉ cần đáp “はい、よろしく おねがいします” một cách lịch sự."
+        }
+      ]
+    },
+    {
+      "id": "jikan",
+      "title": "Thời gian",
+      "jp": "{時間|じかん}",
+      "items": [
+        {
+          "question": "{今|いま} {何時|なんじ}ですか。",
+          "meaning": "Bây giờ là mấy giờ?",
+          "grammar": "Bài 4: いま ～じ ～ふん です",
+          "answers": [
+            {
+              "jp": "{今|いま} ７じ １５ふんです。",
+              "vi": "Bây giờ là 7 giờ 15 phút."
+            },
+            {
+              "jp": "{今|いま} ごご ６じ はんです。",
+              "vi": "Bây giờ là 6 giờ rưỡi chiều."
+            }
+          ],
+          "tip": "Nhìn đồng hồ và nói giờ thật. Giờ đặc biệt: 4じ よじ, 7じ しちじ, 9じ くじ. Phút: いっぷん, にふん, さんぷん, よんぷん, ごふん, ろっぷん, ななふん, はっぷん, きゅうふん, じゅっぷん. Rưỡi: はん."
+        },
+        {
+          "question": "{今日|きょう}・あしたは {何月何日|なんがつなんにち}ですか。",
+          "meaning": "Hôm nay / ngày mai là ngày mấy tháng mấy?",
+          "grammar": "Bài 5: ～がつ ～にち です",
+          "answers": [
+            {
+              "jp": "{今日|きょう}は １１がつ １２にちです。",
+              "vi": "Hôm nay là ngày 12 tháng 11."
+            },
+            {
+              "jp": "あしたは １１がつ １３にちです。",
+              "vi": "Ngày mai là ngày 13 tháng 11."
+            }
+          ],
+          "tip": "Nói đúng ngày thi của bạn. Ngày đặc biệt: 1 ついたち, 2 ふつか, 3 みっか, 4 よっか, 5 いつか, 6 むいか, 7 なのか, 8 ようか, 9 ここのか, 10 とおか, 14 じゅうよっか, 20 はつか, 24 にじゅうよっか. Tháng: 4 しがつ, 7 しちがつ, 9 くがつ."
+        },
+        {
+          "question": "{今日|きょう}・あしたは {何曜日|なんようび}ですか。",
+          "meaning": "Hôm nay / ngày mai là thứ mấy?",
+          "grammar": "Bài 4: ～ようび です",
+          "answers": [
+            {
+              "jp": "{今日|きょう}は {木曜日|もくようび}です。",
+              "vi": "Hôm nay là thứ Năm."
+            },
+            {
+              "jp": "あしたは {金曜日|きんようび}です。",
+              "vi": "Ngày mai là thứ Sáu."
+            }
+          ],
+          "tip": "Thứ Hai げつようび, thứ Ba かようび, thứ Tư すいようび, thứ Năm もくようび, thứ Sáu きんようび, thứ Bảy どようび, Chủ nhật にちようび."
+        },
+        {
+          "question": "お{誕生日|たんじょうび}は いつですか。",
+          "meaning": "Sinh nhật của bạn là khi nào?",
+          "grammar": "Bài 5: いつ ── ～がつ ～にち です",
+          "answers": [
+            {
+              "jp": "わたしの {誕生日|たんじょうび}は ５がつ {８日|ようか}です。",
+              "vi": "Sinh nhật tôi là ngày 8 tháng 5."
+            },
+            {
+              "jp": "{誕生日|たんじょうび}は １がつ {２０日|はつか}です。",
+              "vi": "Sinh nhật tôi là ngày 20 tháng 1."
+            }
+          ],
+          "tip": "Thay bằng ngày sinh của bạn. Nhớ cách đọc ngày đặc biệt: 8日 ようか, 20日 はつか."
+        }
+      ]
+    },
+    {
+      "id": "gakko",
+      "title": "Trường học, công ty",
+      "jp": "{学校|がっこう}・{会社|かいしゃ}",
+      "items": [
+        {
+          "question": "{学校|がっこう}・{会社|かいしゃ}は {何時|なんじ}から {何時|なんじ}までですか。",
+          "meaning": "Trường học / công ty bắt đầu từ mấy giờ đến mấy giờ?",
+          "grammar": "Bài 4: N1 から N2 まで です",
+          "answers": [
+            {
+              "jp": "{学校|がっこう}は ごご ６じ はんから ８じ はんまでです。",
+              "vi": "Trường học từ 6 giờ rưỡi đến 8 giờ rưỡi tối."
+            },
+            {
+              "jp": "{会社|かいしゃ}は ８じから ５じまでです。",
+              "vi": "Công ty làm việc từ 8 giờ đến 5 giờ."
+            }
+          ],
+          "tip": "Dùng ごぜん (sáng) / ごご (chiều) nếu cần rõ ràng."
+        },
+        {
+          "question": "{昼休|ひるやす}みは {何時|なんじ}から {何時|なんじ}までですか。",
+          "meaning": "Giờ nghỉ trưa từ mấy giờ đến mấy giờ?",
+          "grammar": "Bài 4: N1 から N2 まで です",
+          "answers": [
+            {
+              "jp": "{昼休|ひるやす}みは １２じから １じまでです。",
+              "vi": "Nghỉ trưa từ 12 giờ đến 1 giờ."
+            },
+            {
+              "jp": "{昼休|ひるやす}みは １１じ はんから １じまでです。",
+              "vi": "Nghỉ trưa từ 11 giờ rưỡi đến 1 giờ."
+            }
+          ]
+        },
+        {
+          "question": "いつも どこで {昼|ひる}ご{飯|はん}を {食|た}べますか。",
+          "meaning": "Bạn thường ăn trưa ở đâu?",
+          "grammar": "Bài 6: N(địa điểm) で V",
+          "answers": [
+            {
+              "jp": "いつも {会社|かいしゃ}の しょくどうで {食|た}べます。",
+              "vi": "Tôi thường ăn ở nhà ăn của công ty."
+            },
+            {
+              "jp": "いつも うちで {食|た}べます。",
+              "vi": "Tôi thường ăn ở nhà."
+            },
+            {
+              "jp": "いつも {会社|かいしゃ}の ちかくの レストランで {食|た}べます。",
+              "vi": "Tôi thường ăn ở nhà hàng gần công ty."
+            }
+          ],
+          "tip": "Nơi diễn ra hành động đi với で, không dùng に."
+        },
+        {
+          "question": "{今日|きょう} {何時|なんじ}に {学校|がっこう}へ {来|き}ましたか。",
+          "meaning": "Hôm nay bạn đến trường lúc mấy giờ?",
+          "grammar": "Bài 4: ～じに V ました",
+          "answers": [
+            {
+              "jp": "６じ ２０ぷんに {来|き}ました。",
+              "vi": "Tôi đến lúc 6 giờ 20 phút."
+            },
+            {
+              "jp": "６じ はんに {来|き}ました。",
+              "vi": "Tôi đến lúc 6 giờ rưỡi."
+            }
+          ],
+          "tip": "Câu hỏi ～ましたか (quá khứ) thì trả lời ～ました. Giờ cụ thể đi với に."
+        },
+        {
+          "question": "なんで {学校|がっこう}へ {来|き}ましたか。",
+          "meaning": "Bạn đến trường bằng gì?",
+          "grammar": "Bài 5: N(phương tiện) で きます",
+          "answers": [
+            {
+              "jp": "バイクで {来|き}ました。",
+              "vi": "Tôi đến bằng xe máy."
+            },
+            {
+              "jp": "バスで {来|き}ました。",
+              "vi": "Tôi đến bằng xe buýt."
+            },
+            {
+              "jp": "あるいて {来|き}ました。",
+              "vi": "Tôi đi bộ đến."
+            }
+          ],
+          "tip": "なんで = なにで: bằng gì. Đi bộ là あるいて (không thêm で). Xe đạp: じてんしゃで, ô tô: くるまで, taxi: タクシーで."
+        },
+        {
+          "question": "{一週間|いっしゅうかん}に {何回|なんかい} {会社|かいしゃ}へ {行|い}きますか。",
+          "meaning": "Một tuần bạn đi làm mấy lần?",
+          "grammar": "Bài 11: khoảng thời gian に ～かい V",
+          "answers": [
+            {
+              "jp": "{一週間|いっしゅうかん}に ５かい {行|い}きます。",
+              "vi": "Một tuần tôi đi 5 lần."
+            },
+            {
+              "jp": "{一週間|いっしゅうかん}に ６かい {行|い}きます。",
+              "vi": "Một tuần tôi đi 6 lần."
+            }
+          ],
+          "tip": "Số lần: いっかい, にかい, さんかい, よんかい, ごかい, ろっかい, ななかい."
+        },
+        {
+          "question": "{一週間|いっしゅうかん}に {何回|なんかい} {学校|がっこう}へ {来|き}ますか。",
+          "meaning": "Một tuần bạn đến trường mấy lần?",
+          "grammar": "Bài 11: khoảng thời gian に ～かい V",
+          "answers": [
+            {
+              "jp": "{一週間|いっしゅうかん}に ３かい {来|き}ます。",
+              "vi": "Một tuần tôi đến 3 lần."
+            },
+            {
+              "jp": "{一週間|いっしゅうかん}に ２かい {来|き}ます。",
+              "vi": "Một tuần tôi đến 2 lần."
+            }
+          ],
+          "tip": "Câu hỏi dùng 来ます (đến, vì bạn đang ở trường) nên trả lời cũng dùng 来ます."
+        },
+        {
+          "question": "{土曜日|どようび}・{日曜日|にちようび} {働|はたら}きますか。",
+          "meaning": "Thứ Bảy, Chủ nhật bạn có làm việc không?",
+          "grammar": "Bài 4: V ます／V ません",
+          "answers": [
+            {
+              "jp": "はい、{土曜日|どようび}は {働|はたら}きます。でも、{日曜日|にちようび}は {働|はたら}きません。",
+              "vi": "Có, thứ Bảy tôi làm. Nhưng Chủ nhật thì không."
+            },
+            {
+              "jp": "いいえ、{働|はたら}きません。",
+              "vi": "Không, tôi không làm việc."
+            }
+          ],
+          "tip": "Câu hỏi có/không thì trả lời はい／いいえ rồi lặp lại động từ. でも: nhưng (đứng đầu câu)."
+        },
+        {
+          "question": "{土曜日|どようび}・{日曜日|にちようび} {学校|がっこう}へ {来|き}ますか。",
+          "meaning": "Thứ Bảy, Chủ nhật bạn có đến trường không?",
+          "grammar": "Bài 4–5: V ます／V ません",
+          "answers": [
+            {
+              "jp": "いいえ、{来|き}ません。{土曜日|どようび}と {日曜日|にちようび}は やすみです。",
+              "vi": "Không, tôi không đến. Thứ Bảy và Chủ nhật là ngày nghỉ."
+            },
+            {
+              "jp": "はい、{土曜日|どようび}は {来|き}ます。",
+              "vi": "Có, thứ Bảy tôi đến."
+            }
+          ]
+        },
+        {
+          "question": "お{仕事|しごと}は どうですか。",
+          "meaning": "Công việc của bạn thế nào?",
+          "grammar": "Bài 8: N は どうですか ── tính từ; S1 が、S2",
+          "answers": [
+            {
+              "jp": "いそがしいですが、おもしろいです。",
+              "vi": "Bận nhưng thú vị."
+            },
+            {
+              "jp": "たいへんですが、たのしいです。",
+              "vi": "Vất vả nhưng vui."
+            }
+          ],
+          "tip": "Trả lời bằng tính từ: いそがしい (bận), たいへん (vất vả), おもしろい (thú vị), たのしい (vui), むずかしい (khó). Nối hai ý ngược nhau bằng が."
+        },
+        {
+          "question": "{大学|だいがく}・{学校|がっこう}の {勉強|べんきょう}は どうですか。",
+          "meaning": "Việc học ở đại học / trường thế nào?",
+          "grammar": "Bài 8: N は どうですか ── tính từ",
+          "answers": [
+            {
+              "jp": "むずかしいですが、おもしろいです。",
+              "vi": "Khó nhưng thú vị."
+            },
+            {
+              "jp": "とても たのしいです。",
+              "vi": "Rất vui."
+            }
+          ],
+          "tip": "とても + khẳng định (rất), あまり + phủ định (không ~ lắm): あまり むずかしくないです."
+        }
+      ]
+    },
+    {
+      "id": "seikatsu",
+      "title": "Cuộc sống",
+      "jp": "{生活|せいかつ}",
+      "items": [
+        {
+          "question": "{今朝|けさ} {何時|なんじ}に {起|お}きましたか。",
+          "meaning": "Sáng nay bạn dậy lúc mấy giờ?",
+          "grammar": "Bài 4: ～じに V ました",
+          "answers": [
+            {
+              "jp": "６じに {起|お}きました。",
+              "vi": "Tôi dậy lúc 6 giờ."
+            },
+            {
+              "jp": "{今朝|けさ} ５じ はんに {起|お}きました。",
+              "vi": "Sáng nay tôi dậy lúc 5 giờ rưỡi."
+            }
+          ],
+          "tip": "けさ không đi với に; giờ cụ thể (６じ) đi với に."
+        },
+        {
+          "question": "{昨日|きのう}の {晩|ばん} {何時|なんじ}に {寝|ね}ましたか。",
+          "meaning": "Tối qua bạn đi ngủ lúc mấy giờ?",
+          "grammar": "Bài 4: ～じに V ました",
+          "answers": [
+            {
+              "jp": "１１じ はんに {寝|ね}ました。",
+              "vi": "Tôi ngủ lúc 11 giờ rưỡi."
+            },
+            {
+              "jp": "１２じに {寝|ね}ました。",
+              "vi": "Tôi ngủ lúc 12 giờ."
+            }
+          ]
+        },
+        {
+          "question": "{毎朝|まいあさ} {何時|なんじ}に {起|お}きますか。",
+          "meaning": "Mỗi sáng bạn dậy lúc mấy giờ?",
+          "grammar": "Bài 4: ～じに V ます (thói quen)",
+          "answers": [
+            {
+              "jp": "{毎朝|まいあさ} ６じ はんに {起|お}きます。",
+              "vi": "Mỗi sáng tôi dậy lúc 6 giờ rưỡi."
+            }
+          ],
+          "tip": "Thói quen hằng ngày dùng V ます."
+        },
+        {
+          "question": "{毎晩|まいばん} {何時|なんじ}に {寝|ね}ますか。",
+          "meaning": "Mỗi tối bạn đi ngủ lúc mấy giờ?",
+          "grammar": "Bài 4: ～じに V ます (thói quen)",
+          "answers": [
+            {
+              "jp": "{毎晩|まいばん} １１じに {寝|ね}ます。",
+              "vi": "Mỗi tối tôi ngủ lúc 11 giờ."
+            },
+            {
+              "jp": "{毎晩|まいばん} １２じ ごろ {寝|ね}ます。",
+              "vi": "Mỗi tối tôi ngủ vào khoảng 12 giờ."
+            }
+          ],
+          "tip": "ごろ: khoảng (dùng sau giờ cụ thể)."
+        },
+        {
+          "question": "{今朝|けさ} {何|なに}を {食|た}べましたか。どうでしたか。",
+          "meaning": "Sáng nay bạn đã ăn gì? Món đó thế nào?",
+          "grammar": "Bài 6: なにを V ましたか; Bài 12: quá khứ của tính từ (～かったです)",
+          "answers": [
+            {
+              "jp": "フォーを {食|た}べました。とても おいしかったです。",
+              "vi": "Tôi ăn phở. Rất ngon."
+            },
+            {
+              "jp": "パンを {食|た}べました。あまり おいしくなかったです。",
+              "vi": "Tôi ăn bánh mì. Không ngon lắm."
+            },
+            {
+              "jp": "なにも {食|た}べませんでした。",
+              "vi": "Tôi không ăn gì cả."
+            }
+          ],
+          "tip": "Quá khứ của tính từ い: おいしい → おいしかったです, phủ định: おいしくなかったです. Tính từ な: しずか → しずかでした."
+        },
+        {
+          "question": "{今週|こんしゅう}の {日曜日|にちようび} {何|なに}を しますか。",
+          "meaning": "Chủ nhật tuần này bạn sẽ làm gì?",
+          "grammar": "Bài 6: N を V",
+          "answers": [
+            {
+              "jp": "ともだちと えいがを {見|み}ます。",
+              "vi": "Tôi xem phim với bạn."
+            },
+            {
+              "jp": "うちで にほんごを べんきょうします。",
+              "vi": "Tôi học tiếng Nhật ở nhà."
+            },
+            {
+              "jp": "かぞくと かいものを します。",
+              "vi": "Tôi đi mua sắm với gia đình."
+            }
+          ]
+        },
+        {
+          "question": "{今週|こんしゅう}の {日曜日|にちようび} どこへ {行|い}きますか。",
+          "meaning": "Chủ nhật tuần này bạn đi đâu?",
+          "grammar": "Bài 5: N(địa điểm) へ いきます; どこ[へ]も いきません",
+          "answers": [
+            {
+              "jp": "かぞくと こうえんへ {行|い}きます。",
+              "vi": "Tôi đi công viên với gia đình."
+            },
+            {
+              "jp": "デパートへ {行|い}きます。",
+              "vi": "Tôi đi trung tâm thương mại."
+            },
+            {
+              "jp": "どこも {行|い}きません。",
+              "vi": "Tôi không đi đâu cả."
+            }
+          ],
+          "tip": "Không đi đâu: どこ[へ]も いきません (động từ phủ định)."
+        },
+        {
+          "question": "だれと {行|い}きますか。なんで {行|い}きますか。",
+          "meaning": "Bạn đi với ai? Đi bằng gì?",
+          "grammar": "Bài 5: N(người) と; N(phương tiện) で",
+          "answers": [
+            {
+              "jp": "ともだちと {行|い}きます。バイクで {行|い}きます。",
+              "vi": "Tôi đi với bạn. Tôi đi bằng xe máy."
+            },
+            {
+              "jp": "ひとりで {行|い}きます。バスで {行|い}きます。",
+              "vi": "Tôi đi một mình. Tôi đi bằng xe buýt."
+            }
+          ],
+          "tip": "Một mình là ひとりで (không dùng と)."
+        },
+        {
+          "question": "いなかは どちらですか。",
+          "meaning": "Quê bạn ở đâu?",
+          "grammar": "Bài 3: どちら (cách nói lịch sự của どこ)",
+          "answers": [
+            {
+              "jp": "いなかは ダナンです。",
+              "vi": "Quê tôi ở Đà Nẵng."
+            },
+            {
+              "jp": "わたしの いなかは ハノイです。",
+              "vi": "Quê tôi ở Hà Nội."
+            }
+          ],
+          "tip": "Thay bằng quê bạn: フエ, カントー, ニャチャン, ハイフォン…"
+        },
+        {
+          "question": "いなかは どうですか。",
+          "meaning": "Quê bạn thế nào?",
+          "grammar": "Bài 8: tính từ; そして／が",
+          "answers": [
+            {
+              "jp": "しずかな まちです。そして、きれいです。",
+              "vi": "Là thành phố yên tĩnh. Và đẹp nữa."
+            },
+            {
+              "jp": "あまり おおきくないですが、にぎやかです。",
+              "vi": "Không lớn lắm nhưng nhộn nhịp."
+            },
+            {
+              "jp": "ひとが とても しんせつです。",
+              "vi": "Mọi người rất tốt bụng."
+            }
+          ],
+          "tip": "Tính từ đứng trước danh từ: しずかな まち, きれいな うみ, おおきい まち. そして: và (nối hai ý cùng chiều)."
+        },
+        {
+          "question": "いっかげつに {何回|なんかい} いなかへ {帰|かえ}りますか。",
+          "meaning": "Một tháng bạn về quê mấy lần?",
+          "grammar": "Bài 11: khoảng thời gian に ～かい V",
+          "answers": [
+            {
+              "jp": "いっかげつに １かい {帰|かえ}ります。",
+              "vi": "Một tháng tôi về 1 lần."
+            },
+            {
+              "jp": "１ねんに ２かい ぐらい {帰|かえ}ります。",
+              "vi": "Một năm tôi về khoảng 2 lần."
+            }
+          ],
+          "tip": "1 lần đọc いっかい. ぐらい: khoảng."
+        },
+        {
+          "question": "～さん（の いなか）から ホーチミン{市|し}まで バイク・{車|くるま}・{飛行機|ひこうき}で どのくらい かかりますか。",
+          "meaning": "Từ quê bạn đến TP. Hồ Chí Minh đi bằng xe máy / ô tô / máy bay mất bao lâu?",
+          "grammar": "Bài 11: どのくらい かかりますか ── ～じかん ぐらい かかります",
+          "answers": [
+            {
+              "jp": "{飛行機|ひこうき}で １じかん ぐらい かかります。",
+              "vi": "Đi máy bay mất khoảng 1 tiếng."
+            },
+            {
+              "jp": "バイクで ３じかん ぐらい かかります。",
+              "vi": "Đi xe máy mất khoảng 3 tiếng."
+            },
+            {
+              "jp": "{車|くるま}で ５じかん はん かかります。",
+              "vi": "Đi ô tô mất 5 tiếng rưỡi."
+            }
+          ],
+          "tip": "Khoảng thời gian: ～じかん (tiếng), ～ふん／ぷん (phút). Không dùng に trước かかります."
+        }
+      ]
+    },
+    {
+      "id": "kazoku",
+      "title": "Gia đình",
+      "jp": "{家族|かぞく}",
+      "items": [
+        {
+          "question": "{家族|かぞく}・{兄弟|きょうだい}は {何人|なんにん}ですか。",
+          "meaning": "Gia đình bạn có mấy người? Anh chị em có mấy người?",
+          "grammar": "Bài 11: đếm người (ひとり, ふたり, ～にん)",
+          "answers": [
+            {
+              "jp": "{４人|よにん}です。{父|ちち}と {母|はは}と {兄|あに}と わたしです。",
+              "vi": "4 người. Bố, mẹ, anh trai và tôi."
+            },
+            {
+              "jp": "{兄弟|きょうだい}は {３人|さんにん}です。{姉|あね}と {弟|おとうと}と わたしです。",
+              "vi": "Anh chị em có 3 người. Chị gái, em trai và tôi."
+            }
+          ],
+          "tip": "Đếm người: ひとり, ふたり, さんにん, よにん, ごにん, ろくにん. Nói về gia đình mình dùng từ khiêm nhường: 父 ちち, 母 はは, 兄 あに, 姉 あね, 弟 おとうと, 妹 いもうと."
+        },
+        {
+          "question": "～さん・お{父|とう}さん・お{母|かあ}さん・お{姉|ねえ}さん・お{兄|にい}さん・{妹|いもうと}さん・{弟|おとうと}さんは {何歳|なんさい}ですか。",
+          "meaning": "Bạn / bố / mẹ / chị gái / anh trai / em gái / em trai của bạn bao nhiêu tuổi?",
+          "grammar": "Bài 1: ～さい です",
+          "answers": [
+            {
+              "jp": "わたしは ２５さいです。",
+              "vi": "Tôi 25 tuổi."
+            },
+            {
+              "jp": "{父|ちち}は ５５さいです。{母|はは}は ５２さいです。",
+              "vi": "Bố tôi 55 tuổi. Mẹ tôi 52 tuổi."
+            },
+            {
+              "jp": "{妹|いもうと}は ２０さいです。",
+              "vi": "Em gái tôi 20 tuổi."
+            }
+          ],
+          "tip": "Giáo viên hỏi お父さん (bố của bạn) nhưng khi trả lời phải đổi thành 父 (bố tôi). Tuổi đặc biệt: 1 いっさい, 8 はっさい, 10 じゅっさい, 20 はたち."
+        },
+        {
+          "question": "お{父|とう}さん・お{母|かあ}さん・お{姉|ねえ}さん・お{兄|にい}さん・{妹|いもうと}さん・{弟|おとうと}さんは どんな {人|ひと}ですか。",
+          "meaning": "Bố / mẹ / chị / anh / em của bạn là người như thế nào?",
+          "grammar": "Bài 8: どんな N ですか ── Aい N／Aな N",
+          "answers": [
+            {
+              "jp": "{父|ちち}は やさしい {人|ひと}です。",
+              "vi": "Bố tôi là người hiền."
+            },
+            {
+              "jp": "{母|はは}は きれいな {人|ひと}です。そして、りょうりが じょうずです。",
+              "vi": "Mẹ tôi là người đẹp. Và mẹ nấu ăn giỏi."
+            },
+            {
+              "jp": "{兄|あに}は おもしろい {人|ひと}です。",
+              "vi": "Anh tôi là người vui tính."
+            }
+          ],
+          "tip": "Tính từ い + danh từ: やさしい ひと, おもしろい ひと. Tính từ な + な + danh từ: しんせつな ひと, げんきな ひと, まじめな ひと. N が じょうずです: giỏi N (Bài 9)."
+        },
+        {
+          "question": "～さん、お{父|とう}さん・お{母|かあ}さん・お{姉|ねえ}さん・お{兄|にい}さん・{妹|いもうと}さん・{弟|おとうと}さんの {誕生日|たんじょうび}は いつですか。",
+          "meaning": "Sinh nhật của bạn / bố / mẹ / anh chị em bạn là khi nào?",
+          "grammar": "Bài 5: いつ ── ～がつ ～にち です",
+          "answers": [
+            {
+              "jp": "{母|はは}の {誕生日|たんじょうび}は ７がつ {２０日|はつか}です。",
+              "vi": "Sinh nhật mẹ tôi là ngày 20 tháng 7."
+            },
+            {
+              "jp": "{父|ちち}の {誕生日|たんじょうび}は １がつ {１日|ついたち}です。",
+              "vi": "Sinh nhật bố tôi là ngày 1 tháng 1."
+            }
+          ],
+          "tip": "20日 はつか, 1日 ついたち. Nói về gia đình mình: 母の, 父の (không dùng お母さん)."
+        },
+        {
+          "question": "お{父|とう}さん・お{母|かあ}さん・お{姉|ねえ}さん・お{兄|にい}さん・{妹|いもうと}さん・{弟|おとうと}さんの {誕生日|たんじょうび}に なにを あげましたか。",
+          "meaning": "Vào sinh nhật của bố / mẹ / anh chị em, bạn đã tặng gì?",
+          "grammar": "Bài 7: N(người) に N(vật) を あげます",
+          "answers": [
+            {
+              "jp": "{母|はは}に はなを あげました。",
+              "vi": "Tôi đã tặng hoa cho mẹ."
+            },
+            {
+              "jp": "{父|ちち}に ネクタイを あげました。",
+              "vi": "Tôi đã tặng cà vạt cho bố."
+            },
+            {
+              "jp": "{妹|いもうと}に かばんを あげました。",
+              "vi": "Tôi đã tặng cặp cho em gái."
+            }
+          ],
+          "tip": "Người nhận đi với に, món quà đi với を. Câu hỏi ～ましたか nên trả lời ～ました."
+        },
+        {
+          "question": "{両親|りょうしん}は {今|いま} どこに いますか。",
+          "meaning": "Bố mẹ bạn bây giờ đang ở đâu?",
+          "grammar": "Bài 10: N は (địa điểm) に います",
+          "answers": [
+            {
+              "jp": "{両親|りょうしん}は いなかに います。",
+              "vi": "Bố mẹ tôi ở quê."
+            },
+            {
+              "jp": "{両親|りょうしん}は ハノイに います。",
+              "vi": "Bố mẹ tôi ở Hà Nội."
+            },
+            {
+              "jp": "{両親|りょうしん}は ホーチミン{市|し}に います。",
+              "vi": "Bố mẹ tôi ở TP. Hồ Chí Minh."
+            }
+          ],
+          "tip": "Người và động vật dùng います (đồ vật mới dùng あります). Địa điểm đi với に."
+        },
+        {
+          "question": "{一週間|いっしゅうかん}に {何回|なんかい} {家族|かぞく}に {電話|でんわ}を かけますか。",
+          "meaning": "Một tuần bạn gọi điện cho gia đình mấy lần?",
+          "grammar": "Bài 7: N(người) に でんわを かけます; Bài 11: ～かい",
+          "answers": [
+            {
+              "jp": "{一週間|いっしゅうかん}に ２かい {電話|でんわ}を かけます。",
+              "vi": "Một tuần tôi gọi 2 lần."
+            },
+            {
+              "jp": "{毎日|まいにち} {電話|でんわ}を かけます。",
+              "vi": "Ngày nào tôi cũng gọi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ie",
+      "title": "Nhà",
+      "jp": "いえ",
+      "items": [
+        {
+          "question": "いえ・うちは どちらですか。",
+          "meaning": "Nhà bạn ở đâu?",
+          "grammar": "Bài 3: どちら ── N です",
+          "answers": [
+            {
+              "jp": "うちは ７{区|く}です。",
+              "vi": "Nhà tôi ở Quận 7."
+            },
+            {
+              "jp": "うちは ビンタン{区|く}です。",
+              "vi": "Nhà tôi ở quận Bình Thạnh."
+            }
+          ],
+          "tip": "Quận: ～く (区). Có thể nói thêm: ～の ちかくです (gần ～)."
+        },
+        {
+          "question": "いえ・うちの ちかくに {公園|こうえん}が ありますか。",
+          "meaning": "Gần nhà bạn có công viên không?",
+          "grammar": "Bài 10: N1(địa điểm) に N2 が あります",
+          "answers": [
+            {
+              "jp": "はい、あります。",
+              "vi": "Vâng, có."
+            },
+            {
+              "jp": "はい、おおきい {公園|こうえん}が あります。",
+              "vi": "Vâng, có một công viên lớn."
+            },
+            {
+              "jp": "いいえ、ありません。",
+              "vi": "Không, không có."
+            }
+          ]
+        },
+        {
+          "question": "いえ・うちの ちかくに なにが ありますか。",
+          "meaning": "Gần nhà bạn có những gì?",
+          "grammar": "Bài 10: N1 に N2 が あります; N や N",
+          "answers": [
+            {
+              "jp": "スーパーや びょういんが あります。",
+              "vi": "Có siêu thị, bệnh viện, v.v."
+            },
+            {
+              "jp": "コンビニと ぎんこうが あります。",
+              "vi": "Có cửa hàng tiện lợi và ngân hàng."
+            }
+          ],
+          "tip": "や: liệt kê vài thứ tiêu biểu (còn thứ khác). と: liệt kê đủ."
+        },
+        {
+          "question": "いえ・うちに {猫|ねこ}・{犬|いぬ}が いますか。",
+          "meaning": "Nhà bạn có mèo / chó không?",
+          "grammar": "Bài 10: N が います (người, động vật)",
+          "answers": [
+            {
+              "jp": "はい、{犬|いぬ}が います。",
+              "vi": "Vâng, nhà tôi có chó."
+            },
+            {
+              "jp": "いいえ、いません。",
+              "vi": "Không, không có."
+            },
+            {
+              "jp": "{犬|いぬ}は いませんが、{猫|ねこ}が います。",
+              "vi": "Không có chó nhưng có mèo."
+            }
+          ],
+          "tip": "Động vật dùng います, không dùng あります."
+        },
+        {
+          "question": "いえ・うちは どうですか。",
+          "meaning": "Nhà bạn thế nào?",
+          "grammar": "Bài 8: tính từ; S1 が、S2",
+          "answers": [
+            {
+              "jp": "あまり ひろくないですが、きれいです。",
+              "vi": "Không rộng lắm nhưng sạch đẹp."
+            },
+            {
+              "jp": "ちいさいですが、べんりです。",
+              "vi": "Nhỏ nhưng tiện lợi."
+            },
+            {
+              "jp": "あたらしい いえです。",
+              "vi": "Là ngôi nhà mới."
+            }
+          ]
+        },
+        {
+          "question": "～さんの {部屋|へや}・うちに {何|なに}が ありますか。",
+          "meaning": "Trong phòng / nhà bạn có những gì?",
+          "grammar": "Bài 10: N1 に N2 が あります",
+          "answers": [
+            {
+              "jp": "ベッドと つくえと テレビが あります。",
+              "vi": "Có giường, bàn và tivi."
+            },
+            {
+              "jp": "ほんや しゃしんが あります。",
+              "vi": "Có sách, ảnh, v.v."
+            }
+          ]
+        },
+        {
+          "question": "～さんの {部屋|へや}・うちに テレビ・エアコン・ベッドが ありますか。",
+          "meaning": "Trong phòng / nhà bạn có tivi, máy lạnh, giường không?",
+          "grammar": "Bài 10: N が あります／ありません",
+          "answers": [
+            {
+              "jp": "はい、テレビと エアコンが あります。",
+              "vi": "Vâng, có tivi và máy lạnh."
+            },
+            {
+              "jp": "ベッドは ありません。",
+              "vi": "Không có giường."
+            }
+          ],
+          "tip": "Đồ vật dùng あります."
+        },
+        {
+          "question": "{何台|なんだい}・いくつ ありますか。",
+          "meaning": "Có mấy cái?",
+          "grammar": "Bài 11: đếm máy móc (～だい), đồ vật (～つ)",
+          "answers": [
+            {
+              "jp": "テレビが １だい あります。",
+              "vi": "Có 1 cái tivi."
+            },
+            {
+              "jp": "エアコンは ２だい あります。",
+              "vi": "Máy lạnh có 2 cái."
+            },
+            {
+              "jp": "いすが よっつ あります。",
+              "vi": "Có 4 cái ghế."
+            }
+          ],
+          "tip": "Máy móc, xe: いちだい, にだい, さんだい… Đồ vật chung: ひとつ, ふたつ, みっつ, よっつ, いつつ… Số lượng đứng ngay trước động từ."
+        }
+      ]
+    },
+    {
+      "id": "shumi",
+      "title": "Sở thích",
+      "jp": "{趣味|しゅみ}",
+      "items": [
+        {
+          "question": "{料理|りょうり}・スポーツ・{映画|えいが}が {好|す}きですか。",
+          "meaning": "Bạn có thích nấu ăn / thể thao / phim không?",
+          "grammar": "Bài 9: N が すきです",
+          "answers": [
+            {
+              "jp": "はい、とても {好|す}きです。",
+              "vi": "Vâng, tôi rất thích."
+            },
+            {
+              "jp": "はい、{好|す}きです。",
+              "vi": "Vâng, tôi thích."
+            },
+            {
+              "jp": "いいえ、あまり {好|す}きじゃありません。",
+              "vi": "Không, tôi không thích lắm."
+            }
+          ],
+          "tip": "すき là tính từ な: phủ định すきじゃありません. Đối tượng đi với が."
+        },
+        {
+          "question": "{一週間|いっしゅうかん}に {何回|なんかい} スポーツを しますか。",
+          "meaning": "Một tuần bạn chơi thể thao mấy lần?",
+          "grammar": "Bài 6: N を します; Bài 11: ～かい",
+          "answers": [
+            {
+              "jp": "{一週間|いっしゅうかん}に ２かい サッカーを します。",
+              "vi": "Một tuần tôi đá bóng 2 lần."
+            },
+            {
+              "jp": "{一週間|いっしゅうかん}に ３かい ジョギングを します。",
+              "vi": "Một tuần tôi chạy bộ 3 lần."
+            },
+            {
+              "jp": "あまり しません。",
+              "vi": "Tôi không hay chơi lắm."
+            }
+          ]
+        },
+        {
+          "question": "{一週間|いっしゅうかん}に {何回|なんかい} {映画|えいが}を {見|み}ますか。",
+          "meaning": "Một tuần bạn xem phim mấy lần?",
+          "grammar": "Bài 11: khoảng thời gian に ～かい V",
+          "answers": [
+            {
+              "jp": "{一週間|いっしゅうかん}に １かい {見|み}ます。",
+              "vi": "Một tuần tôi xem 1 lần."
+            },
+            {
+              "jp": "いっかげつに ２かい ぐらい {見|み}ます。",
+              "vi": "Một tháng tôi xem khoảng 2 lần."
+            }
+          ]
+        },
+        {
+          "question": "どんな {食|た}べ{物|もの}・{料理|りょうり}・{飲|の}み{物|もの}・スポーツ・{映画|えいが}・{人|ひと}が すきですか。",
+          "meaning": "Bạn thích đồ ăn / món ăn / đồ uống / môn thể thao / phim / người như thế nào?",
+          "grammar": "Bài 9: どんな N が すきですか",
+          "answers": [
+            {
+              "jp": "にほんりょうりが {好|す}きです。",
+              "vi": "Tôi thích món Nhật."
+            },
+            {
+              "jp": "コーヒーが {好|す}きです。",
+              "vi": "Tôi thích cà phê."
+            },
+            {
+              "jp": "サッカーが {好|す}きです。",
+              "vi": "Tôi thích bóng đá."
+            },
+            {
+              "jp": "やさしい {人|ひと}が {好|す}きです。",
+              "vi": "Tôi thích người hiền lành."
+            }
+          ],
+          "tip": "Trả lời bằng tên cụ thể: (đồ ăn) フォー, すし, ラーメン; (đồ uống) コーヒー, おちゃ, ジュース; (thể thao) サッカー, テニス; (phim) かんこくの えいが, アニメ."
+        },
+        {
+          "question": "だれに {料理|りょうり}・スポーツを {習|なら}いましたか。",
+          "meaning": "Bạn đã học nấu ăn / thể thao từ ai?",
+          "grammar": "Bài 7: N(người) に ならいます",
+          "answers": [
+            {
+              "jp": "{母|はは}に {料理|りょうり}を {習|なら}いました。",
+              "vi": "Tôi học nấu ăn từ mẹ."
+            },
+            {
+              "jp": "{父|ちち}に サッカーを {習|なら}いました。",
+              "vi": "Tôi học đá bóng từ bố."
+            },
+            {
+              "jp": "ともだちに テニスを {習|なら}いました。",
+              "vi": "Tôi học tennis từ bạn."
+            }
+          ],
+          "tip": "Người dạy đi với に, môn học đi với を."
+        },
+        {
+          "question": "いつも どこで コーヒーを {飲|の}みます・{買|か}いますか。",
+          "meaning": "Bạn thường uống / mua cà phê ở đâu?",
+          "grammar": "Bài 6: N(địa điểm) で V",
+          "answers": [
+            {
+              "jp": "いつも {会社|かいしゃ}の ちかくの きっさてんで {飲|の}みます。",
+              "vi": "Tôi thường uống ở quán cà phê gần công ty."
+            },
+            {
+              "jp": "いつも コンビニで {買|か}います。",
+              "vi": "Tôi thường mua ở cửa hàng tiện lợi."
+            },
+            {
+              "jp": "いつも うちで {飲|の}みます。",
+              "vi": "Tôi thường uống ở nhà."
+            }
+          ]
+        },
+        {
+          "question": "いつも どこで {買|か}い{物|もの}しますか。",
+          "meaning": "Bạn thường mua sắm ở đâu?",
+          "grammar": "Bài 6: N(địa điểm) で かいものします",
+          "answers": [
+            {
+              "jp": "いつも スーパーで {買|か}い{物|もの}します。",
+              "vi": "Tôi thường mua sắm ở siêu thị."
+            },
+            {
+              "jp": "いつも いちばで {買|か}い{物|もの}します。",
+              "vi": "Tôi thường mua sắm ở chợ."
+            }
+          ]
+        },
+        {
+          "question": "{韓国|かんこく}の {映画|えいが}と {中国|ちゅうごく}の {映画|えいが}と {日本|にほん}の {映画|えいが}の {中|なか}で どれが {一番|いちばん} {好|す}きですか。",
+          "meaning": "Trong phim Hàn, phim Trung và phim Nhật, bạn thích phim nào nhất?",
+          "grammar": "Bài 12: N の なかで どれが いちばん ～ですか",
+          "answers": [
+            {
+              "jp": "{日本|にほん}の {映画|えいが}が {一番|いちばん} {好|す}きです。",
+              "vi": "Tôi thích phim Nhật nhất."
+            },
+            {
+              "jp": "{韓国|かんこく}の {映画|えいが}が {一番|いちばん} {好|す}きです。",
+              "vi": "Tôi thích phim Hàn nhất."
+            }
+          ],
+          "tip": "Trả lời: N が いちばん すきです (dùng が, không dùng は)."
+        },
+        {
+          "question": "{海|うみ}と {山|やま}と どちらが {好|す}きですか。",
+          "meaning": "Biển và núi, bạn thích bên nào hơn?",
+          "grammar": "Bài 12: N1 と N2 と どちらが ～ですか ── N の ほうが ～です",
+          "answers": [
+            {
+              "jp": "{海|うみ}の ほうが {好|す}きです。",
+              "vi": "Tôi thích biển hơn."
+            },
+            {
+              "jp": "どちらも {好|す}きです。",
+              "vi": "Tôi thích cả hai."
+            }
+          ],
+          "tip": "So sánh hai thứ: ～の ほうが すきです. Thích cả hai: どちらも すきです."
+        },
+        {
+          "question": "{犬|いぬ}と {猫|ねこ}と どちらが {好|す}きですか。",
+          "meaning": "Chó và mèo, bạn thích con nào hơn?",
+          "grammar": "Bài 12: N1 と N2 と どちらが ～ですか",
+          "answers": [
+            {
+              "jp": "{猫|ねこ}の ほうが {好|す}きです。",
+              "vi": "Tôi thích mèo hơn."
+            },
+            {
+              "jp": "{犬|いぬ}の ほうが {好|す}きです。",
+              "vi": "Tôi thích chó hơn."
+            }
+          ]
+        },
+        {
+          "question": "{週末|しゅうまつ}は いつも {何|なに}を しますか。",
+          "meaning": "Cuối tuần bạn thường làm gì?",
+          "grammar": "Bài 6: いつも／ときどき; N を V",
+          "answers": [
+            {
+              "jp": "いつも うちで テレビを {見|み}ます。",
+              "vi": "Tôi thường xem tivi ở nhà."
+            },
+            {
+              "jp": "ときどき ともだちと かいものを します。",
+              "vi": "Thỉnh thoảng tôi đi mua sắm với bạn."
+            },
+            {
+              "jp": "いつも にほんごを べんきょうします。",
+              "vi": "Tôi thường học tiếng Nhật."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nihongo",
+      "title": "Việc học tiếng Nhật",
+      "jp": "{日本語|にほんご}の {勉強|べんきょう}",
+      "items": [
+        {
+          "question": "どこで {日本語|にほんご}を {習|なら}いますか。",
+          "meaning": "Bạn học tiếng Nhật ở đâu?",
+          "grammar": "Bài 6: N(địa điểm) で V",
+          "answers": [
+            {
+              "jp": "この {学校|がっこう}で {習|なら}います。",
+              "vi": "Tôi học ở trường này."
+            },
+            {
+              "jp": "{会社|かいしゃ}で {習|なら}います。",
+              "vi": "Tôi học ở công ty."
+            }
+          ]
+        },
+        {
+          "question": "だれに {日本語|にほんご}を {習|なら}いますか。",
+          "meaning": "Bạn học tiếng Nhật với ai?",
+          "grammar": "Bài 7: N(người) に ならいます",
+          "answers": [
+            {
+              "jp": "～{先生|せんせい}に {習|なら}います。",
+              "vi": "Tôi học với thầy/cô ～."
+            }
+          ],
+          "tip": "Thay ～ bằng tên giáo viên của bạn, luôn thêm せんせい."
+        },
+        {
+          "question": "{一週間|いっしゅうかん}に {何回|なんかい} {日本語|にほんご}を {習|なら}いますか。",
+          "meaning": "Một tuần bạn học tiếng Nhật mấy buổi?",
+          "grammar": "Bài 11: khoảng thời gian に ～かい V",
+          "answers": [
+            {
+              "jp": "{一週間|いっしゅうかん}に ３かい {習|なら}います。",
+              "vi": "Một tuần tôi học 3 buổi."
+            },
+            {
+              "jp": "{一週間|いっしゅうかん}に ２かい {習|なら}います。",
+              "vi": "Một tuần tôi học 2 buổi."
+            }
+          ]
+        },
+        {
+          "question": "{日本語|にほんご}の {勉強|べんきょう}は どうですか。",
+          "meaning": "Việc học tiếng Nhật thế nào?",
+          "grammar": "Bài 8: tính từ; S1 が、S2",
+          "answers": [
+            {
+              "jp": "むずかしいですが、おもしろいです。",
+              "vi": "Khó nhưng thú vị."
+            },
+            {
+              "jp": "かんじは むずかしいですが、たのしいです。",
+              "vi": "Chữ Hán khó nhưng vui."
+            }
+          ]
+        },
+        {
+          "question": "{日本語|にほんご}が {好|す}きですか。",
+          "meaning": "Bạn có thích tiếng Nhật không?",
+          "grammar": "Bài 9: N が すきです",
+          "answers": [
+            {
+              "jp": "はい、とても {好|す}きです。",
+              "vi": "Vâng, tôi rất thích."
+            }
+          ]
+        },
+        {
+          "question": "どうして {日本語|にほんご}を {勉強|べんきょう}しますか。",
+          "meaning": "Tại sao bạn học tiếng Nhật?",
+          "grammar": "Bài 9: どうして ～か ── ～から です",
+          "answers": [
+            {
+              "jp": "{日本|にほん}の アニメが {好|す}きですから。",
+              "vi": "Vì tôi thích anime Nhật."
+            },
+            {
+              "jp": "{会社|かいしゃ}に {日本人|にほんじん}が たくさん いますから。",
+              "vi": "Vì ở công ty có nhiều người Nhật."
+            },
+            {
+              "jp": "{日本|にほん}の {会社|かいしゃ}で {働|はたら}きますから。",
+              "vi": "Vì tôi sẽ làm việc ở công ty Nhật."
+            }
+          ],
+          "tip": "Câu hỏi どうして (tại sao) trả lời bằng lý do + から."
+        },
+        {
+          "question": "{今|いま}まで どのくらい {日本語|にほんご}を {勉強|べんきょう}しましたか。",
+          "meaning": "Đến nay bạn đã học tiếng Nhật được bao lâu?",
+          "grammar": "Bài 11: khoảng thời gian (～かげつ, ～ねん) ぐらい",
+          "answers": [
+            {
+              "jp": "３かげつ ぐらい {勉強|べんきょう}しました。",
+              "vi": "Tôi đã học khoảng 3 tháng."
+            },
+            {
+              "jp": "はんとし {勉強|べんきょう}しました。",
+              "vi": "Tôi đã học nửa năm."
+            }
+          ],
+          "tip": "Số tháng: いっかげつ, にかげつ, さんかげつ, ろっかげつ, じゅっかげつ. Nửa năm: はんとし. 1 năm: いちねん."
+        },
+        {
+          "question": "{日本語|にほんご}の {勉強|べんきょう}で {何|なに}が {一番|いちばん} {難|むずか}しいですか。",
+          "meaning": "Trong việc học tiếng Nhật, cái gì khó nhất?",
+          "grammar": "Bài 12: ～で なにが いちばん ～ですか",
+          "answers": [
+            {
+              "jp": "かんじが {一番|いちばん} {難|むずか}しいです。",
+              "vi": "Chữ Hán khó nhất."
+            },
+            {
+              "jp": "かいわが {一番|いちばん} {難|むずか}しいです。",
+              "vi": "Hội thoại khó nhất."
+            }
+          ]
+        },
+        {
+          "question": "{毎晩|まいばん} どのくらい {日本語|にほんご}を {勉強|べんきょう}しますか。",
+          "meaning": "Mỗi tối bạn học tiếng Nhật bao lâu?",
+          "grammar": "Bài 11: khoảng thời gian ぐらい V",
+          "answers": [
+            {
+              "jp": "{毎晩|まいばん} １じかん ぐらい {勉強|べんきょう}します。",
+              "vi": "Mỗi tối tôi học khoảng 1 tiếng."
+            },
+            {
+              "jp": "３０ぷん ぐらい {勉強|べんきょう}します。",
+              "vi": "Tôi học khoảng 30 phút."
+            }
+          ],
+          "tip": "Khoảng thời gian (１じかん, ３０ぷん) không đi với に."
+        },
+        {
+          "question": "{昨日|きのう} どのくらい {日本語|にほんご}を {勉強|べんきょう}しましたか。",
+          "meaning": "Hôm qua bạn đã học tiếng Nhật bao lâu?",
+          "grammar": "Bài 11: khoảng thời gian; V ました",
+          "answers": [
+            {
+              "jp": "{昨日|きのう}は ２じかん {勉強|べんきょう}しました。",
+              "vi": "Hôm qua tôi học 2 tiếng."
+            },
+            {
+              "jp": "{昨日|きのう}は {勉強|べんきょう}しませんでした。",
+              "vi": "Hôm qua tôi không học."
+            }
+          ]
+        },
+        {
+          "question": "{学校|がっこう}で {何時|なんじ}から {何時|なんじ}まで {日本語|にほんご}を {勉強|べんきょう}しますか。",
+          "meaning": "Ở trường bạn học tiếng Nhật từ mấy giờ đến mấy giờ?",
+          "grammar": "Bài 4: N1 から N2 まで V",
+          "answers": [
+            {
+              "jp": "ごご ６じ はんから ８じ はんまで {勉強|べんきょう}します。",
+              "vi": "Tôi học từ 6 giờ rưỡi đến 8 giờ rưỡi tối."
+            }
+          ]
+        },
+        {
+          "question": "{昨日|きのう} {何時|なんじ}から {何時|なんじ}まで {日本語|にほんご}を {勉強|べんきょう}しましたか。",
+          "meaning": "Hôm qua bạn học tiếng Nhật từ mấy giờ đến mấy giờ?",
+          "grammar": "Bài 4: N1 から N2 まで V ました",
+          "answers": [
+            {
+              "jp": "９じから １０じまで {勉強|べんきょう}しました。",
+              "vi": "Tôi học từ 9 giờ đến 10 giờ."
+            }
+          ]
+        },
+        {
+          "question": "{日本語|にほんご}と {英語|えいご}と どちらが {難|むずか}しいですか。",
+          "meaning": "Tiếng Nhật và tiếng Anh, tiếng nào khó hơn?",
+          "grammar": "Bài 12: N1 と N2 と どちらが ～ですか ── N の ほうが ～です",
+          "answers": [
+            {
+              "jp": "{日本語|にほんご}の ほうが {難|むずか}しいです。",
+              "vi": "Tiếng Nhật khó hơn."
+            },
+            {
+              "jp": "{日本語|にほんご}の ほうが ずっと {難|むずか}しいです。",
+              "vi": "Tiếng Nhật khó hơn nhiều."
+            }
+          ],
+          "tip": "ずっと: hơn hẳn, hơn nhiều."
+        }
+      ]
+    },
+    {
+      "id": "owari",
+      "title": "Kết thúc",
+      "jp": "おわり",
+      "items": [
+        {
+          "question": "これで {終|お}わります。ありがとうございました。",
+          "meaning": "Đến đây là kết thúc. Cảm ơn em.",
+          "grammar": "Câu chào khi kết thúc",
+          "answers": [
+            {
+              "jp": "ありがとうございました。",
+              "vi": "Em cảm ơn thầy/cô."
+            },
+            {
+              "jp": "しつれいします。",
+              "vi": "Em xin phép (nói khi ra khỏi phòng)."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "help": [
+    {
+      "jp": "すみません、もう いちど おねがいします。",
+      "vi": "Xin lỗi, thầy/cô nói lại một lần nữa được không ạ?"
+    },
+    {
+      "jp": "すみません、ゆっくり おねがいします。",
+      "vi": "Xin lỗi, thầy/cô nói chậm giúp em được không ạ?"
+    },
+    {
+      "jp": "すみません、わかりません。",
+      "vi": "Xin lỗi, em không hiểu."
+    },
+    {
+      "jp": "ええと…",
+      "vi": "Ờ… (khi đang nghĩ câu trả lời)"
+    }
+  ]
+}

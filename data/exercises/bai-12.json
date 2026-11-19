@@ -1,0 +1,346 @@
+{
+  "lesson": 12,
+  "questions": [
+    {
+      "question": "きのうは あめ（　）。",
+      "meaning": "Hôm qua trời mưa.",
+      "options": [
+        "でした",
+        "です",
+        "じゃありません",
+        "ません"
+      ],
+      "answer": 0,
+      "explanation": "Quá khứ khẳng định của câu danh từ là でした."
+    },
+    {
+      "question": "きのうは ひま（　）。",
+      "hint": "phủ định",
+      "meaning": "Hôm qua tôi không rảnh.",
+      "options": [
+        "じゃありませんでした",
+        "じゃありません",
+        "でした",
+        "くなかったです"
+      ],
+      "answer": 0,
+      "explanation": "Quá khứ phủ định của tính từ な: じゃありませんでした."
+    },
+    {
+      "question": "しけんは むずかし（　）。",
+      "meaning": "Bài thi đã khó.",
+      "options": [
+        "かったです",
+        "いでした",
+        "くでした",
+        "かったでした"
+      ],
+      "answer": 0,
+      "explanation": "Tính từ い quá khứ: bỏ い thêm かったです."
+    },
+    {
+      "question": "かんじは やさし（　）。",
+      "meaning": "Chữ Hán đã không dễ.",
+      "options": [
+        "くなかったです",
+        "いじゃありませんでした",
+        "くないでした",
+        "かったでした"
+      ],
+      "answer": 0,
+      "explanation": "Tính từ い quá khứ phủ định: bỏ い thêm くなかったです."
+    },
+    {
+      "question": "きのうの パーティーは（　）でしたか。",
+      "meaning": "Bữa tiệc hôm qua thế nào?",
+      "options": [
+        "どう",
+        "どんな",
+        "なん",
+        "どこ"
+      ],
+      "answer": 0,
+      "explanation": "Hỏi cảm tưởng: どうでしたか."
+    },
+    {
+      "question": "この くるまは あの くるま（　）たかいです。",
+      "meaning": "Chiếc xe này đắt hơn chiếc xe kia.",
+      "options": [
+        "より",
+        "まで",
+        "から",
+        "で"
+      ],
+      "answer": 0,
+      "explanation": "N1 は N2 より A: N1 A hơn N2."
+    },
+    {
+      "question": "にほんは ベトナム（　）さむいです。",
+      "meaning": "Nhật Bản lạnh hơn Việt Nam.",
+      "options": [
+        "より",
+        "から",
+        "まで",
+        "ほど"
+      ],
+      "answer": 0,
+      "explanation": "より đặt sau danh từ được đem ra so sánh."
+    },
+    {
+      "question": "サッカーと やきゅうと（　）が すきですか。",
+      "meaning": "Bóng đá và bóng chày bạn thích cái nào hơn?",
+      "options": [
+        "どちら",
+        "どれ",
+        "なに",
+        "だれ"
+      ],
+      "answer": 0,
+      "explanation": "Hỏi so sánh giữa hai thứ dùng どちら."
+    },
+    {
+      "question": "「サッカーと やきゅうと どちらが すきですか。」「（　）が すきです。」",
+      "meaning": "Bóng đá và bóng chày thích cái nào hơn? ── Tôi thích bóng đá hơn.",
+      "options": [
+        "サッカーのほう",
+        "サッカーより",
+        "サッカーまで",
+        "サッカーから"
+      ],
+      "answer": 0,
+      "explanation": "Trả lời: N のほうが ~."
+    },
+    {
+      "question": "くだものの なかで なにが（　）すきですか。",
+      "meaning": "Trong các loại trái cây, bạn thích gì nhất?",
+      "options": [
+        "いちばん",
+        "もっと",
+        "ずっと",
+        "どちらも"
+      ],
+      "answer": 0,
+      "explanation": "いちばん nghĩa là nhất."
+    },
+    {
+      "question": "にほん（　）どこが いちばん きれいですか。",
+      "meaning": "Ở Nhật chỗ nào đẹp nhất?",
+      "options": [
+        "で",
+        "に",
+        "を",
+        "の"
+      ],
+      "answer": 0,
+      "explanation": "Phạm vi so sánh nhất đi với で: N[の なか]で."
+    },
+    {
+      "question": "「ビールと ワインと どちらが すきですか。」「（　）すきです。」",
+      "meaning": "Bia và rượu vang thích cái nào hơn? ── Tôi thích cả hai.",
+      "options": [
+        "どちらも",
+        "どちらが",
+        "どれも",
+        "だれも"
+      ],
+      "answer": 0,
+      "explanation": "どちらも nghĩa là cả hai đều."
+    },
+    {
+      "question": "この ほんは あの ほんより（　）おもしろいです。",
+      "meaning": "Cuốn sách này hay hơn hẳn cuốn kia.",
+      "options": [
+        "ずっと",
+        "とても",
+        "ぜんぜん",
+        "あまり"
+      ],
+      "answer": 0,
+      "explanation": "ずっと nhấn mạnh mức độ hơn hẳn trong so sánh."
+    },
+    {
+      "question": "「さむい」の かこけいは どれですか。",
+      "instruction": "Dạng quá khứ của さむい là gì?",
+      "options": [
+        "さむかったです",
+        "さむいでした",
+        "さむくでした",
+        "さむでした"
+      ],
+      "answer": 0,
+      "explanation": "Tính từ い quá khứ: bỏ い thêm かったです."
+    },
+    {
+      "question": "「いい」の かこけいは どれですか。",
+      "instruction": "Dạng quá khứ của いい là gì?",
+      "options": [
+        "よかったです",
+        "いかったです",
+        "いいでした",
+        "よいでした"
+      ],
+      "answer": 0,
+      "explanation": "いい là ngoại lệ: よかったです."
+    },
+    {
+      "question": "ホテルは どうでしたか。── （　）きれいでした。",
+      "meaning": "Khách sạn thế nào? ── Rất sạch đẹp.",
+      "options": [
+        "とても",
+        "ぜんぜん",
+        "あまり",
+        "もう"
+      ],
+      "answer": 0,
+      "explanation": "とても + khẳng định: rất."
+    },
+    {
+      "question": "（　）にほんへ きました。",
+      "hint": "chưa từng đến trước đó",
+      "meaning": "Tôi đến Nhật lần đầu tiên.",
+      "options": [
+        "はじめて",
+        "ずっと",
+        "いつも",
+        "もう"
+      ],
+      "answer": 0,
+      "explanation": "はじめて nghĩa là lần đầu tiên."
+    },
+    {
+      "question": "正しい ぶんは どれですか。",
+      "instruction": "Chọn câu đúng.",
+      "options": [
+        "この かばんは あの かばんより やすいです。",
+        "この かばんは あの かばんから やすいです。",
+        "この かばんは あの かばんを やすいです。",
+        "この かばんは あの かばんに やすいです。"
+      ],
+      "answer": 0,
+      "explanation": "So sánh hơn: N1 は N2 より A."
+    },
+    {
+      "question": "きのうは いい てんき（　）。",
+      "meaning": "Hôm qua thời tiết đẹp.",
+      "options": [
+        "でした",
+        "かったです",
+        "くでした",
+        "ました"
+      ],
+      "answer": 0,
+      "explanation": "てんき là danh từ, quá khứ khẳng định là でした (いい てんきでした)."
+    },
+    {
+      "question": "きょうとの りょこうは とても（　）。",
+      "meaning": "Chuyến du lịch Kyoto đã rất vui.",
+      "options": [
+        "たのしかったです",
+        "たのしいでした",
+        "たのしかったでした",
+        "たのしくでした"
+      ],
+      "answer": 0,
+      "explanation": "Tính từ い quá khứ: bỏ い thêm かったです."
+    },
+    {
+      "question": "きのうは あまり（　）。",
+      "meaning": "Hôm qua trời không lạnh lắm.",
+      "options": [
+        "さむくなかったです",
+        "さむいじゃありませんでした",
+        "さむくないでした",
+        "さむかったです"
+      ],
+      "answer": 0,
+      "explanation": "Tính từ い quá khứ phủ định: bỏ い thêm くなかったです. あまり đi với phủ định."
+    },
+    {
+      "question": "きのうの パーティーは（　）。",
+      "meaning": "Bữa tiệc hôm qua đã không nhộn nhịp.",
+      "options": [
+        "にぎやかじゃありませんでした",
+        "にぎやかくなかったです",
+        "にぎやかでしたじゃありません",
+        "にぎやかなかったです"
+      ],
+      "answer": 0,
+      "explanation": "Tính từ な quá khứ phủ định: じゃありませんでした (giống danh từ)."
+    },
+    {
+      "question": "とうきょうと おおさか（　）どちらが おおきいですか。",
+      "meaning": "Tokyo và Osaka, nơi nào lớn hơn?",
+      "options": [
+        "と",
+        "より",
+        "で",
+        "が"
+      ],
+      "answer": 0,
+      "explanation": "Mẫu so sánh hai thứ: N1 と N2 と どちらが A ですか."
+    },
+    {
+      "question": "１ねんで（　）が いちばん さむいですか。── ２がつが いちばん さむいです。",
+      "meaning": "Trong một năm, lúc nào lạnh nhất? ── Tháng 2 lạnh nhất.",
+      "options": [
+        "いつ",
+        "どちら",
+        "だれ",
+        "どこ"
+      ],
+      "answer": 0,
+      "explanation": "So sánh nhất về thời gian dùng いつ. どちら chỉ dùng khi so sánh hai thứ."
+    },
+    {
+      "question": "ベトナムは ＿＿ ＿＿ ★ ＿＿。",
+      "instruction": "Sắp xếp các từ cho đúng thứ tự và chọn từ ở vị trí ★.",
+      "meaning": "Việt Nam nóng hơn Nhật nhiều.",
+      "options": [
+        "あつい",
+        "にほんより",
+        "ずっと",
+        "です"
+      ],
+      "answer": 0,
+      "explanation": "Câu đúng: ベトナムは にほんより ずっと あつい です。 N1 は N2 より (ずっと) A です; ずっと nhấn mạnh “hơn hẳn”."
+    },
+    {
+      "question": "スポーツの ＿＿ ★ ＿＿ ＿＿ すきですか。",
+      "instruction": "Sắp xếp các từ cho đúng thứ tự và chọn từ ở vị trí ★.",
+      "meaning": "Trong các môn thể thao, bạn thích môn nào nhất?",
+      "options": [
+        "で",
+        "なか",
+        "なにが",
+        "いちばん"
+      ],
+      "answer": 0,
+      "explanation": "Câu đúng: スポーツの なか で なにが いちばん すきですか。 Phạm vi so sánh nhất: N の なかで."
+    },
+    {
+      "question": "正しい ぶんは どれですか。",
+      "instruction": "Chọn câu đúng.",
+      "options": [
+        "きのうは とても いそがしかったです。",
+        "きのうは とても いそがしいでした。",
+        "きのうは とても いそがしかったでした。",
+        "きのうは とても いそがしでした。"
+      ],
+      "answer": 0,
+      "explanation": "Tính từ い quá khứ: bỏ い thêm かったです, không dùng でした."
+    },
+    {
+      "question": "「コーヒーと こうちゃと どちらが いいですか。」「（　）」",
+      "hint": "chọn câu trả lời đúng",
+      "meaning": "Cà phê và trà đen, bạn muốn cái nào?",
+      "options": [
+        "コーヒーの ほうが いいです。",
+        "コーヒーが いちばん いいです。",
+        "コーヒーより いいです。",
+        "どちらが いいです。"
+      ],
+      "answer": 0,
+      "explanation": "Trả lời câu hỏi どちら (so sánh hai thứ): N のほうが A です. いちばん dùng khi so sánh từ ba thứ trở lên."
+    }
+  ]
+}

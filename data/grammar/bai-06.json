@@ -1,0 +1,125 @@
+{
+  "lesson": 6,
+  "title": "Ăn uống và hành động hằng ngày",
+  "points": [
+    {
+      "pattern": "N を V",
+      "meaning": "Làm V đối với N",
+      "explanations": [
+        "を (đọc là お) chỉ đối tượng chịu tác động của động từ (tha động từ).",
+        "Hỏi: なにを V ますか."
+      ],
+      "examples": [
+        {
+          "jp": "ごはんを たべます。",
+          "vi": "Tôi ăn cơm."
+        },
+        {
+          "jp": "みずを のみます。",
+          "vi": "Tôi uống nước."
+        }
+      ]
+    },
+    {
+      "pattern": "N を します",
+      "meaning": "Làm, chơi N",
+      "explanations": [
+        "します là động từ “làm”, đi với nhiều danh từ như サッカー, テニス, しゅくだい, かいもの."
+      ],
+      "examples": [
+        {
+          "jp": "サッカーを します。",
+          "vi": "Tôi chơi bóng đá."
+        },
+        {
+          "jp": "しゅくだいを します。",
+          "vi": "Tôi làm bài tập."
+        }
+      ]
+    },
+    {
+      "pattern": "なに を V ますか／なにも V ません",
+      "meaning": "Làm gì? ／ Không làm gì cả",
+      "explanations": [
+        "なに hỏi đối tượng của hành động.",
+        "なにも + động từ phủ định: không ~ gì cả."
+      ],
+      "examples": [
+        {
+          "jp": "あした なにを しますか。── えいがを みます。",
+          "vi": "Ngày mai bạn làm gì? ── Tôi xem phim."
+        },
+        {
+          "jp": "けさ なにも たべませんでした。",
+          "vi": "Sáng nay tôi không ăn gì cả."
+        }
+      ]
+    },
+    {
+      "pattern": "N(địa điểm) で V",
+      "meaning": "Làm V ở N",
+      "explanations": [
+        "で chỉ nơi diễn ra hành động.",
+        "Khác với へ／に chỉ hướng đến hoặc nơi tồn tại."
+      ],
+      "examples": [
+        {
+          "jp": "えきで しんぶんを かいます。",
+          "vi": "Tôi mua báo ở ga."
+        },
+        {
+          "jp": "ともだちと レストランで ごはんを たべます。",
+          "vi": "Tôi ăn cơm với bạn ở nhà hàng."
+        }
+      ]
+    },
+    {
+      "pattern": "V ませんか",
+      "meaning": "Anh/chị cùng ~ không? (rủ rê)",
+      "explanations": [
+        "Dùng để mời hoặc rủ ai làm gì cùng mình.",
+        "Đồng ý: ええ、いいですね／ええ、V ましょう. Từ chối khéo: すみません、ちょっと…"
+      ],
+      "examples": [
+        {
+          "jp": "いっしょに ひるごはんを たべませんか。── ええ、いいですね。",
+          "vi": "Cùng ăn trưa không? ── Vâng, hay đấy."
+        }
+      ]
+    },
+    {
+      "pattern": "V ましょう",
+      "meaning": "Chúng ta cùng ~ nhé",
+      "explanations": [
+        "Đề nghị hoặc hưởng ứng việc cùng làm. Thường dùng sau lời rủ hoặc để chủ động đề nghị."
+      ],
+      "examples": [
+        {
+          "jp": "ちょっと きゅうけいしましょう。",
+          "vi": "Chúng ta nghỉ một chút nào."
+        },
+        {
+          "jp": "いっしょに おはなみを しましょう。",
+          "vi": "Chúng ta cùng ngắm hoa nào."
+        }
+      ]
+    },
+    {
+      "pattern": "いつも／ときどき",
+      "meaning": "Luôn luôn／thỉnh thoảng",
+      "explanations": [
+        "Trạng từ chỉ tần suất, đặt trước động từ."
+      ],
+      "examples": [
+        {
+          "jp": "いつも あさごはんを たべます。",
+          "vi": "Tôi luôn ăn sáng."
+        },
+        {
+          "jp": "ときどき えいがを みます。",
+          "vi": "Thỉnh thoảng tôi xem phim."
+        }
+      ]
+    }
+  ]
+}

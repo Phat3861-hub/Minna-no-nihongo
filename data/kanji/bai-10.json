@@ -1,0 +1,187 @@
+{
+  "id": "b10",
+  "name": "Bài 10",
+  "kanji": [
+    {
+      "char": "茶",
+      "hanViet": "TRÀ",
+      "meaning": "trà",
+      "on": "チャ、サ",
+      "kun": "—",
+      "examples": [
+        {
+          "word": "お茶",
+          "reading": "おちゃ",
+          "meaning": "trà"
+        },
+        {
+          "word": "紅茶",
+          "reading": "こうちゃ",
+          "meaning": "hồng trà"
+        },
+        {
+          "word": "喫茶店",
+          "reading": "きっさてん",
+          "meaning": "quán cà phê"
+        }
+      ]
+    },
+    {
+      "char": "酒",
+      "hanViet": "TỬU",
+      "meaning": "rượu",
+      "on": "シュ",
+      "kun": "さけ",
+      "examples": [
+        {
+          "word": "お酒",
+          "reading": "おさけ",
+          "meaning": "rượu"
+        },
+        {
+          "word": "日本酒",
+          "reading": "にほんしゅ",
+          "meaning": "rượu Nhật"
+        }
+      ]
+    },
+    {
+      "char": "写",
+      "hanViet": "TẢ",
+      "meaning": "chép, chụp",
+      "on": "シャ",
+      "kun": "うつ・す",
+      "examples": [
+        {
+          "word": "写真",
+          "reading": "しゃしん",
+          "meaning": "ảnh"
+        }
+      ]
+    },
+    {
+      "char": "真",
+      "hanViet": "CHÂN",
+      "meaning": "thật",
+      "on": "シン",
+      "kun": "ま",
+      "examples": [
+        {
+          "word": "写真",
+          "reading": "しゃしん",
+          "meaning": "ảnh"
+        },
+        {
+          "word": "真ん中",
+          "reading": "まんなか",
+          "meaning": "chính giữa"
+        }
+      ]
+    },
+    {
+      "char": "紙",
+      "hanViet": "CHỈ",
+      "meaning": "giấy",
+      "on": "シ",
+      "kun": "かみ",
+      "examples": [
+        {
+          "word": "紙",
+          "reading": "かみ",
+          "meaning": "giấy"
+        },
+        {
+          "word": "手紙",
+          "reading": "てがみ",
+          "meaning": "thư"
+        }
+      ]
+    },
+    {
+      "char": "映",
+      "hanViet": "ÁNH",
+      "meaning": "chiếu, phản chiếu",
+      "on": "エイ",
+      "kun": "うつ・る",
+      "examples": [
+        {
+          "word": "映画",
+          "reading": "えいが",
+          "meaning": "phim"
+        }
+      ]
+    },
+    {
+      "char": "画",
+      "hanViet": "HỌA, HOẠCH",
+      "meaning": "tranh, nét vẽ",
+      "on": "ガ、カク",
+      "kun": "—",
+      "examples": [
+        {
+          "word": "映画",
+          "reading": "えいが",
+          "meaning": "phim"
+        },
+        {
+          "word": "計画",
+          "reading": "けいかく",
+          "meaning": "kế hoạch"
+        }
+      ]
+    },
+    {
+      "char": "店",
+      "hanViet": "ĐIẾM",
+      "meaning": "cửa hàng",
+      "on": "テン",
+      "kun": "みせ",
+      "examples": [
+        {
+          "word": "店",
+          "reading": "みせ",
+          "meaning": "cửa hàng"
+        },
+        {
+          "word": "喫茶店",
+          "reading": "きっさてん",
+          "meaning": "quán cà phê"
+        }
+      ]
+    },
+    {
+      "char": "英",
+      "hanViet": "ANH",
+      "meaning": "nước Anh, tài giỏi",
+      "on": "エイ",
+      "kun": "—",
+      "examples": [
+        {
+          "word": "英語",
+          "reading": "えいご",
+          "meaning": "tiếng Anh"
+        }
+      ]
+    },
+    {
+      "char": "語",
+      "hanViet": "NGỮ",
+      "meaning": "ngôn ngữ, từ",
+      "on": "ゴ",
+      "kun": "かた・る",
+      "examples": [
+        {
+          "word": "日本語",
+          "reading": "にほんご",
+          "meaning": "tiếng Nhật"
+        },
+        {
+          "word": "英語",
+          "reading": "えいご",
+          "meaning": "tiếng Anh"
+        }
+      ]
+    }
+  ],
+  "sentences": []
+}
