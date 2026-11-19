@@ -1,0 +1,243 @@
+{
+  "lesson": 1,
+  "title": "Giới thiệu bản thân",
+  "words": [
+    {
+      "kana": "わたし",
+      "kanji": "私",
+      "vi": "tôi"
+    },
+    {
+      "kana": "わたしたち",
+      "kanji": "私たち",
+      "vi": "chúng tôi, chúng ta"
+    },
+    {
+      "kana": "あなた",
+      "kanji": "",
+      "vi": "bạn, anh, chị"
+    },
+    {
+      "kana": "あのひと",
+      "kanji": "あの人",
+      "vi": "người kia",
+      "note": "Lịch sự hơn: あのかた"
+    },
+    {
+      "kana": "あのかた",
+      "kanji": "あの方",
+      "vi": "vị kia",
+      "note": "Cách nói lịch sự của あのひと"
+    },
+    {
+      "kana": "みなさん",
+      "kanji": "皆さん",
+      "vi": "các bạn, các anh chị, mọi người"
+    },
+    {
+      "kana": "～さん",
+      "kanji": "",
+      "vi": "anh/chị ~, ông/bà ~",
+      "note": "Gắn sau tên người khác, không gắn vào tên mình"
+    },
+    {
+      "kana": "～ちゃん",
+      "kanji": "",
+      "vi": "bé ~ (gọi thân mật, thường là bé gái)"
+    },
+    {
+      "kana": "～くん",
+      "kanji": "～君",
+      "vi": "bé ~ (gọi thân mật, thường là bé trai)"
+    },
+    {
+      "kana": "～じん",
+      "kanji": "～人",
+      "vi": "người nước ~"
+    },
+    {
+      "kana": "せんせい",
+      "kanji": "先生",
+      "vi": "giáo viên, thầy/cô",
+      "note": "Dùng khi gọi, không dùng để nói nghề của mình"
+    },
+    {
+      "kana": "きょうし",
+      "kanji": "教師",
+      "vi": "giáo viên (nói về nghề nghiệp)"
+    },
+    {
+      "kana": "がくせい",
+      "kanji": "学生",
+      "vi": "học sinh, sinh viên"
+    },
+    {
+      "kana": "かいしゃいん",
+      "kanji": "会社員",
+      "vi": "nhân viên công ty"
+    },
+    {
+      "kana": "～しゃいん",
+      "kanji": "～社員",
+      "vi": "nhân viên công ty ~"
+    },
+    {
+      "kana": "ぎんこういん",
+      "kanji": "銀行員",
+      "vi": "nhân viên ngân hàng"
+    },
+    {
+      "kana": "いしゃ",
+      "kanji": "医者",
+      "vi": "bác sĩ"
+    },
+    {
+      "kana": "けんきゅうしゃ",
+      "kanji": "研究者",
+      "vi": "nhà nghiên cứu"
+    },
+    {
+      "kana": "エンジニア",
+      "kanji": "",
+      "vi": "kỹ sư"
+    },
+    {
+      "kana": "だいがく",
+      "kanji": "大学",
+      "vi": "đại học"
+    },
+    {
+      "kana": "びょういん",
+      "kanji": "病院",
+      "vi": "bệnh viện"
+    },
+    {
+      "kana": "でんき",
+      "kanji": "電気",
+      "vi": "điện, đèn điện"
+    },
+    {
+      "kana": "だれ",
+      "kanji": "誰",
+      "vi": "ai"
+    },
+    {
+      "kana": "どなた",
+      "kanji": "",
+      "vi": "vị nào, ngài nào",
+      "note": "Lịch sự hơn だれ"
+    },
+    {
+      "kana": "～さい",
+      "kanji": "～歳",
+      "vi": "~ tuổi"
+    },
+    {
+      "kana": "なんさい",
+      "kanji": "何歳",
+      "vi": "mấy tuổi"
+    },
+    {
+      "kana": "おいくつ",
+      "kanji": "",
+      "vi": "bao nhiêu tuổi",
+      "note": "Lịch sự hơn なんさい"
+    },
+    {
+      "kana": "はい",
+      "kanji": "",
+      "vi": "vâng, dạ"
+    },
+    {
+      "kana": "いいえ",
+      "kanji": "",
+      "vi": "không"
+    },
+    {
+      "kana": "はじめまして",
+      "kanji": "初めまして",
+      "vi": "rất hân hạnh được gặp (lần đầu)"
+    },
+    {
+      "kana": "～からきました",
+      "kanji": "～から来ました",
+      "vi": "tôi đến từ ~"
+    },
+    {
+      "kana": "どうぞよろしくおねがいします",
+      "kanji": "どうぞよろしくお願いします",
+      "vi": "rất mong được giúp đỡ"
+    },
+    {
+      "kana": "しつれいですが",
+      "kanji": "失礼ですが",
+      "vi": "xin lỗi (khi hỏi điều gì đó)"
+    },
+    {
+      "kana": "おなまえは？",
+      "kanji": "お名前は？",
+      "vi": "tên bạn là gì?"
+    },
+    {
+      "kana": "こちらは～さんです",
+      "kanji": "",
+      "vi": "đây là anh/chị/ngài ~",
+      "note": "Dùng khi giới thiệu một người"
+    },
+    {
+      "kana": "アメリカ",
+      "kanji": "",
+      "vi": "Mỹ"
+    },
+    {
+      "kana": "イギリス",
+      "kanji": "",
+      "vi": "Anh"
+    },
+    {
+      "kana": "インド",
+      "kanji": "",
+      "vi": "Ấn Độ"
+    },
+    {
+      "kana": "インドネシア",
+      "kanji": "",
+      "vi": "Indonesia"
+    },
+    {
+      "kana": "かんこく",
+      "kanji": "韓国",
+      "vi": "Hàn Quốc"
+    },
+    {
+      "kana": "タイ",
+      "kanji": "",
+      "vi": "Thái Lan"
+    },
+    {
+      "kana": "ちゅうごく",
+      "kanji": "中国",
+      "vi": "Trung Quốc"
+    },
+    {
+      "kana": "ドイツ",
+      "kanji": "",
+      "vi": "Đức"
+    },
+    {
+      "kana": "にほん",
+      "kanji": "日本",
+      "vi": "Nhật Bản"
+    },
+    {
+      "kana": "フランス",
+      "kanji": "",
+      "vi": "Pháp"
+    },
+    {
+      "kana": "ブラジル",
+      "kanji": "",
+      "vi": "Brazil"
+    }
+  ]
+}

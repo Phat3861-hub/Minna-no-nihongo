@@ -1,0 +1,346 @@
+{
+  "lesson": 9,
+  "questions": [
+    {
+      "question": "わたしは にほんご（　）わかります。",
+      "meaning": "Tôi hiểu tiếng Nhật.",
+      "options": [
+        "が",
+        "を",
+        "に",
+        "で"
+      ],
+      "answer": 0,
+      "explanation": "わかります đi với が, không dùng を."
+    },
+    {
+      "question": "わたしは くるま（　）あります。",
+      "meaning": "Tôi có xe ô tô.",
+      "options": [
+        "が",
+        "を",
+        "に",
+        "で"
+      ],
+      "answer": 0,
+      "explanation": "あります (có, sở hữu) đi với が."
+    },
+    {
+      "question": "わたしは りょうり（　）すきです。",
+      "meaning": "Tôi thích nấu ăn.",
+      "options": [
+        "が",
+        "を",
+        "に",
+        "で"
+      ],
+      "answer": 0,
+      "explanation": "すき／きらい／じょうず／へた đi với が."
+    },
+    {
+      "question": "ミラーさんは ゴルフ（　）じょうずです。",
+      "meaning": "Anh Miller chơi golf giỏi.",
+      "options": [
+        "が",
+        "を",
+        "に",
+        "へ"
+      ],
+      "answer": 0,
+      "explanation": "じょうずです đi với が: N が じょうずです."
+    },
+    {
+      "question": "どんな スポーツ（　）すきですか。",
+      "meaning": "Bạn thích môn thể thao nào?",
+      "options": [
+        "が",
+        "を",
+        "に",
+        "で"
+      ],
+      "answer": 0,
+      "explanation": "すきです đi với が."
+    },
+    {
+      "question": "ひらがなが（　）わかりません。",
+      "meaning": "Tôi hoàn toàn không hiểu hiragana.",
+      "options": [
+        "ぜんぜん",
+        "よく",
+        "だいたい",
+        "たくさん"
+      ],
+      "answer": 0,
+      "explanation": "ぜんぜん đi với phủ định: hoàn toàn không."
+    },
+    {
+      "question": "にほんごが（　）わかります。",
+      "hint": "hiểu ở mức độ tốt",
+      "meaning": "Tôi hiểu tiếng Nhật rất rõ.",
+      "options": [
+        "よく",
+        "ぜんぜん",
+        "あまり",
+        "すこし"
+      ],
+      "answer": 0,
+      "explanation": "よく わかります nghĩa là hiểu rõ."
+    },
+    {
+      "question": "かんじが あまり わかり（　）。",
+      "meaning": "Tôi không hiểu chữ Hán lắm.",
+      "options": [
+        "ません",
+        "ます",
+        "ました",
+        "ましょう"
+      ],
+      "answer": 0,
+      "explanation": "あまり đi với dạng phủ định."
+    },
+    {
+      "question": "おかねが（　）あります。",
+      "meaning": "Tôi có nhiều tiền.",
+      "options": [
+        "たくさん",
+        "ぜんぜん",
+        "あまり",
+        "すこしも"
+      ],
+      "answer": 0,
+      "explanation": "たくさん đi với あります nghĩa là nhiều."
+    },
+    {
+      "question": "ジャズが すきです（　）、よく ききます。",
+      "meaning": "Vì thích nhạc jazz nên tôi hay nghe.",
+      "options": [
+        "から",
+        "が",
+        "を",
+        "で"
+      ],
+      "answer": 0,
+      "explanation": "S1 から S2: vì S1 nên S2."
+    },
+    {
+      "question": "「どうして きのう かいしゃを やすみましたか。」「ようじが ありました（　）。」",
+      "meaning": "Tại sao hôm qua bạn nghỉ làm? ── Vì tôi có việc bận.",
+      "options": [
+        "から",
+        "が",
+        "を",
+        "に"
+      ],
+      "answer": 0,
+      "explanation": "Trả lời câu hỏi どうして bằng lý do + から."
+    },
+    {
+      "question": "（　）あした かいしゃを やすみますか。── こどもの たんじょうびですから。",
+      "meaning": "Tại sao ngày mai bạn nghỉ làm? ── Vì là sinh nhật con tôi.",
+      "options": [
+        "どうして",
+        "どこ",
+        "いつ",
+        "なに"
+      ],
+      "answer": 0,
+      "explanation": "どうして hỏi lý do (tại sao)."
+    },
+    {
+      "question": "かんじは むずかしいですから、（　）。",
+      "meaning": "Vì chữ Hán khó nên tôi ghét nó.",
+      "options": [
+        "きらいです",
+        "すきです",
+        "ありません",
+        "しませんか"
+      ],
+      "answer": 0,
+      "explanation": "Vế sau là kết quả hợp lý với lý do “khó”."
+    },
+    {
+      "question": "「だいたい わかります」は どういう いみですか。",
+      "instruction": "「だいたい わかります」 có nghĩa là gì?",
+      "options": [
+        "Hiểu đại khái",
+        "Hiểu rõ",
+        "Không hiểu",
+        "Hiểu một chút"
+      ],
+      "answer": 0,
+      "explanation": "だいたい nghĩa là đại khái."
+    },
+    {
+      "question": "「あした いっしょに えいがを みませんか。」「（　）、ようじが ありますから。」",
+      "meaning": "Ngày mai cùng xem phim nhé? ── Tiếc quá, vì tôi có việc bận.",
+      "options": [
+        "ざんねんですが",
+        "いいですよ",
+        "ええ",
+        "いいえ"
+      ],
+      "answer": 0,
+      "explanation": "ざんねんですが dùng khi từ chối vì lý do bất tiện."
+    },
+    {
+      "question": "正しい ぶんは どれですか。",
+      "instruction": "Chọn câu đúng.",
+      "options": [
+        "わたしは にほんごが わかります。",
+        "わたしは にほんごを わかります。",
+        "わたしは にほんごに わかります。",
+        "わたしは にほんごへ わかります。"
+      ],
+      "answer": 0,
+      "explanation": "わかります đi với が."
+    },
+    {
+      "question": "「上手」の はんたいの ことばは どれですか。",
+      "instruction": "Từ trái nghĩa với じょうず là từ nào?",
+      "options": [
+        "へた",
+        "きらい",
+        "むずかしい",
+        "すくない"
+      ],
+      "answer": 0,
+      "explanation": "じょうず (giỏi) trái nghĩa với へた (kém)."
+    },
+    {
+      "question": "ミラーさんは りょうりが（　）です。",
+      "hint": "khen người khác",
+      "meaning": "Anh Miller nấu ăn giỏi.",
+      "options": [
+        "じょうず",
+        "じょうずな",
+        "じょうずい",
+        "じょうずに"
+      ],
+      "answer": 0,
+      "explanation": "じょうず là tính từ な, đứng cuối câu thì thêm です."
+    },
+    {
+      "question": "わたしは きょう じかん（　）ありません。",
+      "meaning": "Hôm nay tôi không có thời gian.",
+      "options": [
+        "が",
+        "を",
+        "に",
+        "で"
+      ],
+      "answer": 0,
+      "explanation": "あります (có, sở hữu) đi với が: じかんが あります／ありません."
+    },
+    {
+      "question": "グプタさんは ダンス（　）へたです。",
+      "meaning": "Anh Gupta nhảy kém.",
+      "options": [
+        "が",
+        "を",
+        "に",
+        "で"
+      ],
+      "answer": 0,
+      "explanation": "じょうず／へた／すき／きらい đi với が: N が へたです."
+    },
+    {
+      "question": "ひらがなは わかりますが、かんじは（　）わかりません。",
+      "meaning": "Tôi hiểu hiragana nhưng chữ Hán thì hoàn toàn không hiểu.",
+      "options": [
+        "ぜんぜん",
+        "よく",
+        "たくさん",
+        "だいたい"
+      ],
+      "answer": 0,
+      "explanation": "ぜんぜん + phủ định: hoàn toàn không. よく, たくさん, だいたい đi với khẳng định."
+    },
+    {
+      "question": "あした やくそくが あります（　）、コンサートへ いきません。",
+      "meaning": "Vì ngày mai có hẹn nên tôi không đi buổi hòa nhạc.",
+      "options": [
+        "から",
+        "が",
+        "と",
+        "を"
+      ],
+      "answer": 0,
+      "explanation": "S1 から、S2: vì S1 nên S2. から đặt sau vế lý do."
+    },
+    {
+      "question": "わたしは えいごが（　）わかります。",
+      "meaning": "Tôi hiểu tiếng Anh đại khái.",
+      "options": [
+        "だいたい",
+        "ぜんぜん",
+        "あまり",
+        "なにも"
+      ],
+      "answer": 0,
+      "explanation": "だいたい (đại khái) đi với khẳng định. ぜんぜん, あまり, なにも phải đi với phủ định."
+    },
+    {
+      "question": "わたしは やさい（　）きらいです。",
+      "meaning": "Tôi ghét rau.",
+      "options": [
+        "が",
+        "を",
+        "に",
+        "で"
+      ],
+      "answer": 0,
+      "explanation": "きらいです đi với が: N が きらいです."
+    },
+    {
+      "question": "じかんが ＿＿ ＿＿ ★ ＿＿。",
+      "instruction": "Sắp xếp các từ cho đúng thứ tự và chọn từ ở vị trí ★.",
+      "meaning": "Vì không có thời gian nên tôi không xem tivi.",
+      "options": [
+        "テレビを",
+        "ありません",
+        "から",
+        "みません"
+      ],
+      "answer": 0,
+      "explanation": "Câu đúng: じかんが ありません から、テレビを みません。 Vế lý do + から đứng trước, kết quả đứng sau."
+    },
+    {
+      "question": "ミラーさんは ＿＿ ＿＿ ★ ＿＿。",
+      "instruction": "Sắp xếp các từ cho đúng thứ tự và chọn từ ở vị trí ★.",
+      "meaning": "Anh Miller hát bài hát Nhật giỏi.",
+      "options": [
+        "うたが",
+        "にほん",
+        "の",
+        "じょうずです"
+      ],
+      "answer": 0,
+      "explanation": "Câu đúng: ミラーさんは にほん の うたが じょうずです。 N1 の N2 (にほんの うた), じょうずです đi với が."
+    },
+    {
+      "question": "正しい ぶんは どれですか。",
+      "instruction": "Chọn câu đúng.",
+      "options": [
+        "わたしは おかねが あまり ありません。",
+        "わたしは おかねを あまり ありません。",
+        "わたしは おかねが あまり あります。",
+        "わたしは おかねに あまり ありません。"
+      ],
+      "answer": 0,
+      "explanation": "あります đi với が; あまり phải đi với phủ định (ありません)."
+    },
+    {
+      "question": "「どうして にほんごを べんきょうしますか。」「（　）」",
+      "hint": "chọn câu trả lời đúng",
+      "meaning": "Tại sao bạn học tiếng Nhật?",
+      "options": [
+        "にほんの うたが すきですから。",
+        "にほんの うたが すきですが。",
+        "にほんの うたを すきですから。",
+        "にほんの うたに すきですから。"
+      ],
+      "answer": 0,
+      "explanation": "Trả lời どうして bằng lý do + から. すきです đi với が."
+    }
+  ]
+}

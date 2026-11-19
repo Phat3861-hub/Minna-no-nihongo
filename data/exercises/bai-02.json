@@ -1,0 +1,324 @@
+{
+  "lesson": 2,
+  "questions": [
+    {
+      "question": "（　）は わたしの かばんです。",
+      "hint": "vật ở gần người nói",
+      "meaning": "Cái này là cặp của tôi.",
+      "options": [
+        "これ",
+        "それ",
+        "あれ",
+        "どれ"
+      ],
+      "answer": 0,
+      "explanation": "これ chỉ vật ở gần người nói. それ gần người nghe, あれ xa cả hai."
+    },
+    {
+      "question": "（　）かさは わたしのです。",
+      "hint": "xa cả hai người",
+      "meaning": "Cái ô kia là của tôi.",
+      "options": [
+        "あの",
+        "あれ",
+        "その",
+        "この"
+      ],
+      "answer": 0,
+      "explanation": "Phía sau có danh từ かさ nên phải dùng あの, không dùng あれ (đại từ đứng một mình)."
+    },
+    {
+      "question": "（　）は えんぴつですか。",
+      "hint": "vật ở gần người nghe",
+      "meaning": "Cái đó là bút chì phải không?",
+      "options": [
+        "それ",
+        "その",
+        "この",
+        "あの"
+      ],
+      "answer": 0,
+      "explanation": "Phía sau không có danh từ nên dùng đại từ それ."
+    },
+    {
+      "question": "「これは あなたの かさですか。」「いいえ、（　）。」",
+      "meaning": "Đây là ô của bạn phải không? Không, không phải.",
+      "options": [
+        "ちがいます",
+        "そうです",
+        "そうじゃです",
+        "ですか"
+      ],
+      "answer": 0,
+      "explanation": "Để phủ định câu hỏi N ですか có thể nói いいえ、ちがいます hoặc いいえ、そうじゃありません."
+    },
+    {
+      "question": "それは なんの ほんですか。── にほんご（　）ほんです。",
+      "meaning": "Đó là sách gì? ── Là sách tiếng Nhật.",
+      "options": [
+        "の",
+        "が",
+        "は",
+        "を"
+      ],
+      "answer": 0,
+      "explanation": "N1 の N2 có thể chỉ nội dung hoặc loại: sách về tiếng Nhật."
+    },
+    {
+      "question": "この かさは（　）ですか。",
+      "meaning": "Cái ô này là của ai?",
+      "options": [
+        "だれの",
+        "だれ",
+        "なんの",
+        "だれが"
+      ],
+      "answer": 0,
+      "explanation": "だれの hỏi chủ sở hữu. だれ chỉ hỏi người, không có の."
+    },
+    {
+      "question": "「これは ９ですか、７ですか。」「（　）です。」",
+      "meaning": "Đây là số 9 hay số 7? ── Là số 9.",
+      "options": [
+        "９",
+        "はい",
+        "いいえ",
+        "そうです"
+      ],
+      "answer": 0,
+      "explanation": "Câu hỏi lựa chọn không trả lời はい／いいえ, mà nhắc lại đáp án."
+    },
+    {
+      "question": "「あれは テレビですか、ラジオですか。」「（　）です。」",
+      "meaning": "Cái kia là tivi hay radio? ── Là radio.",
+      "options": [
+        "ラジオ",
+        "はい",
+        "いいえ",
+        "テレビか"
+      ],
+      "answer": 0,
+      "explanation": "Với câu hỏi “A hay B”, trả lời bằng cách nói lại đáp án đúng."
+    },
+    {
+      "question": "「この かばんは あなたのですか。」「はい、わたし（　）です。」",
+      "meaning": "Cái cặp này là của bạn phải không? Vâng, là của tôi.",
+      "options": [
+        "の",
+        "は",
+        "も",
+        "を"
+      ],
+      "answer": 0,
+      "explanation": "N の thay cho cụm “N の + danh từ” đã rõ: わたしの = cặp của tôi."
+    },
+    {
+      "question": "正しくない ぶんは どれですか。",
+      "instruction": "Câu nào KHÔNG đúng ngữ pháp?",
+      "options": [
+        "あれは かさは わたしのです。",
+        "あの かさは わたしのです。",
+        "あれは わたしのです。",
+        "この かさは わたしのです。"
+      ],
+      "answer": 0,
+      "explanation": "あれ là đại từ, không đi trước danh từ. Phải nói あの かさ hoặc あれ."
+    },
+    {
+      "question": "（　）ほんは わたしのです。",
+      "meaning": "Quyển sách này là của tôi.",
+      "options": [
+        "この",
+        "これ",
+        "それ",
+        "あれ"
+      ],
+      "answer": 0,
+      "explanation": "Có danh từ ほん phía sau nên phải dùng この (これ là đại từ đứng một mình)."
+    },
+    {
+      "question": "「どうぞ。」「（　）。」",
+      "meaning": "Xin mời. (đưa quà) ── Cảm ơn.",
+      "options": [
+        "どうも",
+        "どうぞ",
+        "そうですか",
+        "あのう"
+      ],
+      "answer": 0,
+      "explanation": "Khi nhận vật gì đó nói どうも (ありがとう ございます)."
+    },
+    {
+      "question": "ほんの 新しい じょうほうを きいたとき、「（　）」と いいます。",
+      "meaning": "Khi vừa biết thông tin mới và muốn nói “Thế à”, ta nói:",
+      "options": [
+        "そうですか",
+        "そうです",
+        "ちがいます",
+        "どうぞ"
+      ],
+      "answer": 0,
+      "explanation": "そうですか dùng khi vừa nghe được thông tin mới, nghĩa là “thế à”."
+    },
+    {
+      "question": "これは（　）ですか。── ほんです。",
+      "meaning": "Cái này là cái gì?",
+      "options": [
+        "なん",
+        "だれ",
+        "どこ",
+        "いくら"
+      ],
+      "answer": 0,
+      "explanation": "なん hỏi sự vật."
+    },
+    {
+      "question": "あれは だれ（　）かさですか。",
+      "meaning": "Cái kia là ô của ai?",
+      "options": [
+        "の",
+        "に",
+        "が",
+        "で"
+      ],
+      "answer": 0,
+      "explanation": "N1 の N2 chỉ sở hữu: だれの かさ."
+    },
+    {
+      "question": "これは コンピューター（　）ほんです。",
+      "meaning": "Đây là sách về máy tính.",
+      "options": [
+        "の",
+        "は",
+        "を",
+        "も"
+      ],
+      "answer": 0,
+      "explanation": "の nối hai danh từ để chỉ nội dung sách."
+    },
+    {
+      "question": "（　）じしょは だれのですか。",
+      "hint": "ở gần người nghe",
+      "meaning": "Cuốn từ điển đó là của ai?",
+      "options": [
+        "その",
+        "それ",
+        "これ",
+        "あれ"
+      ],
+      "answer": 0,
+      "explanation": "Phía sau có danh từ じしょ nên phải dùng その. それ／これ／あれ là đại từ, đứng một mình."
+    },
+    {
+      "question": "これは（　）の ざっしですか。── じどうしゃの ざっしです。",
+      "meaning": "Đây là tạp chí về cái gì? ── Là tạp chí về ô tô.",
+      "options": [
+        "なん",
+        "だれ",
+        "どれ",
+        "この"
+      ],
+      "answer": 0,
+      "explanation": "なんの N hỏi nội dung, loại của N. だれの N hỏi chủ sở hữu."
+    },
+    {
+      "question": "この とけいは（　）。",
+      "meaning": "Cái đồng hồ này là của tôi.",
+      "options": [
+        "わたしのです",
+        "わたしです",
+        "わたしはです",
+        "わたしがです"
+      ],
+      "answer": 0,
+      "explanation": "N の thay cho N の とけい (đã rõ): わたしの = cái của tôi. わたしです nghĩa là “là tôi”, sai nghĩa."
+    },
+    {
+      "question": "あれは（　）ですか。── じどうしゃの ほんです。",
+      "meaning": "Cái kia là cái gì? ── Là sách về ô tô.",
+      "options": [
+        "なん",
+        "なんの",
+        "だれ",
+        "だれの"
+      ],
+      "answer": 0,
+      "explanation": "Sau chỗ trống không có danh từ nên dùng なん (cái gì). なんの／だれの phải có danh từ theo sau."
+    },
+    {
+      "question": "（　）、これは あなたの かさですか。",
+      "meaning": "Xin lỗi, cái này là ô của bạn phải không?",
+      "options": [
+        "あのう",
+        "どうも",
+        "どうぞ",
+        "そうですか"
+      ],
+      "answer": 0,
+      "explanation": "あのう dùng để mở lời một cách ngập ngừng, lịch sự trước khi hỏi."
+    },
+    {
+      "question": "それは（　）の かさですか。── ミラーさんのです。",
+      "meaning": "Đó là ô của ai? ── Là của anh Miller.",
+      "options": [
+        "だれ",
+        "なん",
+        "どれ",
+        "この"
+      ],
+      "answer": 0,
+      "explanation": "だれの N hỏi chủ sở hữu. Câu trả lời là người (ミラーさん) nên dùng だれ."
+    },
+    {
+      "question": "それは ＿＿ ＿＿ ★ ＿＿。",
+      "instruction": "Sắp xếp các từ cho đúng thứ tự và chọn từ ở vị trí ★.",
+      "meaning": "Đó không phải là ô của tôi.",
+      "options": [
+        "かさ",
+        "わたし",
+        "の",
+        "じゃ ありません"
+      ],
+      "answer": 0,
+      "explanation": "Câu đúng: それは わたし の かさ じゃ ありません。 N1 の N2 (わたしの かさ) rồi đến phủ định."
+    },
+    {
+      "question": "＿＿ ＿＿ ★ ＿＿ ですか。",
+      "instruction": "Sắp xếp các từ cho đúng thứ tự và chọn từ ở vị trí ★.",
+      "meaning": "Quyển vở đó là của ai?",
+      "options": [
+        "だれ",
+        "その",
+        "ノートは",
+        "の"
+      ],
+      "answer": 0,
+      "explanation": "Câu đúng: その ノートは だれ の ですか。 その đi kèm danh từ ノート; だれの (của ai) đứng trước ですか."
+    },
+    {
+      "question": "正しい ぶんは どれですか。",
+      "instruction": "Chọn câu đúng.",
+      "options": [
+        "これは わたしの ほんです。",
+        "これは わたし ほんです。",
+        "これは わたしのの ほんです。",
+        "この わたしは ほんです。"
+      ],
+      "answer": 0,
+      "explanation": "Sở hữu: わたし + の + danh từ. Không bỏ の và không lặp の. この phải đi với danh từ chỉ vật."
+    },
+    {
+      "question": "「これは コーヒーですか、チョコレートですか。」「（　）」",
+      "hint": "chọn câu trả lời đúng",
+      "meaning": "Đây là cà phê hay sô-cô-la?",
+      "options": [
+        "チョコレートです。",
+        "はい、チョコレートです。",
+        "いいえ、コーヒーです。",
+        "はい、そうです。"
+      ],
+      "answer": 0,
+      "explanation": "Câu hỏi lựa chọn “A hay B” không trả lời bằng はい／いいえ, chỉ nói lại đáp án: チョコレートです."
+    }
+  ]
+}

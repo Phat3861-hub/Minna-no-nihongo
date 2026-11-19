@@ -1,0 +1,147 @@
+{
+  "lesson": 2,
+  "title": "Đồ vật quanh ta",
+  "points": [
+    {
+      "pattern": "これ／それ／あれ は N です",
+      "meaning": "Cái này／cái đó／cái kia là N",
+      "explanations": [
+        "これ: vật ở gần người nói. それ: vật ở gần người nghe. あれ: vật ở xa cả hai.",
+        "これ／それ／あれ là đại từ, đứng một mình, phía sau không có danh từ.",
+        "Hỏi: これは なんですか (cái này là cái gì?)."
+      ],
+      "examples": [
+        {
+          "jp": "これは ほんです。",
+          "vi": "Đây là quyển sách."
+        },
+        {
+          "jp": "それは じしょですか。",
+          "vi": "Cái đó là từ điển phải không?"
+        },
+        {
+          "jp": "あれは なんですか。",
+          "vi": "Cái kia là cái gì?"
+        }
+      ]
+    },
+    {
+      "pattern": "この／その／あの N",
+      "meaning": "N này／N đó／N kia",
+      "explanations": [
+        "この／その／あの luôn đi kèm danh từ phía sau.",
+        "Quy tắc gần xa giống これ／それ／あれ."
+      ],
+      "examples": [
+        {
+          "jp": "この ほんは わたしのです。",
+          "vi": "Quyển sách này là của tôi."
+        },
+        {
+          "jp": "あの 人は だれですか。",
+          "vi": "Người kia là ai?"
+        }
+      ],
+      "note": "これ là đại từ đứng một mình, この bắt buộc phải có danh từ."
+    },
+    {
+      "pattern": "そうです／そうじゃありません／ちがいます",
+      "meaning": "Cách trả lời câu hỏi N ですか",
+      "explanations": [
+        "Đúng: はい、そうです.",
+        "Sai: いいえ、そうじゃありません hoặc いいえ、ちがいます."
+      ],
+      "examples": [
+        {
+          "jp": "それは テレホンカードですか。",
+          "vi": "Cái đó là thẻ điện thoại phải không?"
+        },
+        {
+          "jp": "はい、そうです。",
+          "vi": "Vâng, đúng vậy."
+        },
+        {
+          "jp": "いいえ、ちがいます。",
+          "vi": "Không, không phải."
+        }
+      ]
+    },
+    {
+      "pattern": "S1 ですか、S2 ですか",
+      "meaning": "Câu hỏi lựa chọn: A hay B?",
+      "explanations": [
+        "Hỏi chọn một trong hai, nối hai câu hỏi bằng dấu phẩy.",
+        "Trả lời bằng cách nhắc lại đáp án đúng, không dùng はい／いいえ."
+      ],
+      "examples": [
+        {
+          "jp": "これは「９」ですか、「７」ですか。",
+          "vi": "Đây là số 9 hay số 7?"
+        },
+        {
+          "jp": "「９」です。",
+          "vi": "Là số 9."
+        }
+      ]
+    },
+    {
+      "pattern": "N1 の N2",
+      "meaning": "N2 của N1, N2 về N1",
+      "explanations": [
+        "の nối danh từ để chỉ sở hữu, nội dung hay loại.",
+        "Hỏi chủ sở hữu: だれの N ですか. Hỏi loại: なんの N ですか."
+      ],
+      "examples": [
+        {
+          "jp": "これは わたしの ほんです。",
+          "vi": "Đây là sách của tôi."
+        },
+        {
+          "jp": "これは コンピューターの ほんです。",
+          "vi": "Đây là sách về máy tính."
+        },
+        {
+          "jp": "あれは だれの かさですか。",
+          "vi": "Cái kia là ô của ai?"
+        }
+      ]
+    },
+    {
+      "pattern": "N の (thay cho N1 の N2)",
+      "meaning": "Cái của N",
+      "explanations": [
+        "Khi N2 đã rõ, có thể lược N2 và chỉ nói N1 の, nghĩa là “cái của N1”."
+      ],
+      "examples": [
+        {
+          "jp": "この かばんは わたしのです。",
+          "vi": "Cái cặp này là của tôi."
+        },
+        {
+          "jp": "その かさは あなたのですか。",
+          "vi": "Cái ô đó là của bạn à?"
+        }
+      ],
+      "note": "Cách này chỉ dùng cho vật, không dùng cho người."
+    },
+    {
+      "pattern": "そうですか／あのう／どうぞ／どうも",
+      "meaning": "Cách nói thường gặp",
+      "explanations": [
+        "そうですか: thế à, nói khi vừa biết thông tin mới.",
+        "あのう: ừm, xin lỗi, dùng để mở lời.",
+        "どうぞ: xin mời (khi đưa vật gì cho ai). どうも (ありがとう): cảm ơn."
+      ],
+      "examples": [
+        {
+          "jp": "あのう、これは あなたの かぎですか。",
+          "vi": "Xin lỗi, đây là chìa khóa của bạn phải không?"
+        },
+        {
+          "jp": "どうぞ。── どうも ありがとう ございます。",
+          "vi": "Xin mời. ── Xin chân thành cảm ơn."
+        }
+      ]
+    }
+  ]
+}

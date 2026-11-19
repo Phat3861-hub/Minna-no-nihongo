@@ -1,0 +1,241 @@
+{
+  "lesson": 2,
+  "title": "Đồ vật quanh ta",
+  "words": [
+    {
+      "kana": "これ",
+      "kanji": "",
+      "vi": "cái này (gần người nói)"
+    },
+    {
+      "kana": "それ",
+      "kanji": "",
+      "vi": "cái đó (gần người nghe)"
+    },
+    {
+      "kana": "あれ",
+      "kanji": "",
+      "vi": "cái kia (xa cả hai)"
+    },
+    {
+      "kana": "この～",
+      "kanji": "",
+      "vi": "~ này"
+    },
+    {
+      "kana": "その～",
+      "kanji": "",
+      "vi": "~ đó"
+    },
+    {
+      "kana": "あの～",
+      "kanji": "",
+      "vi": "~ kia"
+    },
+    {
+      "kana": "ほん",
+      "kanji": "本",
+      "vi": "sách"
+    },
+    {
+      "kana": "じしょ",
+      "kanji": "辞書",
+      "vi": "từ điển"
+    },
+    {
+      "kana": "ざっし",
+      "kanji": "雑誌",
+      "vi": "tạp chí"
+    },
+    {
+      "kana": "しんぶん",
+      "kanji": "新聞",
+      "vi": "báo"
+    },
+    {
+      "kana": "ノート",
+      "kanji": "",
+      "vi": "vở"
+    },
+    {
+      "kana": "てちょう",
+      "kanji": "手帳",
+      "vi": "sổ tay"
+    },
+    {
+      "kana": "めいし",
+      "kanji": "名刺",
+      "vi": "danh thiếp"
+    },
+    {
+      "kana": "カード",
+      "kanji": "",
+      "vi": "thẻ, card"
+    },
+    {
+      "kana": "テレホンカード",
+      "kanji": "",
+      "vi": "thẻ điện thoại"
+    },
+    {
+      "kana": "えんぴつ",
+      "kanji": "鉛筆",
+      "vi": "bút chì"
+    },
+    {
+      "kana": "ボールペン",
+      "kanji": "",
+      "vi": "bút bi"
+    },
+    {
+      "kana": "シャープペンシル",
+      "kanji": "",
+      "vi": "bút chì bấm"
+    },
+    {
+      "kana": "かぎ",
+      "kanji": "鍵",
+      "vi": "chìa khóa"
+    },
+    {
+      "kana": "とけい",
+      "kanji": "時計",
+      "vi": "đồng hồ"
+    },
+    {
+      "kana": "かさ",
+      "kanji": "傘",
+      "vi": "ô, dù"
+    },
+    {
+      "kana": "かばん",
+      "kanji": "",
+      "vi": "cặp sách, túi xách"
+    },
+    {
+      "kana": "カセットテープ",
+      "kanji": "",
+      "vi": "băng cassette"
+    },
+    {
+      "kana": "テープレコーダー",
+      "kanji": "",
+      "vi": "máy ghi âm"
+    },
+    {
+      "kana": "テレビ",
+      "kanji": "",
+      "vi": "tivi"
+    },
+    {
+      "kana": "ラジオ",
+      "kanji": "",
+      "vi": "radio"
+    },
+    {
+      "kana": "カメラ",
+      "kanji": "",
+      "vi": "máy ảnh"
+    },
+    {
+      "kana": "コンピューター",
+      "kanji": "",
+      "vi": "máy vi tính"
+    },
+    {
+      "kana": "じどうしゃ",
+      "kanji": "自動車",
+      "vi": "ô tô"
+    },
+    {
+      "kana": "つくえ",
+      "kanji": "机",
+      "vi": "cái bàn (học, làm việc)"
+    },
+    {
+      "kana": "いす",
+      "kanji": "椅子",
+      "vi": "cái ghế"
+    },
+    {
+      "kana": "チョコレート",
+      "kanji": "",
+      "vi": "sô cô la"
+    },
+    {
+      "kana": "コーヒー",
+      "kanji": "",
+      "vi": "cà phê"
+    },
+    {
+      "kana": "えいご",
+      "kanji": "英語",
+      "vi": "tiếng Anh"
+    },
+    {
+      "kana": "にほんご",
+      "kanji": "日本語",
+      "vi": "tiếng Nhật"
+    },
+    {
+      "kana": "～ご",
+      "kanji": "～語",
+      "vi": "tiếng ~"
+    },
+    {
+      "kana": "なん",
+      "kanji": "何",
+      "vi": "cái gì"
+    },
+    {
+      "kana": "そう",
+      "kanji": "",
+      "vi": "đúng vậy"
+    },
+    {
+      "kana": "ちがいます",
+      "kanji": "違います",
+      "vi": "không phải, sai rồi"
+    },
+    {
+      "kana": "そうですか",
+      "kanji": "",
+      "vi": "thế à, vậy sao"
+    },
+    {
+      "kana": "あのう",
+      "kanji": "",
+      "vi": "ừm, xin lỗi (mở lời)"
+    },
+    {
+      "kana": "ほんのきもちです",
+      "kanji": "",
+      "vi": "đây là chút lòng thành"
+    },
+    {
+      "kana": "どうぞ",
+      "kanji": "",
+      "vi": "xin mời"
+    },
+    {
+      "kana": "どうも",
+      "kanji": "",
+      "vi": "cảm ơn (nói tắt)"
+    },
+    {
+      "kana": "どうもありがとうございます",
+      "kanji": "",
+      "vi": "xin chân thành cảm ơn"
+    },
+    {
+      "kana": "これからおせわになります",
+      "kanji": "これからお世話になります",
+      "vi": "từ nay mong được giúp đỡ"
+    },
+    {
+      "kana": "こちらこそよろしく",
+      "kanji": "",
+      "vi": "tôi cũng mong được giúp đỡ"
+    }
+  ]
+}

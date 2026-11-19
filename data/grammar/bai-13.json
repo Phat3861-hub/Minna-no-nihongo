@@ -1,0 +1,160 @@
+{
+  "lesson": 13,
+  "title": "Mong muốn và mục đích",
+  "points": [
+    {
+      "pattern": "N が ほしいです",
+      "meaning": "Muốn có N",
+      "explanations": [
+        "ほしい là tính từ い, diễn tả mong muốn có một vật hay một người. Đối tượng mong muốn đi với trợ từ が, không dùng を.",
+        "Hỏi: なにが ほしいですか／どんな N が ほしいですか.",
+        "Chia như tính từ い: ほしくないです (không muốn có), ほしかったです (đã muốn có)."
+      ],
+      "examples": [
+        {
+          "jp": "わたしは ともだちが ほしいです。",
+          "vi": "Tôi muốn có bạn."
+        },
+        {
+          "jp": "いま なにが いちばん ほしいですか。── くるまが ほしいです。",
+          "vi": "Bây giờ bạn muốn có cái gì nhất? ── Tôi muốn có ô tô."
+        },
+        {
+          "jp": "どんな カメラが ほしいですか。── ちいさい カメラが ほしいです。",
+          "vi": "Bạn muốn có máy ảnh như thế nào? ── Tôi muốn có máy ảnh nhỏ."
+        },
+        {
+          "jp": "こどもは ほしくないです。",
+          "vi": "Tôi không muốn có con."
+        }
+      ],
+      "note": "ほしい chỉ dùng cho mong muốn của người nói (câu kể) hoặc người nghe (câu hỏi), không dùng để nói mong muốn của người thứ ba."
+    },
+    {
+      "pattern": "V (bỏ ます) たいです",
+      "meaning": "Muốn làm V",
+      "explanations": [
+        "Bỏ ます ở thể ます rồi thêm たいです: のみます → のみたいです, いきます → いきたいです, します → したいです.",
+        "たい chia như tính từ い: phủ định ～たくないです, quá khứ ～たかったです, quá khứ phủ định ～たくなかったです.",
+        "Trợ từ を có thể thay bằng が: すしを／が たべたいです. Các trợ từ khác (へ, に, で...) giữ nguyên.",
+        "Giống ほしい, không dùng để nói mong muốn của người thứ ba."
+      ],
+      "examples": [
+        {
+          "jp": "わたしは おきなわへ いきたいです。",
+          "vi": "Tôi muốn đi Okinawa."
+        },
+        {
+          "jp": "てんぷらを たべたいです。",
+          "vi": "Tôi muốn ăn tempura."
+        },
+        {
+          "jp": "こうべで なにを かいたいですか。── くつを かいたいです。",
+          "vi": "Bạn muốn mua gì ở Kobe? ── Tôi muốn mua giày."
+        },
+        {
+          "jp": "つかれましたから、なにも したくないです。",
+          "vi": "Vì mệt rồi nên tôi không muốn làm gì cả."
+        }
+      ],
+      "note": "Không dùng ～たいですか hay ～ほしいですか để mời người trên vì thiếu lịch sự. Khi mời nên dùng ～は いかがですか hoặc ～ませんか (コーヒーは いかがですか)."
+    },
+    {
+      "pattern": "N(địa điểm) へ V(bỏ ます)／N に いきます／きます／かえります",
+      "meaning": "Đi／đến／về (đâu) để làm gì",
+      "explanations": [
+        "Mục đích của việc đi lại đặt trước に: V bỏ ます + に, hoặc N + に.",
+        "Với động từ dạng N します (かいものします, しょくじします, べんきょうします) có thể dùng N に: かいものに いきます.",
+        "Danh từ chỉ sự kiện (おまつり, パーティー, コンサート) + に いきます: đi xem, đi dự sự kiện đó."
+      ],
+      "examples": [
+        {
+          "jp": "こうべへ インドりょうりを たべに いきます。",
+          "vi": "Tôi đi Kobe để ăn món Ấn Độ."
+        },
+        {
+          "jp": "デパートへ かいものに いきます。",
+          "vi": "Tôi đi cửa hàng bách hóa để mua sắm."
+        },
+        {
+          "jp": "にほんへ びじゅつの べんきょうに きました。",
+          "vi": "Tôi đến Nhật để học mỹ thuật."
+        },
+        {
+          "jp": "あした きょうとの おまつりに いきます。",
+          "vi": "Ngày mai tôi đi lễ hội ở Kyoto."
+        }
+      ]
+    },
+    {
+      "pattern": "どこか／なにか",
+      "meaning": "Đâu đó／cái gì đó",
+      "explanations": [
+        "どこか: một nơi nào đó, なにか: một cái gì đó (không xác định cụ thể).",
+        "Trợ từ へ và を sau どこか, なにか có thể lược bỏ.",
+        "Câu hỏi có どこか／なにか là câu hỏi có／không, trả lời bằng はい／いいえ. Khác với どこ／なに là hỏi thông tin cụ thể."
+      ],
+      "examples": [
+        {
+          "jp": "ふゆやすみは どこか[へ] いきましたか。── はい、いきました。",
+          "vi": "Kỳ nghỉ đông bạn có đi đâu không? ── Có, tôi có đi."
+        },
+        {
+          "jp": "どこへ いきましたか。── ほっかいどうへ いきました。",
+          "vi": "Bạn đã đi đâu? ── Tôi đã đi Hokkaido."
+        },
+        {
+          "jp": "のどが かわきましたから、なにか[を] のみたいです。",
+          "vi": "Vì khát nên tôi muốn uống gì đó."
+        }
+      ],
+      "note": "Phủ định hoàn toàn dùng どこ[へ]も, なにも + phủ định: どこも いきませんでした (tôi không đi đâu cả)."
+    },
+    {
+      "pattern": "～ごろ và ～ぐらい",
+      "meaning": "Khoảng (thời điểm)／khoảng (lượng, độ dài)",
+      "explanations": [
+        "～ごろ đặt sau từ chỉ thời điểm: ７じごろ, ３がつごろ.",
+        "～ぐらい／くらい (Bài 11) đặt sau số lượng hoặc độ dài thời gian: ２じかんぐらい, ３かげつぐらい.",
+        "Sau ～ごろ có thể có hoặc không có に: ７じごろ[に] かえります."
+      ],
+      "examples": [
+        {
+          "jp": "まいばん １１じごろ ねます。",
+          "vi": "Mỗi tối tôi đi ngủ khoảng 11 giờ."
+        },
+        {
+          "jp": "まいばん ７じかんぐらい ねます。",
+          "vi": "Mỗi tối tôi ngủ khoảng 7 tiếng."
+        }
+      ]
+    },
+    {
+      "pattern": "Gọi món ở nhà hàng",
+      "meaning": "ごちゅうもんは？／べつべつに おねがいします",
+      "explanations": [
+        "ご／お đặt trước danh từ để nói lịch sự (ごちゅうもん, おなまえ). Nhân viên nhà hàng dùng nhiều cách nói lễ phép như しょうしょう おまちください.",
+        "Gọi món: N を おねがいします／N を ください. Tính tiền riêng: べつべつに おねがいします.",
+        "Đồng ý với lời rủ: ええ、そう しましょう."
+      ],
+      "examples": [
+        {
+          "jp": "ごちゅうもんは？── ぎゅうどんを おねがいします。",
+          "vi": "Quý khách gọi món gì ạ? ── Cho tôi một bát cơm thịt bò."
+        },
+        {
+          "jp": "しょうしょう おまちください。",
+          "vi": "Xin quý khách đợi một chút."
+        },
+        {
+          "jp": "べつべつに おねがいします。",
+          "vi": "Cho chúng tôi tính tiền riêng."
+        },
+        {
+          "jp": "ひるごはんを たべに いきませんか。── ええ、そう しましょう。",
+          "vi": "Đi ăn trưa không? ── Ừ, đi thôi."
+        }
+      ]
+    }
+  ]
+}

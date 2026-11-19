@@ -1,0 +1,534 @@
+{
+  "id": "b1",
+  "name": "Bài 1",
+  "kanji": [
+    {
+      "char": "日",
+      "hanViet": "NHẬT",
+      "meaning": "ngày, mặt trời",
+      "on": "ニチ、ジツ",
+      "kun": "ひ、か",
+      "examples": [
+        {
+          "word": "日本",
+          "reading": "にほん",
+          "meaning": "Nhật Bản"
+        },
+        {
+          "word": "毎日",
+          "reading": "まいにち",
+          "meaning": "mỗi ngày"
+        },
+        {
+          "word": "日曜日",
+          "reading": "にちようび",
+          "meaning": "Chủ nhật"
+        }
+      ]
+    },
+    {
+      "char": "月",
+      "hanViet": "NGUYỆT",
+      "meaning": "tháng, mặt trăng",
+      "on": "ゲツ、ガツ",
+      "kun": "つき",
+      "examples": [
+        {
+          "word": "月曜日",
+          "reading": "げつようび",
+          "meaning": "thứ Hai"
+        },
+        {
+          "word": "一月",
+          "reading": "いちがつ",
+          "meaning": "tháng Một"
+        },
+        {
+          "word": "月",
+          "reading": "つき",
+          "meaning": "mặt trăng"
+        }
+      ]
+    },
+    {
+      "char": "火",
+      "hanViet": "HỎA",
+      "meaning": "lửa",
+      "on": "カ",
+      "kun": "ひ",
+      "examples": [
+        {
+          "word": "火曜日",
+          "reading": "かようび",
+          "meaning": "thứ Ba"
+        },
+        {
+          "word": "火",
+          "reading": "ひ",
+          "meaning": "lửa"
+        }
+      ]
+    },
+    {
+      "char": "水",
+      "hanViet": "THỦY",
+      "meaning": "nước",
+      "on": "スイ",
+      "kun": "みず",
+      "examples": [
+        {
+          "word": "水曜日",
+          "reading": "すいようび",
+          "meaning": "thứ Tư"
+        },
+        {
+          "word": "水",
+          "reading": "みず",
+          "meaning": "nước"
+        }
+      ]
+    },
+    {
+      "char": "木",
+      "hanViet": "MỘC",
+      "meaning": "cây, gỗ",
+      "on": "モク",
+      "kun": "き",
+      "examples": [
+        {
+          "word": "木曜日",
+          "reading": "もくようび",
+          "meaning": "thứ Năm"
+        },
+        {
+          "word": "木",
+          "reading": "き",
+          "meaning": "cây"
+        }
+      ]
+    },
+    {
+      "char": "金",
+      "hanViet": "KIM",
+      "meaning": "vàng, tiền, kim loại",
+      "on": "キン",
+      "kun": "かね",
+      "examples": [
+        {
+          "word": "金曜日",
+          "reading": "きんようび",
+          "meaning": "thứ Sáu"
+        },
+        {
+          "word": "お金",
+          "reading": "おかね",
+          "meaning": "tiền"
+        }
+      ]
+    },
+    {
+      "char": "土",
+      "hanViet": "THỔ",
+      "meaning": "đất",
+      "on": "ド、ト",
+      "kun": "つち",
+      "examples": [
+        {
+          "word": "土曜日",
+          "reading": "どようび",
+          "meaning": "thứ Bảy"
+        },
+        {
+          "word": "土",
+          "reading": "つち",
+          "meaning": "đất"
+        }
+      ]
+    },
+    {
+      "char": "山",
+      "hanViet": "SƠN",
+      "meaning": "núi",
+      "on": "サン",
+      "kun": "やま",
+      "examples": [
+        {
+          "word": "山",
+          "reading": "やま",
+          "meaning": "núi"
+        },
+        {
+          "word": "富士山",
+          "reading": "ふじさん",
+          "meaning": "núi Phú Sĩ"
+        }
+      ]
+    },
+    {
+      "char": "川",
+      "hanViet": "XUYÊN",
+      "meaning": "sông",
+      "on": "セン",
+      "kun": "かわ",
+      "examples": [
+        {
+          "word": "川",
+          "reading": "かわ",
+          "meaning": "sông"
+        }
+      ]
+    },
+    {
+      "char": "田",
+      "hanViet": "ĐIỀN",
+      "meaning": "ruộng",
+      "on": "デン",
+      "kun": "た",
+      "examples": [
+        {
+          "word": "田んぼ",
+          "reading": "たんぼ",
+          "meaning": "ruộng lúa"
+        },
+        {
+          "word": "山田さん",
+          "reading": "やまださん",
+          "meaning": "anh/chị Yamada"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "type": "read",
+      "sentence": "きょうは {日曜日}です。",
+      "meaning": "Hôm nay là Chủ nhật.",
+      "options": [
+        "にちようび",
+        "にちようひ",
+        "ひようび",
+        "じつようび"
+      ],
+      "wordMeaning": "Chủ nhật"
+    },
+    {
+      "type": "read",
+      "sentence": "{月曜日}に がっこうへ いきます。",
+      "meaning": "Thứ Hai tôi đến trường.",
+      "options": [
+        "げつようび",
+        "がつようび",
+        "つきようび",
+        "げっようび"
+      ],
+      "wordMeaning": "thứ Hai",
+      "tip": "月 đọc ゲツ trong 月曜日, đọc ガツ trong tên tháng (一月 いちがつ)."
+    },
+    {
+      "type": "read",
+      "sentence": "{火曜日}は ひまです。",
+      "meaning": "Thứ Ba tôi rảnh.",
+      "options": [
+        "かようび",
+        "ひようび",
+        "かよび",
+        "がようび"
+      ],
+      "wordMeaning": "thứ Ba"
+    },
+    {
+      "type": "read",
+      "sentence": "{水曜日}に テストが あります。",
+      "meaning": "Thứ Tư có bài kiểm tra.",
+      "options": [
+        "すいようび",
+        "みずようび",
+        "すいよび",
+        "ずいようび"
+      ],
+      "wordMeaning": "thứ Tư"
+    },
+    {
+      "type": "read",
+      "sentence": "{木曜日}に ともだちと あいます。",
+      "meaning": "Thứ Năm tôi gặp bạn.",
+      "options": [
+        "もくようび",
+        "きようび",
+        "ぼくようび",
+        "もっようび"
+      ],
+      "wordMeaning": "thứ Năm"
+    },
+    {
+      "type": "read",
+      "sentence": "{金曜日}の よる、えいがを みます。",
+      "meaning": "Tối thứ Sáu tôi xem phim.",
+      "options": [
+        "きんようび",
+        "かねようび",
+        "ぎんようび",
+        "こんようび"
+      ],
+      "wordMeaning": "thứ Sáu"
+    },
+    {
+      "type": "read",
+      "sentence": "{土曜日}も はたらきます。",
+      "meaning": "Thứ Bảy tôi cũng làm việc.",
+      "options": [
+        "どようび",
+        "とようび",
+        "つちようび",
+        "どうようび"
+      ],
+      "wordMeaning": "thứ Bảy"
+    },
+    {
+      "type": "read",
+      "sentence": "この {水}を のみます。",
+      "meaning": "Tôi uống nước này.",
+      "options": [
+        "みず",
+        "すい",
+        "みつ",
+        "みす"
+      ],
+      "wordMeaning": "nước"
+    },
+    {
+      "type": "read",
+      "sentence": "{お金}が ありません。",
+      "meaning": "Tôi không có tiền.",
+      "options": [
+        "おかね",
+        "おきん",
+        "おがね",
+        "おかな"
+      ],
+      "wordMeaning": "tiền"
+    },
+    {
+      "type": "read",
+      "sentence": "{山}に のぼります。",
+      "meaning": "Tôi leo núi.",
+      "options": [
+        "やま",
+        "さん",
+        "せん",
+        "やね"
+      ],
+      "wordMeaning": "núi",
+      "tip": "山 đứng một mình đọc là やま (âm Kun). Âm On サン dùng trong 富士山 ふじさん."
+    },
+    {
+      "type": "read",
+      "sentence": "あの {川}は きれいです。",
+      "meaning": "Con sông kia đẹp.",
+      "options": [
+        "かわ",
+        "せん",
+        "がわ",
+        "かは"
+      ],
+      "wordMeaning": "sông"
+    },
+    {
+      "type": "read",
+      "sentence": "にわに {木}が あります。",
+      "meaning": "Trong vườn có cây.",
+      "options": [
+        "き",
+        "もく",
+        "こ",
+        "ぎ"
+      ],
+      "wordMeaning": "cây"
+    },
+    {
+      "type": "read",
+      "sentence": "{月}が きれいですね。",
+      "meaning": "Trăng đẹp nhỉ.",
+      "options": [
+        "つき",
+        "げつ",
+        "がつ",
+        "づき"
+      ],
+      "wordMeaning": "mặt trăng"
+    },
+    {
+      "type": "read",
+      "sentence": "{山田}さんは せんせいです。",
+      "meaning": "Anh Yamada là giáo viên.",
+      "options": [
+        "やまだ",
+        "やまた",
+        "さんだ",
+        "やまでん"
+      ],
+      "wordMeaning": "Yamada (họ người Nhật)"
+    },
+    {
+      "type": "read",
+      "sentence": "{富士山}は たかいです。",
+      "meaning": "Núi Phú Sĩ cao.",
+      "options": [
+        "ふじさん",
+        "ふじやま",
+        "ふしさん",
+        "ふじざん"
+      ],
+      "wordMeaning": "núi Phú Sĩ",
+      "tip": "Người Nhật đọc 富士山 là ふじさん, không đọc ふじやま."
+    },
+    {
+      "type": "write",
+      "sentence": "{にちようび}に やすみます。",
+      "meaning": "Tôi nghỉ vào Chủ nhật.",
+      "options": [
+        "日曜日",
+        "月曜日",
+        "目曜日",
+        "白曜日"
+      ],
+      "wordMeaning": "Chủ nhật"
+    },
+    {
+      "type": "write",
+      "sentence": "{げつようび}は いそがしいです。",
+      "meaning": "Thứ Hai bận rộn.",
+      "options": [
+        "月曜日",
+        "日曜日",
+        "用曜日",
+        "目曜日"
+      ],
+      "wordMeaning": "thứ Hai"
+    },
+    {
+      "type": "write",
+      "sentence": "{かようび}に テストが あります。",
+      "meaning": "Thứ Ba có bài kiểm tra.",
+      "options": [
+        "火曜日",
+        "化曜日",
+        "水曜日",
+        "花曜日"
+      ],
+      "wordMeaning": "thứ Ba"
+    },
+    {
+      "type": "write",
+      "sentence": "{みず}を ください。",
+      "meaning": "Cho tôi xin nước.",
+      "options": [
+        "水",
+        "氷",
+        "木",
+        "永"
+      ],
+      "wordMeaning": "nước",
+      "tip": "Phân biệt 水 (nước) với 氷 (băng, có thêm một chấm) và 永 (vĩnh viễn)."
+    },
+    {
+      "type": "write",
+      "sentence": "あそこに {やま}が みえます。",
+      "meaning": "Ở đằng kia nhìn thấy núi.",
+      "options": [
+        "山",
+        "川",
+        "出",
+        "上"
+      ],
+      "wordMeaning": "núi"
+    },
+    {
+      "type": "write",
+      "sentence": "{かわ}で さかなを とります。",
+      "meaning": "Tôi bắt cá ở sông.",
+      "options": [
+        "川",
+        "山",
+        "州",
+        "三"
+      ],
+      "wordMeaning": "sông"
+    },
+    {
+      "type": "write",
+      "sentence": "おおきい {き}ですね。",
+      "meaning": "Cái cây to nhỉ.",
+      "options": [
+        "木",
+        "本",
+        "未",
+        "休"
+      ],
+      "wordMeaning": "cây",
+      "tip": "木 (cây) thêm một nét ngang dưới thành 本 (sách)."
+    },
+    {
+      "type": "write",
+      "sentence": "{つち}の なかに なにか あります。",
+      "meaning": "Trong đất có cái gì đó.",
+      "options": [
+        "土",
+        "士",
+        "上",
+        "工"
+      ],
+      "wordMeaning": "đất",
+      "tip": "土: nét ngang dưới dài hơn. 士 (sĩ): nét ngang trên dài hơn."
+    },
+    {
+      "type": "write",
+      "sentence": "{おかね}が たくさん あります。",
+      "meaning": "Tôi có nhiều tiền.",
+      "options": [
+        "お金",
+        "お全",
+        "お合",
+        "お今"
+      ],
+      "wordMeaning": "tiền"
+    },
+    {
+      "type": "write",
+      "sentence": "{きんようび}に えいがを みます。",
+      "meaning": "Thứ Sáu tôi xem phim.",
+      "options": [
+        "金曜日",
+        "全曜日",
+        "会曜日",
+        "今曜日"
+      ],
+      "wordMeaning": "thứ Sáu"
+    },
+    {
+      "type": "write",
+      "sentence": "{どようび}は ひまです。",
+      "meaning": "Thứ Bảy tôi rảnh.",
+      "options": [
+        "土曜日",
+        "士曜日",
+        "上曜日",
+        "工曜日"
+      ],
+      "wordMeaning": "thứ Bảy"
+    },
+    {
+      "type": "write",
+      "sentence": "{やまだ}さんは かいしゃいんです。",
+      "meaning": "Anh Yamada là nhân viên công ty.",
+      "options": [
+        "山田",
+        "山由",
+        "山甲",
+        "川田"
+      ],
+      "wordMeaning": "Yamada (họ người Nhật)",
+      "tip": "田 (ruộng) khác 由 và 甲 ở nét dọc giữa không nhô ra ngoài."
+    }
+  ]
+}

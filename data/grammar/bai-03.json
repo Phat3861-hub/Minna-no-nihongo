@@ -1,0 +1,130 @@
+{
+  "lesson": 3,
+  "title": "Địa điểm và giá cả",
+  "points": [
+    {
+      "pattern": "ここ／そこ／あそこ／どこ",
+      "meaning": "Chỗ này／chỗ đó／chỗ kia／chỗ nào",
+      "explanations": [
+        "ここ: gần người nói. そこ: gần người nghe. あそこ: xa cả hai. どこ: từ để hỏi nơi chốn.",
+        "Lịch sự hơn: こちら, そちら, あちら, どちら (cũng chỉ phương hướng)."
+      ],
+      "examples": [
+        {
+          "jp": "ここは しょくどうです。",
+          "vi": "Đây là nhà ăn."
+        },
+        {
+          "jp": "トイレは あそこです。",
+          "vi": "Nhà vệ sinh ở chỗ kia."
+        }
+      ]
+    },
+    {
+      "pattern": "N1 は N2(địa điểm) です",
+      "meaning": "N1 ở N2",
+      "explanations": [
+        "Dùng để nói vị trí của N1. Hỏi: N1 は どこですか／どちらですか."
+      ],
+      "examples": [
+        {
+          "jp": "でんわは そこです。",
+          "vi": "Điện thoại ở chỗ đó."
+        },
+        {
+          "jp": "エレベーターは どこですか。",
+          "vi": "Thang máy ở đâu?"
+        }
+      ]
+    },
+    {
+      "pattern": "どこ／どちら",
+      "meaning": "Hỏi nơi chốn, xuất xứ, nơi làm việc",
+      "explanations": [
+        "どちら lịch sự hơn どこ.",
+        "Có thể dùng để hỏi nước, công ty, trường của người nghe."
+      ],
+      "examples": [
+        {
+          "jp": "おくには どちらですか。",
+          "vi": "Đất nước của bạn là nước nào?"
+        },
+        {
+          "jp": "かいしゃは どちらですか。",
+          "vi": "Công ty của anh ở đâu ạ?"
+        }
+      ]
+    },
+    {
+      "pattern": "N1 の N2 (xuất xứ)",
+      "meaning": "N2 do N1 sản xuất",
+      "explanations": [
+        "N1 là nước, công ty sản xuất; N2 là sản phẩm.",
+        "Hỏi xuất xứ: どこの N ですか."
+      ],
+      "examples": [
+        {
+          "jp": "これは イタリアの くつです。",
+          "vi": "Đây là giày của Ý."
+        },
+        {
+          "jp": "この コンピューターは どこの ですか。",
+          "vi": "Cái máy tính này là của nơi nào?"
+        }
+      ]
+    },
+    {
+      "pattern": "いくらですか",
+      "meaning": "Bao nhiêu tiền?",
+      "explanations": [
+        "Hỏi giá bằng いくら. Trả lời bằng số + えん.",
+        "Số: ひゃく (100), せん (1000), まん (10000). Biến âm: さんびゃく (300), ろっぴゃく (600), はっぴゃく (800), さんぜん (3000), はっせん (8000)."
+      ],
+      "examples": [
+        {
+          "jp": "この ワインは いくらですか。",
+          "vi": "Chai rượu vang này bao nhiêu tiền?"
+        },
+        {
+          "jp": "３,０００えんです。",
+          "vi": "3.000 yên."
+        }
+      ]
+    },
+    {
+      "pattern": "～階（かい）",
+      "meaning": "Tầng ~",
+      "explanations": [
+        "Hỏi: なんがい. 1 tầng: いっかい, 3 tầng: さんがい, 6 tầng: ろっかい, 8 tầng: はっかい, 10 tầng: じゅっかい. Tầng hầm: ちか."
+      ],
+      "examples": [
+        {
+          "jp": "レストランは なんがいですか。",
+          "vi": "Nhà hàng ở tầng mấy?"
+        },
+        {
+          "jp": "５かいです。",
+          "vi": "Ở tầng 5."
+        }
+      ]
+    },
+    {
+      "pattern": "～を ください／～を みせて ください",
+      "meaning": "Xin cho tôi ~／Xin cho tôi xem ~",
+      "explanations": [
+        "Dùng khi mua hàng. を chỉ vật mà mình muốn.",
+        "じゃ: vậy thì, dùng khi quyết định chọn."
+      ],
+      "examples": [
+        {
+          "jp": "その ネクタイを みせて ください。",
+          "vi": "Xin cho tôi xem cái cà vạt đó."
+        },
+        {
+          "jp": "じゃ、これを ください。",
+          "vi": "Vậy thì cho tôi cái này."
+        }
+      ]
+    }
+  ]
+}

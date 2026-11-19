@@ -1,0 +1,348 @@
+{
+  "lesson": 10,
+  "questions": [
+    {
+      "question": "つくえの うえに ほん（　）あります。",
+      "meaning": "Trên bàn có quyển sách.",
+      "options": [
+        "が",
+        "を",
+        "は",
+        "も"
+      ],
+      "answer": 0,
+      "explanation": "Khi giới thiệu sự tồn tại: N1 に N2 が あります."
+    },
+    {
+      "question": "こうえんに こども（　）います。",
+      "meaning": "Trong công viên có trẻ em.",
+      "options": [
+        "が",
+        "を",
+        "に",
+        "で"
+      ],
+      "answer": 0,
+      "explanation": "N2 trong mẫu có/ở đi với が."
+    },
+    {
+      "question": "へやに つくえが（　）。",
+      "hint": "khẳng định",
+      "meaning": "Trong phòng có cái bàn.",
+      "options": [
+        "あります",
+        "います",
+        "ありません",
+        "いません"
+      ],
+      "answer": 0,
+      "explanation": "あります dùng cho vật không tự chuyển động."
+    },
+    {
+      "question": "にわに ねこが（　）。",
+      "hint": "khẳng định",
+      "meaning": "Trong vườn có con mèo.",
+      "options": [
+        "います",
+        "あります",
+        "いません",
+        "ありません"
+      ],
+      "answer": 0,
+      "explanation": "います dùng cho người và động vật."
+    },
+    {
+      "question": "ミラーさんは じむしょ（　）います。",
+      "meaning": "Anh Miller đang ở văn phòng.",
+      "options": [
+        "に",
+        "を",
+        "で",
+        "が"
+      ],
+      "answer": 0,
+      "explanation": "Nơi tồn tại đi với に."
+    },
+    {
+      "question": "とうきょうディズニーランドは ちばけん（　）あります。",
+      "meaning": "Tokyo Disneyland ở tỉnh Chiba.",
+      "options": [
+        "に",
+        "を",
+        "で",
+        "が"
+      ],
+      "answer": 0,
+      "explanation": "N1 は N2(địa điểm) に あります: N1 ở N2."
+    },
+    {
+      "question": "きっさてんの（　）に ポストが あります。",
+      "hint": "vị trí: bên cạnh",
+      "meaning": "Bên cạnh quán cà phê có hộp thư.",
+      "options": [
+        "となり",
+        "うしろ",
+        "なか",
+        "した"
+      ],
+      "answer": 0,
+      "explanation": "となり nghĩa là bên cạnh."
+    },
+    {
+      "question": "はこの なか（　）てがみが あります。",
+      "meaning": "Trong hộp có thư.",
+      "options": [
+        "に",
+        "を",
+        "で",
+        "が"
+      ],
+      "answer": 0,
+      "explanation": "Nơi tồn tại đi với に."
+    },
+    {
+      "question": "つくえの した（　）ねこが います。",
+      "meaning": "Dưới bàn có con mèo.",
+      "options": [
+        "に",
+        "を",
+        "が",
+        "で"
+      ],
+      "answer": 0,
+      "explanation": "Nơi tồn tại đi với に."
+    },
+    {
+      "question": "はこの なかに てがみ（　）しゃしんが あります。",
+      "hint": "liệt kê không đầy đủ (còn thứ khác)",
+      "meaning": "Trong hộp có thư, ảnh (và vài thứ khác).",
+      "options": [
+        "や",
+        "と",
+        "も",
+        "が"
+      ],
+      "answer": 0,
+      "explanation": "や liệt kê các thứ tiêu biểu, ngụ ý còn nữa. と thì liệt kê đầy đủ."
+    },
+    {
+      "question": "にわに（　）いますか。── だれも いません。",
+      "meaning": "Trong vườn có ai không?",
+      "options": [
+        "だれが",
+        "なにが",
+        "どこが",
+        "いつが"
+      ],
+      "answer": 0,
+      "explanation": "Hỏi về người dùng だれが, hỏi về vật dùng なにが."
+    },
+    {
+      "question": "へやに（　）ありますか。── いいえ、なにも ありません。",
+      "meaning": "Trong phòng có gì không?",
+      "options": [
+        "なにが",
+        "だれが",
+        "どこが",
+        "いくつが"
+      ],
+      "answer": 0,
+      "explanation": "なにが hỏi về vật, phủ định dùng なにも ありません."
+    },
+    {
+      "question": "かいぎしつに だれも（　）。",
+      "meaning": "Trong phòng họp không có ai.",
+      "options": [
+        "いません",
+        "います",
+        "ありません",
+        "あります"
+      ],
+      "answer": 0,
+      "explanation": "だれも + động từ phủ định いません."
+    },
+    {
+      "question": "あそこに おとこの ひと（　）います。",
+      "meaning": "Ở đằng kia có một người đàn ông.",
+      "options": [
+        "が",
+        "を",
+        "は",
+        "で"
+      ],
+      "answer": 0,
+      "explanation": "Giới thiệu sự tồn tại dùng が."
+    },
+    {
+      "question": "ポストは えきの まえ（　）あります。",
+      "meaning": "Hộp thư ở trước nhà ga.",
+      "options": [
+        "に",
+        "を",
+        "へ",
+        "が"
+      ],
+      "answer": 0,
+      "explanation": "N1 は N2(vị trí) に あります."
+    },
+    {
+      "question": "正しい ぶんは どれですか。",
+      "instruction": "Chọn câu đúng.",
+      "options": [
+        "いすの うしろに ねこが います。",
+        "いすの うしろに ねこが あります。",
+        "いすの うしろで ねこが います。",
+        "いすの うしろを ねこが います。"
+      ],
+      "answer": 0,
+      "explanation": "Mèo là động vật nên dùng います, nơi tồn tại đi với に."
+    },
+    {
+      "question": "正しい ぶんは どれですか。",
+      "instruction": "Chọn câu đúng.",
+      "options": [
+        "かばんの なかに ほんが あります。",
+        "かばんの なかに ほんが います。",
+        "かばんの なかで ほんが あります。",
+        "かばんの なかを ほんが あります。"
+      ],
+      "answer": 0,
+      "explanation": "Sách là vật nên dùng あります, nơi tồn tại đi với に."
+    },
+    {
+      "question": "ほんやと ぎんこうの（　）に ゆうびんきょくが あります。",
+      "meaning": "Giữa hiệu sách và ngân hàng có bưu điện.",
+      "options": [
+        "あいだ",
+        "となり",
+        "うしろ",
+        "そと"
+      ],
+      "answer": 0,
+      "explanation": "あいだ nghĩa là ở giữa (hai thứ)."
+    },
+    {
+      "question": "ぎんこうの まえに おとこの こが（　）。",
+      "meaning": "Trước ngân hàng có một bé trai.",
+      "options": [
+        "います",
+        "あります",
+        "ありません",
+        "でした"
+      ],
+      "answer": 0,
+      "explanation": "Người và động vật dùng います. あります dùng cho đồ vật, cây cối."
+    },
+    {
+      "question": "ミラーさんは（　）に いますか。── かいぎしつです。",
+      "meaning": "Anh Miller đang ở đâu? ── Ở phòng họp.",
+      "options": [
+        "どこ",
+        "だれ",
+        "なに",
+        "どれ"
+      ],
+      "answer": 0,
+      "explanation": "Hỏi vị trí: N は どこに いますか／ありますか."
+    },
+    {
+      "question": "はこの なかに なに（　）ありません。",
+      "meaning": "Trong hộp không có gì cả.",
+      "options": [
+        "も",
+        "が",
+        "を",
+        "に"
+      ],
+      "answer": 0,
+      "explanation": "なにも + ありません: không có gì cả. Với người: だれも いません."
+    },
+    {
+      "question": "わたしの うちは えきの ちかく（　）あります。",
+      "meaning": "Nhà tôi ở gần ga.",
+      "options": [
+        "に",
+        "で",
+        "へ",
+        "が"
+      ],
+      "answer": 0,
+      "explanation": "N1 は N2(địa điểm) に あります: nơi tồn tại đi với に."
+    },
+    {
+      "question": "つくえの うえに ほんや ノート（　）が あります。",
+      "meaning": "Trên bàn có sách, vở, v.v.",
+      "options": [
+        "など",
+        "と",
+        "も",
+        "や"
+      ],
+      "answer": 0,
+      "explanation": "N1 や N2 など: liệt kê vài thứ tiêu biểu, など đứng cuối danh sách trước が."
+    },
+    {
+      "question": "ぎんこうは ほんやと コンビニ（　）あいだに あります。",
+      "meaning": "Ngân hàng ở giữa hiệu sách và cửa hàng tiện lợi.",
+      "options": [
+        "の",
+        "と",
+        "に",
+        "を"
+      ],
+      "answer": 0,
+      "explanation": "N1 と N2 の あいだ: ở giữa N1 và N2. の nối danh từ với từ chỉ vị trí."
+    },
+    {
+      "question": "つくえの ＿＿ ＿＿ ★ ＿＿。",
+      "instruction": "Sắp xếp các từ cho đúng thứ tự và chọn từ ở vị trí ★.",
+      "meaning": "Trên bàn có tấm ảnh.",
+      "options": [
+        "しゃしん",
+        "うえ",
+        "に",
+        "が あります"
+      ],
+      "answer": 0,
+      "explanation": "Câu đúng: つくえの うえ に しゃしん が あります。 Mẫu N1(địa điểm) に N2 が あります."
+    },
+    {
+      "question": "はこの なかに ＿＿ ★ ＿＿ ＿＿ あります。",
+      "instruction": "Sắp xếp các từ cho đúng thứ tự và chọn từ ở vị trí ★.",
+      "meaning": "Trong hộp có thư, ảnh, v.v.",
+      "options": [
+        "や",
+        "てがみ",
+        "しゃしん",
+        "などが"
+      ],
+      "answer": 0,
+      "explanation": "Câu đúng: はこの なかに てがみ や しゃしん などが あります。 Mẫu N1 や N2 など: liệt kê tiêu biểu."
+    },
+    {
+      "question": "正しい ぶんは どれですか。",
+      "instruction": "Chọn câu đúng.",
+      "options": [
+        "ミラーさんは かいぎしつに います。",
+        "ミラーさんは かいぎしつに あります。",
+        "ミラーさんは かいぎしつで います。",
+        "ミラーさんが かいぎしつを います。"
+      ],
+      "answer": 0,
+      "explanation": "Người dùng います; nơi tồn tại đi với に: N1 は N2 に います."
+    },
+    {
+      "question": "「すみません。この ちかくに エーティーエムが ありますか。」「（　）」",
+      "hint": "chọn câu trả lời đúng",
+      "meaning": "Xin lỗi, gần đây có cây ATM không?",
+      "options": [
+        "ええ、あの コンビニの なかに あります。",
+        "ええ、あの コンビニの なかに います。",
+        "ええ、あの コンビニの なかで あります。",
+        "いいえ、あの コンビニの なかに あります。"
+      ],
+      "answer": 0,
+      "explanation": "ATM là đồ vật nên dùng あります, nơi tồn tại đi với に. Có ATM thì trả lời ええ."
+    }
+  ]
+}

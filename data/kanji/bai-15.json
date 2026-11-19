@@ -1,0 +1,235 @@
+{
+  "id": "b15",
+  "name": "Bài 15",
+  "kanji": [
+    {
+      "char": "東",
+      "hanViet": "ĐÔNG",
+      "meaning": "phía đông",
+      "on": "トウ",
+      "kun": "ひがし",
+      "examples": [
+        {
+          "word": "東",
+          "reading": "ひがし",
+          "meaning": "phía đông"
+        },
+        {
+          "word": "東京",
+          "reading": "とうきょう",
+          "meaning": "Tokyo"
+        }
+      ]
+    },
+    {
+      "char": "西",
+      "hanViet": "TÂY",
+      "meaning": "phía tây",
+      "on": "セイ、サイ",
+      "kun": "にし",
+      "examples": [
+        {
+          "word": "西",
+          "reading": "にし",
+          "meaning": "phía tây"
+        },
+        {
+          "word": "関西",
+          "reading": "かんさい",
+          "meaning": "vùng Kansai"
+        }
+      ]
+    },
+    {
+      "char": "南",
+      "hanViet": "NAM",
+      "meaning": "phía nam",
+      "on": "ナン",
+      "kun": "みなみ",
+      "examples": [
+        {
+          "word": "南",
+          "reading": "みなみ",
+          "meaning": "phía nam"
+        }
+      ]
+    },
+    {
+      "char": "北",
+      "hanViet": "BẮC",
+      "meaning": "phía bắc",
+      "on": "ホク",
+      "kun": "きた",
+      "examples": [
+        {
+          "word": "北",
+          "reading": "きた",
+          "meaning": "phía bắc"
+        },
+        {
+          "word": "北海道",
+          "reading": "ほっかいどう",
+          "meaning": "Hokkaido"
+        }
+      ]
+    },
+    {
+      "char": "京",
+      "hanViet": "KINH",
+      "meaning": "kinh đô",
+      "on": "キョウ",
+      "kun": "—",
+      "examples": [
+        {
+          "word": "東京",
+          "reading": "とうきょう",
+          "meaning": "Tokyo"
+        },
+        {
+          "word": "京都",
+          "reading": "きょうと",
+          "meaning": "Kyoto"
+        }
+      ]
+    },
+    {
+      "char": "夜",
+      "hanViet": "DẠ",
+      "meaning": "ban đêm",
+      "on": "ヤ",
+      "kun": "よる",
+      "examples": [
+        {
+          "word": "夜",
+          "reading": "よる",
+          "meaning": "ban đêm"
+        },
+        {
+          "word": "今夜",
+          "reading": "こんや",
+          "meaning": "đêm nay"
+        }
+      ]
+    },
+    {
+      "char": "料",
+      "hanViet": "LIỆU",
+      "meaning": "nguyên liệu, phí",
+      "on": "リョウ",
+      "kun": "—",
+      "examples": [
+        {
+          "word": "料理",
+          "reading": "りょうり",
+          "meaning": "món ăn"
+        },
+        {
+          "word": "料金",
+          "reading": "りょうきん",
+          "meaning": "tiền phí"
+        }
+      ]
+    },
+    {
+      "char": "理",
+      "hanViet": "LÝ",
+      "meaning": "lý lẽ",
+      "on": "リ",
+      "kun": "—",
+      "examples": [
+        {
+          "word": "料理",
+          "reading": "りょうり",
+          "meaning": "món ăn"
+        },
+        {
+          "word": "無理",
+          "reading": "むり",
+          "meaning": "quá sức, không thể"
+        }
+      ]
+    },
+    {
+      "char": "口",
+      "hanViet": "KHẨU",
+      "meaning": "miệng, cửa",
+      "on": "コウ",
+      "kun": "くち",
+      "examples": [
+        {
+          "word": "口",
+          "reading": "くち",
+          "meaning": "miệng"
+        },
+        {
+          "word": "入口",
+          "reading": "いりぐち",
+          "meaning": "lối vào"
+        },
+        {
+          "word": "出口",
+          "reading": "でぐち",
+          "meaning": "lối ra"
+        }
+      ]
+    },
+    {
+      "char": "目",
+      "hanViet": "MỤC",
+      "meaning": "mắt, thứ (chỉ thứ tự)",
+      "on": "モク",
+      "kun": "め",
+      "examples": [
+        {
+          "word": "目",
+          "reading": "め",
+          "meaning": "mắt"
+        },
+        {
+          "word": "二つ目",
+          "reading": "ふたつめ",
+          "meaning": "cái thứ hai"
+        }
+      ]
+    },
+    {
+      "char": "足",
+      "hanViet": "TÚC",
+      "meaning": "chân, đủ",
+      "on": "ソク",
+      "kun": "あし、た・りる",
+      "examples": [
+        {
+          "word": "足",
+          "reading": "あし",
+          "meaning": "chân"
+        },
+        {
+          "word": "足ります",
+          "reading": "たります",
+          "meaning": "đủ"
+        }
+      ]
+    },
+    {
+      "char": "曜",
+      "hanViet": "DIỆU",
+      "meaning": "ngày trong tuần",
+      "on": "ヨウ",
+      "kun": "—",
+      "examples": [
+        {
+          "word": "曜日",
+          "reading": "ようび",
+          "meaning": "thứ (trong tuần)"
+        },
+        {
+          "word": "何曜日",
+          "reading": "なんようび",
+          "meaning": "thứ mấy"
+        }
+      ]
+    }
+  ],
+  "sentences": []
+}

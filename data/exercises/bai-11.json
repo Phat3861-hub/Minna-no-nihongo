@@ -1,0 +1,371 @@
+{
+  "lesson": 11,
+  "questions": [
+    {
+      "question": "りんごを（　）かいました。（３こ）",
+      "meaning": "Tôi đã mua 3 quả táo.",
+      "options": [
+        "みっつ",
+        "さんつ",
+        "みっつを",
+        "さん"
+      ],
+      "answer": 0,
+      "explanation": "Đếm đồ vật theo kiểu Nhật: ひとつ, ふたつ, みっつ..."
+    },
+    {
+      "question": "「９つ」は どう よみますか。",
+      "instruction": "Cách đọc “9 cái” là gì?",
+      "options": [
+        "ここのつ",
+        "きゅうつ",
+        "くつ",
+        "ここのこ"
+      ],
+      "answer": 0,
+      "explanation": "9 cái đọc là ここのつ."
+    },
+    {
+      "question": "「とお」は いくつですか。",
+      "instruction": "とお là bao nhiêu cái?",
+      "options": [
+        "10 cái",
+        "8 cái",
+        "9 cái",
+        "11 cái"
+      ],
+      "answer": 0,
+      "explanation": "とお nghĩa là 10 cái. Từ 11 trở đi dùng số thường."
+    },
+    {
+      "question": "こどもが ２（　）います。",
+      "meaning": "Có 2 đứa trẻ.",
+      "options": [
+        "ふたり",
+        "にいん",
+        "ににん",
+        "ふたにん"
+      ],
+      "answer": 0,
+      "explanation": "2 người đọc là ふたり (đặc biệt)."
+    },
+    {
+      "question": "いもうとが １（　）います。",
+      "meaning": "Tôi có 1 em gái.",
+      "options": [
+        "ひとり",
+        "いちにん",
+        "ひとにん",
+        "ひとつ"
+      ],
+      "answer": 0,
+      "explanation": "1 người đọc là ひとり (đặc biệt)."
+    },
+    {
+      "question": "がくせいが ４（　）います。",
+      "hint": "4 người đọc là よにん",
+      "meaning": "Có 4 học sinh.",
+      "options": [
+        "にん",
+        "だい",
+        "まい",
+        "かい"
+      ],
+      "answer": 0,
+      "explanation": "Người đếm bằng ～にん (4 người đọc là よにん, 3 người là さんにん). 1 và 2 người là ngoại lệ: ひとり, ふたり."
+    },
+    {
+      "question": "くるまが ２（　）あります。",
+      "meaning": "Có 2 chiếc xe ô tô.",
+      "options": [
+        "だい",
+        "まい",
+        "にん",
+        "かい"
+      ],
+      "answer": 0,
+      "explanation": "Máy móc, xe cộ đếm bằng ～だい."
+    },
+    {
+      "question": "きっぷを ３（　）かいました。",
+      "meaning": "Tôi đã mua 3 tấm vé.",
+      "options": [
+        "まい",
+        "だい",
+        "にん",
+        "かい"
+      ],
+      "answer": 0,
+      "explanation": "Vật mỏng, phẳng (vé, giấy, tem) đếm bằng ～まい."
+    },
+    {
+      "question": "正しい ぶんは どれですか。",
+      "instruction": "Chọn câu đúng.",
+      "options": [
+        "りんごを ５つ かいました。",
+        "りんごを ５つを かいました。",
+        "りんごが ５つ を かいました。",
+        "５つ りんごを かいました。"
+      ],
+      "answer": 0,
+      "explanation": "Từ chỉ số lượng đặt ngay trước động từ, không có trợ từ theo sau."
+    },
+    {
+      "question": "１しゅうかんに ３（　）テニスを します。",
+      "meaning": "Một tuần tôi chơi tennis 3 lần.",
+      "options": [
+        "かい",
+        "じかん",
+        "にん",
+        "だい"
+      ],
+      "answer": 0,
+      "explanation": "～かい là số lần."
+    },
+    {
+      "question": "うちから えきまで あるいて どのくらい（　）か。",
+      "meaning": "Từ nhà đến ga đi bộ mất bao lâu?",
+      "options": [
+        "かかります",
+        "あります",
+        "います",
+        "します"
+      ],
+      "answer": 0,
+      "explanation": "どのくらい かかりますか: mất bao lâu?"
+    },
+    {
+      "question": "まいにち ２じかん（　）べんきょうします。",
+      "meaning": "Mỗi ngày tôi học 2 tiếng.",
+      "options": [
+        "（không dùng trợ từ）",
+        "に",
+        "を",
+        "で"
+      ],
+      "answer": 0,
+      "explanation": "Khoảng thời gian đặt trước động từ, không có trợ từ."
+    },
+    {
+      "question": "「２か月」は どう よみますか。",
+      "instruction": "Cách đọc “2 tháng” (khoảng thời gian) là gì?",
+      "options": [
+        "にかげつ",
+        "ふたつき",
+        "にがつ",
+        "ふたかげつ"
+      ],
+      "answer": 0,
+      "explanation": "2 tháng là にかげつ, còn にがつ là tháng Hai."
+    },
+    {
+      "question": "「さんかげつ」と「さんがつ」の ちがいは なんですか。",
+      "instruction": "Điểm khác nhau giữa さんかげつ và さんがつ là gì?",
+      "options": [
+        "3 tháng (khoảng thời gian) / tháng 3",
+        "tháng 3 / 3 tháng (khoảng thời gian)",
+        "giống nhau",
+        "cả hai đều là tháng 3"
+      ],
+      "answer": 0,
+      "explanation": "～かげつ chỉ khoảng thời gian, ～がつ chỉ tháng thứ mấy."
+    },
+    {
+      "question": "「ぜんぶで」の いみは どれですか。",
+      "instruction": "ぜんぶで có nghĩa là gì?",
+      "options": [
+        "Tổng cộng",
+        "Luôn luôn",
+        "Tất cả mọi người",
+        "Khoảng"
+      ],
+      "answer": 0,
+      "explanation": "ぜんぶで nghĩa là tổng cộng."
+    },
+    {
+      "question": "やすみは にちようび（　）です。",
+      "hint": "chỉ có một ngày",
+      "meaning": "Ngày nghỉ chỉ có Chủ nhật.",
+      "options": [
+        "だけ",
+        "ぐらい",
+        "も",
+        "から"
+      ],
+      "answer": 0,
+      "explanation": "だけ nghĩa là chỉ."
+    },
+    {
+      "question": "あるいて １０ぷん（　）かかります。",
+      "hint": "ước lượng thời gian",
+      "meaning": "Đi bộ mất khoảng 10 phút.",
+      "options": [
+        "ぐらい",
+        "だけ",
+        "から",
+        "まで"
+      ],
+      "answer": 0,
+      "explanation": "ぐらい／くらい nghĩa là khoảng."
+    },
+    {
+      "question": "「ミラーさんは きょうだいが いますか。」「はい、あに（　）ひとり います。」",
+      "meaning": "Anh Miller có anh chị em không? Có, tôi có một anh trai.",
+      "options": [
+        "が",
+        "を",
+        "に",
+        "は"
+      ],
+      "answer": 0,
+      "explanation": "Số người trong gia đình đi với が và います."
+    },
+    {
+      "question": "ほかの ひとの おとうさん、おかあさんを いう ときは どれですか。",
+      "instruction": "Khi nói về bố mẹ CỦA NGƯỜI KHÁC ta dùng từ nào?",
+      "options": [
+        "おとうさん／おかあさん",
+        "ちち／はは",
+        "あに／あね",
+        "おとうと／いもうと"
+      ],
+      "answer": 0,
+      "explanation": "Gia đình người khác dùng お～さん, gia đình mình dùng ちち, はは."
+    },
+    {
+      "question": "そとの ひとに じぶんの あにを いう ときは どれですか。",
+      "instruction": "Khi nói về anh trai CỦA MÌNH với người ngoài, ta dùng:",
+      "options": [
+        "あに",
+        "おにいさん",
+        "おとうさん",
+        "おとうと"
+      ],
+      "answer": 0,
+      "explanation": "Anh trai của mình là あに, anh trai người khác là おにいさん."
+    },
+    {
+      "question": "この クラスに がくせいが（　）いますか。── １５にん います。",
+      "meaning": "Lớp này có bao nhiêu học sinh? ── Có 15 người.",
+      "options": [
+        "なんにん",
+        "いくつ",
+        "なんだい",
+        "なんまい"
+      ],
+      "answer": 0,
+      "explanation": "Hỏi số người dùng なんにん. いくつ hỏi đồ vật, なんだい hỏi máy móc, xe; なんまい hỏi vật mỏng."
+    },
+    {
+      "question": "みかんを（　）ください。（８こ）",
+      "meaning": "Cho tôi 8 quả quýt.",
+      "options": [
+        "やっつ",
+        "はっつ",
+        "はちつ",
+        "ようつ"
+      ],
+      "answer": 0,
+      "explanation": "Đếm đồ vật kiểu Nhật: 8 cái là やっつ."
+    },
+    {
+      "question": "りんごを（　）かいましたか。── ４つ かいました。",
+      "meaning": "Bạn đã mua mấy quả táo? ── Tôi mua 4 quả.",
+      "options": [
+        "いくつ",
+        "いくら",
+        "なんにん",
+        "なんまい"
+      ],
+      "answer": 0,
+      "explanation": "いくつ hỏi số lượng đồ vật (đếm bằng ～つ). いくら hỏi giá tiền."
+    },
+    {
+      "question": "りゅうがくせいは ひとり（　）です。",
+      "meaning": "Du học sinh chỉ có một người.",
+      "options": [
+        "だけ",
+        "を",
+        "ぜんぶで",
+        "に"
+      ],
+      "answer": 0,
+      "explanation": "だけ nghĩa là chỉ, đặt sau danh từ hoặc số lượng."
+    },
+    {
+      "question": "１かげつ（　）２かい えいがを みます。",
+      "meaning": "Một tháng tôi xem phim 2 lần.",
+      "options": [
+        "に",
+        "で",
+        "を",
+        "が"
+      ],
+      "answer": 0,
+      "explanation": "Khoảng thời gian に số lần: tần suất (một tháng 2 lần)."
+    },
+    {
+      "question": "とうきょうから おおさかまで しんかんせんで ３じかん（　）かかります。",
+      "meaning": "Từ Tokyo đến Osaka đi bằng Shinkansen mất khoảng 3 tiếng.",
+      "options": [
+        "ぐらい",
+        "に",
+        "を",
+        "が"
+      ],
+      "answer": 0,
+      "explanation": "ぐらい／くらい đặt sau số lượng, thời gian để nói ước chừng. Khoảng thời gian không đi với に."
+    },
+    {
+      "question": "わたしは ＿＿ ＿＿ ★ ＿＿ テニスを します。",
+      "instruction": "Sắp xếp các từ cho đúng thứ tự và chọn từ ở vị trí ★.",
+      "meaning": "Một tuần tôi chơi tennis khoảng 2 lần.",
+      "options": [
+        "２かい",
+        "１しゅうかん",
+        "に",
+        "ぐらい"
+      ],
+      "answer": 0,
+      "explanation": "Câu đúng: わたしは １しゅうかん に ２かい ぐらい テニスを します。 Khoảng thời gian に số lần, ぐらい đứng sau số lần."
+    },
+    {
+      "question": "うちから でんしゃで ＿＿ ★ ＿＿ ＿＿ かかりますか。",
+      "instruction": "Sắp xếp các từ cho đúng thứ tự và chọn từ ở vị trí ★.",
+      "meaning": "Từ nhà đến công ty đi bằng tàu điện mất bao lâu?",
+      "options": [
+        "まで",
+        "かいしゃ",
+        "どの",
+        "くらい"
+      ],
+      "answer": 0,
+      "explanation": "Câu đúng: うちから でんしゃで かいしゃ まで どの くらい かかりますか。 N1 から N2 まで + どのくらい かかりますか."
+    },
+    {
+      "question": "正しい ぶんは どれですか。",
+      "instruction": "Chọn câu đúng.",
+      "options": [
+        "くるまが ２だい あります。",
+        "くるまが ２だいを あります。",
+        "くるまを ２だい あります。",
+        "くるまが ２まい あります。"
+      ],
+      "answer": 0,
+      "explanation": "Xe cộ đếm bằng ～だい; từ chỉ số lượng đặt trước động từ, không có trợ từ; あります đi với が."
+    },
+    {
+      "question": "「きょうだいが いますか。」「（　）」",
+      "hint": "chọn câu trả lời đúng",
+      "meaning": "Bạn có anh chị em không?",
+      "options": [
+        "はい、あねが ふたり います。",
+        "はい、あねを ふたり います。",
+        "はい、あねが ２つ います。",
+        "はい、あねが ふたりで います。"
+      ],
+      "answer": 0,
+      "explanation": "Người đếm bằng ひとり, ふたり, ～にん; đi với が và います; số lượng đứng ngay trước động từ, không có trợ từ."
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "lesson": 1,
+  "title": "Giới thiệu bản thân",
+  "points": [
+    {
+      "pattern": "N1 は N2 です",
+      "meaning": "N1 là N2",
+      "explanations": [
+        "は là trợ từ chỉ chủ đề của câu, khi làm trợ từ thì đọc là わ (wa).",
+        "です đứng cuối câu, làm câu lịch sự, dùng cho câu khẳng định."
+      ],
+      "examples": [
+        {
+          "jp": "わたしは マイクミラーです。",
+          "vi": "Tôi là Mike Miller."
+        },
+        {
+          "jp": "サントスさんは かいしゃいんです。",
+          "vi": "Anh Santos là nhân viên công ty."
+        }
+      ],
+      "note": "Trong tiếng Nhật, chủ ngữ thường được lược bỏ khi ngữ cảnh đã rõ."
+    },
+    {
+      "pattern": "N1 は N2 じゃありません",
+      "meaning": "N1 không phải là N2",
+      "explanations": [
+        "じゃありません là dạng phủ định của です.",
+        "Trong văn viết hoặc hoàn cảnh trang trọng dùng ではありません."
+      ],
+      "examples": [
+        {
+          "jp": "サントスさんは がくせいじゃありません。",
+          "vi": "Anh Santos không phải là sinh viên."
+        },
+        {
+          "jp": "わたしは せんせいではありません。",
+          "vi": "Tôi không phải là giáo viên."
+        }
+      ]
+    },
+    {
+      "pattern": "N1 は N2 ですか",
+      "meaning": "N1 có phải là N2 không?",
+      "explanations": [
+        "Thêm trợ từ か vào cuối câu để tạo câu hỏi, đọc lên giọng ở cuối câu.",
+        "Trả lời khẳng định: はい、そうです. Trả lời phủ định: いいえ、そうじゃありません."
+      ],
+      "examples": [
+        {
+          "jp": "ミラーさんは かいしゃいんですか。",
+          "vi": "Anh Miller là nhân viên công ty phải không?"
+        },
+        {
+          "jp": "はい、かいしゃいんです。",
+          "vi": "Vâng, là nhân viên công ty."
+        },
+        {
+          "jp": "いいえ、エンジニアじゃありません。",
+          "vi": "Không, tôi không phải là kỹ sư."
+        }
+      ],
+      "note": "Câu hỏi không cần dấu hỏi, chỉ cần か. Có thể trả lời bằng cách nhắc lại danh từ."
+    },
+    {
+      "pattern": "Từ để hỏi + ですか",
+      "meaning": "だれ／どなた (ai), なん (cái gì), なんさい／おいくつ (mấy tuổi)",
+      "explanations": [
+        "Từ để hỏi đứng đúng vị trí của thông tin cần hỏi, không đảo câu.",
+        "どなた là cách nói lịch sự của だれ, おいくつ là cách nói lịch sự của なんさい."
+      ],
+      "examples": [
+        {
+          "jp": "あの人は だれですか。",
+          "vi": "Người kia là ai?"
+        },
+        {
+          "jp": "あの方は どなたですか。",
+          "vi": "Vị kia là ngài nào ạ?"
+        },
+        {
+          "jp": "テレサちゃんは なんさいですか。",
+          "vi": "Bé Teresa mấy tuổi?"
+        },
+        {
+          "jp": "おいくつですか。",
+          "vi": "Bác bao nhiêu tuổi ạ?"
+        }
+      ]
+    },
+    {
+      "pattern": "N も",
+      "meaning": "N cũng",
+      "explanations": [
+        "も thay cho は khi thông tin về chủ đề mới giống với chủ đề đã nói trước đó."
+      ],
+      "examples": [
+        {
+          "jp": "ミラーさんは かいしゃいんです。グプタさんも かいしゃいんです。",
+          "vi": "Anh Miller là nhân viên công ty. Anh Gupta cũng là nhân viên công ty."
+        }
+      ]
+    },
+    {
+      "pattern": "N1 の N2",
+      "meaning": "N2 của N1 (nơi N1 thuộc về)",
+      "explanations": [
+        "の nối hai danh từ, N1 bổ nghĩa cho N2.",
+        "Ở Bài 1, N1 là tổ chức (công ty, trường) mà người đó thuộc về."
+      ],
+      "examples": [
+        {
+          "jp": "ミラーさんは IMCの しゃいんです。",
+          "vi": "Anh Miller là nhân viên của công ty IMC."
+        },
+        {
+          "jp": "ワットさんは さくら大学の せんせいです。",
+          "vi": "Thầy Watt là giáo viên của đại học Sakura."
+        }
+      ]
+    },
+    {
+      "pattern": "～さん／～ちゃん／～くん／～じん",
+      "meaning": "Hậu tố gắn sau tên và quốc tịch",
+      "explanations": [
+        "さん: gắn sau họ hoặc tên người khác để thể hiện sự tôn trọng.",
+        "ちゃん: gọi thân mật cho bé gái, くん: gọi thân mật cho bé trai.",
+        "～じん: người nước ~ (アメリカじん, ベトナムじん)."
+      ],
+      "examples": [
+        {
+          "jp": "あの 人は きむらさんです。",
+          "vi": "Người kia là anh Kimura."
+        },
+        {
+          "jp": "マイさんは ベトナムじんです。",
+          "vi": "Chị Mai là người Việt Nam."
+        }
+      ],
+      "note": "Không gắn さん vào tên của chính mình khi giới thiệu."
+    },
+    {
+      "pattern": "はじめまして。～から きました。どうぞ よろしく おねがいします。",
+      "meaning": "Mẫu chào hỏi khi gặp lần đầu",
+      "explanations": [
+        "はじめまして: rất hân hạnh được gặp.",
+        "N から きました: tôi đến từ N.",
+        "どうぞ よろしく おねがいします: rất mong được giúp đỡ, nói ở cuối phần tự giới thiệu."
+      ],
+      "examples": [
+        {
+          "jp": "はじめまして。マイです。ベトナムから きました。どうぞ よろしく おねがいします。",
+          "vi": "Xin chào, tôi là Mai. Tôi đến từ Việt Nam. Rất mong được giúp đỡ."
+        }
+      ]
+    }
+  ]
+}

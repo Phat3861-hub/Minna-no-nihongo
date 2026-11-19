@@ -1,0 +1,104 @@
+{
+  "lesson": 9,
+  "title": "Sở thích, khả năng, lý do",
+  "points": [
+    {
+      "pattern": "N が あります／わかります",
+      "meaning": "Có N／hiểu N",
+      "explanations": [
+        "が chỉ đối tượng của あります (có, sở hữu) và わかります (hiểu).",
+        "Không dùng を với hai động từ này."
+      ],
+      "examples": [
+        {
+          "jp": "わたしは にほんごが わかります。",
+          "vi": "Tôi hiểu tiếng Nhật."
+        },
+        {
+          "jp": "わたしは くるまが あります。",
+          "vi": "Tôi có xe ô tô."
+        }
+      ]
+    },
+    {
+      "pattern": "N が すきです／きらいです／じょうずです／へたです",
+      "meaning": "Thích／ghét／giỏi／kém N",
+      "explanations": [
+        "Các tính từ な về sở thích và năng lực đi với が.",
+        "じょうず／へた dùng để khen hoặc nhận xét người khác, không dùng để khen bản thân."
+      ],
+      "examples": [
+        {
+          "jp": "わたしは りょうりが すきです。",
+          "vi": "Tôi thích nấu ăn."
+        },
+        {
+          "jp": "ミラーさんは ゴルフが じょうずです。",
+          "vi": "Anh Miller chơi golf giỏi."
+        }
+      ]
+    },
+    {
+      "pattern": "どんな N が すきですか",
+      "meaning": "Bạn thích N loại nào?",
+      "explanations": [
+        "Hỏi về loại N yêu thích. Trả lời: ～が すきです."
+      ],
+      "examples": [
+        {
+          "jp": "どんな スポーツが すきですか。── サッカーが すきです。",
+          "vi": "Bạn thích môn thể thao nào? ── Tôi thích bóng đá."
+        }
+      ]
+    },
+    {
+      "pattern": "よく／だいたい／たくさん／すこし／あまり／ぜんぜん",
+      "meaning": "Trạng từ chỉ mức độ",
+      "explanations": [
+        "よく: tốt, rõ. だいたい: đại khái. たくさん: nhiều (đi với あります). すこし: một chút.",
+        "あまり + phủ định: không ~ lắm. ぜんぜん + phủ định: hoàn toàn không."
+      ],
+      "examples": [
+        {
+          "jp": "にほんごが よく わかります。",
+          "vi": "Tôi hiểu tiếng Nhật rất rõ."
+        },
+        {
+          "jp": "ひらがなが ぜんぜん わかりません。",
+          "vi": "Tôi hoàn toàn không hiểu hiragana."
+        },
+        {
+          "jp": "おかねが たくさん あります。",
+          "vi": "Tôi có nhiều tiền."
+        }
+      ]
+    },
+    {
+      "pattern": "S1 から、S2",
+      "meaning": "Vì S1 nên S2",
+      "explanations": [
+        "から đặt sau vế nêu lý do, rồi đến kết quả."
+      ],
+      "examples": [
+        {
+          "jp": "ジャズが すきですから、よく ききます。",
+          "vi": "Vì thích nhạc jazz nên tôi hay nghe."
+        }
+      ]
+    },
+    {
+      "pattern": "どうして ～か。── ～から です",
+      "meaning": "Tại sao ~? ── Vì ~",
+      "explanations": [
+        "どうして hỏi lý do. Trả lời bằng lý do + から.",
+        "Có thể trả lời chỉ bằng vế lý do kèm から."
+      ],
+      "examples": [
+        {
+          "jp": "どうして あした かいしゃを やすみますか。── ようじが ありますから。",
+          "vi": "Tại sao ngày mai bạn nghỉ làm? ── Vì tôi có việc bận."
+        }
+      ]
+    }
+  ]
+}

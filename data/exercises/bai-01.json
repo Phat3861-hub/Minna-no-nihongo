@@ -1,0 +1,322 @@
+{
+  "lesson": 1,
+  "questions": [
+    {
+      "question": "わたしは がくせい（　）。",
+      "meaning": "Tôi là sinh viên.",
+      "options": [
+        "です",
+        "ですか",
+        "じゃ",
+        "の"
+      ],
+      "answer": 0,
+      "explanation": "Câu khẳng định lịch sự có dạng N1 は N2 です. です đứng cuối câu."
+    },
+    {
+      "question": "マイさんは ベトナムじんです。わたし（　）ベトナムじんです。",
+      "meaning": "Chị Mai là người Việt Nam. Tôi cũng là người Việt Nam.",
+      "options": [
+        "は",
+        "も",
+        "の",
+        "が"
+      ],
+      "answer": 1,
+      "explanation": "も thay は khi thông tin về chủ đề mới giống với chủ đề đã nói trước, nghĩa là “cũng”."
+    },
+    {
+      "question": "あの人は せんせい（　）。",
+      "hint": "câu hỏi",
+      "meaning": "Người kia có phải là giáo viên không?",
+      "options": [
+        "ですか",
+        "です",
+        "ではありません",
+        "ません"
+      ],
+      "answer": 0,
+      "explanation": "Thêm か ở cuối câu để tạo câu hỏi: N1 は N2 ですか."
+    },
+    {
+      "question": "わたしは がくせい（　）ありません。",
+      "meaning": "Tôi không phải là sinh viên.",
+      "options": [
+        "じゃ",
+        "は",
+        "も",
+        "の"
+      ],
+      "answer": 0,
+      "explanation": "Dạng phủ định của です là じゃありません (hoặc ではありません)."
+    },
+    {
+      "question": "ミラーさんは IMC（　）しゃいんです。",
+      "meaning": "Anh Miller là nhân viên của công ty IMC.",
+      "options": [
+        "の",
+        "は",
+        "も",
+        "を"
+      ],
+      "answer": 0,
+      "explanation": "N1 の N2: の nối hai danh từ. Ở đây IMC là công ty mà anh Miller thuộc về."
+    },
+    {
+      "question": "「サントスさんは エンジニアですか。」「いいえ、（　）。」",
+      "meaning": "Anh Santos là kỹ sư phải không? Không, không phải.",
+      "options": [
+        "そうじゃありません",
+        "そうです",
+        "はい",
+        "ですか"
+      ],
+      "answer": 0,
+      "explanation": "Trả lời phủ định câu hỏi N ですか: いいえ、そうじゃありません (không phải vậy)."
+    },
+    {
+      "question": "あの人は（　）ですか。",
+      "meaning": "Người kia là ai?",
+      "options": [
+        "だれ",
+        "なん",
+        "いくつ",
+        "どこ"
+      ],
+      "answer": 0,
+      "explanation": "だれ là từ để hỏi người (ai). なん hỏi vật (cái gì)."
+    },
+    {
+      "question": "テレサちゃんは（　）ですか。── ９さいです。",
+      "meaning": "Bé Teresa mấy tuổi? ── 9 tuổi.",
+      "options": [
+        "なんさい",
+        "だれ",
+        "なん",
+        "いくら"
+      ],
+      "answer": 0,
+      "explanation": "なんさい dùng để hỏi tuổi. Với người lớn tuổi dùng おいくつ."
+    },
+    {
+      "question": "どうぞ（　）おねがいします。",
+      "meaning": "Rất mong được giúp đỡ.",
+      "options": [
+        "よろしく",
+        "どうも",
+        "ありがとう",
+        "すみません"
+      ],
+      "answer": 0,
+      "explanation": "どうぞ よろしく おねがいします là câu nói cuối phần tự giới thiệu."
+    },
+    {
+      "question": "はじめまして。わたしは ミラーです。アメリカ（　）きました。",
+      "meaning": "Chào bạn. Tôi là Miller. Tôi đến từ Mỹ.",
+      "options": [
+        "から",
+        "まで",
+        "に",
+        "で"
+      ],
+      "answer": 0,
+      "explanation": "N から きました nghĩa là “đến từ N”."
+    },
+    {
+      "question": "「あなたは がくせいですか。」「はい、（　）。」",
+      "meaning": "Bạn là sinh viên phải không? Vâng, đúng vậy.",
+      "options": [
+        "そうです",
+        "そうじゃありません",
+        "いいえ",
+        "ですか"
+      ],
+      "answer": 0,
+      "explanation": "Trả lời khẳng định: はい、そうです."
+    },
+    {
+      "question": "ミラーさんは かいしゃいんです。グプタさん（　）かいしゃいんです。",
+      "meaning": "Anh Miller là nhân viên công ty. Anh Gupta cũng là nhân viên công ty.",
+      "options": [
+        "も",
+        "は",
+        "を",
+        "が"
+      ],
+      "answer": 0,
+      "explanation": "も dùng thay は khi nói “cũng”."
+    },
+    {
+      "question": "こちらは ミラー（　）です。",
+      "meaning": "Đây là anh Miller.",
+      "options": [
+        "さん",
+        "じん",
+        "ちゃん",
+        "さい"
+      ],
+      "answer": 0,
+      "explanation": "さん gắn sau tên người khác để thể hiện sự tôn trọng. Không gắn さん vào tên của mình."
+    },
+    {
+      "question": "自己紹介で 正しい ぶんは どれですか。",
+      "instruction": "Chọn câu đúng khi tự giới thiệu bản thân.",
+      "options": [
+        "わたしは ミラーです。",
+        "わたしは ミラーさんです。",
+        "わたしは ミラーじんです。",
+        "わたしは ミラーですか。"
+      ],
+      "answer": 0,
+      "explanation": "Không dùng さん với tên của mình, và か dùng để hỏi nên không phù hợp khi tự giới thiệu."
+    },
+    {
+      "question": "「どなた」は どの ことばの ていねいな いいかたですか。",
+      "instruction": "どなた là cách nói lịch sự của từ nào?",
+      "options": [
+        "だれ",
+        "おいくつ",
+        "なん",
+        "どこ"
+      ],
+      "answer": 0,
+      "explanation": "どなた là cách nói lịch sự của だれ (ai)."
+    },
+    {
+      "question": "おとうさんは（　）ですか。── ５５さいです。",
+      "hint": "cách hỏi lịch sự",
+      "meaning": "Bố bạn bao nhiêu tuổi ạ?",
+      "options": [
+        "おいくつ",
+        "どなた",
+        "いくら",
+        "どこ"
+      ],
+      "answer": 0,
+      "explanation": "おいくつ là cách hỏi tuổi lịch sự, dùng với người lớn tuổi hoặc người cần tôn trọng."
+    },
+    {
+      "question": "わたしは かいしゃいんじゃ（　）。",
+      "meaning": "Tôi không phải là nhân viên công ty.",
+      "options": [
+        "ありません",
+        "です",
+        "ですか",
+        "ません"
+      ],
+      "answer": 0,
+      "explanation": "Phủ định của です là じゃ ありません. じゃ luôn đi cùng ありません."
+    },
+    {
+      "question": "ワットさんは さくらだいがく（　）せんせいです。",
+      "meaning": "Thầy Watt là giáo viên của đại học Sakura.",
+      "options": [
+        "の",
+        "は",
+        "も",
+        "か"
+      ],
+      "answer": 0,
+      "explanation": "N1 の N2: の nối hai danh từ, N1 (trường đại học) là nơi mà N2 (giáo viên) thuộc về."
+    },
+    {
+      "question": "「あの かたは（　）ですか。」「きむらさんです。」",
+      "meaning": "Vị kia là ai ạ? ── Là anh Kimura.",
+      "options": [
+        "どなた",
+        "なん",
+        "なんさい",
+        "おいくつ"
+      ],
+      "answer": 0,
+      "explanation": "どなた là cách hỏi lịch sự của だれ (ai). なん hỏi vật, なんさい／おいくつ hỏi tuổi."
+    },
+    {
+      "question": "「マリアさんは ブラジルじんですか。」「はい、（　）です。」",
+      "meaning": "Chị Maria là người Brazil phải không? ── Vâng, là người Brazil.",
+      "options": [
+        "ブラジルじん",
+        "ブラジル",
+        "ブラジルご",
+        "ブラジルさん"
+      ],
+      "answer": 0,
+      "explanation": "Quốc tịch = tên nước + じん (người nước ~). ～ご là ngôn ngữ, さん không gắn sau tên nước."
+    },
+    {
+      "question": "サントスさんは がくせいです（　）。── いいえ、かいしゃいんです。",
+      "meaning": "Anh Santos là sinh viên phải không? ── Không, là nhân viên công ty.",
+      "options": [
+        "か",
+        "の",
+        "も",
+        "は"
+      ],
+      "answer": 0,
+      "explanation": "Thêm か vào cuối câu để tạo câu hỏi: N1 は N2 ですか."
+    },
+    {
+      "question": "わたしは ２８（　）です。",
+      "meaning": "Tôi 28 tuổi.",
+      "options": [
+        "さい",
+        "じん",
+        "さん",
+        "ご"
+      ],
+      "answer": 0,
+      "explanation": "Tuổi = số + さい. じん là người nước ~, ご là tiếng ~."
+    },
+    {
+      "question": "あの ＿＿ ★ ＿＿ ＿＿。",
+      "instruction": "Sắp xếp các từ cho đúng thứ tự và chọn từ ở vị trí ★.",
+      "meaning": "Người kia là ai?",
+      "options": [
+        "だれ",
+        "ひとは",
+        "です",
+        "か"
+      ],
+      "answer": 0,
+      "explanation": "Câu đúng: あの ひとは だれ です か。 Từ để hỏi だれ đứng đúng chỗ thông tin cần hỏi, か ở cuối câu."
+    },
+    {
+      "question": "サントスさんは ＿＿ ★ ＿＿ ＿＿。",
+      "instruction": "Sắp xếp các từ cho đúng thứ tự và chọn từ ở vị trí ★.",
+      "meaning": "Anh Santos không phải là nhân viên của công ty IMC.",
+      "options": [
+        "しゃいん",
+        "IMCの",
+        "じゃ",
+        "ありません"
+      ],
+      "answer": 0,
+      "explanation": "Câu đúng: サントスさんは IMCの しゃいん じゃ ありません。 N1 の N2 rồi đến phủ định じゃ ありません."
+    },
+    {
+      "question": "正しい ぶんは どれですか。",
+      "instruction": "Chọn câu đúng.",
+      "options": [
+        "ミラーさんは アメリカじんです。",
+        "ミラーさんは アメリカじんさんです。",
+        "ミラーさんは アメリカごです。",
+        "ミラーさんは アメリカのじんです。"
+      ],
+      "answer": 0,
+      "explanation": "Quốc tịch: tên nước + じん, không thêm さん hay の. アメリカご không phải là quốc tịch."
+    },
+    {
+      "question": "「グプタさんは いしゃですか。」「（　）」",
+      "hint": "chọn câu trả lời đúng",
+      "meaning": "Anh Gupta là bác sĩ phải không?",
+      "options": [
+        "いいえ、いしゃじゃ ありません。エンジニアです。",
+        "はい、いしゃじゃ ありません。",
+        "いいえ、いしゃです。",
+        "はい、エンジニアです。"
+      ],
+      "answer": 0,
+      "explanation": "はい đi với câu khẳng định (いしゃです), いいえ đi với câu phủ định (いしゃじゃ ありません). Có thể nói thêm thông tin đúng sau đó."
+    }
+  ]
+}

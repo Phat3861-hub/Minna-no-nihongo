@@ -1,0 +1,90 @@
+{
+  "lesson": 10,
+  "title": "Có, ở và vị trí",
+  "points": [
+    {
+      "pattern": "あります／います",
+      "meaning": "Có, ở",
+      "explanations": [
+        "あります: dùng cho vật không tự chuyển động và cây cối.",
+        "います: dùng cho người và động vật."
+      ],
+      "examples": [
+        {
+          "jp": "つくえの うえに ほんが あります。",
+          "vi": "Trên bàn có quyển sách."
+        },
+        {
+          "jp": "こうえんに こどもが います。",
+          "vi": "Trong công viên có trẻ em."
+        }
+      ]
+    },
+    {
+      "pattern": "N1(địa điểm) に N2 が あります／います",
+      "meaning": "Ở N1 có N2",
+      "explanations": [
+        "Dùng để giới thiệu sự tồn tại của N2 ở N1. N2 đi với が.",
+        "Hỏi: なにが あります／だれが います. Phủ định: なにも ありません／だれも いません."
+      ],
+      "examples": [
+        {
+          "jp": "へやに つくえが あります。",
+          "vi": "Trong phòng có cái bàn."
+        },
+        {
+          "jp": "にわに だれも いません。",
+          "vi": "Trong vườn không có ai."
+        }
+      ]
+    },
+    {
+      "pattern": "N1 は N2(địa điểm) に あります／います",
+      "meaning": "N1 ở N2",
+      "explanations": [
+        "Dùng khi N1 là chủ đề đã biết, nói về vị trí của nó."
+      ],
+      "examples": [
+        {
+          "jp": "とうきょうディズニーランドは ちばけんに あります。",
+          "vi": "Tokyo Disneyland ở tỉnh Chiba."
+        },
+        {
+          "jp": "ミラーさんは じむしょに います。",
+          "vi": "Anh Miller đang ở văn phòng."
+        }
+      ]
+    },
+    {
+      "pattern": "N1 の N2(vị trí)",
+      "meaning": "Phía ~ của N1",
+      "explanations": [
+        "うえ (trên), した (dưới), まえ (trước), うしろ (sau), みぎ (phải), ひだり (trái), なか (trong), そと (ngoài), となり (bên cạnh), ちかく (gần), あいだ (giữa)."
+      ],
+      "examples": [
+        {
+          "jp": "つくえの うえに ねこが います。",
+          "vi": "Trên bàn có con mèo."
+        },
+        {
+          "jp": "ぎんこうは ほんやの となりに あります。",
+          "vi": "Ngân hàng ở bên cạnh hiệu sách."
+        }
+      ]
+    },
+    {
+      "pattern": "N1 や N2",
+      "meaning": "N1 và N2 (liệt kê một vài thứ)",
+      "explanations": [
+        "や liệt kê các thứ tiêu biểu, ngụ ý còn nữa. Khác と là liệt kê đầy đủ.",
+        "Có thể thêm など ở cuối."
+      ],
+      "examples": [
+        {
+          "jp": "はこの なかに てがみや しゃしんが あります。",
+          "vi": "Trong hộp có thư, ảnh, v.v."
+        }
+      ]
+    }
+  ]
+}

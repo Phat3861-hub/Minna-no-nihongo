@@ -1,0 +1,211 @@
+{
+  "id": "b20",
+  "name": "Bài 20",
+  "kanji": [
+    {
+      "char": "部",
+      "hanViet": "BỘ",
+      "meaning": "bộ phận",
+      "on": "ブ",
+      "kun": "—",
+      "examples": [
+        {
+          "word": "部屋",
+          "reading": "へや",
+          "meaning": "căn phòng"
+        },
+        {
+          "word": "部長",
+          "reading": "ぶちょう",
+          "meaning": "trưởng phòng"
+        }
+      ]
+    },
+    {
+      "char": "屋",
+      "hanViet": "ỐC",
+      "meaning": "nhà, cửa hàng",
+      "on": "オク",
+      "kun": "や",
+      "examples": [
+        {
+          "word": "部屋",
+          "reading": "へや",
+          "meaning": "căn phòng"
+        },
+        {
+          "word": "本屋",
+          "reading": "ほんや",
+          "meaning": "hiệu sách"
+        },
+        {
+          "word": "屋上",
+          "reading": "おくじょう",
+          "meaning": "sân thượng"
+        }
+      ]
+    },
+    {
+      "char": "室",
+      "hanViet": "THẤT",
+      "meaning": "phòng",
+      "on": "シツ",
+      "kun": "—",
+      "examples": [
+        {
+          "word": "教室",
+          "reading": "きょうしつ",
+          "meaning": "lớp học"
+        },
+        {
+          "word": "会議室",
+          "reading": "かいぎしつ",
+          "meaning": "phòng họp"
+        }
+      ]
+    },
+    {
+      "char": "窓",
+      "hanViet": "SONG",
+      "meaning": "cửa sổ",
+      "on": "ソウ",
+      "kun": "まど",
+      "examples": [
+        {
+          "word": "窓",
+          "reading": "まど",
+          "meaning": "cửa sổ"
+        }
+      ]
+    },
+    {
+      "char": "開",
+      "hanViet": "KHAI",
+      "meaning": "mở",
+      "on": "カイ",
+      "kun": "あ・く、あ・ける",
+      "examples": [
+        {
+          "word": "開けます",
+          "reading": "あけます",
+          "meaning": "mở"
+        },
+        {
+          "word": "開きます",
+          "reading": "あきます",
+          "meaning": "(cửa) mở"
+        }
+      ]
+    },
+    {
+      "char": "閉",
+      "hanViet": "BẾ",
+      "meaning": "đóng",
+      "on": "ヘイ",
+      "kun": "し・める、し・まる",
+      "examples": [
+        {
+          "word": "閉めます",
+          "reading": "しめます",
+          "meaning": "đóng"
+        },
+        {
+          "word": "閉まります",
+          "reading": "しまります",
+          "meaning": "(cửa) đóng"
+        }
+      ]
+    },
+    {
+      "char": "歌",
+      "hanViet": "CA",
+      "meaning": "bài hát, hát",
+      "on": "カ",
+      "kun": "うた、うた・う",
+      "examples": [
+        {
+          "word": "歌",
+          "reading": "うた",
+          "meaning": "bài hát"
+        },
+        {
+          "word": "歌います",
+          "reading": "うたいます",
+          "meaning": "hát"
+        },
+        {
+          "word": "歌手",
+          "reading": "かしゅ",
+          "meaning": "ca sĩ"
+        }
+      ]
+    },
+    {
+      "char": "意",
+      "hanViet": "Ý",
+      "meaning": "ý nghĩa, ý muốn",
+      "on": "イ",
+      "kun": "—",
+      "examples": [
+        {
+          "word": "意味",
+          "reading": "いみ",
+          "meaning": "ý nghĩa"
+        }
+      ]
+    },
+    {
+      "char": "味",
+      "hanViet": "VỊ",
+      "meaning": "vị, mùi vị",
+      "on": "ミ",
+      "kun": "あじ",
+      "examples": [
+        {
+          "word": "意味",
+          "reading": "いみ",
+          "meaning": "ý nghĩa"
+        },
+        {
+          "word": "味",
+          "reading": "あじ",
+          "meaning": "vị"
+        },
+        {
+          "word": "趣味",
+          "reading": "しゅみ",
+          "meaning": "sở thích"
+        }
+      ]
+    },
+    {
+      "char": "天",
+      "hanViet": "THIÊN",
+      "meaning": "trời",
+      "on": "テン",
+      "kun": "あめ、あま",
+      "examples": [
+        {
+          "word": "天気",
+          "reading": "てんき",
+          "meaning": "thời tiết"
+        }
+      ]
+    },
+    {
+      "char": "考",
+      "hanViet": "KHẢO",
+      "meaning": "suy nghĩ",
+      "on": "コウ",
+      "kun": "かんが・える",
+      "examples": [
+        {
+          "word": "考えます",
+          "reading": "かんがえます",
+          "meaning": "suy nghĩ"
+        }
+      ]
+    }
+  ],
+  "sentences": []
+}

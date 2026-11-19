@@ -1,0 +1,192 @@
+{
+  "id": "b11",
+  "name": "Bài 11",
+  "kanji": [
+    {
+      "char": "送",
+      "hanViet": "TỐNG",
+      "meaning": "gửi, tiễn",
+      "on": "ソウ",
+      "kun": "おく・る",
+      "examples": [
+        {
+          "word": "送ります",
+          "reading": "おくります",
+          "meaning": "gửi"
+        },
+        {
+          "word": "放送",
+          "reading": "ほうそう",
+          "meaning": "phát sóng"
+        }
+      ]
+    },
+    {
+      "char": "切",
+      "hanViet": "THIẾT",
+      "meaning": "cắt",
+      "on": "セツ",
+      "kun": "き・る",
+      "examples": [
+        {
+          "word": "切ります",
+          "reading": "きります",
+          "meaning": "cắt"
+        },
+        {
+          "word": "大切",
+          "reading": "たいせつ",
+          "meaning": "quan trọng"
+        },
+        {
+          "word": "切手",
+          "reading": "きって",
+          "meaning": "tem"
+        }
+      ]
+    },
+    {
+      "char": "貸",
+      "hanViet": "THẢI",
+      "meaning": "cho mượn",
+      "on": "タイ",
+      "kun": "か・す",
+      "examples": [
+        {
+          "word": "貸します",
+          "reading": "かします",
+          "meaning": "cho mượn"
+        }
+      ]
+    },
+    {
+      "char": "借",
+      "hanViet": "TÁ",
+      "meaning": "mượn",
+      "on": "シャク",
+      "kun": "か・りる",
+      "examples": [
+        {
+          "word": "借ります",
+          "reading": "かります",
+          "meaning": "mượn"
+        }
+      ]
+    },
+    {
+      "char": "旅",
+      "hanViet": "LỮ",
+      "meaning": "chuyến đi",
+      "on": "リョ",
+      "kun": "たび",
+      "examples": [
+        {
+          "word": "旅行",
+          "reading": "りょこう",
+          "meaning": "du lịch"
+        },
+        {
+          "word": "旅",
+          "reading": "たび",
+          "meaning": "chuyến đi"
+        }
+      ]
+    },
+    {
+      "char": "教",
+      "hanViet": "GIÁO",
+      "meaning": "dạy",
+      "on": "キョウ",
+      "kun": "おし・える",
+      "examples": [
+        {
+          "word": "教えます",
+          "reading": "おしえます",
+          "meaning": "dạy"
+        },
+        {
+          "word": "教室",
+          "reading": "きょうしつ",
+          "meaning": "lớp học"
+        }
+      ]
+    },
+    {
+      "char": "習",
+      "hanViet": "TẬP",
+      "meaning": "học, luyện tập",
+      "on": "シュウ",
+      "kun": "なら・う",
+      "examples": [
+        {
+          "word": "習います",
+          "reading": "ならいます",
+          "meaning": "học"
+        },
+        {
+          "word": "練習",
+          "reading": "れんしゅう",
+          "meaning": "luyện tập"
+        }
+      ]
+    },
+    {
+      "char": "勉",
+      "hanViet": "MIỄN",
+      "meaning": "cố gắng",
+      "on": "ベン",
+      "kun": "—",
+      "examples": [
+        {
+          "word": "勉強",
+          "reading": "べんきょう",
+          "meaning": "việc học"
+        }
+      ]
+    },
+    {
+      "char": "強",
+      "hanViet": "CƯỜNG",
+      "meaning": "mạnh",
+      "on": "キョウ",
+      "kun": "つよ・い",
+      "examples": [
+        {
+          "word": "強い",
+          "reading": "つよい",
+          "meaning": "mạnh"
+        },
+        {
+          "word": "勉強",
+          "reading": "べんきょう",
+          "meaning": "việc học"
+        }
+      ]
+    },
+    {
+      "char": "花",
+      "hanViet": "HOA",
+      "meaning": "hoa",
+      "on": "カ",
+      "kun": "はな",
+      "examples": [
+        {
+          "word": "花",
+          "reading": "はな",
+          "meaning": "hoa"
+        },
+        {
+          "word": "花見",
+          "reading": "はなみ",
+          "meaning": "ngắm hoa"
+        },
+        {
+          "word": "花瓶",
+          "reading": "かびん",
+          "meaning": "bình hoa"
+        }
+      ]
+    }
+  ],
+  "sentences": []
+}

@@ -1,0 +1,677 @@
+{
+  "id": "b4",
+  "name": "Bài 4",
+  "kanji": [
+    {
+      "char": "今",
+      "hanViet": "KIM",
+      "meaning": "bây giờ",
+      "on": "コン",
+      "kun": "いま",
+      "examples": [
+        {
+          "word": "今",
+          "reading": "いま",
+          "meaning": "bây giờ"
+        },
+        {
+          "word": "今日",
+          "reading": "きょう",
+          "meaning": "hôm nay"
+        },
+        {
+          "word": "今週",
+          "reading": "こんしゅう",
+          "meaning": "tuần này"
+        }
+      ]
+    },
+    {
+      "char": "朝",
+      "hanViet": "TRIỀU",
+      "meaning": "buổi sáng",
+      "on": "チョウ",
+      "kun": "あさ",
+      "examples": [
+        {
+          "word": "朝",
+          "reading": "あさ",
+          "meaning": "buổi sáng"
+        },
+        {
+          "word": "毎朝",
+          "reading": "まいあさ",
+          "meaning": "mỗi sáng"
+        },
+        {
+          "word": "朝ご飯",
+          "reading": "あさごはん",
+          "meaning": "bữa sáng"
+        }
+      ]
+    },
+    {
+      "char": "昼",
+      "hanViet": "TRÚ",
+      "meaning": "buổi trưa",
+      "on": "チュウ",
+      "kun": "ひる",
+      "examples": [
+        {
+          "word": "昼",
+          "reading": "ひる",
+          "meaning": "buổi trưa"
+        },
+        {
+          "word": "昼休み",
+          "reading": "ひるやすみ",
+          "meaning": "nghỉ trưa"
+        },
+        {
+          "word": "昼ご飯",
+          "reading": "ひるごはん",
+          "meaning": "bữa trưa"
+        }
+      ]
+    },
+    {
+      "char": "晩",
+      "hanViet": "VÃN",
+      "meaning": "buổi tối",
+      "on": "バン",
+      "kun": "—",
+      "examples": [
+        {
+          "word": "晩",
+          "reading": "ばん",
+          "meaning": "buổi tối"
+        },
+        {
+          "word": "今晩",
+          "reading": "こんばん",
+          "meaning": "tối nay"
+        },
+        {
+          "word": "毎晩",
+          "reading": "まいばん",
+          "meaning": "mỗi tối"
+        }
+      ]
+    },
+    {
+      "char": "時",
+      "hanViet": "THỜI",
+      "meaning": "giờ, thời gian",
+      "on": "ジ",
+      "kun": "とき",
+      "examples": [
+        {
+          "word": "時間",
+          "reading": "じかん",
+          "meaning": "thời gian"
+        },
+        {
+          "word": "何時",
+          "reading": "なんじ",
+          "meaning": "mấy giờ"
+        },
+        {
+          "word": "時々",
+          "reading": "ときどき",
+          "meaning": "thỉnh thoảng"
+        }
+      ]
+    },
+    {
+      "char": "分",
+      "hanViet": "PHÂN",
+      "meaning": "phút, phần, hiểu",
+      "on": "フン、ブン、プン",
+      "kun": "わ・かる、わ・ける",
+      "examples": [
+        {
+          "word": "五分",
+          "reading": "ごふん",
+          "meaning": "5 phút"
+        },
+        {
+          "word": "半分",
+          "reading": "はんぶん",
+          "meaning": "một nửa"
+        },
+        {
+          "word": "分かります",
+          "reading": "わかります",
+          "meaning": "hiểu"
+        }
+      ]
+    },
+    {
+      "char": "半",
+      "hanViet": "BÁN",
+      "meaning": "một nửa, rưỡi",
+      "on": "ハン",
+      "kun": "なか・ば",
+      "examples": [
+        {
+          "word": "半分",
+          "reading": "はんぶん",
+          "meaning": "một nửa"
+        },
+        {
+          "word": "三時半",
+          "reading": "さんじはん",
+          "meaning": "3 giờ rưỡi"
+        }
+      ]
+    },
+    {
+      "char": "午",
+      "hanViet": "NGỌ",
+      "meaning": "buổi trưa",
+      "on": "ゴ",
+      "kun": "—",
+      "examples": [
+        {
+          "word": "午前",
+          "reading": "ごぜん",
+          "meaning": "buổi sáng (AM)"
+        },
+        {
+          "word": "午後",
+          "reading": "ごご",
+          "meaning": "buổi chiều (PM)"
+        }
+      ]
+    },
+    {
+      "char": "前",
+      "hanViet": "TIỀN",
+      "meaning": "trước",
+      "on": "ゼン",
+      "kun": "まえ",
+      "examples": [
+        {
+          "word": "前",
+          "reading": "まえ",
+          "meaning": "phía trước"
+        },
+        {
+          "word": "名前",
+          "reading": "なまえ",
+          "meaning": "tên"
+        },
+        {
+          "word": "午前",
+          "reading": "ごぜん",
+          "meaning": "buổi sáng (AM)"
+        }
+      ]
+    },
+    {
+      "char": "後",
+      "hanViet": "HẬU",
+      "meaning": "sau",
+      "on": "ゴ、コウ",
+      "kun": "あと、うし・ろ",
+      "examples": [
+        {
+          "word": "午後",
+          "reading": "ごご",
+          "meaning": "buổi chiều (PM)"
+        },
+        {
+          "word": "後ろ",
+          "reading": "うしろ",
+          "meaning": "phía sau"
+        }
+      ]
+    },
+    {
+      "char": "休",
+      "hanViet": "HƯU",
+      "meaning": "nghỉ",
+      "on": "キュウ",
+      "kun": "やす・む",
+      "examples": [
+        {
+          "word": "休みます",
+          "reading": "やすみます",
+          "meaning": "nghỉ"
+        },
+        {
+          "word": "休み",
+          "reading": "やすみ",
+          "meaning": "ngày nghỉ"
+        }
+      ]
+    },
+    {
+      "char": "毎",
+      "hanViet": "MỖI",
+      "meaning": "mỗi",
+      "on": "マイ",
+      "kun": "—",
+      "examples": [
+        {
+          "word": "毎日",
+          "reading": "まいにち",
+          "meaning": "mỗi ngày"
+        },
+        {
+          "word": "毎朝",
+          "reading": "まいあさ",
+          "meaning": "mỗi sáng"
+        },
+        {
+          "word": "毎晩",
+          "reading": "まいばん",
+          "meaning": "mỗi tối"
+        }
+      ]
+    },
+    {
+      "char": "何",
+      "hanViet": "HÀ",
+      "meaning": "cái gì",
+      "on": "カ",
+      "kun": "なに、なん",
+      "examples": [
+        {
+          "word": "何",
+          "reading": "なに",
+          "meaning": "cái gì"
+        },
+        {
+          "word": "何時",
+          "reading": "なんじ",
+          "meaning": "mấy giờ"
+        },
+        {
+          "word": "何人",
+          "reading": "なんにん",
+          "meaning": "mấy người"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "type": "read",
+      "sentence": "{今} なんじですか。",
+      "meaning": "Bây giờ là mấy giờ?",
+      "options": [
+        "いま",
+        "こん",
+        "きん",
+        "いな"
+      ],
+      "wordMeaning": "bây giờ"
+    },
+    {
+      "type": "read",
+      "sentence": "{毎朝} ６じに おきます。",
+      "meaning": "Mỗi sáng tôi dậy lúc 6 giờ.",
+      "options": [
+        "まいあさ",
+        "まいちょう",
+        "まいさ",
+        "まいあざ"
+      ],
+      "wordMeaning": "mỗi sáng"
+    },
+    {
+      "type": "read",
+      "sentence": "{毎晩} テレビを みます。",
+      "meaning": "Mỗi tối tôi xem tivi.",
+      "options": [
+        "まいばん",
+        "まいはん",
+        "まいぱん",
+        "まいよる"
+      ],
+      "wordMeaning": "mỗi tối"
+    },
+    {
+      "type": "read",
+      "sentence": "ぎんこうは {午前} ９じからです。",
+      "meaning": "Ngân hàng mở từ 9 giờ sáng.",
+      "options": [
+        "ごぜん",
+        "ごせん",
+        "ごまえ",
+        "ござん"
+      ],
+      "wordMeaning": "buổi sáng (AM)"
+    },
+    {
+      "type": "read",
+      "sentence": "{午後} ５じまで はたらきます。",
+      "meaning": "Tôi làm việc đến 5 giờ chiều.",
+      "options": [
+        "ごご",
+        "ごこ",
+        "ごあと",
+        "ごうご"
+      ],
+      "wordMeaning": "buổi chiều (PM)"
+    },
+    {
+      "type": "read",
+      "sentence": "いま {三時半}です。",
+      "meaning": "Bây giờ là 3 giờ rưỡi.",
+      "options": [
+        "さんじはん",
+        "さんじばん",
+        "さんじぱん",
+        "さんときはん"
+      ],
+      "wordMeaning": "3 giờ rưỡi"
+    },
+    {
+      "type": "read",
+      "sentence": "えきまで {五分}です。",
+      "meaning": "Đến ga mất 5 phút.",
+      "options": [
+        "ごふん",
+        "ごぷん",
+        "いつふん",
+        "ごうふん"
+      ],
+      "wordMeaning": "5 phút",
+      "tip": "Phút: 1 いっぷん, 3 さんぷん, 5 ごふん, 6 ろっぷん, 10 じゅっぷん."
+    },
+    {
+      "type": "read",
+      "sentence": "{昼休み}は １２じからです。",
+      "meaning": "Giờ nghỉ trưa bắt đầu từ 12 giờ.",
+      "options": [
+        "ひるやすみ",
+        "ちゅうやすみ",
+        "ひるきゅうみ",
+        "ひろやすみ"
+      ],
+      "wordMeaning": "nghỉ trưa"
+    },
+    {
+      "type": "read",
+      "sentence": "{今晩} ひまですか。",
+      "meaning": "Tối nay bạn rảnh không?",
+      "options": [
+        "こんばん",
+        "いまばん",
+        "こんはん",
+        "きんばん"
+      ],
+      "wordMeaning": "tối nay"
+    },
+    {
+      "type": "read",
+      "sentence": "いま {何時}ですか。",
+      "meaning": "Bây giờ là mấy giờ?",
+      "options": [
+        "なんじ",
+        "なにじ",
+        "なんとき",
+        "なんし"
+      ],
+      "wordMeaning": "mấy giờ"
+    },
+    {
+      "type": "read",
+      "sentence": "あしたは {休み}です。",
+      "meaning": "Ngày mai là ngày nghỉ.",
+      "options": [
+        "やすみ",
+        "きゅうみ",
+        "やずみ",
+        "やしみ"
+      ],
+      "wordMeaning": "ngày nghỉ"
+    },
+    {
+      "type": "read",
+      "sentence": "{毎日} にほんごを べんきょうします。",
+      "meaning": "Ngày nào tôi cũng học tiếng Nhật.",
+      "options": [
+        "まいにち",
+        "まいび",
+        "まいひ",
+        "まいじつ"
+      ],
+      "wordMeaning": "mỗi ngày"
+    },
+    {
+      "type": "read",
+      "sentence": "{朝}ごはんを たべます。",
+      "meaning": "Tôi ăn bữa sáng.",
+      "options": [
+        "あさ",
+        "ちょう",
+        "あざ",
+        "ひる"
+      ],
+      "wordMeaning": "buổi sáng"
+    },
+    {
+      "type": "read",
+      "sentence": "{今日}は げつようびです。",
+      "meaning": "Hôm nay là thứ Hai.",
+      "options": [
+        "きょう",
+        "きよう",
+        "いまにち",
+        "こんび"
+      ],
+      "wordMeaning": "hôm nay",
+      "tip": "今日 là cách đọc đặc biệt: きょう."
+    },
+    {
+      "type": "read",
+      "sentence": "{今週}は いそがしいです。",
+      "meaning": "Tuần này bận.",
+      "options": [
+        "こんしゅう",
+        "いましゅう",
+        "こんしゅ",
+        "きんしゅう"
+      ],
+      "wordMeaning": "tuần này"
+    },
+    {
+      "type": "read",
+      "sentence": "この へやに {何人} いますか。",
+      "meaning": "Trong phòng này có mấy người?",
+      "options": [
+        "なんにん",
+        "なににん",
+        "なんじん",
+        "なにひと"
+      ],
+      "wordMeaning": "mấy người"
+    },
+    {
+      "type": "read",
+      "sentence": "えきの {前}で まって います。",
+      "meaning": "Tôi đang đợi ở phía trước ga.",
+      "options": [
+        "まえ",
+        "ぜん",
+        "まい",
+        "さき"
+      ],
+      "wordMeaning": "phía trước"
+    },
+    {
+      "type": "read",
+      "sentence": "{昼}は なにを たべますか。",
+      "meaning": "Buổi trưa bạn ăn gì?",
+      "options": [
+        "ひる",
+        "ちゅう",
+        "よる",
+        "ひろ"
+      ],
+      "wordMeaning": "buổi trưa"
+    },
+    {
+      "type": "write",
+      "sentence": "{いま} ７じです。",
+      "meaning": "Bây giờ là 7 giờ.",
+      "options": [
+        "今",
+        "令",
+        "会",
+        "分"
+      ],
+      "wordMeaning": "bây giờ",
+      "tip": "今 (bây giờ) và 令 (lệnh) khác nhau ở phần dưới."
+    },
+    {
+      "type": "write",
+      "sentence": "{あさ} ７じに おきます。",
+      "meaning": "Tôi dậy lúc 7 giờ sáng.",
+      "options": [
+        "朝",
+        "期",
+        "明",
+        "胡"
+      ],
+      "wordMeaning": "buổi sáng"
+    },
+    {
+      "type": "write",
+      "sentence": "{ひる}ごはんを たべましたか。",
+      "meaning": "Bạn đã ăn trưa chưa?",
+      "options": [
+        "昼",
+        "書",
+        "尽",
+        "星"
+      ],
+      "wordMeaning": "buổi trưa"
+    },
+    {
+      "type": "write",
+      "sentence": "{こんばん} えいがを みます。",
+      "meaning": "Tối nay tôi xem phim.",
+      "options": [
+        "今晩",
+        "今勉",
+        "今免",
+        "今晴"
+      ],
+      "wordMeaning": "tối nay"
+    },
+    {
+      "type": "write",
+      "sentence": "{ごご} ３じに かえります。",
+      "meaning": "3 giờ chiều tôi về.",
+      "options": [
+        "午後",
+        "牛後",
+        "午役",
+        "干後"
+      ],
+      "wordMeaning": "buổi chiều (PM)",
+      "tip": "午 (ngọ) không có nét nhô lên trên như 牛 (bò)."
+    },
+    {
+      "type": "write",
+      "sentence": "{ごぜん} １０じに あいましょう。",
+      "meaning": "Hãy gặp nhau lúc 10 giờ sáng.",
+      "options": [
+        "午前",
+        "牛前",
+        "午則",
+        "年前"
+      ],
+      "wordMeaning": "buổi sáng (AM)"
+    },
+    {
+      "type": "write",
+      "sentence": "いま ５じ{はん}です。",
+      "meaning": "Bây giờ là 5 giờ rưỡi.",
+      "options": [
+        "半",
+        "羊",
+        "平",
+        "米"
+      ],
+      "wordMeaning": "rưỡi, một nửa"
+    },
+    {
+      "type": "write",
+      "sentence": "あしたは {やすみ}です。",
+      "meaning": "Ngày mai là ngày nghỉ.",
+      "options": [
+        "休み",
+        "体み",
+        "木み",
+        "伏み"
+      ],
+      "wordMeaning": "ngày nghỉ",
+      "tip": "休 = 亻(người) + 木 (cây): người dựa gốc cây nghỉ ngơi. 体 là cơ thể."
+    },
+    {
+      "type": "write",
+      "sentence": "{まいにち} はたらきます。",
+      "meaning": "Ngày nào tôi cũng làm việc.",
+      "options": [
+        "毎日",
+        "母日",
+        "海日",
+        "毎目"
+      ],
+      "wordMeaning": "mỗi ngày"
+    },
+    {
+      "type": "write",
+      "sentence": "いま {なんじ}ですか。",
+      "meaning": "Bây giờ là mấy giờ?",
+      "options": [
+        "何時",
+        "可時",
+        "何持",
+        "河時"
+      ],
+      "wordMeaning": "mấy giờ"
+    },
+    {
+      "type": "write",
+      "sentence": "ここから ５{ふん}です。",
+      "meaning": "Từ đây mất 5 phút.",
+      "options": [
+        "分",
+        "今",
+        "公",
+        "介"
+      ],
+      "wordMeaning": "phút"
+    },
+    {
+      "type": "write",
+      "sentence": "{まいばん} ほんを よみます。",
+      "meaning": "Tối nào tôi cũng đọc sách.",
+      "options": [
+        "毎晩",
+        "毎勉",
+        "母晩",
+        "海晩"
+      ],
+      "wordMeaning": "mỗi tối"
+    },
+    {
+      "type": "write",
+      "sentence": "きょうしつの {まえ}に います。",
+      "meaning": "Tôi ở phía trước lớp học.",
+      "options": [
+        "前",
+        "削",
+        "則",
+        "刷"
+      ],
+      "wordMeaning": "phía trước"
+    }
+  ]
+}

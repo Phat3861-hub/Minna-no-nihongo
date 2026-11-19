@@ -1,0 +1,143 @@
+{
+  "lesson": 8,
+  "title": "Tính từ い và な",
+  "points": [
+    {
+      "pattern": "Phân loại tính từ",
+      "meaning": "Tính từ い (A い) và tính từ な (A な)",
+      "explanations": [
+        "Tính từ い: kết thúc bằng い, ví dụ たかい, おおきい, おもしろい.",
+        "Tính từ な: bỏ な khi đứng trước です hoặc phủ định, ví dụ しずか, げんき, ゆうめい.",
+        "Chú ý: きれい, ゆうめい, きらい tuy kết thúc bằng い nhưng là tính từ な."
+      ],
+      "examples": [
+        {
+          "jp": "ふじさんは たかいです。",
+          "vi": "Núi Phú Sĩ cao."
+        },
+        {
+          "jp": "さくらは きれいです。",
+          "vi": "Hoa anh đào đẹp."
+        }
+      ]
+    },
+    {
+      "pattern": "N は Aな[な]です／Aいです",
+      "meaning": "N thì ~",
+      "explanations": [
+        "Tính từ な: bỏ な rồi thêm です. Tính từ い: giữ nguyên い rồi thêm です."
+      ],
+      "examples": [
+        {
+          "jp": "この まちは にぎやかです。",
+          "vi": "Thành phố này nhộn nhịp."
+        },
+        {
+          "jp": "この ほんは おもしろいです。",
+          "vi": "Quyển sách này hay."
+        }
+      ]
+    },
+    {
+      "pattern": "Phủ định: Aなじゃありません／Aくないです",
+      "meaning": "N không ~",
+      "explanations": [
+        "Tính từ な: bỏ な, thêm じゃありません.",
+        "Tính từ い: bỏ い, thêm くないです. いい là ngoại lệ: よくないです."
+      ],
+      "examples": [
+        {
+          "jp": "ここは しずかじゃありません。",
+          "vi": "Ở đây không yên tĩnh."
+        },
+        {
+          "jp": "この ほんは おもしろくないです。",
+          "vi": "Quyển sách này không hay."
+        },
+        {
+          "jp": "てんきは よくないです。",
+          "vi": "Thời tiết không tốt."
+        }
+      ]
+    },
+    {
+      "pattern": "Aい N／Aな N",
+      "meaning": "Tính từ bổ nghĩa cho danh từ",
+      "explanations": [
+        "Tính từ い đặt trước danh từ giữ nguyên い.",
+        "Tính từ な đặt trước danh từ thêm な."
+      ],
+      "examples": [
+        {
+          "jp": "ふじさんは たかい やまです。",
+          "vi": "Núi Phú Sĩ là ngọn núi cao."
+        },
+        {
+          "jp": "ならは しずかな まちです。",
+          "vi": "Nara là thị trấn yên tĩnh."
+        }
+      ]
+    },
+    {
+      "pattern": "とても／あまり",
+      "meaning": "Rất／không ~ lắm",
+      "explanations": [
+        "とても + tính từ: rất. あまり + tính từ phủ định: không ~ lắm."
+      ],
+      "examples": [
+        {
+          "jp": "この りょうりは とても おいしいです。",
+          "vi": "Món này rất ngon."
+        },
+        {
+          "jp": "この りょうりは あまり おいしくないです。",
+          "vi": "Món này không ngon lắm."
+        }
+      ]
+    },
+    {
+      "pattern": "どうですか／どんな N ですか",
+      "meaning": "Thế nào?／N như thế nào?",
+      "explanations": [
+        "N は どうですか: hỏi cảm nhận hoặc tình trạng.",
+        "N は どんな N ですか: hỏi tính chất, luôn có danh từ phía sau どんな."
+      ],
+      "examples": [
+        {
+          "jp": "にほんの せいかつは どうですか。── おもしろいです。",
+          "vi": "Cuộc sống ở Nhật thế nào? ── Thú vị."
+        },
+        {
+          "jp": "ふじさんは どんな やまですか。── たかい やまです。",
+          "vi": "Núi Phú Sĩ là ngọn núi như thế nào? ── Là ngọn núi cao."
+        }
+      ]
+    },
+    {
+      "pattern": "S1 が、S2",
+      "meaning": "S1 nhưng S2",
+      "explanations": [
+        "が nối hai vế câu có ý trái ngược. Đặt sau vế thứ nhất."
+      ],
+      "examples": [
+        {
+          "jp": "にほんの たべものは おいしいですが、たかいです。",
+          "vi": "Đồ ăn Nhật ngon nhưng đắt."
+        }
+      ]
+    },
+    {
+      "pattern": "そして",
+      "meaning": "Và, hơn nữa",
+      "explanations": [
+        "Dùng để nối hai câu có cùng ý nghĩa, thường nói thêm thông tin."
+      ],
+      "examples": [
+        {
+          "jp": "ミラーさんは しんせつです。そして ハンサムです。",
+          "vi": "Anh Miller tốt bụng. Và còn đẹp trai nữa."
+        }
+      ]
+    }
+  ]
+}

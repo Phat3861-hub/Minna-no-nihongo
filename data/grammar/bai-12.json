@@ -1,0 +1,116 @@
+{
+  "lesson": 12,
+  "title": "So sánh, thời tiết và mùa",
+  "points": [
+    {
+      "pattern": "Quá khứ của N／Aな／Aい",
+      "meaning": "Câu danh từ và tính từ ở thì quá khứ",
+      "explanations": [
+        "N／Aな: khẳng định でした, phủ định じゃありませんでした.",
+        "A い: khẳng định ～かったです, phủ định ～くなかったです. いい là ngoại lệ: よかったです／よくなかったです."
+      ],
+      "examples": [
+        {
+          "jp": "きのうは あめでした。",
+          "vi": "Hôm qua trời mưa."
+        },
+        {
+          "jp": "きのうは ひまじゃありませんでした。",
+          "vi": "Hôm qua tôi không rảnh."
+        },
+        {
+          "jp": "しけんは むずかしかったです。",
+          "vi": "Bài thi đã khó."
+        },
+        {
+          "jp": "かんじは やさしくなかったです。",
+          "vi": "Chữ Hán đã không dễ."
+        }
+      ]
+    },
+    {
+      "pattern": "N1 は N2 より A です",
+      "meaning": "N1 A hơn N2",
+      "explanations": [
+        "より đặt sau danh từ được đem ra so sánh (N2)."
+      ],
+      "examples": [
+        {
+          "jp": "この くるまは あの くるまより たかいです。",
+          "vi": "Chiếc xe này đắt hơn chiếc xe kia."
+        },
+        {
+          "jp": "にほんは ベトナムより さむいです。",
+          "vi": "Nhật Bản lạnh hơn Việt Nam."
+        }
+      ]
+    },
+    {
+      "pattern": "N1 と N2 と どちらが A ですか",
+      "meaning": "Giữa N1 và N2 cái nào A hơn?",
+      "explanations": [
+        "Hỏi so sánh giữa hai thứ. Trả lời: N1 のほうが A です.",
+        "Nếu cả hai đều như nhau: どちらも A です."
+      ],
+      "examples": [
+        {
+          "jp": "サッカーと やきゅうと どちらが すきですか。── サッカーのほうが すきです。",
+          "vi": "Bóng đá và bóng chày bạn thích cái nào hơn? ── Tôi thích bóng đá hơn."
+        }
+      ]
+    },
+    {
+      "pattern": "N[の なか]で なに／どこ／だれ／いつ が いちばん A ですか",
+      "meaning": "Trong N, cái gì A nhất?",
+      "explanations": [
+        "Hỏi cái nhất trong một phạm vi từ ba thứ trở lên. Trả lời: N が いちばん A です."
+      ],
+      "examples": [
+        {
+          "jp": "くだものの なかで なにが いちばん すきですか。── りんごが いちばん すきです。",
+          "vi": "Trong các loại trái cây, bạn thích gì nhất? ── Tôi thích táo nhất."
+        },
+        {
+          "jp": "にほんで どこが いちばん きれいですか。",
+          "vi": "Ở Nhật chỗ nào đẹp nhất?"
+        }
+      ]
+    },
+    {
+      "pattern": "どちらも／ずっと",
+      "meaning": "Cả hai／hơn hẳn",
+      "explanations": [
+        "どちらも: cả hai đều, đi với khẳng định hoặc phủ định.",
+        "ずっと: hơn hẳn, đặt trước tính từ trong câu so sánh để nhấn mạnh sự chênh lệch."
+      ],
+      "examples": [
+        {
+          "jp": "ビールと ワインと どちらが すきですか。── どちらも すきです。",
+          "vi": "Bia và rượu vang bạn thích cái nào hơn? ── Tôi thích cả hai."
+        },
+        {
+          "jp": "この ほんは あの ほんより ずっと おもしろいです。",
+          "vi": "Cuốn sách này hay hơn hẳn cuốn kia."
+        }
+      ]
+    },
+    {
+      "pattern": "N は どうでしたか／はじめて",
+      "meaning": "Thế nào (quá khứ)／lần đầu tiên",
+      "explanations": [
+        "どうでしたか hỏi cảm tưởng về việc đã xảy ra.",
+        "はじめて: lần đầu tiên, đặt trước động từ."
+      ],
+      "examples": [
+        {
+          "jp": "たびは どうでしたか。── たのしかったです。",
+          "vi": "Chuyến đi thế nào? ── Vui lắm."
+        },
+        {
+          "jp": "はじめて にほんへ きました。",
+          "vi": "Tôi đến Nhật lần đầu tiên."
+        }
+      ]
+    }
+  ]
+}

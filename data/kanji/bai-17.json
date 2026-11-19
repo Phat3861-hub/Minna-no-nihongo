@@ -1,0 +1,206 @@
+{
+  "id": "b17",
+  "name": "Bài 17",
+  "kanji": [
+    {
+      "char": "図",
+      "hanViet": "ĐỒ",
+      "meaning": "bản vẽ, bản đồ",
+      "on": "ズ、ト",
+      "kun": "—",
+      "examples": [
+        {
+          "word": "地図",
+          "reading": "ちず",
+          "meaning": "bản đồ"
+        },
+        {
+          "word": "図書館",
+          "reading": "としょかん",
+          "meaning": "thư viện"
+        }
+      ]
+    },
+    {
+      "char": "館",
+      "hanViet": "QUÁN",
+      "meaning": "tòa nhà lớn",
+      "on": "カン",
+      "kun": "—",
+      "examples": [
+        {
+          "word": "図書館",
+          "reading": "としょかん",
+          "meaning": "thư viện"
+        },
+        {
+          "word": "美術館",
+          "reading": "びじゅつかん",
+          "meaning": "bảo tàng mỹ thuật"
+        }
+      ]
+    },
+    {
+      "char": "銀",
+      "hanViet": "NGÂN",
+      "meaning": "bạc",
+      "on": "ギン",
+      "kun": "—",
+      "examples": [
+        {
+          "word": "銀行",
+          "reading": "ぎんこう",
+          "meaning": "ngân hàng"
+        }
+      ]
+    },
+    {
+      "char": "町",
+      "hanViet": "ĐINH",
+      "meaning": "thị trấn, phố",
+      "on": "チョウ",
+      "kun": "まち",
+      "examples": [
+        {
+          "word": "町",
+          "reading": "まち",
+          "meaning": "thị trấn"
+        }
+      ]
+    },
+    {
+      "char": "住",
+      "hanViet": "TRÚ",
+      "meaning": "sống, cư trú",
+      "on": "ジュウ",
+      "kun": "す・む",
+      "examples": [
+        {
+          "word": "住みます",
+          "reading": "すみます",
+          "meaning": "sống"
+        },
+        {
+          "word": "住所",
+          "reading": "じゅうしょ",
+          "meaning": "địa chỉ"
+        }
+      ]
+    },
+    {
+      "char": "度",
+      "hanViet": "ĐỘ",
+      "meaning": "lần, độ",
+      "on": "ド",
+      "kun": "—",
+      "examples": [
+        {
+          "word": "今度",
+          "reading": "こんど",
+          "meaning": "lần tới"
+        },
+        {
+          "word": "一度",
+          "reading": "いちど",
+          "meaning": "một lần"
+        }
+      ]
+    },
+    {
+      "char": "服",
+      "hanViet": "PHỤC",
+      "meaning": "quần áo",
+      "on": "フク",
+      "kun": "—",
+      "examples": [
+        {
+          "word": "服",
+          "reading": "ふく",
+          "meaning": "quần áo"
+        },
+        {
+          "word": "洋服",
+          "reading": "ようふく",
+          "meaning": "quần áo kiểu Âu"
+        }
+      ]
+    },
+    {
+      "char": "着",
+      "hanViet": "TRƯỚC",
+      "meaning": "mặc, đến nơi",
+      "on": "チャク",
+      "kun": "き・る、つ・く",
+      "examples": [
+        {
+          "word": "着ます",
+          "reading": "きます",
+          "meaning": "mặc (áo)"
+        },
+        {
+          "word": "着きます",
+          "reading": "つきます",
+          "meaning": "đến nơi"
+        }
+      ]
+    },
+    {
+      "char": "音",
+      "hanViet": "ÂM",
+      "meaning": "âm thanh",
+      "on": "オン",
+      "kun": "おと",
+      "examples": [
+        {
+          "word": "音楽",
+          "reading": "おんがく",
+          "meaning": "âm nhạc"
+        },
+        {
+          "word": "音",
+          "reading": "おと",
+          "meaning": "âm thanh"
+        }
+      ]
+    },
+    {
+      "char": "楽",
+      "hanViet": "LẠC",
+      "meaning": "vui, nhạc",
+      "on": "ガク、ラク",
+      "kun": "たの・しい",
+      "examples": [
+        {
+          "word": "楽しい",
+          "reading": "たのしい",
+          "meaning": "vui"
+        },
+        {
+          "word": "音楽",
+          "reading": "おんがく",
+          "meaning": "âm nhạc"
+        }
+      ]
+    },
+    {
+      "char": "持",
+      "hanViet": "TRÌ",
+      "meaning": "cầm, có",
+      "on": "ジ",
+      "kun": "も・つ",
+      "examples": [
+        {
+          "word": "持ちます",
+          "reading": "もちます",
+          "meaning": "cầm, mang"
+        },
+        {
+          "word": "気持ち",
+          "reading": "きもち",
+          "meaning": "cảm giác"
+        }
+      ]
+    }
+  ],
+  "sentences": []
+}

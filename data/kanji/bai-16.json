@@ -1,0 +1,187 @@
+{
+  "id": "b16",
+  "name": "Bài 16",
+  "kanji": [
+    {
+      "char": "降",
+      "hanViet": "GIÁNG",
+      "meaning": "xuống, rơi",
+      "on": "コウ",
+      "kun": "お・りる、ふ・る",
+      "examples": [
+        {
+          "word": "降ります",
+          "reading": "おります",
+          "meaning": "xuống (xe)"
+        },
+        {
+          "word": "雨が降ります",
+          "reading": "あめがふります",
+          "meaning": "trời mưa"
+        }
+      ]
+    },
+    {
+      "char": "思",
+      "hanViet": "TƯ",
+      "meaning": "nghĩ",
+      "on": "シ",
+      "kun": "おも・う",
+      "examples": [
+        {
+          "word": "思います",
+          "reading": "おもいます",
+          "meaning": "nghĩ"
+        }
+      ]
+    },
+    {
+      "char": "寝",
+      "hanViet": "TẨM",
+      "meaning": "ngủ",
+      "on": "シン",
+      "kun": "ね・る",
+      "examples": [
+        {
+          "word": "寝ます",
+          "reading": "ねます",
+          "meaning": "ngủ"
+        },
+        {
+          "word": "寝室",
+          "reading": "しんしつ",
+          "meaning": "phòng ngủ"
+        }
+      ]
+    },
+    {
+      "char": "終",
+      "hanViet": "CHUNG",
+      "meaning": "kết thúc",
+      "on": "シュウ",
+      "kun": "お・わる",
+      "examples": [
+        {
+          "word": "終わります",
+          "reading": "おわります",
+          "meaning": "kết thúc"
+        },
+        {
+          "word": "終電",
+          "reading": "しゅうでん",
+          "meaning": "chuyến tàu cuối"
+        }
+      ]
+    },
+    {
+      "char": "言",
+      "hanViet": "NGÔN",
+      "meaning": "nói",
+      "on": "ゲン、ゴン",
+      "kun": "い・う",
+      "examples": [
+        {
+          "word": "言います",
+          "reading": "いいます",
+          "meaning": "nói"
+        },
+        {
+          "word": "言葉",
+          "reading": "ことば",
+          "meaning": "từ ngữ"
+        }
+      ]
+    },
+    {
+      "char": "知",
+      "hanViet": "TRÍ",
+      "meaning": "biết",
+      "on": "チ",
+      "kun": "し・る",
+      "examples": [
+        {
+          "word": "知ります",
+          "reading": "しります",
+          "meaning": "biết"
+        },
+        {
+          "word": "知っています",
+          "reading": "しっています",
+          "meaning": "biết"
+        }
+      ]
+    },
+    {
+      "char": "同",
+      "hanViet": "ĐỒNG",
+      "meaning": "giống nhau, cùng",
+      "on": "ドウ",
+      "kun": "おな・じ",
+      "examples": [
+        {
+          "word": "同じ",
+          "reading": "おなじ",
+          "meaning": "giống nhau"
+        }
+      ]
+    },
+    {
+      "char": "漢",
+      "hanViet": "HÁN",
+      "meaning": "chữ Hán, nhà Hán",
+      "on": "カン",
+      "kun": "—",
+      "examples": [
+        {
+          "word": "漢字",
+          "reading": "かんじ",
+          "meaning": "chữ Hán"
+        }
+      ]
+    },
+    {
+      "char": "字",
+      "hanViet": "TỰ",
+      "meaning": "chữ",
+      "on": "ジ",
+      "kun": "—",
+      "examples": [
+        {
+          "word": "漢字",
+          "reading": "かんじ",
+          "meaning": "chữ Hán"
+        },
+        {
+          "word": "字",
+          "reading": "じ",
+          "meaning": "chữ"
+        }
+      ]
+    },
+    {
+      "char": "方",
+      "hanViet": "PHƯƠNG",
+      "meaning": "phương hướng, cách",
+      "on": "ホウ",
+      "kun": "かた",
+      "examples": [
+        {
+          "word": "読み方",
+          "reading": "よみかた",
+          "meaning": "cách đọc"
+        },
+        {
+          "word": "あの方",
+          "reading": "あのかた",
+          "meaning": "vị kia"
+        },
+        {
+          "word": "夕方",
+          "reading": "ゆうがた",
+          "meaning": "chiều tối"
+        }
+      ]
+    }
+  ],
+  "sentences": []
+}

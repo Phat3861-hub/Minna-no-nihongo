@@ -1,0 +1,181 @@
+{
+  "id": "b13",
+  "name": "Bài 13",
+  "kanji": [
+    {
+      "char": "明",
+      "hanViet": "MINH",
+      "meaning": "sáng",
+      "on": "メイ",
+      "kun": "あか・るい",
+      "examples": [
+        {
+          "word": "明るい",
+          "reading": "あかるい",
+          "meaning": "sáng"
+        },
+        {
+          "word": "説明",
+          "reading": "せつめい",
+          "meaning": "giải thích"
+        }
+      ]
+    },
+    {
+      "char": "暗",
+      "hanViet": "ÁM",
+      "meaning": "tối",
+      "on": "アン",
+      "kun": "くら・い",
+      "examples": [
+        {
+          "word": "暗い",
+          "reading": "くらい",
+          "meaning": "tối"
+        }
+      ]
+    },
+    {
+      "char": "広",
+      "hanViet": "QUẢNG",
+      "meaning": "rộng",
+      "on": "コウ",
+      "kun": "ひろ・い",
+      "examples": [
+        {
+          "word": "広い",
+          "reading": "ひろい",
+          "meaning": "rộng"
+        }
+      ]
+    },
+    {
+      "char": "多",
+      "hanViet": "ĐA",
+      "meaning": "nhiều",
+      "on": "タ",
+      "kun": "おお・い",
+      "examples": [
+        {
+          "word": "多い",
+          "reading": "おおい",
+          "meaning": "nhiều"
+        }
+      ]
+    },
+    {
+      "char": "少",
+      "hanViet": "THIỂU",
+      "meaning": "ít",
+      "on": "ショウ",
+      "kun": "すく・ない、すこ・し",
+      "examples": [
+        {
+          "word": "少し",
+          "reading": "すこし",
+          "meaning": "một chút"
+        },
+        {
+          "word": "少ない",
+          "reading": "すくない",
+          "meaning": "ít"
+        }
+      ]
+    },
+    {
+      "char": "長",
+      "hanViet": "TRƯỜNG",
+      "meaning": "dài, người đứng đầu",
+      "on": "チョウ",
+      "kun": "なが・い",
+      "examples": [
+        {
+          "word": "長い",
+          "reading": "ながい",
+          "meaning": "dài"
+        },
+        {
+          "word": "社長",
+          "reading": "しゃちょう",
+          "meaning": "giám đốc"
+        }
+      ]
+    },
+    {
+      "char": "短",
+      "hanViet": "ĐOẢN",
+      "meaning": "ngắn",
+      "on": "タン",
+      "kun": "みじか・い",
+      "examples": [
+        {
+          "word": "短い",
+          "reading": "みじかい",
+          "meaning": "ngắn"
+        }
+      ]
+    },
+    {
+      "char": "悪",
+      "hanViet": "ÁC",
+      "meaning": "xấu",
+      "on": "アク",
+      "kun": "わる・い",
+      "examples": [
+        {
+          "word": "悪い",
+          "reading": "わるい",
+          "meaning": "xấu, tồi"
+        }
+      ]
+    },
+    {
+      "char": "重",
+      "hanViet": "TRỌNG",
+      "meaning": "nặng",
+      "on": "ジュウ",
+      "kun": "おも・い",
+      "examples": [
+        {
+          "word": "重い",
+          "reading": "おもい",
+          "meaning": "nặng"
+        }
+      ]
+    },
+    {
+      "char": "軽",
+      "hanViet": "KHINH",
+      "meaning": "nhẹ",
+      "on": "ケイ",
+      "kun": "かる・い",
+      "examples": [
+        {
+          "word": "軽い",
+          "reading": "かるい",
+          "meaning": "nhẹ"
+        }
+      ]
+    },
+    {
+      "char": "早",
+      "hanViet": "TẢO",
+      "meaning": "sớm",
+      "on": "ソウ",
+      "kun": "はや・い",
+      "examples": [
+        {
+          "word": "早い",
+          "reading": "はやい",
+          "meaning": "sớm"
+        },
+        {
+          "word": "早く",
+          "reading": "はやく",
+          "meaning": "sớm, nhanh"
+        }
+      ]
+    }
+  ],
+  "sentences": []
+}

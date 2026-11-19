@@ -1,0 +1,284 @@
+{
+  "lesson": 9,
+  "title": "Sở thích, khả năng, lý do",
+  "words": [
+    {
+      "kana": "わかります",
+      "kanji": "",
+      "vi": "hiểu, nắm được",
+      "note": "Đi với trợ từ が: にほんごがわかります"
+    },
+    {
+      "kana": "あります",
+      "kanji": "",
+      "vi": "có (sở hữu)",
+      "note": "Đi với trợ từ が: じかんがあります"
+    },
+    {
+      "kana": "すき[な]",
+      "kanji": "好き[な]",
+      "vi": "thích",
+      "note": "Tính từ な, đi với が"
+    },
+    {
+      "kana": "きらい[な]",
+      "kanji": "嫌い[な]",
+      "vi": "ghét, không thích",
+      "note": "Tính từ な dù kết thúc bằng い"
+    },
+    {
+      "kana": "じょうず[な]",
+      "kanji": "上手[な]",
+      "vi": "giỏi, khéo",
+      "note": "Dùng để khen người khác, không dùng cho bản thân"
+    },
+    {
+      "kana": "へた[な]",
+      "kanji": "下手[な]",
+      "vi": "kém, vụng"
+    },
+    {
+      "kana": "のみもの",
+      "kanji": "飲み物",
+      "vi": "đồ uống"
+    },
+    {
+      "kana": "りょうり",
+      "kanji": "料理",
+      "vi": "món ăn, việc nấu ăn"
+    },
+    {
+      "kana": "スポーツ",
+      "kanji": "",
+      "vi": "thể thao"
+    },
+    {
+      "kana": "やきゅう",
+      "kanji": "野球",
+      "vi": "bóng chày"
+    },
+    {
+      "kana": "ダンス",
+      "kanji": "",
+      "vi": "nhảy, khiêu vũ"
+    },
+    {
+      "kana": "りょこう",
+      "kanji": "旅行",
+      "vi": "du lịch, chuyến du lịch"
+    },
+    {
+      "kana": "おんがく",
+      "kanji": "音楽",
+      "vi": "âm nhạc"
+    },
+    {
+      "kana": "うた",
+      "kanji": "歌",
+      "vi": "bài hát"
+    },
+    {
+      "kana": "クラシック",
+      "kanji": "",
+      "vi": "nhạc cổ điển"
+    },
+    {
+      "kana": "ジャズ",
+      "kanji": "",
+      "vi": "nhạc jazz"
+    },
+    {
+      "kana": "コンサート",
+      "kanji": "",
+      "vi": "buổi hòa nhạc"
+    },
+    {
+      "kana": "カラオケ",
+      "kanji": "",
+      "vi": "karaoke"
+    },
+    {
+      "kana": "かぶき",
+      "kanji": "歌舞伎",
+      "vi": "kịch Kabuki"
+    },
+    {
+      "kana": "え",
+      "kanji": "絵",
+      "vi": "tranh, hội họa"
+    },
+    {
+      "kana": "じ",
+      "kanji": "字",
+      "vi": "chữ"
+    },
+    {
+      "kana": "かんじ",
+      "kanji": "漢字",
+      "vi": "chữ Hán"
+    },
+    {
+      "kana": "ひらがな",
+      "kanji": "",
+      "vi": "chữ Hiragana"
+    },
+    {
+      "kana": "かたかな",
+      "kanji": "",
+      "vi": "chữ Katakana"
+    },
+    {
+      "kana": "ローマじ",
+      "kanji": "ローマ字",
+      "vi": "chữ La Mã (romaji)"
+    },
+    {
+      "kana": "こまかいおかね",
+      "kanji": "細かいお金",
+      "vi": "tiền lẻ"
+    },
+    {
+      "kana": "チケット",
+      "kanji": "",
+      "vi": "vé (xem hòa nhạc, phim)"
+    },
+    {
+      "kana": "じかん",
+      "kanji": "時間",
+      "vi": "thời gian"
+    },
+    {
+      "kana": "ようじ",
+      "kanji": "用事",
+      "vi": "việc bận, công chuyện"
+    },
+    {
+      "kana": "やくそく",
+      "kanji": "約束",
+      "vi": "cuộc hẹn, lời hứa"
+    },
+    {
+      "kana": "アルバイト",
+      "kanji": "",
+      "vi": "việc làm thêm"
+    },
+    {
+      "kana": "ごしゅじん",
+      "kanji": "ご主人",
+      "vi": "chồng (của người khác)"
+    },
+    {
+      "kana": "おっと",
+      "kanji": "夫",
+      "vi": "chồng (của mình)"
+    },
+    {
+      "kana": "しゅじん",
+      "kanji": "主人",
+      "vi": "chồng (của mình)"
+    },
+    {
+      "kana": "おくさん",
+      "kanji": "奥さん",
+      "vi": "vợ (của người khác)"
+    },
+    {
+      "kana": "つま",
+      "kanji": "妻",
+      "vi": "vợ (của mình)"
+    },
+    {
+      "kana": "かない",
+      "kanji": "家内",
+      "vi": "vợ (của mình)"
+    },
+    {
+      "kana": "こども",
+      "kanji": "子ども",
+      "vi": "con cái, trẻ con"
+    },
+    {
+      "kana": "よく",
+      "kanji": "",
+      "vi": "tốt, rõ (chỉ mức độ)"
+    },
+    {
+      "kana": "だいたい",
+      "kanji": "",
+      "vi": "đại khái, khoảng"
+    },
+    {
+      "kana": "たくさん",
+      "kanji": "",
+      "vi": "nhiều"
+    },
+    {
+      "kana": "すこし",
+      "kanji": "少し",
+      "vi": "ít, một chút"
+    },
+    {
+      "kana": "ぜんぜん",
+      "kanji": "全然",
+      "vi": "hoàn toàn không",
+      "note": "Đi với thể phủ định"
+    },
+    {
+      "kana": "はやく",
+      "kanji": "早く・速く",
+      "vi": "sớm, nhanh",
+      "note": "早く: sớm; 速く: nhanh"
+    },
+    {
+      "kana": "～から",
+      "kanji": "",
+      "vi": "vì ~",
+      "note": "Nối lý do: ～から、～"
+    },
+    {
+      "kana": "どうして",
+      "kanji": "",
+      "vi": "tại sao"
+    },
+    {
+      "kana": "かしてください",
+      "kanji": "貸してください",
+      "vi": "hãy cho tôi mượn"
+    },
+    {
+      "kana": "いいですよ",
+      "kanji": "",
+      "vi": "được chứ, được thôi"
+    },
+    {
+      "kana": "ざんねんです[が]",
+      "kanji": "残念です[が]",
+      "vi": "tiếc quá, đáng tiếc (nhưng)"
+    },
+    {
+      "kana": "ああ",
+      "kanji": "",
+      "vi": "à, a (khi nhận ra)"
+    },
+    {
+      "kana": "いっしょにいかがですか",
+      "kanji": "一緒にいかがですか",
+      "vi": "anh/chị cùng đi với chúng tôi được không?"
+    },
+    {
+      "kana": "[～は]ちょっと…",
+      "kanji": "",
+      "vi": "[~ thì] hơi khó… (từ chối khéo)"
+    },
+    {
+      "kana": "だめですか",
+      "kanji": "",
+      "vi": "không được à?"
+    },
+    {
+      "kana": "またこんどおねがいします",
+      "kanji": "また今度お願いします",
+      "vi": "hẹn lần sau nhé"
+    }
+  ]
+}

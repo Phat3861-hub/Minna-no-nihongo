@@ -1,0 +1,321 @@
+{
+  "lesson": 11,
+  "title": "Đếm số lượng",
+  "words": [
+    {
+      "kana": "[こどもが]います",
+      "kanji": "[子どもが]います",
+      "vi": "có [con]",
+      "note": "Dùng います cho người: こどもがふたりいます"
+    },
+    {
+      "kana": "[にほんに]います",
+      "kanji": "[日本に]います",
+      "vi": "ở [Nhật Bản]"
+    },
+    {
+      "kana": "かかります",
+      "kanji": "",
+      "vi": "mất, tốn (thời gian, tiền)",
+      "note": "じかんがかかります, おかねがかかります"
+    },
+    {
+      "kana": "[かいしゃを]やすみます",
+      "kanji": "[会社を]休みます",
+      "vi": "nghỉ [làm]",
+      "note": "Dùng trợ từ を"
+    },
+    {
+      "kana": "ひとつ",
+      "kanji": "一つ",
+      "vi": "một cái",
+      "note": "Đếm đồ vật theo kiểu Nhật: ひとつ đến とお"
+    },
+    {
+      "kana": "ふたつ",
+      "kanji": "二つ",
+      "vi": "hai cái"
+    },
+    {
+      "kana": "みっつ",
+      "kanji": "三つ",
+      "vi": "ba cái"
+    },
+    {
+      "kana": "よっつ",
+      "kanji": "四つ",
+      "vi": "bốn cái"
+    },
+    {
+      "kana": "いつつ",
+      "kanji": "五つ",
+      "vi": "năm cái"
+    },
+    {
+      "kana": "むっつ",
+      "kanji": "六つ",
+      "vi": "sáu cái"
+    },
+    {
+      "kana": "ななつ",
+      "kanji": "七つ",
+      "vi": "bảy cái"
+    },
+    {
+      "kana": "やっつ",
+      "kanji": "八つ",
+      "vi": "tám cái"
+    },
+    {
+      "kana": "ここのつ",
+      "kanji": "九つ",
+      "vi": "chín cái"
+    },
+    {
+      "kana": "とお",
+      "kanji": "十",
+      "vi": "mười cái"
+    },
+    {
+      "kana": "いくつ",
+      "kanji": "",
+      "vi": "mấy cái, bao nhiêu cái"
+    },
+    {
+      "kana": "ひとり",
+      "kanji": "一人",
+      "vi": "một người",
+      "note": "Đặc biệt: không đọc いちにん"
+    },
+    {
+      "kana": "ふたり",
+      "kanji": "二人",
+      "vi": "hai người",
+      "note": "Đặc biệt: không đọc ににん"
+    },
+    {
+      "kana": "～にん",
+      "kanji": "～人",
+      "vi": "~ người",
+      "note": "Từ 3 người trở lên: さんにん, よにん (4 người)"
+    },
+    {
+      "kana": "～だい",
+      "kanji": "～台",
+      "vi": "~ chiếc, ~ cái (máy móc, xe cộ)"
+    },
+    {
+      "kana": "～まい",
+      "kanji": "～枚",
+      "vi": "~ tờ, ~ tấm (vật mỏng, phẳng)",
+      "note": "Giấy, áo sơ mi, tem, đĩa…"
+    },
+    {
+      "kana": "～かい",
+      "kanji": "～回",
+      "vi": "~ lần"
+    },
+    {
+      "kana": "りんご",
+      "kanji": "",
+      "vi": "quả táo"
+    },
+    {
+      "kana": "みかん",
+      "kanji": "",
+      "vi": "quả quýt"
+    },
+    {
+      "kana": "サンドイッチ",
+      "kanji": "",
+      "vi": "bánh sandwich"
+    },
+    {
+      "kana": "カレー[ライス]",
+      "kanji": "",
+      "vi": "[cơm] cà ri"
+    },
+    {
+      "kana": "アイスクリーム",
+      "kanji": "",
+      "vi": "kem"
+    },
+    {
+      "kana": "きって",
+      "kanji": "切手",
+      "vi": "tem"
+    },
+    {
+      "kana": "はがき",
+      "kanji": "",
+      "vi": "bưu thiếp"
+    },
+    {
+      "kana": "ふうとう",
+      "kanji": "封筒",
+      "vi": "phong bì"
+    },
+    {
+      "kana": "りょうしん",
+      "kanji": "両親",
+      "vi": "bố mẹ"
+    },
+    {
+      "kana": "きょうだい",
+      "kanji": "兄弟",
+      "vi": "anh chị em"
+    },
+    {
+      "kana": "あに",
+      "kanji": "兄",
+      "vi": "anh trai (của mình)"
+    },
+    {
+      "kana": "おにいさん",
+      "kanji": "お兄さん",
+      "vi": "anh trai (của người khác)"
+    },
+    {
+      "kana": "あね",
+      "kanji": "姉",
+      "vi": "chị gái (của mình)"
+    },
+    {
+      "kana": "おねえさん",
+      "kanji": "お姉さん",
+      "vi": "chị gái (của người khác)"
+    },
+    {
+      "kana": "おとうと",
+      "kanji": "弟",
+      "vi": "em trai (của mình)"
+    },
+    {
+      "kana": "おとうとさん",
+      "kanji": "弟さん",
+      "vi": "em trai (của người khác)"
+    },
+    {
+      "kana": "いもうと",
+      "kanji": "妹",
+      "vi": "em gái (của mình)"
+    },
+    {
+      "kana": "いもうとさん",
+      "kanji": "妹さん",
+      "vi": "em gái (của người khác)"
+    },
+    {
+      "kana": "がいこく",
+      "kanji": "外国",
+      "vi": "nước ngoài"
+    },
+    {
+      "kana": "りゅうがくせい",
+      "kanji": "留学生",
+      "vi": "du học sinh"
+    },
+    {
+      "kana": "クラス",
+      "kanji": "",
+      "vi": "lớp học"
+    },
+    {
+      "kana": "～じかん",
+      "kanji": "～時間",
+      "vi": "~ tiếng (đồng hồ)",
+      "note": "Ví dụ: にじかん (2 tiếng)"
+    },
+    {
+      "kana": "～しゅうかん",
+      "kanji": "～週間",
+      "vi": "~ tuần"
+    },
+    {
+      "kana": "～かげつ",
+      "kanji": "～か月",
+      "vi": "~ tháng (khoảng thời gian)",
+      "note": "Khác ～がつ (tháng thứ mấy): さんかげつ là 3 tháng"
+    },
+    {
+      "kana": "～ねん",
+      "kanji": "～年",
+      "vi": "~ năm"
+    },
+    {
+      "kana": "～ぐらい",
+      "kanji": "",
+      "vi": "khoảng ~"
+    },
+    {
+      "kana": "どのくらい",
+      "kanji": "",
+      "vi": "bao lâu, khoảng bao nhiêu"
+    },
+    {
+      "kana": "ぜんぶで",
+      "kanji": "全部で",
+      "vi": "tổng cộng, tất cả"
+    },
+    {
+      "kana": "みんな",
+      "kanji": "",
+      "vi": "tất cả, mọi người"
+    },
+    {
+      "kana": "～だけ",
+      "kanji": "",
+      "vi": "chỉ ~"
+    },
+    {
+      "kana": "かしこまりました",
+      "kanji": "",
+      "vi": "tôi hiểu rồi ạ (lễ phép)"
+    },
+    {
+      "kana": "いい[お]てんきですね",
+      "kanji": "いい[お]天気ですね",
+      "vi": "trời đẹp nhỉ"
+    },
+    {
+      "kana": "おでかけですか",
+      "kanji": "お出かけですか",
+      "vi": "anh/chị đi ra ngoài đấy à?"
+    },
+    {
+      "kana": "ちょっと～まで",
+      "kanji": "",
+      "vi": "tôi đi ~ một chút"
+    },
+    {
+      "kana": "いってらっしゃい",
+      "kanji": "",
+      "vi": "anh/chị đi nhé (người ở nhà nói)"
+    },
+    {
+      "kana": "いってきます",
+      "kanji": "",
+      "vi": "tôi đi đây (người đi nói)"
+    },
+    {
+      "kana": "ふなびん",
+      "kanji": "船便",
+      "vi": "gửi đường biển"
+    },
+    {
+      "kana": "こうくうびん（エアメール）",
+      "kanji": "航空便",
+      "vi": "gửi đường hàng không"
+    },
+    {
+      "kana": "おねがいします",
+      "kanji": "お願いします",
+      "vi": "nhờ anh/chị, làm ơn"
+    },
+    {
+      "kana": "オーストラリア",
+      "kanji": "",
+      "vi": "nước Úc"
+    }
+  ]
+}

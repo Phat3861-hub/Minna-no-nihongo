@@ -1,0 +1,192 @@
+{
+  "id": "b19",
+  "name": "Bài 19",
+  "kanji": [
+    {
+      "char": "家",
+      "hanViet": "GIA",
+      "meaning": "nhà, gia đình",
+      "on": "カ",
+      "kun": "いえ、うち",
+      "examples": [
+        {
+          "word": "家族",
+          "reading": "かぞく",
+          "meaning": "gia đình"
+        },
+        {
+          "word": "家",
+          "reading": "いえ",
+          "meaning": "ngôi nhà"
+        },
+        {
+          "word": "家内",
+          "reading": "かない",
+          "meaning": "vợ (của mình)"
+        }
+      ]
+    },
+    {
+      "char": "内",
+      "hanViet": "NỘI",
+      "meaning": "bên trong",
+      "on": "ナイ",
+      "kun": "うち",
+      "examples": [
+        {
+          "word": "家内",
+          "reading": "かない",
+          "meaning": "vợ (của mình)"
+        },
+        {
+          "word": "案内",
+          "reading": "あんない",
+          "meaning": "hướng dẫn"
+        }
+      ]
+    },
+    {
+      "char": "族",
+      "hanViet": "TỘC",
+      "meaning": "gia tộc",
+      "on": "ゾク",
+      "kun": "—",
+      "examples": [
+        {
+          "word": "家族",
+          "reading": "かぞく",
+          "meaning": "gia đình"
+        }
+      ]
+    },
+    {
+      "char": "兄",
+      "hanViet": "HUYNH",
+      "meaning": "anh trai",
+      "on": "キョウ",
+      "kun": "あに",
+      "examples": [
+        {
+          "word": "兄",
+          "reading": "あに",
+          "meaning": "anh trai (của mình)"
+        },
+        {
+          "word": "お兄さん",
+          "reading": "おにいさん",
+          "meaning": "anh trai (của người khác)"
+        },
+        {
+          "word": "兄弟",
+          "reading": "きょうだい",
+          "meaning": "anh chị em"
+        }
+      ]
+    },
+    {
+      "char": "弟",
+      "hanViet": "ĐỆ",
+      "meaning": "em trai",
+      "on": "ダイ、デ",
+      "kun": "おとうと",
+      "examples": [
+        {
+          "word": "弟",
+          "reading": "おとうと",
+          "meaning": "em trai"
+        },
+        {
+          "word": "兄弟",
+          "reading": "きょうだい",
+          "meaning": "anh chị em"
+        }
+      ]
+    },
+    {
+      "char": "奥",
+      "hanViet": "ÁO",
+      "meaning": "bên trong, sâu",
+      "on": "オク",
+      "kun": "おく",
+      "examples": [
+        {
+          "word": "奥さん",
+          "reading": "おくさん",
+          "meaning": "vợ (của người khác)"
+        }
+      ]
+    },
+    {
+      "char": "姉",
+      "hanViet": "TỈ",
+      "meaning": "chị gái",
+      "on": "シ",
+      "kun": "あね",
+      "examples": [
+        {
+          "word": "姉",
+          "reading": "あね",
+          "meaning": "chị gái (của mình)"
+        },
+        {
+          "word": "お姉さん",
+          "reading": "おねえさん",
+          "meaning": "chị gái (của người khác)"
+        }
+      ]
+    },
+    {
+      "char": "妹",
+      "hanViet": "MUỘI",
+      "meaning": "em gái",
+      "on": "マイ",
+      "kun": "いもうと",
+      "examples": [
+        {
+          "word": "妹",
+          "reading": "いもうと",
+          "meaning": "em gái"
+        }
+      ]
+    },
+    {
+      "char": "海",
+      "hanViet": "HẢI",
+      "meaning": "biển",
+      "on": "カイ",
+      "kun": "うみ",
+      "examples": [
+        {
+          "word": "海",
+          "reading": "うみ",
+          "meaning": "biển"
+        },
+        {
+          "word": "海外",
+          "reading": "かいがい",
+          "meaning": "nước ngoài"
+        }
+      ]
+    },
+    {
+      "char": "計",
+      "hanViet": "KẾ",
+      "meaning": "đo, tính",
+      "on": "ケイ",
+      "kun": "はか・る",
+      "examples": [
+        {
+          "word": "時計",
+          "reading": "とけい",
+          "meaning": "đồng hồ"
+        },
+        {
+          "word": "計画",
+          "reading": "けいかく",
+          "meaning": "kế hoạch"
+        }
+      ]
+    }
+  ],
+  "sentences": []
+}

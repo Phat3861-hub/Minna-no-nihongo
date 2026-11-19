@@ -1,0 +1,182 @@
+{
+  "id": "b12",
+  "name": "Bài 12",
+  "kanji": [
+    {
+      "char": "歩",
+      "hanViet": "BỘ",
+      "meaning": "đi bộ",
+      "on": "ホ",
+      "kun": "ある・く",
+      "examples": [
+        {
+          "word": "歩きます",
+          "reading": "あるきます",
+          "meaning": "đi bộ"
+        },
+        {
+          "word": "散歩",
+          "reading": "さんぽ",
+          "meaning": "đi dạo"
+        }
+      ]
+    },
+    {
+      "char": "待",
+      "hanViet": "ĐÃI",
+      "meaning": "chờ, đợi",
+      "on": "タイ",
+      "kun": "ま・つ",
+      "examples": [
+        {
+          "word": "待ちます",
+          "reading": "まちます",
+          "meaning": "đợi"
+        }
+      ]
+    },
+    {
+      "char": "立",
+      "hanViet": "LẬP",
+      "meaning": "đứng",
+      "on": "リツ",
+      "kun": "た・つ",
+      "examples": [
+        {
+          "word": "立ちます",
+          "reading": "たちます",
+          "meaning": "đứng"
+        }
+      ]
+    },
+    {
+      "char": "止",
+      "hanViet": "CHỈ",
+      "meaning": "dừng",
+      "on": "シ",
+      "kun": "と・まる、と・める",
+      "examples": [
+        {
+          "word": "止めます",
+          "reading": "とめます",
+          "meaning": "dừng, đỗ (xe)"
+        },
+        {
+          "word": "中止",
+          "reading": "ちゅうし",
+          "meaning": "hủy bỏ"
+        }
+      ]
+    },
+    {
+      "char": "雨",
+      "hanViet": "VŨ",
+      "meaning": "mưa",
+      "on": "ウ",
+      "kun": "あめ",
+      "examples": [
+        {
+          "word": "雨",
+          "reading": "あめ",
+          "meaning": "mưa"
+        }
+      ]
+    },
+    {
+      "char": "入",
+      "hanViet": "NHẬP",
+      "meaning": "vào",
+      "on": "ニュウ",
+      "kun": "はい・る、い・れる",
+      "examples": [
+        {
+          "word": "入ります",
+          "reading": "はいります",
+          "meaning": "vào"
+        },
+        {
+          "word": "入口",
+          "reading": "いりぐち",
+          "meaning": "lối vào"
+        },
+        {
+          "word": "入学",
+          "reading": "にゅうがく",
+          "meaning": "nhập học"
+        }
+      ]
+    },
+    {
+      "char": "出",
+      "hanViet": "XUẤT",
+      "meaning": "ra",
+      "on": "シュツ",
+      "kun": "で・る、だ・す",
+      "examples": [
+        {
+          "word": "出ます",
+          "reading": "でます",
+          "meaning": "ra, đi ra"
+        },
+        {
+          "word": "出口",
+          "reading": "でぐち",
+          "meaning": "lối ra"
+        },
+        {
+          "word": "出します",
+          "reading": "だします",
+          "meaning": "lấy ra, nộp, gửi"
+        }
+      ]
+    },
+    {
+      "char": "売",
+      "hanViet": "MẠI",
+      "meaning": "bán",
+      "on": "バイ",
+      "kun": "う・る",
+      "examples": [
+        {
+          "word": "売ります",
+          "reading": "うります",
+          "meaning": "bán"
+        },
+        {
+          "word": "売り場",
+          "reading": "うりば",
+          "meaning": "quầy bán hàng"
+        }
+      ]
+    },
+    {
+      "char": "使",
+      "hanViet": "SỬ",
+      "meaning": "sử dụng",
+      "on": "シ",
+      "kun": "つか・う",
+      "examples": [
+        {
+          "word": "使います",
+          "reading": "つかいます",
+          "meaning": "dùng"
+        }
+      ]
+    },
+    {
+      "char": "作",
+      "hanViet": "TÁC",
+      "meaning": "làm, tạo ra",
+      "on": "サク",
+      "kun": "つく・る",
+      "examples": [
+        {
+          "word": "作ります",
+          "reading": "つくります",
+          "meaning": "làm, chế tạo"
+        }
+      ]
+    }
+  ],
+  "sentences": []
+}

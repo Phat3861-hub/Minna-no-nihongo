@@ -1,0 +1,202 @@
+{
+  "id": "b9",
+  "name": "Bài 9",
+  "kanji": [
+    {
+      "char": "書",
+      "hanViet": "THƯ",
+      "meaning": "viết",
+      "on": "ショ",
+      "kun": "か・く",
+      "examples": [
+        {
+          "word": "書きます",
+          "reading": "かきます",
+          "meaning": "viết"
+        },
+        {
+          "word": "辞書",
+          "reading": "じしょ",
+          "meaning": "từ điển"
+        },
+        {
+          "word": "図書館",
+          "reading": "としょかん",
+          "meaning": "thư viện"
+        }
+      ]
+    },
+    {
+      "char": "聞",
+      "hanViet": "VĂN",
+      "meaning": "nghe, hỏi",
+      "on": "ブン",
+      "kun": "き・く",
+      "examples": [
+        {
+          "word": "聞きます",
+          "reading": "ききます",
+          "meaning": "nghe"
+        },
+        {
+          "word": "新聞",
+          "reading": "しんぶん",
+          "meaning": "báo"
+        }
+      ]
+    },
+    {
+      "char": "読",
+      "hanViet": "ĐỘC",
+      "meaning": "đọc",
+      "on": "ドク",
+      "kun": "よ・む",
+      "examples": [
+        {
+          "word": "読みます",
+          "reading": "よみます",
+          "meaning": "đọc"
+        },
+        {
+          "word": "読書",
+          "reading": "どくしょ",
+          "meaning": "việc đọc sách"
+        }
+      ]
+    },
+    {
+      "char": "見",
+      "hanViet": "KIẾN",
+      "meaning": "nhìn, xem",
+      "on": "ケン",
+      "kun": "み・る",
+      "examples": [
+        {
+          "word": "見ます",
+          "reading": "みます",
+          "meaning": "xem, nhìn"
+        },
+        {
+          "word": "花見",
+          "reading": "はなみ",
+          "meaning": "ngắm hoa"
+        },
+        {
+          "word": "見学",
+          "reading": "けんがく",
+          "meaning": "tham quan học hỏi"
+        }
+      ]
+    },
+    {
+      "char": "話",
+      "hanViet": "THOẠI",
+      "meaning": "nói chuyện",
+      "on": "ワ",
+      "kun": "はな・す、はなし",
+      "examples": [
+        {
+          "word": "話します",
+          "reading": "はなします",
+          "meaning": "nói chuyện"
+        },
+        {
+          "word": "電話",
+          "reading": "でんわ",
+          "meaning": "điện thoại"
+        }
+      ]
+    },
+    {
+      "char": "買",
+      "hanViet": "MÃI",
+      "meaning": "mua",
+      "on": "バイ",
+      "kun": "か・う",
+      "examples": [
+        {
+          "word": "買います",
+          "reading": "かいます",
+          "meaning": "mua"
+        },
+        {
+          "word": "買い物",
+          "reading": "かいもの",
+          "meaning": "mua sắm"
+        }
+      ]
+    },
+    {
+      "char": "起",
+      "hanViet": "KHỞI",
+      "meaning": "thức dậy, bắt đầu",
+      "on": "キ",
+      "kun": "お・きる",
+      "examples": [
+        {
+          "word": "起きます",
+          "reading": "おきます",
+          "meaning": "thức dậy"
+        }
+      ]
+    },
+    {
+      "char": "帰",
+      "hanViet": "QUY",
+      "meaning": "trở về",
+      "on": "キ",
+      "kun": "かえ・る",
+      "examples": [
+        {
+          "word": "帰ります",
+          "reading": "かえります",
+          "meaning": "về"
+        },
+        {
+          "word": "帰国",
+          "reading": "きこく",
+          "meaning": "về nước"
+        }
+      ]
+    },
+    {
+      "char": "友",
+      "hanViet": "HỮU",
+      "meaning": "bạn",
+      "on": "ユウ",
+      "kun": "とも",
+      "examples": [
+        {
+          "word": "友達",
+          "reading": "ともだち",
+          "meaning": "bạn bè"
+        },
+        {
+          "word": "友人",
+          "reading": "ゆうじん",
+          "meaning": "bạn bè (trang trọng)"
+        }
+      ]
+    },
+    {
+      "char": "達",
+      "hanViet": "ĐẠT",
+      "meaning": "đạt tới, (chỉ số nhiều)",
+      "on": "タツ",
+      "kun": "たち",
+      "examples": [
+        {
+          "word": "友達",
+          "reading": "ともだち",
+          "meaning": "bạn bè"
+        },
+        {
+          "word": "私達",
+          "reading": "わたしたち",
+          "meaning": "chúng tôi"
+        }
+      ]
+    }
+  ],
+  "sentences": []
+}

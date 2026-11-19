@@ -1,0 +1,688 @@
+{
+  "id": "b2",
+  "name": "Bài 2",
+  "kanji": [
+    {
+      "char": "一",
+      "hanViet": "NHẤT",
+      "meaning": "một",
+      "on": "イチ",
+      "kun": "ひと・つ",
+      "examples": [
+        {
+          "word": "一つ",
+          "reading": "ひとつ",
+          "meaning": "một cái"
+        },
+        {
+          "word": "一月",
+          "reading": "いちがつ",
+          "meaning": "tháng Một"
+        },
+        {
+          "word": "一人",
+          "reading": "ひとり",
+          "meaning": "một người"
+        }
+      ]
+    },
+    {
+      "char": "二",
+      "hanViet": "NHỊ",
+      "meaning": "hai",
+      "on": "ニ",
+      "kun": "ふた・つ",
+      "examples": [
+        {
+          "word": "二つ",
+          "reading": "ふたつ",
+          "meaning": "hai cái"
+        },
+        {
+          "word": "二人",
+          "reading": "ふたり",
+          "meaning": "hai người"
+        },
+        {
+          "word": "二日",
+          "reading": "ふつか",
+          "meaning": "ngày mùng 2"
+        }
+      ]
+    },
+    {
+      "char": "三",
+      "hanViet": "TAM",
+      "meaning": "ba",
+      "on": "サン",
+      "kun": "みっ・つ",
+      "examples": [
+        {
+          "word": "三つ",
+          "reading": "みっつ",
+          "meaning": "ba cái"
+        },
+        {
+          "word": "三月",
+          "reading": "さんがつ",
+          "meaning": "tháng Ba"
+        },
+        {
+          "word": "三日",
+          "reading": "みっか",
+          "meaning": "ngày mùng 3"
+        }
+      ]
+    },
+    {
+      "char": "四",
+      "hanViet": "TỨ",
+      "meaning": "bốn",
+      "on": "シ",
+      "kun": "よ、よん、よっ・つ",
+      "examples": [
+        {
+          "word": "四つ",
+          "reading": "よっつ",
+          "meaning": "bốn cái"
+        },
+        {
+          "word": "四月",
+          "reading": "しがつ",
+          "meaning": "tháng Tư"
+        },
+        {
+          "word": "四時",
+          "reading": "よじ",
+          "meaning": "4 giờ"
+        }
+      ]
+    },
+    {
+      "char": "五",
+      "hanViet": "NGŨ",
+      "meaning": "năm (số 5)",
+      "on": "ゴ",
+      "kun": "いつ・つ",
+      "examples": [
+        {
+          "word": "五つ",
+          "reading": "いつつ",
+          "meaning": "năm cái"
+        },
+        {
+          "word": "五日",
+          "reading": "いつか",
+          "meaning": "ngày mùng 5"
+        },
+        {
+          "word": "五分",
+          "reading": "ごふん",
+          "meaning": "5 phút"
+        }
+      ]
+    },
+    {
+      "char": "六",
+      "hanViet": "LỤC",
+      "meaning": "sáu",
+      "on": "ロク",
+      "kun": "むっ・つ",
+      "examples": [
+        {
+          "word": "六つ",
+          "reading": "むっつ",
+          "meaning": "sáu cái"
+        },
+        {
+          "word": "六日",
+          "reading": "むいか",
+          "meaning": "ngày mùng 6"
+        },
+        {
+          "word": "六百",
+          "reading": "ろっぴゃく",
+          "meaning": "sáu trăm"
+        }
+      ]
+    },
+    {
+      "char": "七",
+      "hanViet": "THẤT",
+      "meaning": "bảy",
+      "on": "シチ",
+      "kun": "なな、なな・つ",
+      "examples": [
+        {
+          "word": "七つ",
+          "reading": "ななつ",
+          "meaning": "bảy cái"
+        },
+        {
+          "word": "七月",
+          "reading": "しちがつ",
+          "meaning": "tháng Bảy"
+        },
+        {
+          "word": "七日",
+          "reading": "なのか",
+          "meaning": "ngày mùng 7"
+        }
+      ]
+    },
+    {
+      "char": "八",
+      "hanViet": "BÁT",
+      "meaning": "tám",
+      "on": "ハチ",
+      "kun": "やっ・つ",
+      "examples": [
+        {
+          "word": "八つ",
+          "reading": "やっつ",
+          "meaning": "tám cái"
+        },
+        {
+          "word": "八日",
+          "reading": "ようか",
+          "meaning": "ngày mùng 8"
+        },
+        {
+          "word": "八百",
+          "reading": "はっぴゃく",
+          "meaning": "tám trăm"
+        }
+      ]
+    },
+    {
+      "char": "九",
+      "hanViet": "CỬU",
+      "meaning": "chín",
+      "on": "キュウ、ク",
+      "kun": "ここの・つ",
+      "examples": [
+        {
+          "word": "九つ",
+          "reading": "ここのつ",
+          "meaning": "chín cái"
+        },
+        {
+          "word": "九時",
+          "reading": "くじ",
+          "meaning": "9 giờ"
+        },
+        {
+          "word": "九日",
+          "reading": "ここのか",
+          "meaning": "ngày mùng 9"
+        }
+      ]
+    },
+    {
+      "char": "十",
+      "hanViet": "THẬP",
+      "meaning": "mười",
+      "on": "ジュウ",
+      "kun": "とお",
+      "examples": [
+        {
+          "word": "十",
+          "reading": "とお",
+          "meaning": "mười cái"
+        },
+        {
+          "word": "十日",
+          "reading": "とおか",
+          "meaning": "ngày mùng 10"
+        },
+        {
+          "word": "十分",
+          "reading": "じゅっぷん",
+          "meaning": "10 phút"
+        }
+      ]
+    },
+    {
+      "char": "百",
+      "hanViet": "BÁCH",
+      "meaning": "một trăm",
+      "on": "ヒャク",
+      "kun": "—",
+      "examples": [
+        {
+          "word": "百",
+          "reading": "ひゃく",
+          "meaning": "một trăm"
+        },
+        {
+          "word": "三百",
+          "reading": "さんびゃく",
+          "meaning": "ba trăm"
+        },
+        {
+          "word": "百円",
+          "reading": "ひゃくえん",
+          "meaning": "100 yên"
+        }
+      ]
+    },
+    {
+      "char": "千",
+      "hanViet": "THIÊN",
+      "meaning": "một nghìn",
+      "on": "セン",
+      "kun": "ち",
+      "examples": [
+        {
+          "word": "千",
+          "reading": "せん",
+          "meaning": "một nghìn"
+        },
+        {
+          "word": "三千",
+          "reading": "さんぜん",
+          "meaning": "ba nghìn"
+        },
+        {
+          "word": "千円",
+          "reading": "せんえん",
+          "meaning": "1.000 yên"
+        }
+      ]
+    },
+    {
+      "char": "万",
+      "hanViet": "VẠN",
+      "meaning": "mười nghìn, vạn",
+      "on": "マン、バン",
+      "kun": "—",
+      "examples": [
+        {
+          "word": "一万",
+          "reading": "いちまん",
+          "meaning": "mười nghìn"
+        },
+        {
+          "word": "一万円",
+          "reading": "いちまんえん",
+          "meaning": "10.000 yên"
+        }
+      ]
+    },
+    {
+      "char": "円",
+      "hanViet": "VIÊN",
+      "meaning": "yên (tiền Nhật), tròn",
+      "on": "エン",
+      "kun": "まる・い",
+      "examples": [
+        {
+          "word": "円",
+          "reading": "えん",
+          "meaning": "yên"
+        },
+        {
+          "word": "百円",
+          "reading": "ひゃくえん",
+          "meaning": "100 yên"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "type": "read",
+      "sentence": "りんごを {三つ} ください。",
+      "meaning": "Cho tôi ba quả táo.",
+      "options": [
+        "みっつ",
+        "さんつ",
+        "みつ",
+        "みっか"
+      ],
+      "wordMeaning": "ba cái"
+    },
+    {
+      "type": "read",
+      "sentence": "この とけいは {一万円}です。",
+      "meaning": "Cái đồng hồ này giá 10.000 yên.",
+      "options": [
+        "いちまんえん",
+        "いちばんえん",
+        "いっまんえん",
+        "ひとまんえん"
+      ],
+      "wordMeaning": "10.000 yên"
+    },
+    {
+      "type": "read",
+      "sentence": "この ほんは {六百円}です。",
+      "meaning": "Quyển sách này giá 600 yên.",
+      "options": [
+        "ろっぴゃくえん",
+        "ろくひゃくえん",
+        "ろくびゃくえん",
+        "ろっひゃくえん"
+      ],
+      "wordMeaning": "600 yên",
+      "tip": "Biến âm: 300 さんびゃく, 600 ろっぴゃく, 800 はっぴゃく."
+    },
+    {
+      "type": "read",
+      "sentence": "コーヒーは {八百円}です。",
+      "meaning": "Cà phê giá 800 yên.",
+      "options": [
+        "はっぴゃくえん",
+        "はちひゃくえん",
+        "はっひゃくえん",
+        "やっぴゃくえん"
+      ],
+      "wordMeaning": "800 yên"
+    },
+    {
+      "type": "read",
+      "sentence": "この かさは {三千円}です。",
+      "meaning": "Cái ô này giá 3.000 yên.",
+      "options": [
+        "さんぜんえん",
+        "さんせんえん",
+        "みっせんえん",
+        "さんちえん"
+      ],
+      "wordMeaning": "3.000 yên",
+      "tip": "3.000 đọc là さんぜん (せん biến thành ぜん)."
+    },
+    {
+      "type": "read",
+      "sentence": "{三百円}の ノートを かいます。",
+      "meaning": "Tôi mua quyển vở 300 yên.",
+      "options": [
+        "さんびゃくえん",
+        "さんひゃくえん",
+        "さんぴゃくえん",
+        "みっひゃくえん"
+      ],
+      "wordMeaning": "300 yên"
+    },
+    {
+      "type": "read",
+      "sentence": "{四月}に にほんへ きました。",
+      "meaning": "Tôi đến Nhật vào tháng Tư.",
+      "options": [
+        "しがつ",
+        "よんがつ",
+        "よがつ",
+        "よつき"
+      ],
+      "wordMeaning": "tháng Tư"
+    },
+    {
+      "type": "read",
+      "sentence": "{九時}に ねます。",
+      "meaning": "Tôi ngủ lúc 9 giờ.",
+      "options": [
+        "くじ",
+        "きゅうじ",
+        "ここのじ",
+        "くうじ"
+      ],
+      "wordMeaning": "9 giờ"
+    },
+    {
+      "type": "read",
+      "sentence": "{四時}に かえります。",
+      "meaning": "Tôi về lúc 4 giờ.",
+      "options": [
+        "よじ",
+        "よんじ",
+        "しじ",
+        "よっじ"
+      ],
+      "wordMeaning": "4 giờ"
+    },
+    {
+      "type": "read",
+      "sentence": "{七日}は わたしの たんじょうびです。",
+      "meaning": "Ngày mùng 7 là sinh nhật tôi.",
+      "options": [
+        "なのか",
+        "ななにち",
+        "しちか",
+        "なのひ"
+      ],
+      "wordMeaning": "ngày mùng 7"
+    },
+    {
+      "type": "read",
+      "sentence": "{二日}に がっこうが はじまります。",
+      "meaning": "Ngày mùng 2 trường bắt đầu.",
+      "options": [
+        "ふつか",
+        "ににち",
+        "ふたか",
+        "ふたにち"
+      ],
+      "wordMeaning": "ngày mùng 2"
+    },
+    {
+      "type": "read",
+      "sentence": "{八日}に テストが あります。",
+      "meaning": "Ngày mùng 8 có bài kiểm tra.",
+      "options": [
+        "ようか",
+        "はちにち",
+        "やっか",
+        "よおか"
+      ],
+      "wordMeaning": "ngày mùng 8"
+    },
+    {
+      "type": "read",
+      "sentence": "{十日}に くにへ かえります。",
+      "meaning": "Ngày mùng 10 tôi về nước.",
+      "options": [
+        "とおか",
+        "とうか",
+        "じゅうにち",
+        "じゅっか"
+      ],
+      "wordMeaning": "ngày mùng 10",
+      "tip": "Viết とおか (với お), không viết とうか."
+    },
+    {
+      "type": "read",
+      "sentence": "がくせいが {二人} います。",
+      "meaning": "Có hai sinh viên.",
+      "options": [
+        "ふたり",
+        "ににん",
+        "ふたにん",
+        "にり"
+      ],
+      "wordMeaning": "hai người"
+    },
+    {
+      "type": "read",
+      "sentence": "{一人}で きました。",
+      "meaning": "Tôi đến một mình.",
+      "options": [
+        "ひとり",
+        "いちにん",
+        "ひとにん",
+        "いちり"
+      ],
+      "wordMeaning": "một người"
+    },
+    {
+      "type": "read",
+      "sentence": "みかんを {五つ} かいました。",
+      "meaning": "Tôi đã mua năm quả quýt.",
+      "options": [
+        "いつつ",
+        "ごつ",
+        "いつ",
+        "ごっつ"
+      ],
+      "wordMeaning": "năm cái"
+    },
+    {
+      "type": "read",
+      "sentence": "たまごを {九つ} ください。",
+      "meaning": "Cho tôi chín quả trứng.",
+      "options": [
+        "ここのつ",
+        "きゅうつ",
+        "くつ",
+        "ここつ"
+      ],
+      "wordMeaning": "chín cái"
+    },
+    {
+      "type": "read",
+      "sentence": "{六日}に ともだちが きます。",
+      "meaning": "Ngày mùng 6 bạn tôi đến.",
+      "options": [
+        "むいか",
+        "ろくにち",
+        "むっか",
+        "むいにち"
+      ],
+      "wordMeaning": "ngày mùng 6"
+    },
+    {
+      "type": "write",
+      "sentence": "この シャツは {せんえん}です。",
+      "meaning": "Cái áo sơ mi này giá 1.000 yên.",
+      "options": [
+        "千円",
+        "干円",
+        "十円",
+        "千内"
+      ],
+      "wordMeaning": "1.000 yên",
+      "tip": "千 có nét phẩy trên cùng; 干 (khô) chỉ có nét ngang."
+    },
+    {
+      "type": "write",
+      "sentence": "この かばんは {いちまんえん}です。",
+      "meaning": "Cái cặp này giá 10.000 yên.",
+      "options": [
+        "一万円",
+        "一方円",
+        "一万内",
+        "一力円"
+      ],
+      "wordMeaning": "10.000 yên",
+      "tip": "万 (vạn) khác 方 (phương hướng) ở chấm phía trên."
+    },
+    {
+      "type": "write",
+      "sentence": "この ペンは {ひゃくえん}です。",
+      "meaning": "Cái bút này giá 100 yên.",
+      "options": [
+        "百円",
+        "白円",
+        "自円",
+        "百内"
+      ],
+      "wordMeaning": "100 yên",
+      "tip": "百 = 一 + 白."
+    },
+    {
+      "type": "write",
+      "sentence": "{えん}は にほんの おかねです。",
+      "meaning": "Yên là tiền của Nhật.",
+      "options": [
+        "円",
+        "丹",
+        "内",
+        "用"
+      ],
+      "wordMeaning": "yên (tiền Nhật)"
+    },
+    {
+      "type": "write",
+      "sentence": "いすが {むっつ} あります。",
+      "meaning": "Có sáu cái ghế.",
+      "options": [
+        "六つ",
+        "八つ",
+        "大つ",
+        "文つ"
+      ],
+      "wordMeaning": "sáu cái"
+    },
+    {
+      "type": "write",
+      "sentence": "りんごが {やっつ} あります。",
+      "meaning": "Có tám quả táo.",
+      "options": [
+        "八つ",
+        "人つ",
+        "入つ",
+        "六つ"
+      ],
+      "wordMeaning": "tám cái"
+    },
+    {
+      "type": "write",
+      "sentence": "かぎが {ふたつ} あります。",
+      "meaning": "Có hai chiếc chìa khóa.",
+      "options": [
+        "二つ",
+        "三つ",
+        "工つ",
+        "上つ"
+      ],
+      "wordMeaning": "hai cái"
+    },
+    {
+      "type": "write",
+      "sentence": "{なのか}に パーティーが あります。",
+      "meaning": "Ngày mùng 7 có tiệc.",
+      "options": [
+        "七日",
+        "九日",
+        "匕日",
+        "七目"
+      ],
+      "wordMeaning": "ngày mùng 7"
+    },
+    {
+      "type": "write",
+      "sentence": "{とおか}は やすみです。",
+      "meaning": "Ngày mùng 10 là ngày nghỉ.",
+      "options": [
+        "十日",
+        "千日",
+        "十目",
+        "土日"
+      ],
+      "wordMeaning": "ngày mùng 10"
+    },
+    {
+      "type": "write",
+      "sentence": "{よっか}に ともだちと あいます。",
+      "meaning": "Ngày mùng 4 tôi gặp bạn.",
+      "options": [
+        "四日",
+        "西日",
+        "匹日",
+        "回日"
+      ],
+      "wordMeaning": "ngày mùng 4"
+    },
+    {
+      "type": "write",
+      "sentence": "{さんぜんえん}の かさを かいました。",
+      "meaning": "Tôi đã mua cái ô 3.000 yên.",
+      "options": [
+        "三千円",
+        "三干円",
+        "三十円",
+        "二千円"
+      ],
+      "wordMeaning": "3.000 yên"
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "lesson": 3,
+  "title": "Địa điểm và giá cả",
+  "words": [
+    {
+      "kana": "ここ",
+      "kanji": "",
+      "vi": "chỗ này"
+    },
+    {
+      "kana": "そこ",
+      "kanji": "",
+      "vi": "chỗ đó"
+    },
+    {
+      "kana": "あそこ",
+      "kanji": "",
+      "vi": "chỗ kia"
+    },
+    {
+      "kana": "どこ",
+      "kanji": "",
+      "vi": "chỗ nào, ở đâu"
+    },
+    {
+      "kana": "こちら",
+      "kanji": "",
+      "vi": "phía này, đây (lịch sự)"
+    },
+    {
+      "kana": "そちら",
+      "kanji": "",
+      "vi": "phía đó (lịch sự)"
+    },
+    {
+      "kana": "あちら",
+      "kanji": "",
+      "vi": "phía kia (lịch sự)"
+    },
+    {
+      "kana": "どちら",
+      "kanji": "",
+      "vi": "phía nào, ở đâu (lịch sự)"
+    },
+    {
+      "kana": "きょうしつ",
+      "kanji": "教室",
+      "vi": "lớp học"
+    },
+    {
+      "kana": "しょくどう",
+      "kanji": "食堂",
+      "vi": "nhà ăn"
+    },
+    {
+      "kana": "じむしょ",
+      "kanji": "事務所",
+      "vi": "văn phòng"
+    },
+    {
+      "kana": "かいぎしつ",
+      "kanji": "会議室",
+      "vi": "phòng họp"
+    },
+    {
+      "kana": "うけつけ",
+      "kanji": "受付",
+      "vi": "quầy lễ tân, bộ phận tiếp tân"
+    },
+    {
+      "kana": "ロビー",
+      "kanji": "",
+      "vi": "sảnh"
+    },
+    {
+      "kana": "へや",
+      "kanji": "部屋",
+      "vi": "căn phòng"
+    },
+    {
+      "kana": "トイレ",
+      "kanji": "",
+      "vi": "nhà vệ sinh"
+    },
+    {
+      "kana": "おてあらい",
+      "kanji": "お手洗い",
+      "vi": "nhà vệ sinh (lịch sự)"
+    },
+    {
+      "kana": "かいだん",
+      "kanji": "階段",
+      "vi": "cầu thang"
+    },
+    {
+      "kana": "エレベーター",
+      "kanji": "",
+      "vi": "thang máy"
+    },
+    {
+      "kana": "エスカレーター",
+      "kanji": "",
+      "vi": "thang cuốn"
+    },
+    {
+      "kana": "じどうはんばいき",
+      "kanji": "自動販売機",
+      "vi": "máy bán hàng tự động"
+    },
+    {
+      "kana": "でんわ",
+      "kanji": "電話",
+      "vi": "điện thoại"
+    },
+    {
+      "kana": "おくに",
+      "kanji": "お国",
+      "vi": "đất nước (của bạn)"
+    },
+    {
+      "kana": "かいしゃ",
+      "kanji": "会社",
+      "vi": "công ty"
+    },
+    {
+      "kana": "うち",
+      "kanji": "",
+      "vi": "nhà"
+    },
+    {
+      "kana": "くつ",
+      "kanji": "靴",
+      "vi": "giày"
+    },
+    {
+      "kana": "ネクタイ",
+      "kanji": "",
+      "vi": "cà vạt"
+    },
+    {
+      "kana": "ワイン",
+      "kanji": "",
+      "vi": "rượu vang"
+    },
+    {
+      "kana": "たばこ",
+      "kanji": "",
+      "vi": "thuốc lá"
+    },
+    {
+      "kana": "うりば",
+      "kanji": "売り場",
+      "vi": "quầy bán hàng"
+    },
+    {
+      "kana": "ちか",
+      "kanji": "地下",
+      "vi": "tầng hầm"
+    },
+    {
+      "kana": "～かい",
+      "kanji": "～階",
+      "vi": "tầng ~"
+    },
+    {
+      "kana": "なんがい",
+      "kanji": "何階",
+      "vi": "tầng mấy"
+    },
+    {
+      "kana": "～えん",
+      "kanji": "～円",
+      "vi": "~ yên"
+    },
+    {
+      "kana": "いくら",
+      "kanji": "",
+      "vi": "bao nhiêu tiền"
+    },
+    {
+      "kana": "ひゃく",
+      "kanji": "百",
+      "vi": "một trăm"
+    },
+    {
+      "kana": "せん",
+      "kanji": "千",
+      "vi": "một nghìn"
+    },
+    {
+      "kana": "まん",
+      "kanji": "万",
+      "vi": "mười nghìn"
+    },
+    {
+      "kana": "すみません",
+      "kanji": "",
+      "vi": "xin lỗi"
+    },
+    {
+      "kana": "～でございます",
+      "kanji": "",
+      "vi": "là ~ (lịch sự của です)"
+    },
+    {
+      "kana": "～をみせてください",
+      "kanji": "～を見せてください",
+      "vi": "xin cho tôi xem ~"
+    },
+    {
+      "kana": "じゃ",
+      "kanji": "",
+      "vi": "vậy thì"
+    },
+    {
+      "kana": "～をください",
+      "kanji": "",
+      "vi": "xin cho tôi ~"
+    }
+  ]
+}

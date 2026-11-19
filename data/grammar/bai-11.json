@@ -1,0 +1,132 @@
+{
+  "lesson": 11,
+  "title": "Đếm số lượng",
+  "points": [
+    {
+      "pattern": "Cách đếm đồ vật",
+      "meaning": "ひとつ, ふたつ... とお",
+      "explanations": [
+        "Đếm chung: ひとつ, ふたつ, みっつ, よっつ, いつつ, むっつ, ななつ, やっつ, ここのつ, とお. Từ 11 trở đi dùng số bình thường.",
+        "Người: ひとり, ふたり, さんにん, よにん, ごにん...",
+        "Máy móc, xe cộ: ～だい. Vật mỏng (giấy, vé, tem): ～まい. Lần: ～かい."
+      ],
+      "examples": [
+        {
+          "jp": "みかんを ５つ かいました。",
+          "vi": "Tôi đã mua 5 quả quýt."
+        },
+        {
+          "jp": "くるまが ２だい あります。",
+          "vi": "Có 2 chiếc xe ô tô."
+        }
+      ]
+    },
+    {
+      "pattern": "N を Số lượng V",
+      "meaning": "Đặt từ chỉ số lượng sau N",
+      "explanations": [
+        "Từ chỉ số lượng đặt ngay trước động từ, không có trợ từ theo sau.",
+        "Hỏi số lượng: いくつ (vật), なんにん (người), なんだい, なんまい, なんかい."
+      ],
+      "examples": [
+        {
+          "jp": "りんごを ４つ かいました。",
+          "vi": "Tôi đã mua 4 quả táo."
+        },
+        {
+          "jp": "りんごを いくつ かいましたか。",
+          "vi": "Bạn đã mua mấy quả táo?"
+        }
+      ]
+    },
+    {
+      "pattern": "Khoảng thời gian",
+      "meaning": "～じかん／～しゅうかん／～かげつ／～ねん",
+      "explanations": [
+        "Chỉ độ dài thời gian, không có trợ từ に.",
+        "Khác với thời điểm: ～がつ (tháng thứ mấy) và ～かげつ (bao nhiêu tháng) là hai từ khác nhau."
+      ],
+      "examples": [
+        {
+          "jp": "まいにち ２じかん べんきょうします。",
+          "vi": "Mỗi ngày tôi học 2 tiếng."
+        },
+        {
+          "jp": "３かげつ にほんに います。",
+          "vi": "Tôi ở Nhật 3 tháng."
+        }
+      ]
+    },
+    {
+      "pattern": "Khoảng thời gian に ～かい V",
+      "meaning": "Mấy lần trong một khoảng thời gian",
+      "explanations": [
+        "Dùng để nói tần suất. Khoảng thời gian + に + số lần."
+      ],
+      "examples": [
+        {
+          "jp": "１しゅうかんに ３かい テニスを します。",
+          "vi": "Một tuần tôi chơi tennis 3 lần."
+        }
+      ]
+    },
+    {
+      "pattern": "どのくらい かかりますか",
+      "meaning": "Mất bao lâu?",
+      "explanations": [
+        "Hỏi thời gian hoặc chi phí cần thiết. Trả lời: ～ぐらい かかります."
+      ],
+      "examples": [
+        {
+          "jp": "うちから えきまで どのくらい かかりますか。── あるいて １０ぷんぐらい かかります。",
+          "vi": "Từ nhà đến ga mất bao lâu? ── Đi bộ mất khoảng 10 phút."
+        }
+      ]
+    },
+    {
+      "pattern": "N ぐらい／くらい",
+      "meaning": "Khoảng ~",
+      "explanations": [
+        "Đặt sau số lượng hoặc thời gian để nói ước chừng."
+      ],
+      "examples": [
+        {
+          "jp": "あるいて １０ぷんぐらいです。",
+          "vi": "Đi bộ khoảng 10 phút."
+        }
+      ]
+    },
+    {
+      "pattern": "N だけ／ぜんぶで",
+      "meaning": "Chỉ N／tổng cộng",
+      "explanations": [
+        "だけ: chỉ, đặt sau danh từ hoặc số lượng.",
+        "ぜんぶで: tổng cộng, dùng khi tính tổng."
+      ],
+      "examples": [
+        {
+          "jp": "やすみは にちようびだけです。",
+          "vi": "Ngày nghỉ chỉ có Chủ nhật."
+        },
+        {
+          "jp": "ぜんぶで ５００えんです。",
+          "vi": "Tổng cộng là 500 yên."
+        }
+      ]
+    },
+    {
+      "pattern": "Gọi người trong gia đình",
+      "meaning": "Gia đình mình và gia đình người khác",
+      "explanations": [
+        "Nói về gia đình mình với người ngoài: ちち, はは, あに, あね, おとうと, いもうと.",
+        "Nói về gia đình người khác (và gọi trực tiếp): おとうさん, おかあさん, おにいさん, おねえさん, おとうとさん, いもうとさん."
+      ],
+      "examples": [
+        {
+          "jp": "マリアさんは きょうだいが いますか。── はい、あねが ひとり います。",
+          "vi": "Chị Maria có anh chị em không? ── Có, tôi có một chị gái."
+        }
+      ]
+    }
+  ]
+}

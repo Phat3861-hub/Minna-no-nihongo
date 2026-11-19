@@ -1,0 +1,334 @@
+{
+  "lesson": 7,
+  "questions": [
+    {
+      "question": "はし（　）ごはんを たべます。",
+      "meaning": "Tôi ăn cơm bằng đũa.",
+      "options": [
+        "で",
+        "を",
+        "に",
+        "と"
+      ],
+      "answer": 0,
+      "explanation": "で chỉ dụng cụ, phương tiện."
+    },
+    {
+      "question": "にほんご（　）てがみを かきます。",
+      "meaning": "Tôi viết thư bằng tiếng Nhật.",
+      "options": [
+        "で",
+        "を",
+        "に",
+        "が"
+      ],
+      "answer": 0,
+      "explanation": "で cũng dùng cho ngôn ngữ."
+    },
+    {
+      "question": "「ありがとう」は えいご（　）なんですか。",
+      "meaning": "“ありがとう” tiếng Anh là gì?",
+      "options": [
+        "で",
+        "を",
+        "に",
+        "の"
+      ],
+      "answer": 0,
+      "explanation": "N は ～ごで なんですか: ... trong tiếng ~ là gì."
+    },
+    {
+      "question": "わたしは きむらさん（　）はなを あげます。",
+      "meaning": "Tôi tặng hoa cho anh Kimura.",
+      "options": [
+        "に",
+        "で",
+        "を",
+        "が"
+      ],
+      "answer": 0,
+      "explanation": "Người nhận đi với に, vật được cho đi với を."
+    },
+    {
+      "question": "わたしは カリナさん（　）ほんを かりました。",
+      "hint": "chị Karina là người cho mượn",
+      "meaning": "Tôi đã mượn sách từ chị Karina.",
+      "options": [
+        "に",
+        "を",
+        "で",
+        "と"
+      ],
+      "answer": 0,
+      "explanation": "Người cho mượn đi với に (hoặc から)."
+    },
+    {
+      "question": "ミラーさんに えいご（　）ならいます。",
+      "meaning": "Tôi học tiếng Anh từ anh Miller.",
+      "options": [
+        "を",
+        "に",
+        "で",
+        "が"
+      ],
+      "answer": 0,
+      "explanation": "Vật học đi với を, người dạy đi với に."
+    },
+    {
+      "question": "「もう ひるごはんを たべましたか。」「いいえ、（　）です。」",
+      "meaning": "Bạn đã ăn trưa chưa? ── Chưa, vẫn chưa.",
+      "options": [
+        "まだ",
+        "もう",
+        "いつも",
+        "よく"
+      ],
+      "answer": 0,
+      "explanation": "Trả lời phủ định cho câu hỏi もう ～ましたか là いいえ、まだです."
+    },
+    {
+      "question": "「もう ひるごはんを たべましたか。」「はい、（　）たべました。」",
+      "meaning": "Bạn đã ăn trưa chưa? ── Rồi, tôi đã ăn rồi.",
+      "options": [
+        "もう",
+        "まだ",
+        "あまり",
+        "ぜんぜん"
+      ],
+      "answer": 0,
+      "explanation": "Trả lời khẳng định: はい、もう V ました."
+    },
+    {
+      "question": "ともだち（　）プレゼントを もらいました。",
+      "meaning": "Tôi nhận quà từ bạn.",
+      "options": [
+        "に",
+        "を",
+        "で",
+        "へ"
+      ],
+      "answer": 0,
+      "explanation": "Nguồn nhận (người cho) đi với に hoặc から."
+    },
+    {
+      "question": "ちち（　）でんわを かけます。",
+      "hint": "bố là người nhận cuộc gọi",
+      "meaning": "Tôi gọi điện cho bố.",
+      "options": [
+        "に",
+        "を",
+        "で",
+        "と"
+      ],
+      "answer": 0,
+      "explanation": "かけます (gọi điện) có đối tượng nhận là に: ちちに でんわを かけます."
+    },
+    {
+      "question": "やまださんに おみやげを（　）。",
+      "hint": "“tôi” là người tặng",
+      "meaning": "Tôi đã tặng quà lưu niệm cho anh Yamada.",
+      "options": [
+        "あげました",
+        "もらいました",
+        "かりました",
+        "ならいました"
+      ],
+      "answer": 0,
+      "explanation": "あげます là cho, tặng người khác."
+    },
+    {
+      "question": "「わたしは きむらさんに はなを もらいました。」はなを あげた ひとは だれですか。",
+      "instruction": "Ai là người đã tặng hoa?",
+      "options": [
+        "きむらさん",
+        "わたし",
+        "はな",
+        "どちらでもない"
+      ],
+      "answer": 0,
+      "explanation": "N(người) に もらいます: に chỉ nguồn nhận, tức là người cho."
+    },
+    {
+      "question": "はさみ（　）かみを きります。",
+      "meaning": "Tôi cắt giấy bằng kéo.",
+      "options": [
+        "で",
+        "を",
+        "に",
+        "と"
+      ],
+      "answer": 0,
+      "explanation": "で chỉ dụng cụ: bằng kéo."
+    },
+    {
+      "question": "ともだち（　）プレゼントを おくります。",
+      "meaning": "Tôi gửi quà cho bạn.",
+      "options": [
+        "に",
+        "を",
+        "で",
+        "から"
+      ],
+      "answer": 0,
+      "explanation": "Người nhận đi với に."
+    },
+    {
+      "question": "「もう～ましたか」の「もう」は どういう いみですか。",
+      "instruction": "Từ もう trong もう～ましたか có nghĩa gì?",
+      "options": [
+        "Đã ... rồi",
+        "Vẫn chưa",
+        "Luôn luôn",
+        "Chỉ ~"
+      ],
+      "answer": 0,
+      "explanation": "もう kết hợp với ました nghĩa là “đã ... rồi”."
+    },
+    {
+      "question": "うちに はいる ときに、ほうもんしゃが いう ことばは どれですか。",
+      "instruction": "Khách đến nhà người khác, đứng ở cửa thì nói gì?",
+      "options": [
+        "ごめんください",
+        "どうぞ おあがりください",
+        "いただきます",
+        "いらっしゃい"
+      ],
+      "answer": 0,
+      "explanation": "ごめんください dùng khi đến thăm nhà ai đó."
+    },
+    {
+      "question": "しょくじの まえに いう ことばは どれですか。",
+      "instruction": "Trước khi ăn ta nói gì?",
+      "options": [
+        "いただきます",
+        "ごめんください",
+        "しつれいします",
+        "どうぞ"
+      ],
+      "answer": 0,
+      "explanation": "いただきます nói trước khi ăn."
+    },
+    {
+      "question": "わたしは はは（　）てがみを かきます。",
+      "meaning": "Tôi viết thư cho mẹ.",
+      "options": [
+        "に",
+        "で",
+        "を",
+        "が"
+      ],
+      "answer": 0,
+      "explanation": "Người nhận đi với に, vật (てがみ) đi với を."
+    },
+    {
+      "question": "わたしは グプタさん（　）えいごを おしえます。",
+      "meaning": "Tôi dạy tiếng Anh cho anh Gupta.",
+      "options": [
+        "に",
+        "を",
+        "で",
+        "が"
+      ],
+      "answer": 0,
+      "explanation": "おしえます: người được dạy đi với に, môn học đi với を."
+    },
+    {
+      "question": "その とけいは だれ（　）もらいましたか。── ちちに もらいました。",
+      "meaning": "Bạn nhận cái đồng hồ đó từ ai? ── Tôi nhận từ bố.",
+      "options": [
+        "に",
+        "で",
+        "を",
+        "へ"
+      ],
+      "answer": 0,
+      "explanation": "もらいます: người cho (nguồn nhận) đi với に."
+    },
+    {
+      "question": "「もう にもつを おくりましたか。」「いいえ、まだです。これから（　）。」",
+      "meaning": "Bạn đã gửi hành lý chưa? ── Chưa. Bây giờ tôi mới gửi.",
+      "options": [
+        "おくります",
+        "おくりました",
+        "おくりませんでした",
+        "もらいました"
+      ],
+      "answer": 0,
+      "explanation": "これから (từ bây giờ) chỉ việc sắp làm nên dùng V ます."
+    },
+    {
+      "question": "わたしは ぎんこう（　）おかねを かりました。",
+      "meaning": "Tôi đã vay tiền từ ngân hàng.",
+      "options": [
+        "から",
+        "を",
+        "へ",
+        "と"
+      ],
+      "answer": 0,
+      "explanation": "Khi nguồn là tổ chức (công ty, ngân hàng, trường) thì dùng から, không dùng に."
+    },
+    {
+      "question": "「（　）で かみを きりますか。」「はさみで きります。」",
+      "meaning": "Bạn cắt giấy bằng gì? ── Tôi cắt bằng kéo.",
+      "options": [
+        "なに",
+        "だれ",
+        "いつ",
+        "なんじ"
+      ],
+      "answer": 0,
+      "explanation": "なにで hỏi dụng cụ, phương tiện (bằng cái gì)."
+    },
+    {
+      "question": "わたしは ちちに ＿＿ ＿＿ ★ ＿＿。",
+      "instruction": "Sắp xếp các từ cho đúng thứ tự và chọn từ ở vị trí ★.",
+      "meaning": "Tôi đã nhận từ bố một chiếc đồng hồ của Đức.",
+      "options": [
+        "とけいを",
+        "ドイツ",
+        "の",
+        "もらいました"
+      ],
+      "answer": 0,
+      "explanation": "Câu đúng: わたしは ちちに ドイツ の とけいを もらいました。 N1 の N2 (ドイツの とけい) đi với を, động từ cuối câu."
+    },
+    {
+      "question": "「さようなら」は ＿＿ ＿＿ ★ ＿＿。",
+      "instruction": "Sắp xếp các từ cho đúng thứ tự và chọn từ ở vị trí ★.",
+      "meaning": "“さようなら” tiếng Việt là gì?",
+      "options": [
+        "なん",
+        "ベトナムご",
+        "で",
+        "ですか"
+      ],
+      "answer": 0,
+      "explanation": "Câu đúng: 「さようなら」は ベトナムご で なん ですか。 Mẫu “...” は ～ごで なんですか."
+    },
+    {
+      "question": "正しい ぶんは どれですか。",
+      "instruction": "Chọn câu đúng.",
+      "options": [
+        "わたしは ミラーさんに ほんを かりました。",
+        "わたしは ミラーさんを ほんに かりました。",
+        "わたしは ミラーさんで ほんを かりました。",
+        "わたしは ミラーさんに ほんが かりました。"
+      ],
+      "answer": 0,
+      "explanation": "かります: người cho mượn đi với に, vật mượn đi với を."
+    },
+    {
+      "question": "「ごめんください。」「（　）。どうぞ おあがりください。」",
+      "meaning": "Xin lỗi, có ai ở nhà không ạ? ── Chào mừng. Mời vào.",
+      "options": [
+        "いらっしゃい",
+        "いただきます",
+        "しつれいします",
+        "ごめんください"
+      ],
+      "answer": 0,
+      "explanation": "Chủ nhà đáp lại khách bằng いらっしゃい (chào mừng). しつれいします là câu khách nói khi vào nhà."
+    }
+  ]
+}

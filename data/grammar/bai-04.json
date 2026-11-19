@@ -1,0 +1,133 @@
+{
+  "lesson": 4,
+  "title": "Giờ giấc và các ngày trong tuần",
+  "points": [
+    {
+      "pattern": "いま ～じ ～ふん です",
+      "meaning": "Bây giờ là ~ giờ ~ phút",
+      "explanations": [
+        "Giờ: số + じ. Phút: số + ふん／ぷん. Rưỡi: はん.",
+        "4 giờ là よじ, 7 giờ là しちじ, 9 giờ là くじ.",
+        "Phút đuôi 1, 3, 4, 6, 8, 10 đọc ぷん (いっぷん, さんぷん, よんぷん, ろっぷん, はっぷん, じゅっぷん).",
+        "ごぜん: sáng (AM), ごご: chiều tối (PM) đặt trước giờ."
+      ],
+      "examples": [
+        {
+          "jp": "いま ７じ ５ふんです。",
+          "vi": "Bây giờ là 7 giờ 5 phút."
+        },
+        {
+          "jp": "いま ごご ３じ はんです。",
+          "vi": "Bây giờ là 3 giờ rưỡi chiều."
+        },
+        {
+          "jp": "いま なんじですか。",
+          "vi": "Bây giờ là mấy giờ?"
+        }
+      ]
+    },
+    {
+      "pattern": "V ます／ません／ました／ませんでした",
+      "meaning": "Chia động từ lịch sự",
+      "explanations": [
+        "V ます: thói quen, sự thật hoặc việc sẽ làm (hiện tại, tương lai).",
+        "V ません: phủ định của ます.",
+        "V ました: đã làm (quá khứ).",
+        "V ませんでした: đã không làm (quá khứ phủ định)."
+      ],
+      "examples": [
+        {
+          "jp": "まいあさ ６じに おきます。",
+          "vi": "Mỗi sáng tôi dậy lúc 6 giờ."
+        },
+        {
+          "jp": "きのう べんきょうしませんでした。",
+          "vi": "Hôm qua tôi đã không học."
+        },
+        {
+          "jp": "けさ ６じに おきました。",
+          "vi": "Sáng nay tôi đã dậy lúc 6 giờ."
+        }
+      ],
+      "note": "Dạng ます vừa chỉ hiện tại vừa chỉ tương lai, phân biệt bằng từ chỉ thời gian."
+    },
+    {
+      "pattern": "N(thời gian) に V",
+      "meaning": "Làm gì vào lúc nào",
+      "explanations": [
+        "に đứng sau thời điểm cụ thể như giờ, ngày tháng, thứ trong tuần.",
+        "Không dùng に sau các từ như いま, きょう, あした, きのう, まいあさ, せんしゅう, らいしゅう."
+      ],
+      "examples": [
+        {
+          "jp": "６じに おきます。",
+          "vi": "Tôi dậy lúc 6 giờ."
+        },
+        {
+          "jp": "にちようびに やすみます。",
+          "vi": "Tôi nghỉ vào Chủ nhật."
+        },
+        {
+          "jp": "あした べんきょうします。",
+          "vi": "Ngày mai tôi học."
+        }
+      ]
+    },
+    {
+      "pattern": "N1 から N2 まで",
+      "meaning": "Từ N1 đến N2",
+      "explanations": [
+        "Chỉ khoảng thời gian hoặc khoảng cách. Có thể đi với です hoặc động từ."
+      ],
+      "examples": [
+        {
+          "jp": "ぎんこうは ９じから ３じまでです。",
+          "vi": "Ngân hàng làm việc từ 9 giờ đến 3 giờ."
+        },
+        {
+          "jp": "まいにち ８じから ５じまで はたらきます。",
+          "vi": "Mỗi ngày tôi làm việc từ 8 giờ đến 5 giờ."
+        }
+      ]
+    },
+    {
+      "pattern": "N1 と N2",
+      "meaning": "N1 và N2",
+      "explanations": [
+        "と nối hai danh từ, nghĩa là “và”."
+      ],
+      "examples": [
+        {
+          "jp": "やすみは どようびと にちようびです。",
+          "vi": "Ngày nghỉ là thứ Bảy và Chủ nhật."
+        }
+      ]
+    },
+    {
+      "pattern": "～ね",
+      "meaning": "Nhỉ, đúng không",
+      "explanations": [
+        "Trợ từ cuối câu, dùng để đồng cảm hoặc tìm sự đồng ý của người nghe."
+      ],
+      "examples": [
+        {
+          "jp": "まいにち １０じまで はたらきます。── たいへんですね。",
+          "vi": "Mỗi ngày tôi làm việc đến 10 giờ. ── Vất vả nhỉ."
+        }
+      ]
+    },
+    {
+      "pattern": "なんじ／なんぷん／なんようび",
+      "meaning": "Từ để hỏi giờ, phút, thứ",
+      "explanations": [
+        "なんじ: mấy giờ. なんぷん: mấy phút. なんようび: thứ mấy."
+      ],
+      "examples": [
+        {
+          "jp": "きょうは なんようびですか。── かようびです。",
+          "vi": "Hôm nay thứ mấy? ── Thứ Ba."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,348 @@
+{
+  "lesson": 4,
+  "questions": [
+    {
+      "question": "まいあさ ６じ（　）おきます。",
+      "meaning": "Mỗi sáng tôi dậy lúc 6 giờ.",
+      "options": [
+        "に",
+        "を",
+        "で",
+        "へ"
+      ],
+      "answer": 0,
+      "explanation": "に đứng sau thời điểm cụ thể (6 giờ)."
+    },
+    {
+      "question": "けさ ６じ（　）おきました。",
+      "meaning": "Sáng nay tôi dậy lúc 6 giờ.",
+      "options": [
+        "に",
+        "を",
+        "で",
+        "へ"
+      ],
+      "answer": 0,
+      "explanation": "6じ là giờ cụ thể nên dùng に. けさ không cần に."
+    },
+    {
+      "question": "きのう（　）べんきょうしました。",
+      "meaning": "Hôm qua tôi đã học.",
+      "options": [
+        "（không dùng trợ từ）",
+        "に",
+        "で",
+        "から"
+      ],
+      "answer": 0,
+      "explanation": "きのう, きょう, あした, けさ, まいにち... không dùng với に."
+    },
+    {
+      "question": "わたしは ９じ（　）５じ（　）はたらきます。",
+      "meaning": "Tôi làm việc từ 9 giờ đến 5 giờ.",
+      "options": [
+        "から … まで",
+        "まで … から",
+        "に … に",
+        "と … と"
+      ],
+      "answer": 0,
+      "explanation": "N1 から N2 まで nghĩa là từ N1 đến N2."
+    },
+    {
+      "question": "ぎんこうは ９じから ３じ（　）です。",
+      "meaning": "Ngân hàng làm việc từ 9 giờ đến 3 giờ.",
+      "options": [
+        "まで",
+        "から",
+        "に",
+        "と"
+      ],
+      "answer": 0,
+      "explanation": "まで chỉ điểm kết thúc: đến."
+    },
+    {
+      "question": "きのう べんきょう（　）。",
+      "hint": "phủ định, quá khứ",
+      "meaning": "Hôm qua tôi đã không học.",
+      "options": [
+        "しませんでした",
+        "しません",
+        "しました",
+        "します"
+      ],
+      "answer": 0,
+      "explanation": "Quá khứ phủ định của ます là ませんでした."
+    },
+    {
+      "question": "まいばん １１じに（　）。",
+      "hint": "khẳng định, thói quen",
+      "meaning": "Mỗi tối tôi đi ngủ lúc 11 giờ.",
+      "options": [
+        "ねます",
+        "ねません",
+        "ねました",
+        "ねましたか"
+      ],
+      "answer": 0,
+      "explanation": "Thói quen hiện tại dùng dạng ます."
+    },
+    {
+      "question": "あした ７じに（　）。",
+      "hint": "khẳng định",
+      "meaning": "Ngày mai tôi sẽ dậy lúc 7 giờ.",
+      "options": [
+        "おきます",
+        "おきました",
+        "おきません",
+        "おきませんでした"
+      ],
+      "answer": 0,
+      "explanation": "Việc sẽ làm ở tương lai cũng dùng dạng ます."
+    },
+    {
+      "question": "「じゅっぷん」は 何分ですか。",
+      "instruction": "Cách đọc 10 phút là gì?",
+      "options": [
+        "じゅっぷん",
+        "じゅうふん",
+        "じゅっふん",
+        "じゅうぷん"
+      ],
+      "answer": 0,
+      "explanation": "10 phút đọc là じゅっぷん."
+    },
+    {
+      "question": "５ふんは どう よみますか。",
+      "instruction": "Cách đọc 5 phút là gì?",
+      "options": [
+        "ごふん",
+        "ごぷん",
+        "いつふん",
+        "ごうふん"
+      ],
+      "answer": 0,
+      "explanation": "Phút đuôi 2, 5, 7, 9 đọc ふん: ごふん."
+    },
+    {
+      "question": "４じは どう よみますか。",
+      "instruction": "Cách đọc 4 giờ là gì?",
+      "options": [
+        "よじ",
+        "よんじ",
+        "しじ",
+        "よっじ"
+      ],
+      "answer": 0,
+      "explanation": "Ba giờ đặc biệt: 4 giờ よじ, 7 giờ しちじ, 9 giờ くじ."
+    },
+    {
+      "question": "９じは どう よみますか。",
+      "instruction": "Cách đọc 9 giờ là gì?",
+      "options": [
+        "くじ",
+        "きゅうじ",
+        "ここのじ",
+        "くうじ"
+      ],
+      "answer": 0,
+      "explanation": "9 giờ đọc là くじ."
+    },
+    {
+      "question": "いま ３じ（　）です。",
+      "meaning": "Bây giờ là 3 giờ rưỡi.",
+      "options": [
+        "はん",
+        "ぷん",
+        "ふん",
+        "ごご"
+      ],
+      "answer": 0,
+      "explanation": "はん nghĩa là rưỡi (30 phút): ３じはん."
+    },
+    {
+      "question": "「ごご」の いみは どれですか。",
+      "instruction": "午後 (ごご) có nghĩa là gì?",
+      "options": [
+        "Chiều tối (sau 12 giờ)",
+        "Buổi sáng (trước 12 giờ)",
+        "Ban đêm",
+        "Buổi trưa"
+      ],
+      "answer": 0,
+      "explanation": "ごご là buổi chiều (PM), ごぜん là buổi sáng (AM)."
+    },
+    {
+      "question": "やすみは どようび（　）にちようびです。",
+      "meaning": "Ngày nghỉ là thứ Bảy và Chủ nhật.",
+      "options": [
+        "と",
+        "を",
+        "に",
+        "まで"
+      ],
+      "answer": 0,
+      "explanation": "と nối hai danh từ nghĩa là “và”."
+    },
+    {
+      "question": "あしたは（　）ですか。── すいようびです。",
+      "meaning": "Ngày mai là thứ mấy? ── Thứ Tư.",
+      "options": [
+        "なんようび",
+        "なんじ",
+        "なんがつ",
+        "なんにち"
+      ],
+      "answer": 0,
+      "explanation": "なんようび hỏi thứ trong tuần."
+    },
+    {
+      "question": "「まいにち １０じまで はたらきます。」「（　）ですね。」",
+      "meaning": "Mỗi ngày tôi làm việc đến 10 giờ. ── Vất vả nhỉ.",
+      "options": [
+        "たいへん",
+        "げんき",
+        "ひま",
+        "じょうず"
+      ],
+      "answer": 0,
+      "explanation": "たいへんですね dùng để bày tỏ sự thông cảm: vất vả nhỉ."
+    },
+    {
+      "question": "「きのう はたらきました」の ひていは どれですか。",
+      "instruction": "Dạng phủ định của 「きのう はたらきました」 là câu nào?",
+      "options": [
+        "きのう はたらきませんでした",
+        "きのう はたらきません",
+        "きのう はたらいません",
+        "きのう はたらきました ない"
+      ],
+      "answer": 0,
+      "explanation": "Quá khứ phủ định: V ませんでした."
+    },
+    {
+      "question": "どようび（　）はたらきます。",
+      "meaning": "Tôi làm việc vào thứ Bảy.",
+      "options": [
+        "に",
+        "を",
+        "へ",
+        "が"
+      ],
+      "answer": 0,
+      "explanation": "Thứ trong tuần là thời điểm cụ thể nên đi với に: どようびに."
+    },
+    {
+      "question": "ゆうびんきょくは なんじ（　）ですか。── ５じまでです。",
+      "meaning": "Bưu điện mở đến mấy giờ? ── Đến 5 giờ.",
+      "options": [
+        "まで",
+        "に",
+        "と",
+        "を"
+      ],
+      "answer": 0,
+      "explanation": "まで chỉ điểm kết thúc: なんじまでですか (đến mấy giờ)."
+    },
+    {
+      "question": "いま（　）ですか。── ４じ １０ぷんです。",
+      "meaning": "Bây giờ là mấy giờ? ── 4 giờ 10 phút.",
+      "options": [
+        "なんじ",
+        "なんようび",
+        "なんばん",
+        "なん"
+      ],
+      "answer": 0,
+      "explanation": "なんじ hỏi giờ. なんようび hỏi thứ, なんばん hỏi số (điện thoại...)."
+    },
+    {
+      "question": "おととい はたらき（　）。",
+      "hint": "phủ định",
+      "meaning": "Hôm kia tôi đã không làm việc.",
+      "options": [
+        "ませんでした",
+        "ません",
+        "ました",
+        "ますか"
+      ],
+      "answer": 0,
+      "explanation": "Quá khứ phủ định của động từ: V ませんでした."
+    },
+    {
+      "question": "いま ８じ（　）です。（８：０６）",
+      "meaning": "Bây giờ là 8 giờ 6 phút.",
+      "options": [
+        "ろっぷん",
+        "ろくふん",
+        "ろくぷん",
+        "ろっふん"
+      ],
+      "answer": 0,
+      "explanation": "6 phút đọc là ろっぷん. Phút đuôi 1, 3, 4, 6, 8, 10 đọc ぷん."
+    },
+    {
+      "question": "かいぎは ２じ（　）４じまでです。",
+      "meaning": "Cuộc họp từ 2 giờ đến 4 giờ.",
+      "options": [
+        "から",
+        "に",
+        "と",
+        "を"
+      ],
+      "answer": 0,
+      "explanation": "N1 から N2 まで: từ N1 đến N2."
+    },
+    {
+      "question": "わたしは ＿＿ ★ ＿＿ ＿＿ はたらきます。",
+      "instruction": "Sắp xếp các từ cho đúng thứ tự và chọn từ ở vị trí ★.",
+      "meaning": "Tôi làm việc từ 9 giờ đến 5 giờ.",
+      "options": [
+        "から",
+        "９じ",
+        "５じ",
+        "まで"
+      ],
+      "answer": 0,
+      "explanation": "Câu đúng: わたしは ９じ から ５じ まで はたらきます。 Mẫu N1 から N2 まで (từ ... đến ...)."
+    },
+    {
+      "question": "けさ ＿＿ ＿＿ ★ ＿＿。",
+      "instruction": "Sắp xếp các từ cho đúng thứ tự và chọn từ ở vị trí ★.",
+      "meaning": "Sáng nay tôi dậy lúc 6 giờ rưỡi.",
+      "options": [
+        "に",
+        "６じ",
+        "はん",
+        "おきました"
+      ],
+      "answer": 0,
+      "explanation": "Câu đúng: けさ ６じ はん に おきました。 Giờ cụ thể (６じはん) đi với に, động từ ở cuối câu."
+    },
+    {
+      "question": "正しい ぶんは どれですか。",
+      "instruction": "Chọn câu đúng.",
+      "options": [
+        "あした ６じに おきます。",
+        "あしたに ６じに おきます。",
+        "あした ６じを おきます。",
+        "あした ６じに おきました。"
+      ],
+      "answer": 0,
+      "explanation": "あした không đi với に, giờ cụ thể đi với に. Việc ngày mai dùng V ます, không dùng ました."
+    },
+    {
+      "question": "「びじゅつかんは なんじから なんじまでですか。」「（　）」",
+      "hint": "chọn câu trả lời đúng",
+      "meaning": "Bảo tàng mỹ thuật mở từ mấy giờ đến mấy giờ?",
+      "options": [
+        "１０じから ５じまでです。",
+        "げつようびから きんようびまでです。",
+        "１０じに おきます。",
+        "はい、そうです。"
+      ],
+      "answer": 0,
+      "explanation": "Câu hỏi なんじから なんじまで (từ mấy giờ đến mấy giờ) nên trả lời bằng giờ: ～じから ～じまでです."
+    }
+  ]
+}

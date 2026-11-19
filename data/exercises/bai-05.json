@@ -1,0 +1,345 @@
+{
+  "lesson": 5,
+  "questions": [
+    {
+      "question": "わたしは あした きょうと（　）いきます。",
+      "meaning": "Ngày mai tôi đi Kyoto.",
+      "options": [
+        "へ",
+        "を",
+        "で",
+        "から"
+      ],
+      "answer": 0,
+      "explanation": "へ chỉ hướng di chuyển, đọc là え."
+    },
+    {
+      "question": "あした うち（　）かえります。",
+      "meaning": "Ngày mai tôi về nhà.",
+      "options": [
+        "へ",
+        "を",
+        "で",
+        "と"
+      ],
+      "answer": 0,
+      "explanation": "かえります là động từ di chuyển nên đi với へ."
+    },
+    {
+      "question": "でんしゃ（　）かいしゃへ いきます。",
+      "meaning": "Tôi đi đến công ty bằng tàu điện.",
+      "options": [
+        "で",
+        "を",
+        "に",
+        "と"
+      ],
+      "answer": 0,
+      "explanation": "で chỉ phương tiện giao thông."
+    },
+    {
+      "question": "（　）がっこうへ いきます。",
+      "meaning": "Tôi đi bộ đến trường.",
+      "options": [
+        "あるいて",
+        "あるいてで",
+        "あるくで",
+        "あるいたで"
+      ],
+      "answer": 0,
+      "explanation": "Đi bộ là あるいて, không thêm で."
+    },
+    {
+      "question": "かぞく（　）にほんへ きました。",
+      "meaning": "Tôi đã đến Nhật cùng gia đình.",
+      "options": [
+        "と",
+        "で",
+        "を",
+        "の"
+      ],
+      "answer": 0,
+      "explanation": "と chỉ người đi cùng."
+    },
+    {
+      "question": "ひとり（　）うちへ かえります。",
+      "meaning": "Tôi về nhà một mình.",
+      "options": [
+        "で",
+        "と",
+        "を",
+        "に"
+      ],
+      "answer": 0,
+      "explanation": "ひとりで nghĩa là một mình."
+    },
+    {
+      "question": "「いつ にほんへ きましたか。」「３がつ ２５にち（　）きました。」",
+      "meaning": "Bạn đến Nhật khi nào? Tôi đến vào ngày 25 tháng 3.",
+      "options": [
+        "に",
+        "を",
+        "で",
+        "へ"
+      ],
+      "answer": 0,
+      "explanation": "Ngày tháng cụ thể đi với に. Từ いつ thì không đi với に."
+    },
+    {
+      "question": "たんじょうびは（　）ですか。── ６がつ ２５にちです。",
+      "meaning": "Sinh nhật bạn khi nào? ── Ngày 25 tháng 6.",
+      "options": [
+        "いつ",
+        "なんじ",
+        "なんようび",
+        "どこ"
+      ],
+      "answer": 0,
+      "explanation": "いつ hỏi thời điểm (khi nào)."
+    },
+    {
+      "question": "きのう どこ（　）いきませんでした。",
+      "meaning": "Hôm qua tôi không đi đâu cả.",
+      "options": [
+        "へも",
+        "を",
+        "に",
+        "で"
+      ],
+      "answer": 0,
+      "explanation": "どこ[へ]も + phủ định: không đi đâu cả."
+    },
+    {
+      "question": "「きのう どこへ いきましたか。」「（　）。」",
+      "meaning": "Hôm qua bạn đã đi đâu? ── Không đi đâu cả.",
+      "options": [
+        "どこへも いきませんでした",
+        "どこへ いきませんでした",
+        "どこも いきました",
+        "どこへも いきました"
+      ],
+      "answer": 0,
+      "explanation": "Phủ định hoàn toàn: どこへも いきませんでした."
+    },
+    {
+      "question": "２日は どう よみますか。",
+      "instruction": "Cách đọc ngày mùng 2 là gì?",
+      "options": [
+        "ふつか",
+        "ににち",
+        "にち",
+        "ふたか"
+      ],
+      "answer": 0,
+      "explanation": "Ngày mùng 2 đọc là ふつか."
+    },
+    {
+      "question": "２４日は どう よみますか。",
+      "instruction": "Cách đọc ngày 24 là gì?",
+      "options": [
+        "にじゅうよっか",
+        "にじゅうよんにち",
+        "にじゅうしにち",
+        "にじゅうよにち"
+      ],
+      "answer": 0,
+      "explanation": "Ngày 14 và 24 đọc là じゅうよっか, にじゅうよっか."
+    },
+    {
+      "question": "２０日は どう よみますか。",
+      "instruction": "Cách đọc ngày 20 là gì?",
+      "options": [
+        "はつか",
+        "にじゅうにち",
+        "にじゅっか",
+        "ふたそか"
+      ],
+      "answer": 0,
+      "explanation": "Ngày 20 đọc đặc biệt là はつか."
+    },
+    {
+      "question": "月の １日は どう よみますか。",
+      "instruction": "Cách đọc ngày mùng 1 của tháng là gì?",
+      "options": [
+        "ついたち",
+        "いちにち",
+        "ひとひ",
+        "いっか"
+      ],
+      "answer": 0,
+      "explanation": "Ngày mùng 1 đọc là ついたち."
+    },
+    {
+      "question": "「この でんしゃは いきません（　）。」",
+      "hint": "cho người nghe biết thông tin mới",
+      "meaning": "Tàu này không đi đâu nhé.",
+      "options": [
+        "よ",
+        "か",
+        "ね",
+        "の"
+      ],
+      "answer": 0,
+      "explanation": "よ nhấn mạnh thông tin mà người nghe chưa biết."
+    },
+    {
+      "question": "４月は どう よみますか。",
+      "instruction": "Cách đọc tháng 4 là gì?",
+      "options": [
+        "しがつ",
+        "よんがつ",
+        "よがつ",
+        "よつき"
+      ],
+      "answer": 0,
+      "explanation": "Tháng 4 đọc là しがつ."
+    },
+    {
+      "question": "９月は どう よみますか。",
+      "instruction": "Cách đọc tháng 9 là gì?",
+      "options": [
+        "くがつ",
+        "きゅうがつ",
+        "ここのがつ",
+        "くつき"
+      ],
+      "answer": 0,
+      "explanation": "Tháng 9 đọc là くがつ."
+    },
+    {
+      "question": "７月は どう よみますか。",
+      "instruction": "Cách đọc tháng 7 là gì?",
+      "options": [
+        "しちがつ",
+        "ななつき",
+        "しちつき",
+        "なながつ"
+      ],
+      "answer": 0,
+      "explanation": "Tháng 7 đọc là しちがつ."
+    },
+    {
+      "question": "「なにで がっこうへ いきますか。」「（　）で いきます。」",
+      "meaning": "Bạn đi đến trường bằng gì? ── Tôi đi bằng xe đạp.",
+      "options": [
+        "じてんしゃ",
+        "あるいて",
+        "ともだち",
+        "にほん"
+      ],
+      "answer": 0,
+      "explanation": "で chỉ phương tiện: じてんしゃで. あるいて (đi bộ) không đi với で."
+    },
+    {
+      "question": "わたしは せんげつ にほんへ（　）。",
+      "meaning": "Tháng trước tôi đã đến Nhật.",
+      "options": [
+        "きました",
+        "きます",
+        "いきません",
+        "かえりません"
+      ],
+      "answer": 0,
+      "explanation": "せんげつ là quá khứ nên dùng V ました: きました."
+    },
+    {
+      "question": "きょうは ４がつ（　）です。",
+      "meaning": "Hôm nay là ngày 8 tháng 4.",
+      "options": [
+        "ようか",
+        "はちにち",
+        "やっか",
+        "はっか"
+      ],
+      "answer": 0,
+      "explanation": "Ngày 8 đọc là ようか (ngày 1–10 có cách đọc riêng)."
+    },
+    {
+      "question": "わたしの たんじょうびは ７がつ（　）です。",
+      "meaning": "Sinh nhật tôi là ngày 5 tháng 7.",
+      "options": [
+        "いつか",
+        "ごにち",
+        "いつにち",
+        "ごか"
+      ],
+      "answer": 0,
+      "explanation": "Ngày 5 đọc là いつか. Chú ý: いつか (ngày 5) khác với いつ (khi nào)."
+    },
+    {
+      "question": "きのう だれ（　）デパートへ いきましたか。── ともだちと いきました。",
+      "meaning": "Hôm qua bạn đi bách hóa với ai? ── Tôi đi với bạn.",
+      "options": [
+        "と",
+        "で",
+        "へ",
+        "を"
+      ],
+      "answer": 0,
+      "explanation": "と chỉ người cùng làm: だれと いきましたか (đi với ai)."
+    },
+    {
+      "question": "（　）にほんへ きましたか。── きょねん きました。",
+      "meaning": "Bạn đến Nhật khi nào? ── Năm ngoái.",
+      "options": [
+        "いつ",
+        "いつに",
+        "なんようび",
+        "どこ"
+      ],
+      "answer": 0,
+      "explanation": "いつ hỏi thời điểm và không đi với に."
+    },
+    {
+      "question": "きのうは ＿＿ ＿＿ ★ ＿＿。",
+      "instruction": "Sắp xếp các từ cho đúng thứ tự và chọn từ ở vị trí ★.",
+      "meaning": "Hôm qua tôi không đi đâu cả.",
+      "options": [
+        "も",
+        "どこ",
+        "へ",
+        "いきませんでした"
+      ],
+      "answer": 0,
+      "explanation": "Câu đúng: きのうは どこ へ も いきませんでした。 どこへも + động từ phủ định: không đi đâu cả."
+    },
+    {
+      "question": "この でんしゃは ＿＿ ＿＿ ★ ＿＿。",
+      "instruction": "Sắp xếp các từ cho đúng thứ tự và chọn từ ở vị trí ★.",
+      "meaning": "Tàu điện này có đi Kyoto không?",
+      "options": [
+        "いきます",
+        "きょうと",
+        "へ",
+        "か"
+      ],
+      "answer": 0,
+      "explanation": "Câu đúng: この でんしゃは きょうと へ いきます か。 Địa điểm + へ + động từ di chuyển, か ở cuối câu hỏi."
+    },
+    {
+      "question": "正しい ぶんは どれですか。",
+      "instruction": "Chọn câu đúng.",
+      "options": [
+        "ひとりで うちへ かえります。",
+        "ひとりと うちへ かえります。",
+        "ひとりで うちを かえります。",
+        "ひとり うちで かえります。"
+      ],
+      "answer": 0,
+      "explanation": "Một mình là ひとりで (không dùng と). Hướng về nhà dùng へ: うちへ かえります."
+    },
+    {
+      "question": "「いつ にほんへ きましたか。」「（　）」",
+      "hint": "chọn câu trả lời đúng",
+      "meaning": "Bạn đến Nhật khi nào?",
+      "options": [
+        "きょねんの ３がつに きました。",
+        "でんしゃで きました。",
+        "かぞくと きました。",
+        "ベトナムから きました。"
+      ],
+      "answer": 0,
+      "explanation": "いつ hỏi thời điểm nên trả lời bằng thời gian. Các câu còn lại trả lời cho なにで, だれと, どこから."
+    }
+  ]
+}
