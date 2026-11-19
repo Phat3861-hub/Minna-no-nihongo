@@ -73,3 +73,14 @@ export const IconShuffle = (p: P) => (
     <path d="M16 3h5v5M4 20 21 3M21 16v5h-5M15 15l6 6M4 4l5 5" />
   </svg>
 );
+export const IconColumns = (p: P) => (
+  <svg {...base} {...p}>
+    <rect x="3" y="4" width="18" height="16" rx="2" />
+    <path d="M12 4v16" />
+  </svg>
+);
+export const IconSwap = (p: P) => (
+  <svg {...base} {...p}>
+    <path d="M7 4 3 8l4 4M3 8h14M17 20l4-4-4-4M21 16H7" />
+  </svg>
+);

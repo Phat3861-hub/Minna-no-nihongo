@@ -170,6 +170,9 @@ ruby rt {
 }
 main.site-main {
   padding: 20px 0 96px;
+  /* bố cục bên trong co giãn theo độ rộng vùng nội dung (kể cả khi chia đôi màn hình) */
+  container-type: inline-size;
+  container-name: main;
 }
 
 /* ---------- header ---------- */
@@ -613,7 +616,7 @@ main.site-main {
 .study-side {
   min-width: 0;
 }
-@media (min-width: 1024px) {
+@container main (min-width: 900px) {
   .study {
     grid-template-columns: 320px minmax(0, 1fr);
     gap: 24px;
@@ -753,7 +756,7 @@ main.site-main {
   margin-top: 10px;
   flex-wrap: wrap;
 }
-@media (max-width: 1023px) {
+@container main (max-width: 899px) {
   .chips.scroll-sm {
     display: flex;
     overflow-x: auto;
@@ -978,7 +981,7 @@ main.site-main {
 .opts-toggle {
   display: none;
 }
-@media (max-width: 1023px) {
+@container main (max-width: 899px) {
   .opts-toggle {
     display: flex;
     width: 100%;
@@ -1158,7 +1161,7 @@ main.site-main {
   grid-template-columns: 1fr 1fr;
   gap: 8px;
 }
-@media (min-width: 640px) {
+@container main (min-width: 640px) {
   .card-actions {
     grid-template-columns: auto 1fr 1fr auto;
   }
@@ -1317,7 +1320,7 @@ main.site-main {
   gap: 8px;
   margin-top: 14px;
 }
-@media (min-width: 720px) {
+@container main (min-width: 720px) {
   .options.two {
     grid-template-columns: 1fr 1fr;
   }
@@ -1615,7 +1618,7 @@ main.site-main {
 .row + .row {
   border-top: 1px solid var(--line);
 }
-@media (min-width: 720px) {
+@container main (min-width: 720px) {
   .row {
     grid-template-columns: 34px minmax(0, 1.1fr) minmax(0, 1fr);
   }
@@ -1624,7 +1627,7 @@ main.site-main {
 .row .kb-list {
   grid-column: 2;
 }
-@media (min-width: 720px) {
+@container main (min-width: 720px) {
   .row .vic {
     grid-column: 3;
     grid-row: 1;
@@ -2086,7 +2089,7 @@ main.site-main {
   display: grid;
   gap: 12px;
 }
-@media (min-width: 860px) {
+@container main (min-width: 860px) {
   .vg-cards {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -2176,7 +2179,7 @@ table.vt td .exc {
   display: grid;
   gap: 12px;
 }
-@media (min-width: 860px) {
+@container main (min-width: 860px) {
   .rule-grid {
     grid-template-columns: 1fr 1fr;
   }
@@ -2326,7 +2329,7 @@ table.vt td .exc {
   display: grid;
   gap: 12px;
 }
-@media (min-width: 900px) {
+@container main (min-width: 900px) {
   .num-grid {
     grid-template-columns: 1fr 1fr;
   }
@@ -2453,7 +2456,7 @@ table.vt td .exc {
   align-items: center;
   padding: 18px 0 8px;
 }
-@media (min-width: 960px) {
+@container main (min-width: 960px) {
   .hero {
     grid-template-columns: 1.3fr 1fr;
     padding: 36px 0 20px;
@@ -2631,8 +2634,136 @@ table.vt td .exc {
 .nav-trigger[aria-expanded="true"] svg {
   transform: rotate(180deg);
 }
-@media (max-width: 959px) {
+@container main (max-width: 959px) {
   .hero-art {
     display: none;
   }
+}
+
+/* =========================================================
+   Chia đôi màn hình (chỉ trên màn hình rộng ≥ 1100px)
+   ========================================================= */
+.split-btn {
+  display: none;
+}
+.split-pane,
+.split-handle {
+  display: none;
+}
+@media (min-width: 1100px) {
+  .split-btn {
+    display: inline-grid;
+  }
+  .split-btn[aria-pressed="true"] {
+    background: var(--primary-soft);
+    border-color: var(--primary);
+    color: var(--primary);
+  }
+  html.split-on .site-main,
+  html.split-on .site-footer {
+    margin-right: calc(var(--split-w, 50) * 1vw);
+  }
+  html.split-on .to-top {
+    right: calc(var(--split-w, 50) * 1vw + 16px);
+  }
+  html.split-on .split-pane {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 30;
+    top: var(--header-h);
+    right: 0;
+    bottom: 0;
+    width: calc(var(--split-w, 50) * 1vw);
+    background: var(--bg);
+    border-left: 1px solid var(--line);
+  }
+  html.split-on .split-handle {
+    display: block;
+    position: fixed;
+    z-index: 31;
+    top: var(--header-h);
+    bottom: 0;
+    right: calc(var(--split-w, 50) * 1vw - 5px);
+    width: 10px;
+    cursor: col-resize;
+    touch-action: none;
+  }
+  .split-handle::after {
+    content: "";
+    position: absolute;
+    left: 3px;
+    top: 50%;
+    width: 4px;
+    height: 48px;
+    margin-top: -24px;
+    border-radius: 99px;
+    background: var(--line-2);
+    transition: background 0.15s;
+  }
+  .split-handle:hover::after,
+  .split-handle.dragging::after {
+    background: var(--primary);
+  }
+}
+.split-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--line);
+  background: var(--surface);
+}
+.split-bar select {
+  flex: 1;
+  min-width: 0;
+  height: 36px;
+  border-radius: 9px;
+  border: 1px solid var(--line-2);
+  background: var(--surface);
+  padding: 0 10px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
+.split-bar .lbl {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  white-space: nowrap;
+}
+.split-bar .icon-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 9px;
+}
+.split-bar .icon-btn svg {
+  width: 18px;
+  height: 18px;
+}
+.split-pane iframe {
+  flex: 1;
+  width: 100%;
+  border: 0;
+  background: var(--bg);
+}
+.split-pane.dragging iframe {
+  pointer-events: none;
+}
+
+/* Trang khi hiển thị bên trong khung chia đôi: ẩn header và chân trang */
+html.embedded {
+  --header-h: 0px;
+}
+html.embedded .site-header,
+html.embedded .site-footer {
+  display: none;
+}
+html.embedded main.site-main {
+  padding-top: 12px;
+}
+html.embedded .container {
+  padding: 0 16px;
 }

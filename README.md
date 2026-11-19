@@ -4,6 +4,14 @@ Trang web ôn tập giáo trình Minna no Nihongo sơ cấp I: từ vựng, kanj
 
 Xây dựng bằng **Next.js 16 (App Router) + React 19 + TypeScript**. Không dùng database: toàn bộ nội dung nằm trong các file **JSON** ở thư mục `data/`. Tiến độ “đã thuộc” lưu trên trình duyệt (localStorage), giữ nguyên các khóa của bản cũ nên không mất tiến độ đã có.
 
+## Chia đôi màn hình
+
+Trên màn hình rộng (từ 1100px), bấm biểu tượng hai cột trên header để chia đôi: trang đang học ở bên trái, bên phải chọn một mục khác (Tìm từ, Từ vựng, Kanji, Ngữ pháp, Nhóm động từ, Bài tập, Luyện nói, Số – giờ – ngày).
+
+- Kéo vạch giữa để đổi độ rộng (bấm đúp để chia đều).
+- Nút ⇄ đổi hai bên cho nhau, nút ✕ tắt chia đôi.
+- Hai bên dùng chung tiến độ học và giao diện sáng/tối. Lựa chọn được ghi nhớ cho lần mở sau.
+
 ## Chạy trên máy
 
 Cần Node.js 20.9 trở lên.
