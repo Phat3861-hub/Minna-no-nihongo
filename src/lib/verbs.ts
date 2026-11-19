@@ -97,14 +97,14 @@ export type VMeta = { v: Verb; kind: "group" | VerbFormKey };
 export function makeVerbQ(v: Verb, kind: "group" | VerbFormKey, all: Verb[]) {
   if (kind === "group") {
     return {
-      id: `group:${v.masu}`,
+      id: `group:${v.lesson}:${v.masu}`,
       meta: { v, kind } as VMeta,
       opts: [1, 2, 3].map((g) => ({ text: GROUP_LABEL[g], ok: g === v.group })),
     };
   }
   const correct = v.forms[kind];
   const pool = shuffled(wrongForms(v, kind)).concat(shuffled(all.filter((x) => x !== v).map((x) => x.forms[kind])));
-  return { id: `${kind}:${v.masu}`, meta: { v, kind } as VMeta, opts: shuffled(buildOptions(correct, pool)) };
+  return { id: `${kind}:${v.lesson}:${v.masu}`, meta: { v, kind } as VMeta, opts: shuffled(buildOptions(correct, pool)) };
 }
 
 export function verbQuestions(verbs: Verb[], t: VQType, n: number | "all") {

@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ClientOnly, PageHead } from "@/components/ui";
 import VerbPractice from "@/features/verbs/VerbPractice";
 import VerbTable from "@/features/verbs/VerbTable";
-import { getVerbData } from "@/lib/data";
+import { getGrammarLessons, getVerbData } from "@/lib/data";
 
 export const metadata: Metadata = { title: "Nhóm động từ" };
 
@@ -14,17 +14,19 @@ const ROWS = [
 
 export default function Page() {
   const d = getVerbData();
+  const maxLesson = Math.max(...d.verbs.map((v) => v.lesson));
+  const lastGrammar = getGrammarLessons().at(-1)!.lesson;
   return (
     <>
       <PageHead jp="動詞のグループ" eyebrow=" · Ngữ pháp" title="Nhóm động từ">
         Từ Bài 14, nhiều mẫu câu cần chia động từ sang thể て, ない, thể từ điển, thể た. Muốn chia đúng, trước hết phải biết động từ thuộc
-        nhóm nào. Trang này tổng hợp cách nhận biết nhóm, cách chia và {d.verbs.length} động từ đã học trong Bài 1–13.
+        nhóm nào. Trang này tổng hợp cách nhận biết nhóm, cách chia và {d.verbs.length} động từ đã học trong Bài 1–{maxLesson}.
       </PageHead>
 
       <nav className="panel" aria-label="Mục lục">
         <div className="seg wrap">
           <a href="#nhan-biet" className="btn ghost sm">1. Nhận biết nhóm</a>
-          <a href="#bang-dong-tu" className="btn ghost sm">2. Bảng động từ Bài 1–13</a>
+          <a href="#bang-dong-tu" className="btn ghost sm">2. Bảng động từ Bài 1–{maxLesson}</a>
           <a href="#cach-chia" className="btn ghost sm">3. Cách chia các thể</a>
           <a href="#luyen-tap" className="btn ghost sm">4. Luyện tập</a>
         </div>
@@ -92,7 +94,7 @@ export default function Page() {
         </ul>
       </div>
 
-      <h2 className="section-title" id="bang-dong-tu">2. Bảng động từ Bài 1–13</h2>
+      <h2 className="section-title" id="bang-dong-tu">2. Bảng động từ Bài 1–{maxLesson}</h2>
       <p className="cap">
         Lọc theo nhóm, bật “Che các thể” để tự kiểm tra: đọc thể ます, nói thử thể cần chia rồi bấm vào ô để xem đáp án.
       </p>
@@ -130,8 +132,8 @@ export default function Page() {
       </ClientOnly>
 
       <div className="lesson-nav">
-        <Link href="/ngu-phap/bai-13" className="btn">
-          ‹ Ngữ pháp Bài 13
+        <Link href={`/ngu-phap/bai-${lastGrammar}`} className="btn">
+          ‹ Ngữ pháp Bài {lastGrammar}
         </Link>
         <Link href="/ngu-phap" className="btn">
           Tất cả bài ngữ pháp

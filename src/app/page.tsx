@@ -10,7 +10,9 @@ export default function Home() {
   const points = grammar.reduce((s, l) => s + l.points.length, 0);
   const ex = getExercises().length;
   const speak = getSpeaking().sections.reduce((s, x) => s + x.items.length, 0);
-  const verbs = getVerbData().verbs.length;
+  const verbList = getVerbData().verbs;
+  const verbs = verbList.length;
+  const maxVerbLesson = Math.max(...verbList.map((v) => v.lesson));
 
   return (
     <>
@@ -67,7 +69,7 @@ export default function Home() {
           { href: "/tu-vung", icon: "語", title: "Từ vựng", desc: "Thẻ ghi nhớ, trắc nghiệm hai chiều, danh sách theo bài. Mỗi từ có kanji đều chỉ rõ chữ đó học ở Bài mấy.", progress: { kind: "vocab", total: words, unit: "từ đã thuộc" } },
           { href: "/kanji", icon: "字", title: "Kanji", desc: "Âm Hán Việt, On/Kun, từ ví dụ, 6 kiểu trắc nghiệm và bảng chữ.", progress: { kind: "kanji", total: kanji, unit: "chữ đã thuộc" } },
           { href: "/ngu-phap", icon: "文", title: "Ngữ pháp", desc: `${points} mẫu câu Bài 1–${grammar.length} với giải thích và ví dụ.` },
-          { href: "/ngu-phap/nhom-dong-tu", icon: "動", title: "Nhóm động từ", isNew: true, desc: `Nhóm I, II, III, cách chia thể て/ない/từ điển/た và ${verbs} động từ Bài 1–13.` },
+          { href: "/ngu-phap/nhom-dong-tu", icon: "動", title: "Nhóm động từ", isNew: true, desc: `Nhóm I, II, III, cách chia thể て/ない/từ điển/た và ${verbs} động từ Bài 1–${maxVerbLesson}.` },
           { href: "/bai-tap", icon: "問", title: "Bài tập ngữ pháp", desc: "Trắc nghiệm có nghĩa câu và giải thích sau mỗi câu.", progress: { kind: "exercise", total: ex, unit: "câu đã làm đúng" } },
           { href: "/luyen-noi", icon: "話", title: "Luyện nói", desc: `${speak} câu hỏi vấn đáp kèm câu trả lời mẫu, furigana và nghe đọc.` },
           { href: "/so-dem", icon: "数", title: "Số – giờ – ngày", desc: "Đổi số, giờ, ngày sang cách đọc và luyện đọc ngẫu nhiên." },

@@ -20,7 +20,7 @@ export default function LessonLinks({ lessons, current }: { lessons: { lesson: n
       ))}
       <Link href="/ngu-phap/nhom-dong-tu" className="chip" title="Nhóm động từ" style={{ textDecoration: "none", color: "inherit", gridColumn: "span 2" }}>
         <span className="n">Nhóm động từ</span>
-        <span className="c">chuẩn bị Bài 14+</span>
+        <span className="c">nhóm I, II, III</span>
       </Link>
     </div>
   );
