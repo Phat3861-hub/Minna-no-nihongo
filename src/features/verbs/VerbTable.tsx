@@ -62,7 +62,7 @@ export default function VerbTable({ verbs }: { verbs: Verb[] }) {
           </thead>
           <tbody>
             {list.map((v) => (
-              <tr key={v.masu}>
+              <tr key={`${v.lesson}:${v.masu}`}>
                 <td className="jp">
                   {v.masu}
                   {v.kanji && <span className="muted small"> {v.kanji}</span>}
@@ -73,7 +73,7 @@ export default function VerbTable({ verbs }: { verbs: Verb[] }) {
                   <span className={`grp g${v.group}`}>{GROUP_LABEL[v.group]}</span>
                 </td>
                 {COLS.map(([k]) => {
-                  const id = v.masu + k;
+                  const id = `${v.lesson}:${v.masu}:${k}`;
                   const hidden = mask && !rev.has(id);
                   return (
                     <td

@@ -6,27 +6,54 @@
       "name": "Nhóm I",
       "alias": "五段動詞 (ごだんどうし)",
       "rule": "Âm đứng ngay trước ます thuộc hàng い (い, き, ぎ, し, ち, に, び, み, り).",
-      "examples": ["かきます", "のみます", "かえります", "あそびます", "かいます"]
+      "examples": [
+        "かきます",
+        "のみます",
+        "かえります",
+        "あそびます",
+        "かいます"
+      ]
     },
     {
       "group": 2,
       "name": "Nhóm II",
       "alias": "一段動詞 (いちだんどうし)",
       "rule": "Âm đứng ngay trước ます thuộc hàng え (え, け, せ, て, ね, べ, め, れ…). Ngoài ra có một số động từ đặc biệt có âm hàng い nhưng vẫn thuộc nhóm II.",
-      "examples": ["たべます", "ねます", "おしえます", "みます", "おきます"]
+      "examples": [
+        "たべます",
+        "ねます",
+        "おしえます",
+        "みます",
+        "おきます"
+      ]
     },
     {
       "group": 3,
       "name": "Nhóm III",
       "alias": "不規則動詞 (ふきそくどうし)",
       "rule": "Chỉ có します, きます (来ます, đến) và các động từ dạng Danh từ + します.",
-      "examples": ["します", "きます", "べんきょうします", "けっこんします"]
+      "examples": [
+        "します",
+        "きます",
+        "べんきょうします",
+        "けっこんします"
+      ]
     }
   ],
   "exceptionsGroup2": {
     "note": "Các động từ có âm hàng い trước ます nhưng thuộc nhóm II. Cần học thuộc.",
-    "inLessons": ["みます (見ます)", "おきます (起きます)", "かります (借ります)", "います"],
-    "later": ["あびます (浴びます)", "おります (降ります)", "できます", "きます (着ます, mặc)"]
+    "inLessons": [
+      "みます (見ます)",
+      "おきます (起きます)",
+      "かります (借ります)",
+      "います"
+    ],
+    "later": [
+      "あびます (浴びます)",
+      "おります (降ります)",
+      "できます",
+      "きます (着ます, mặc)"
+    ]
   },
   "forms": [
     {
@@ -35,16 +62,31 @@
       "lesson": 14,
       "use": "Dùng cho ～てください (Bài 14), ～ています (Bài 14–15), ～てもいいです (Bài 15)…",
       "rules": [
-        { "group": 1, "items": [
-          "い, ち, り + ます → って: かいます → かって, まちます → まって, かえります → かえって",
-          "み, び, に + ます → んで: のみます → のんで, あそびます → あそんで, しにます → しんで",
-          "き + ます → いて: かきます → かいて",
-          "ぎ + ます → いで: およぎます → およいで",
-          "し + ます → して: かします → かして",
-          "Ngoại lệ: いきます (行きます) → いって"
-        ] },
-        { "group": 2, "items": ["Bỏ ます, thêm て: たべます → たべて, みます → みて"] },
-        { "group": 3, "items": ["します → して", "きます → きて", "べんきょうします → べんきょうして"] }
+        {
+          "group": 1,
+          "items": [
+            "い, ち, り + ます → って: かいます → かって, まちます → まって, かえります → かえって",
+            "み, び, に + ます → んで: のみます → のんで, あそびます → あそんで, しにます → しんで",
+            "き + ます → いて: かきます → かいて",
+            "ぎ + ます → いで: およぎます → およいで",
+            "し + ます → して: かします → かして",
+            "Ngoại lệ: いきます (行きます) → いって"
+          ]
+        },
+        {
+          "group": 2,
+          "items": [
+            "Bỏ ます, thêm て: たべます → たべて, みます → みて"
+          ]
+        },
+        {
+          "group": 3,
+          "items": [
+            "します → して",
+            "きます → きて",
+            "べんきょうします → べんきょうして"
+          ]
+        }
       ]
     },
     {
@@ -53,13 +95,27 @@
       "lesson": 17,
       "use": "Dùng cho ～ないでください, ～なければなりません, ～なくてもいいです (Bài 17).",
       "rules": [
-        { "group": 1, "items": [
-          "Đổi âm hàng い trước ます sang hàng あ rồi thêm ない: かきます → かかない, のみます → のまない",
-          "Âm い đổi thành わ (không phải あ): かいます → かわない, あいます → あわない",
-          "Ngoại lệ: あります → ない"
-        ] },
-        { "group": 2, "items": ["Bỏ ます, thêm ない: たべます → たべない, みます → みない"] },
-        { "group": 3, "items": ["します → しない", "きます → こない"] }
+        {
+          "group": 1,
+          "items": [
+            "Đổi âm hàng い trước ます sang hàng あ rồi thêm ない: かきます → かかない, のみます → のまない",
+            "Âm い đổi thành わ (không phải あ): かいます → かわない, あいます → あわない",
+            "Ngoại lệ: あります → ない"
+          ]
+        },
+        {
+          "group": 2,
+          "items": [
+            "Bỏ ます, thêm ない: たべます → たべない, みます → みない"
+          ]
+        },
+        {
+          "group": 3,
+          "items": [
+            "します → しない",
+            "きます → こない"
+          ]
+        }
       ]
     },
     {
@@ -68,11 +124,25 @@
       "lesson": 18,
       "use": "Dùng cho ～ことができます, ～ことです (Bài 18), ～まえに (Bài 18)…",
       "rules": [
-        { "group": 1, "items": [
-          "Đổi âm hàng い trước ます sang hàng う: かきます → かく, のみます → のむ, かえります → かえる"
-        ] },
-        { "group": 2, "items": ["Bỏ ます, thêm る: たべます → たべる, みます → みる"] },
-        { "group": 3, "items": ["します → する", "きます → くる"] }
+        {
+          "group": 1,
+          "items": [
+            "Đổi âm hàng い trước ます sang hàng う: かきます → かく, のみます → のむ, かえります → かえる"
+          ]
+        },
+        {
+          "group": 2,
+          "items": [
+            "Bỏ ます, thêm る: たべます → たべる, みます → みる"
+          ]
+        },
+        {
+          "group": 3,
+          "items": [
+            "します → する",
+            "きます → くる"
+          ]
+        }
       ]
     },
     {
@@ -81,12 +151,26 @@
       "lesson": 19,
       "use": "Dùng cho ～たことがあります, ～たり～たりします (Bài 19). Cách chia giống thể て, chỉ đổi て → た, で → だ.",
       "rules": [
-        { "group": 1, "items": [
-          "Giống thể て: かいて → かいた, のんで → のんだ, かって → かった",
-          "Ngoại lệ: いきます → いった"
-        ] },
-        { "group": 2, "items": ["Bỏ ます, thêm た: たべます → たべた"] },
-        { "group": 3, "items": ["します → した", "きます → きた"] }
+        {
+          "group": 1,
+          "items": [
+            "Giống thể て: かいて → かいた, のんで → のんだ, かって → かった",
+            "Ngoại lệ: いきます → いった"
+          ]
+        },
+        {
+          "group": 2,
+          "items": [
+            "Bỏ ます, thêm た: たべます → たべた"
+          ]
+        },
+        {
+          "group": 3,
+          "items": [
+            "します → した",
+            "きます → きた"
+          ]
+        }
       ]
     }
   ],
@@ -96,49 +180,69 @@
     "Khi học từ mới là động từ, hãy học luôn nhóm của nó."
   ],
   "verbs": [
-    { "lesson": 2, "masu": "ちがいます", "kanji": "違います", "vi": "không phải, sai rồi", "group": 1, "forms": { "dict": "ちがう", "te": "ちがって", "nai": "ちがわない", "ta": "ちがった" } },
-    { "lesson": 4, "masu": "おきます", "kanji": "起きます", "vi": "thức dậy", "group": 2, "exception": "Âm き thuộc hàng い nhưng là nhóm II", "forms": { "dict": "おきる", "te": "おきて", "nai": "おきない", "ta": "おきた" } },
-    { "lesson": 4, "masu": "ねます", "kanji": "寝ます", "vi": "ngủ, đi ngủ", "group": 2, "forms": { "dict": "ねる", "te": "ねて", "nai": "ねない", "ta": "ねた" } },
-    { "lesson": 4, "masu": "はたらきます", "kanji": "働きます", "vi": "làm việc", "group": 1, "forms": { "dict": "はたらく", "te": "はたらいて", "nai": "はたらかない", "ta": "はたらいた" } },
-    { "lesson": 4, "masu": "やすみます", "kanji": "休みます", "vi": "nghỉ, nghỉ ngơi", "group": 1, "forms": { "dict": "やすむ", "te": "やすんで", "nai": "やすまない", "ta": "やすんだ" } },
-    { "lesson": 4, "masu": "べんきょうします", "kanji": "勉強します", "vi": "học", "group": 3, "forms": { "dict": "べんきょうする", "te": "べんきょうして", "nai": "べんきょうしない", "ta": "べんきょうした" } },
-    { "lesson": 4, "masu": "おわります", "kanji": "終わります", "vi": "kết thúc, xong", "group": 1, "forms": { "dict": "おわる", "te": "おわって", "nai": "おわらない", "ta": "おわった" } },
-    { "lesson": 5, "masu": "いきます", "kanji": "行きます", "vi": "đi", "group": 1, "exception": "Thể て／た đặc biệt: いって, いった", "forms": { "dict": "いく", "te": "いって", "nai": "いかない", "ta": "いった" } },
-    { "lesson": 5, "masu": "きます", "kanji": "来ます", "vi": "đến", "group": 3, "forms": { "dict": "くる", "te": "きて", "nai": "こない", "ta": "きた" } },
-    { "lesson": 5, "masu": "かえります", "kanji": "帰ります", "vi": "về", "group": 1, "exception": "Thể từ điển かえる trông giống nhóm II nhưng là nhóm I", "forms": { "dict": "かえる", "te": "かえって", "nai": "かえらない", "ta": "かえった" } },
-    { "lesson": 6, "masu": "たべます", "kanji": "食べます", "vi": "ăn", "group": 2, "forms": { "dict": "たべる", "te": "たべて", "nai": "たべない", "ta": "たべた" } },
-    { "lesson": 6, "masu": "のみます", "kanji": "飲みます", "vi": "uống", "group": 1, "forms": { "dict": "のむ", "te": "のんで", "nai": "のまない", "ta": "のんだ" } },
-    { "lesson": 6, "masu": "すいます", "kanji": "吸います", "vi": "hút (thuốc lá)", "group": 1, "forms": { "dict": "すう", "te": "すって", "nai": "すわない", "ta": "すった" } },
-    { "lesson": 6, "masu": "みます", "kanji": "見ます", "vi": "xem, nhìn", "group": 2, "exception": "Âm み thuộc hàng い nhưng là nhóm II", "forms": { "dict": "みる", "te": "みて", "nai": "みない", "ta": "みた" } },
-    { "lesson": 6, "masu": "ききます", "kanji": "聞きます", "vi": "nghe", "group": 1, "forms": { "dict": "きく", "te": "きいて", "nai": "きかない", "ta": "きいた" } },
-    { "lesson": 6, "masu": "よみます", "kanji": "読みます", "vi": "đọc", "group": 1, "forms": { "dict": "よむ", "te": "よんで", "nai": "よまない", "ta": "よんだ" } },
-    { "lesson": 6, "masu": "かきます", "kanji": "書きます", "vi": "viết, vẽ", "group": 1, "forms": { "dict": "かく", "te": "かいて", "nai": "かかない", "ta": "かいた" } },
-    { "lesson": 6, "masu": "かいます", "kanji": "買います", "vi": "mua", "group": 1, "forms": { "dict": "かう", "te": "かって", "nai": "かわない", "ta": "かった" } },
-    { "lesson": 6, "masu": "とります", "kanji": "撮ります", "vi": "chụp (ảnh)", "group": 1, "forms": { "dict": "とる", "te": "とって", "nai": "とらない", "ta": "とった" } },
-    { "lesson": 6, "masu": "します", "kanji": "", "vi": "làm", "group": 3, "forms": { "dict": "する", "te": "して", "nai": "しない", "ta": "した" } },
-    { "lesson": 6, "masu": "あいます", "kanji": "会います", "vi": "gặp", "group": 1, "forms": { "dict": "あう", "te": "あって", "nai": "あわない", "ta": "あった" } },
-    { "lesson": 7, "masu": "きります", "kanji": "切ります", "vi": "cắt", "group": 1, "exception": "Thể từ điển きる trông giống nhóm II nhưng là nhóm I", "forms": { "dict": "きる", "te": "きって", "nai": "きらない", "ta": "きった" } },
-    { "lesson": 7, "masu": "おくります", "kanji": "送ります", "vi": "gửi", "group": 1, "forms": { "dict": "おくる", "te": "おくって", "nai": "おくらない", "ta": "おくった" } },
-    { "lesson": 7, "masu": "あげます", "kanji": "", "vi": "cho, tặng", "group": 2, "forms": { "dict": "あげる", "te": "あげて", "nai": "あげない", "ta": "あげた" } },
-    { "lesson": 7, "masu": "もらいます", "kanji": "", "vi": "nhận", "group": 1, "forms": { "dict": "もらう", "te": "もらって", "nai": "もらわない", "ta": "もらった" } },
-    { "lesson": 7, "masu": "かします", "kanji": "貸します", "vi": "cho mượn, cho vay", "group": 1, "forms": { "dict": "かす", "te": "かして", "nai": "かさない", "ta": "かした" } },
-    { "lesson": 7, "masu": "かります", "kanji": "借ります", "vi": "mượn, vay", "group": 2, "exception": "Âm り thuộc hàng い nhưng là nhóm II", "forms": { "dict": "かりる", "te": "かりて", "nai": "かりない", "ta": "かりた" } },
-    { "lesson": 7, "masu": "おしえます", "kanji": "教えます", "vi": "dạy, chỉ", "group": 2, "forms": { "dict": "おしえる", "te": "おしえて", "nai": "おしえない", "ta": "おしえた" } },
-    { "lesson": 7, "masu": "ならいます", "kanji": "習います", "vi": "học (từ ai đó)", "group": 1, "forms": { "dict": "ならう", "te": "ならって", "nai": "ならわない", "ta": "ならった" } },
-    { "lesson": 7, "masu": "かけます", "kanji": "", "vi": "gọi (điện thoại)", "group": 2, "forms": { "dict": "かける", "te": "かけて", "nai": "かけない", "ta": "かけた" } },
-    { "lesson": 9, "masu": "わかります", "kanji": "分かります", "vi": "hiểu", "group": 1, "forms": { "dict": "わかる", "te": "わかって", "nai": "わからない", "ta": "わかった" } },
-    { "lesson": 9, "masu": "あります", "kanji": "", "vi": "có (đồ vật, sở hữu)", "group": 1, "exception": "Thể ない đặc biệt: ない", "forms": { "dict": "ある", "te": "あって", "nai": "ない", "ta": "あった" } },
-    { "lesson": 10, "masu": "います", "kanji": "", "vi": "có, ở (người, động vật)", "group": 2, "exception": "Âm い thuộc hàng い nhưng là nhóm II", "forms": { "dict": "いる", "te": "いて", "nai": "いない", "ta": "いた" } },
-    { "lesson": 11, "masu": "かかります", "kanji": "", "vi": "mất, tốn (thời gian, tiền)", "group": 1, "forms": { "dict": "かかる", "te": "かかって", "nai": "かからない", "ta": "かかった" } },
-    { "lesson": 13, "masu": "あそびます", "kanji": "遊びます", "vi": "chơi", "group": 1, "forms": { "dict": "あそぶ", "te": "あそんで", "nai": "あそばない", "ta": "あそんだ" } },
-    { "lesson": 13, "masu": "およぎます", "kanji": "泳ぎます", "vi": "bơi", "group": 1, "forms": { "dict": "およぐ", "te": "およいで", "nai": "およがない", "ta": "およいだ" } },
-    { "lesson": 13, "masu": "むかえます", "kanji": "迎えます", "vi": "đón", "group": 2, "forms": { "dict": "むかえる", "te": "むかえて", "nai": "むかえない", "ta": "むかえた" } },
-    { "lesson": 13, "masu": "つかれます", "kanji": "疲れます", "vi": "mệt", "group": 2, "forms": { "dict": "つかれる", "te": "つかれて", "nai": "つかれない", "ta": "つかれた" } },
-    { "lesson": 13, "masu": "けっこんします", "kanji": "結婚します", "vi": "kết hôn", "group": 3, "forms": { "dict": "けっこんする", "te": "けっこんして", "nai": "けっこんしない", "ta": "けっこんした" } },
-    { "lesson": 13, "masu": "かいものします", "kanji": "買い物します", "vi": "mua sắm", "group": 3, "forms": { "dict": "かいものする", "te": "かいものして", "nai": "かいものしない", "ta": "かいものした" } },
-    { "lesson": 13, "masu": "しょくじします", "kanji": "食事します", "vi": "ăn cơm, dùng bữa", "group": 3, "forms": { "dict": "しょくじする", "te": "しょくじして", "nai": "しょくじしない", "ta": "しょくじした" } },
-    { "lesson": 13, "masu": "さんぽします", "kanji": "散歩します", "vi": "đi dạo", "group": 3, "forms": { "dict": "さんぽする", "te": "さんぽして", "nai": "さんぽしない", "ta": "さんぽした" } },
-    { "lesson": 13, "masu": "かわきます", "kanji": "渇きます", "vi": "khát (のどが～)", "group": 1, "forms": { "dict": "かわく", "te": "かわいて", "nai": "かわかない", "ta": "かわいた" } },
-    { "lesson": 13, "masu": "すきます", "kanji": "", "vi": "đói (おなかが～)", "group": 1, "forms": { "dict": "すく", "te": "すいて", "nai": "すかない", "ta": "すいた" } }
+    {"lesson": 2, "masu": "ちがいます", "kanji": "違います", "vi": "không phải, sai rồi", "group": 1, "forms": {"dict": "ちがう", "te": "ちがって", "nai": "ちがわない", "ta": "ちがった"}},
+    {"lesson": 4, "masu": "おきます", "kanji": "起きます", "vi": "thức dậy", "group": 2, "exception": "Âm き thuộc hàng い nhưng là nhóm II", "forms": {"dict": "おきる", "te": "おきて", "nai": "おきない", "ta": "おきた"}},
+    {"lesson": 4, "masu": "ねます", "kanji": "寝ます", "vi": "ngủ, đi ngủ", "group": 2, "forms": {"dict": "ねる", "te": "ねて", "nai": "ねない", "ta": "ねた"}},
+    {"lesson": 4, "masu": "はたらきます", "kanji": "働きます", "vi": "làm việc", "group": 1, "forms": {"dict": "はたらく", "te": "はたらいて", "nai": "はたらかない", "ta": "はたらいた"}},
+    {"lesson": 4, "masu": "やすみます", "kanji": "休みます", "vi": "nghỉ, nghỉ ngơi", "group": 1, "forms": {"dict": "やすむ", "te": "やすんで", "nai": "やすまない", "ta": "やすんだ"}},
+    {"lesson": 4, "masu": "べんきょうします", "kanji": "勉強します", "vi": "học", "group": 3, "forms": {"dict": "べんきょうする", "te": "べんきょうして", "nai": "べんきょうしない", "ta": "べんきょうした"}},
+    {"lesson": 4, "masu": "おわります", "kanji": "終わります", "vi": "kết thúc, xong", "group": 1, "forms": {"dict": "おわる", "te": "おわって", "nai": "おわらない", "ta": "おわった"}},
+    {"lesson": 5, "masu": "いきます", "kanji": "行きます", "vi": "đi", "group": 1, "exception": "Thể て／た đặc biệt: いって, いった", "forms": {"dict": "いく", "te": "いって", "nai": "いかない", "ta": "いった"}},
+    {"lesson": 5, "masu": "きます", "kanji": "来ます", "vi": "đến", "group": 3, "forms": {"dict": "くる", "te": "きて", "nai": "こない", "ta": "きた"}},
+    {"lesson": 5, "masu": "かえります", "kanji": "帰ります", "vi": "về", "group": 1, "exception": "Thể từ điển かえる trông giống nhóm II nhưng là nhóm I", "forms": {"dict": "かえる", "te": "かえって", "nai": "かえらない", "ta": "かえった"}},
+    {"lesson": 6, "masu": "たべます", "kanji": "食べます", "vi": "ăn", "group": 2, "forms": {"dict": "たべる", "te": "たべて", "nai": "たべない", "ta": "たべた"}},
+    {"lesson": 6, "masu": "のみます", "kanji": "飲みます", "vi": "uống", "group": 1, "forms": {"dict": "のむ", "te": "のんで", "nai": "のまない", "ta": "のんだ"}},
+    {"lesson": 6, "masu": "すいます", "kanji": "吸います", "vi": "hút (thuốc lá)", "group": 1, "forms": {"dict": "すう", "te": "すって", "nai": "すわない", "ta": "すった"}},
+    {"lesson": 6, "masu": "みます", "kanji": "見ます", "vi": "xem, nhìn", "group": 2, "exception": "Âm み thuộc hàng い nhưng là nhóm II", "forms": {"dict": "みる", "te": "みて", "nai": "みない", "ta": "みた"}},
+    {"lesson": 6, "masu": "ききます", "kanji": "聞きます", "vi": "nghe", "group": 1, "forms": {"dict": "きく", "te": "きいて", "nai": "きかない", "ta": "きいた"}},
+    {"lesson": 6, "masu": "よみます", "kanji": "読みます", "vi": "đọc", "group": 1, "forms": {"dict": "よむ", "te": "よんで", "nai": "よまない", "ta": "よんだ"}},
+    {"lesson": 6, "masu": "かきます", "kanji": "書きます", "vi": "viết, vẽ", "group": 1, "forms": {"dict": "かく", "te": "かいて", "nai": "かかない", "ta": "かいた"}},
+    {"lesson": 6, "masu": "かいます", "kanji": "買います", "vi": "mua", "group": 1, "forms": {"dict": "かう", "te": "かって", "nai": "かわない", "ta": "かった"}},
+    {"lesson": 6, "masu": "とります", "kanji": "撮ります", "vi": "chụp (ảnh)", "group": 1, "forms": {"dict": "とる", "te": "とって", "nai": "とらない", "ta": "とった"}},
+    {"lesson": 6, "masu": "します", "kanji": "", "vi": "làm", "group": 3, "forms": {"dict": "する", "te": "して", "nai": "しない", "ta": "した"}},
+    {"lesson": 6, "masu": "あいます", "kanji": "会います", "vi": "gặp", "group": 1, "forms": {"dict": "あう", "te": "あって", "nai": "あわない", "ta": "あった"}},
+    {"lesson": 7, "masu": "きります", "kanji": "切ります", "vi": "cắt", "group": 1, "exception": "Thể từ điển きる trông giống nhóm II nhưng là nhóm I", "forms": {"dict": "きる", "te": "きって", "nai": "きらない", "ta": "きった"}},
+    {"lesson": 7, "masu": "おくります", "kanji": "送ります", "vi": "gửi", "group": 1, "forms": {"dict": "おくる", "te": "おくって", "nai": "おくらない", "ta": "おくった"}},
+    {"lesson": 7, "masu": "あげます", "kanji": "", "vi": "cho, tặng", "group": 2, "forms": {"dict": "あげる", "te": "あげて", "nai": "あげない", "ta": "あげた"}},
+    {"lesson": 7, "masu": "もらいます", "kanji": "", "vi": "nhận", "group": 1, "forms": {"dict": "もらう", "te": "もらって", "nai": "もらわない", "ta": "もらった"}},
+    {"lesson": 7, "masu": "かします", "kanji": "貸します", "vi": "cho mượn, cho vay", "group": 1, "forms": {"dict": "かす", "te": "かして", "nai": "かさない", "ta": "かした"}},
+    {"lesson": 7, "masu": "かります", "kanji": "借ります", "vi": "mượn, vay", "group": 2, "exception": "Âm り thuộc hàng い nhưng là nhóm II", "forms": {"dict": "かりる", "te": "かりて", "nai": "かりない", "ta": "かりた"}},
+    {"lesson": 7, "masu": "おしえます", "kanji": "教えます", "vi": "dạy, chỉ", "group": 2, "forms": {"dict": "おしえる", "te": "おしえて", "nai": "おしえない", "ta": "おしえた"}},
+    {"lesson": 7, "masu": "ならいます", "kanji": "習います", "vi": "học (từ ai đó)", "group": 1, "forms": {"dict": "ならう", "te": "ならって", "nai": "ならわない", "ta": "ならった"}},
+    {"lesson": 7, "masu": "かけます", "kanji": "", "vi": "gọi (điện thoại)", "group": 2, "forms": {"dict": "かける", "te": "かけて", "nai": "かけない", "ta": "かけた"}},
+    {"lesson": 9, "masu": "わかります", "kanji": "分かります", "vi": "hiểu", "group": 1, "forms": {"dict": "わかる", "te": "わかって", "nai": "わからない", "ta": "わかった"}},
+    {"lesson": 9, "masu": "あります", "kanji": "", "vi": "có (đồ vật, sở hữu)", "group": 1, "exception": "Thể ない đặc biệt: ない", "forms": {"dict": "ある", "te": "あって", "nai": "ない", "ta": "あった"}},
+    {"lesson": 10, "masu": "います", "kanji": "", "vi": "có, ở (người, động vật)", "group": 2, "exception": "Âm い thuộc hàng い nhưng là nhóm II", "forms": {"dict": "いる", "te": "いて", "nai": "いない", "ta": "いた"}},
+    {"lesson": 11, "masu": "かかります", "kanji": "", "vi": "mất, tốn (thời gian, tiền)", "group": 1, "forms": {"dict": "かかる", "te": "かかって", "nai": "かからない", "ta": "かかった"}},
+    {"lesson": 13, "masu": "あそびます", "kanji": "遊びます", "vi": "chơi", "group": 1, "forms": {"dict": "あそぶ", "te": "あそんで", "nai": "あそばない", "ta": "あそんだ"}},
+    {"lesson": 13, "masu": "およぎます", "kanji": "泳ぎます", "vi": "bơi", "group": 1, "forms": {"dict": "およぐ", "te": "およいで", "nai": "およがない", "ta": "およいだ"}},
+    {"lesson": 13, "masu": "むかえます", "kanji": "迎えます", "vi": "đón", "group": 2, "forms": {"dict": "むかえる", "te": "むかえて", "nai": "むかえない", "ta": "むかえた"}},
+    {"lesson": 13, "masu": "つかれます", "kanji": "疲れます", "vi": "mệt", "group": 2, "forms": {"dict": "つかれる", "te": "つかれて", "nai": "つかれない", "ta": "つかれた"}},
+    {"lesson": 13, "masu": "けっこんします", "kanji": "結婚します", "vi": "kết hôn", "group": 3, "forms": {"dict": "けっこんする", "te": "けっこんして", "nai": "けっこんしない", "ta": "けっこんした"}},
+    {"lesson": 13, "masu": "かいものします", "kanji": "買い物します", "vi": "mua sắm", "group": 3, "forms": {"dict": "かいものする", "te": "かいものして", "nai": "かいものしない", "ta": "かいものした"}},
+    {"lesson": 13, "masu": "しょくじします", "kanji": "食事します", "vi": "ăn cơm, dùng bữa", "group": 3, "forms": {"dict": "しょくじする", "te": "しょくじして", "nai": "しょくじしない", "ta": "しょくじした"}},
+    {"lesson": 13, "masu": "さんぽします", "kanji": "散歩します", "vi": "đi dạo", "group": 3, "forms": {"dict": "さんぽする", "te": "さんぽして", "nai": "さんぽしない", "ta": "さんぽした"}},
+    {"lesson": 13, "masu": "かわきます", "kanji": "渇きます", "vi": "khát (のどが～)", "group": 1, "forms": {"dict": "かわく", "te": "かわいて", "nai": "かわかない", "ta": "かわいた"}},
+    {"lesson": 13, "masu": "すきます", "kanji": "", "vi": "đói (おなかが～)", "group": 1, "forms": {"dict": "すく", "te": "すいて", "nai": "すかない", "ta": "すいた"}},
+    {"lesson": 14, "masu": "つけます", "kanji": "", "vi": "bật (điện, máy lạnh)", "group": 2, "forms": {"dict": "つける", "te": "つけて", "nai": "つけない", "ta": "つけた"}},
+    {"lesson": 14, "masu": "けします", "kanji": "消します", "vi": "tắt", "group": 1, "forms": {"dict": "けす", "te": "けして", "nai": "けさない", "ta": "けした"}},
+    {"lesson": 14, "masu": "あけます", "kanji": "開けます", "vi": "mở (cửa)", "group": 2, "forms": {"dict": "あける", "te": "あけて", "nai": "あけない", "ta": "あけた"}},
+    {"lesson": 14, "masu": "しめます", "kanji": "閉めます", "vi": "đóng (cửa)", "group": 2, "forms": {"dict": "しめる", "te": "しめて", "nai": "しめない", "ta": "しめた"}},
+    {"lesson": 14, "masu": "いそぎます", "kanji": "急ぎます", "vi": "vội, gấp", "group": 1, "forms": {"dict": "いそぐ", "te": "いそいで", "nai": "いそがない", "ta": "いそいだ"}},
+    {"lesson": 14, "masu": "まちます", "kanji": "待ちます", "vi": "đợi, chờ", "group": 1, "forms": {"dict": "まつ", "te": "まって", "nai": "またない", "ta": "まった"}},
+    {"lesson": 14, "masu": "もちます", "kanji": "持ちます", "vi": "cầm, mang", "group": 1, "forms": {"dict": "もつ", "te": "もって", "nai": "もたない", "ta": "もった"}},
+    {"lesson": 14, "masu": "とります", "kanji": "取ります", "vi": "lấy, chuyền", "group": 1, "forms": {"dict": "とる", "te": "とって", "nai": "とらない", "ta": "とった"}},
+    {"lesson": 14, "masu": "てつだいます", "kanji": "手伝います", "vi": "giúp (làm việc)", "group": 1, "forms": {"dict": "てつだう", "te": "てつだって", "nai": "てつだわない", "ta": "てつだった"}},
+    {"lesson": 14, "masu": "よびます", "kanji": "呼びます", "vi": "gọi", "group": 1, "forms": {"dict": "よぶ", "te": "よんで", "nai": "よばない", "ta": "よんだ"}},
+    {"lesson": 14, "masu": "はなします", "kanji": "話します", "vi": "nói, nói chuyện", "group": 1, "forms": {"dict": "はなす", "te": "はなして", "nai": "はなさない", "ta": "はなした"}},
+    {"lesson": 14, "masu": "つかいます", "kanji": "使います", "vi": "dùng, sử dụng", "group": 1, "forms": {"dict": "つかう", "te": "つかって", "nai": "つかわない", "ta": "つかった"}},
+    {"lesson": 14, "masu": "とめます", "kanji": "止めます", "vi": "dừng, đỗ (xe)", "group": 2, "forms": {"dict": "とめる", "te": "とめて", "nai": "とめない", "ta": "とめた"}},
+    {"lesson": 14, "masu": "みせます", "kanji": "見せます", "vi": "cho xem", "group": 2, "forms": {"dict": "みせる", "te": "みせて", "nai": "みせない", "ta": "みせた"}},
+    {"lesson": 14, "masu": "すわります", "kanji": "座ります", "vi": "ngồi", "group": 1, "forms": {"dict": "すわる", "te": "すわって", "nai": "すわらない", "ta": "すわった"}},
+    {"lesson": 14, "masu": "たちます", "kanji": "立ちます", "vi": "đứng", "group": 1, "forms": {"dict": "たつ", "te": "たって", "nai": "たたない", "ta": "たった"}},
+    {"lesson": 14, "masu": "はいります", "kanji": "入ります", "vi": "vào", "group": 1, "exception": "Thể từ điển はいる trông giống nhóm II nhưng là nhóm I", "forms": {"dict": "はいる", "te": "はいって", "nai": "はいらない", "ta": "はいった"}},
+    {"lesson": 14, "masu": "でます", "kanji": "出ます", "vi": "ra, ra khỏi", "group": 2, "forms": {"dict": "でる", "te": "でて", "nai": "でない", "ta": "でた"}},
+    {"lesson": 14, "masu": "ふります", "kanji": "降ります", "vi": "(mưa) rơi", "group": 1, "forms": {"dict": "ふる", "te": "ふって", "nai": "ふらない", "ta": "ふった"}},
+    {"lesson": 14, "masu": "コピーします", "kanji": "", "vi": "photocopy", "group": 3, "forms": {"dict": "コピーする", "te": "コピーして", "nai": "コピーしない", "ta": "コピーした"}}
   ]
 }

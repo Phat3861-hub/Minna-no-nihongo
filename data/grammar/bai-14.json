@@ -1,0 +1,119 @@
+{
+  "lesson": 14,
+  "title": "Thể て: nhờ vả, đang làm, đề nghị giúp",
+  "points": [
+    {
+      "pattern": "Nhóm động từ (I, II, III)",
+      "meaning": "Phân loại động từ để chia thể",
+      "explanations": [
+        "Từ bài này động từ được chia sang các thể khác nhau, nên cần biết động từ thuộc nhóm nào.",
+        "Nhóm I: âm ngay trước ます thuộc hàng い (かきます, のみます, かえります).",
+        "Nhóm II: âm ngay trước ます thuộc hàng え (たべます, みせます), cùng một số động từ đặc biệt như みます, おきます, かります, います.",
+        "Nhóm III: します, きます (đến) và Danh từ + します (コピーします, べんきょうします)."
+      ],
+      "examples": [
+        { "jp": "かきます・のみます・まちます → Nhóm I", "vi": "Âm trước ます: き, み, ち (hàng い)." },
+        { "jp": "たべます・あけます・みせます → Nhóm II", "vi": "Âm trước ます: べ, け, せ (hàng え)." },
+        { "jp": "します・きます・コピーします → Nhóm III", "vi": "Động từ bất quy tắc." }
+      ],
+      "note": "Xem chi tiết và luyện tập ở trang “Nhóm động từ” (menu Ngữ pháp)."
+    },
+    {
+      "pattern": "Thể て (Vて)",
+      "meaning": "Cách chia động từ sang thể て",
+      "explanations": [
+        "Nhóm I: い, ち, り + ます → って (かいます → かって, まちます → まって, とります → とって).",
+        "Nhóm I: み, び, に + ます → んで (のみます → のんで, よびます → よんで).",
+        "Nhóm I: き + ます → いて (かきます → かいて), ぎ + ます → いで (いそぎます → いそいで), し + ます → して (はなします → はなして).",
+        "Ngoại lệ: いきます → いって.",
+        "Nhóm II: bỏ ます, thêm て (たべます → たべて, みせます → みせて).",
+        "Nhóm III: します → して, きます → きて, コピーします → コピーして."
+      ],
+      "examples": [
+        { "jp": "まちます → まって、よびます → よんで、いそぎます → いそいで", "vi": "Nhóm I" },
+        { "jp": "あけます → あけて、みます → みて", "vi": "Nhóm II" },
+        { "jp": "します → して、きます → きて", "vi": "Nhóm III" }
+      ],
+      "note": "Thể て không mang thì và không tự đứng cuối câu lịch sự; nó kết hợp với các mẫu như ～ください, ～います."
+    },
+    {
+      "pattern": "V て ください",
+      "meaning": "Hãy (làm) V / Xin vui lòng (làm) V",
+      "explanations": [
+        "Dùng để nhờ, yêu cầu, chỉ dẫn hoặc mời người nghe làm việc gì đó.",
+        "Khi nhờ một cách lịch sự, thường thêm すみませんが ở đầu câu.",
+        "Không dùng để ra lệnh cho người trên một cách trực tiếp; khi nói với người trên nên dùng cách lịch sự hơn (sẽ học ở bài sau)."
+      ],
+      "examples": [
+        { "jp": "すみませんが、この かんじの よみかたを おしえて ください。", "vi": "Xin lỗi, hãy chỉ cho tôi cách đọc chữ kanji này." },
+        { "jp": "ここに じゅうしょと なまえを かいて ください。", "vi": "Hãy viết địa chỉ và tên vào đây." },
+        { "jp": "ぜひ あそびに きて ください。", "vi": "Nhất định hãy đến chơi nhé. (lời mời)" },
+        { "jp": "もう すこし ゆっくり はなして ください。", "vi": "Hãy nói chậm hơn một chút." }
+      ]
+    },
+    {
+      "pattern": "V て います",
+      "meaning": "Đang (làm) V",
+      "explanations": [
+        "Diễn tả một hành động đang diễn ra tại thời điểm nói.",
+        "Phủ định: V て いません. Câu hỏi: V て いますか.",
+        "Ở các bài sau, V て います còn có nghĩa trạng thái kết quả hoặc thói quen, nghề nghiệp (Bài 15)."
+      ],
+      "examples": [
+        { "jp": "ミラーさんは いま でんわを かけて います。", "vi": "Anh Miller bây giờ đang gọi điện thoại." },
+        { "jp": "いま あめが ふって いますか。── はい、ふって います。", "vi": "Bây giờ trời đang mưa à? ── Vâng, đang mưa." },
+        { "jp": "── いいえ、ふって いません。", "vi": "Không, không mưa." }
+      ]
+    },
+    {
+      "pattern": "V ましょうか",
+      "meaning": "Để tôi (làm) V nhé? (đề nghị giúp)",
+      "explanations": [
+        "Người nói đề nghị làm giúp người nghe việc gì đó.",
+        "Đồng ý: ええ、おねがいします. Từ chối: いいえ、けっこうです.",
+        "Khác với V ましょう (Bài 6) là lời rủ cùng làm."
+      ],
+      "examples": [
+        { "jp": "あしたも きましょうか。── ええ、10じに きて ください。", "vi": "Ngày mai tôi cũng đến nhé? ── Vâng, hãy đến lúc 10 giờ." },
+        { "jp": "かさを かしましょうか。── すみません。おねがいします。", "vi": "Để tôi cho bạn mượn ô nhé? ── Cảm ơn. Nhờ bạn." },
+        { "jp": "にもつを もちましょうか。── いいえ、けっこうです。", "vi": "Để tôi xách hành lý giúp nhé? ── Không, không cần đâu." }
+      ]
+    },
+    {
+      "pattern": "N が V (miêu tả hiện tượng)",
+      "meaning": "Miêu tả nguyên văn sự việc nhìn thấy, nghe thấy",
+      "explanations": [
+        "Khi miêu tả nguyên văn một hiện tượng tự nhiên hay sự việc đang thấy trước mắt, chủ thể đi với trợ từ が.",
+        "Thường gặp: あめが ふって います, かぜが ふいて います (học sau)."
+      ],
+      "examples": [
+        { "jp": "あめが ふって います。", "vi": "Trời đang mưa." },
+        { "jp": "あ、ミラーさんが いますよ。", "vi": "A, có anh Miller kìa." }
+      ]
+    },
+    {
+      "pattern": "すみませんが",
+      "meaning": "Xin lỗi, nhưng… (mở đầu lời nhờ vả)",
+      "explanations": [
+        "が ở đây là liên từ dùng để mở đầu câu chuyện, làm lời nhờ nhẹ nhàng, lịch sự hơn.",
+        "Thường đi trước V て ください."
+      ],
+      "examples": [
+        { "jp": "すみませんが、しおを とって ください。", "vi": "Xin lỗi, chuyền giúp tôi lọ muối." },
+        { "jp": "すみませんが、もう いちど いって ください。", "vi": "Xin lỗi, hãy nói lại một lần nữa." }
+      ]
+    },
+    {
+      "pattern": "V (bỏ ます) かた",
+      "meaning": "Cách (làm) V",
+      "explanations": [
+        "Ghép V bỏ ます với かた (方) để tạo danh từ “cách làm V”.",
+        "Ví dụ: よみます → よみかた (cách đọc), かきます → かきかた (cách viết), つかいます → つかいかた (cách dùng)."
+      ],
+      "examples": [
+        { "jp": "この かんじの よみかたを おしえて ください。", "vi": "Hãy chỉ cho tôi cách đọc chữ kanji này." },
+        { "jp": "コピーきの つかいかたが わかりません。", "vi": "Tôi không biết cách dùng máy photocopy." }
+      ]
+    }
+  ]
+}

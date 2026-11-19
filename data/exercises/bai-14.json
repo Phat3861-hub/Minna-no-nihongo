@@ -1,0 +1,344 @@
+{
+  "lesson": 14,
+  "questions": [
+    {
+      "question": "すみませんが、まどを（　）ください。",
+      "meaning": "Xin lỗi, hãy mở cửa sổ giúp tôi.",
+      "options": [
+        "あけて",
+        "あけます",
+        "あけ",
+        "あける"
+      ],
+      "answer": 0,
+      "explanation": "V て ください: hãy làm V. あけます (nhóm II) → bỏ ます, thêm て: あけて."
+    },
+    {
+      "question": "ちょっと（　）ください。",
+      "meaning": "Hãy đợi một chút.",
+      "options": [
+        "まって",
+        "まちて",
+        "まんで",
+        "まいて"
+      ],
+      "answer": 0,
+      "explanation": "まちます (nhóm I, âm ち) → って: まって."
+    },
+    {
+      "question": "タクシーを（　）ください。",
+      "meaning": "Hãy gọi taxi giúp tôi.",
+      "options": [
+        "よんで",
+        "よびて",
+        "よって",
+        "よいて"
+      ],
+      "answer": 0,
+      "explanation": "よびます (nhóm I, âm び) → んで: よんで."
+    },
+    {
+      "question": "ここに なまえを（　）ください。",
+      "meaning": "Hãy viết tên vào đây.",
+      "options": [
+        "かいて",
+        "かきて",
+        "かって",
+        "かんで"
+      ],
+      "answer": 0,
+      "explanation": "かきます (nhóm I, âm き) → いて: かいて. Chú ý かって là thể て của かいます (mua)."
+    },
+    {
+      "question": "じかんが ありません。（　）ください。",
+      "meaning": "Không có thời gian. Hãy nhanh lên.",
+      "options": [
+        "いそいで",
+        "いそぎて",
+        "いそいて",
+        "いそんで"
+      ],
+      "answer": 0,
+      "explanation": "いそぎます (nhóm I, âm ぎ) → いで: いそいで."
+    },
+    {
+      "question": "もう すこし ゆっくり（　）ください。",
+      "meaning": "Hãy nói chậm hơn một chút.",
+      "options": [
+        "はなして",
+        "はなって",
+        "はないて",
+        "はなしって"
+      ],
+      "answer": 0,
+      "explanation": "はなします (nhóm I, âm し) → して: はなして."
+    },
+    {
+      "question": "あした また（　）ください。",
+      "meaning": "Ngày mai hãy lại đến nhé.",
+      "options": [
+        "きて",
+        "くって",
+        "こて",
+        "きって"
+      ],
+      "answer": 0,
+      "explanation": "きます (đến, nhóm III) → きて. Đây là động từ bất quy tắc, cần học thuộc."
+    },
+    {
+      "question": "この しりょうを 5まい（　）ください。",
+      "meaning": "Hãy photocopy tài liệu này 5 bản.",
+      "options": [
+        "コピーして",
+        "コピーって",
+        "コピーしって",
+        "コピーすて"
+      ],
+      "answer": 0,
+      "explanation": "Danh từ + します (nhóm III) → して: コピーして."
+    },
+    {
+      "question": "はやく（　）ください。もう 9じですよ。",
+      "meaning": "Hãy đi nhanh lên. Đã 9 giờ rồi đấy.",
+      "options": [
+        "いって",
+        "いきて",
+        "いいて",
+        "いんで"
+      ],
+      "answer": 0,
+      "explanation": "いきます là ngoại lệ: thể て là いって (không phải いいて)."
+    },
+    {
+      "question": "パスポートを（　）ください。",
+      "meaning": "Xin cho xem hộ chiếu.",
+      "options": [
+        "みせて",
+        "みて",
+        "みせって",
+        "みんで"
+      ],
+      "answer": 0,
+      "explanation": "みせます (cho xem, nhóm II) → みせて. みて là thể て của みます (xem)."
+    },
+    {
+      "question": "ミラーさんは いま でんわを（　）。",
+      "meaning": "Anh Miller bây giờ đang gọi điện thoại.",
+      "options": [
+        "かけて います",
+        "かけて ください",
+        "かけましょうか",
+        "かけて いました"
+      ],
+      "answer": 0,
+      "explanation": "V て います: diễn tả hành động đang diễn ra lúc nói (いま)."
+    },
+    {
+      "question": "いま あめが（　）か。── いいえ、ふって いません。",
+      "meaning": "Bây giờ trời đang mưa à? ── Không, không mưa.",
+      "options": [
+        "ふって います",
+        "ふります",
+        "ふって ください",
+        "ふりましょう"
+      ],
+      "answer": 0,
+      "explanation": "Hỏi hành động đang diễn ra: V て いますか. Phủ định: V て いません."
+    },
+    {
+      "question": "いま あめ（　）ふって います。",
+      "meaning": "Bây giờ trời đang mưa.",
+      "options": [
+        "が",
+        "を",
+        "は",
+        "に"
+      ],
+      "answer": 0,
+      "explanation": "Khi miêu tả nguyên văn hiện tượng tự nhiên đang thấy, chủ thể đi với が: あめが ふって います."
+    },
+    {
+      "question": "にもつが おもいですね。（　）。── すみません。おねがいします。",
+      "meaning": "Hành lý nặng nhỉ. Để tôi mang giúp nhé? ── Cảm ơn. Nhờ anh.",
+      "options": [
+        "もちましょうか",
+        "もちましょう",
+        "もって ください",
+        "もって います"
+      ],
+      "answer": 0,
+      "explanation": "V ましょうか: người nói đề nghị làm giúp người nghe. もちましょう là rủ cùng làm."
+    },
+    {
+      "question": "かさを かしましょうか。── いいえ、（　）。",
+      "meaning": "Để tôi cho bạn mượn ô nhé? ── Không, không cần đâu.",
+      "options": [
+        "けっこうです",
+        "おねがいします",
+        "そうしましょう",
+        "どういたしまして"
+      ],
+      "answer": 0,
+      "explanation": "Từ chối lời đề nghị giúp đỡ một cách lịch sự: いいえ、けっこうです."
+    },
+    {
+      "question": "エアコンを つけましょうか。── ええ、（　）。",
+      "meaning": "Để tôi bật máy điều hòa nhé? ── Vâng, nhờ bạn.",
+      "options": [
+        "おねがいします",
+        "けっこうです",
+        "つけて います",
+        "どうぞ"
+      ],
+      "answer": 0,
+      "explanation": "Nhận lời đề nghị giúp đỡ: ええ、おねがいします."
+    },
+    {
+      "question": "（　）が、しおを とって ください。",
+      "meaning": "Xin lỗi, chuyền giúp tôi lọ muối.",
+      "options": [
+        "すみません",
+        "ありがとう",
+        "どうぞ",
+        "いいえ"
+      ],
+      "answer": 0,
+      "explanation": "すみませんが: câu mở đầu khi nhờ vả, làm lời nhờ nhẹ nhàng, lịch sự hơn."
+    },
+    {
+      "question": "この かんじの（　）を おしえて ください。",
+      "meaning": "Hãy chỉ cho tôi cách đọc chữ kanji này.",
+      "options": [
+        "よみかた",
+        "よむかた",
+        "よんかた",
+        "よみます"
+      ],
+      "answer": 0,
+      "explanation": "V bỏ ます + かた: cách làm V. よみます → よみかた (cách đọc)."
+    },
+    {
+      "question": "つぎの しんごうを みぎへ（　）ください。",
+      "meaning": "Hãy rẽ phải ở đèn tín hiệu tiếp theo.",
+      "options": [
+        "まがって",
+        "まがりて",
+        "まがんで",
+        "まがいて"
+      ],
+      "answer": 0,
+      "explanation": "まがります (nhóm I, âm り) → って: まがって."
+    },
+    {
+      "question": "ここで（　）ください。",
+      "hint": "nói với tài xế taxi",
+      "meaning": "Hãy dừng xe ở đây.",
+      "options": [
+        "とめて",
+        "とまって",
+        "とって",
+        "とめって"
+      ],
+      "answer": 0,
+      "explanation": "とめます (dừng, đỗ xe, nhóm II) → とめて. とって là thể て của とります."
+    },
+    {
+      "question": "すみません。でんきを（　）ください。くらいですから。",
+      "meaning": "Xin lỗi, hãy bật đèn lên. Vì trời tối.",
+      "options": [
+        "つけて",
+        "けして",
+        "しめて",
+        "あけて"
+      ],
+      "answer": 0,
+      "explanation": "でんきを つけます: bật đèn. けします là tắt. Vì tối (くらい) nên cần bật đèn."
+    },
+    {
+      "question": "さむいですから、ドアを（　）ください。",
+      "meaning": "Vì lạnh nên hãy đóng cửa lại.",
+      "options": [
+        "しめて",
+        "あけて",
+        "つけて",
+        "でて"
+      ],
+      "answer": 0,
+      "explanation": "しめます: đóng (cửa). あけます: mở. Vì lạnh nên đóng cửa."
+    },
+    {
+      "question": "どうぞ こちらに（　）ください。",
+      "meaning": "Xin mời ngồi ở đây.",
+      "options": [
+        "すわって",
+        "すわりて",
+        "すわんで",
+        "すわいて"
+      ],
+      "answer": 0,
+      "explanation": "すわります (nhóm I, âm り) → って: すわって. V て ください còn dùng để mời."
+    },
+    {
+      "question": "わたしは まいあさ 8じに うち（　）でます。",
+      "meaning": "Mỗi sáng tôi ra khỏi nhà lúc 8 giờ.",
+      "options": [
+        "を",
+        "に",
+        "へ",
+        "で"
+      ],
+      "answer": 0,
+      "explanation": "Nơi đi ra khỏi đi với trợ từ を: うちを でます, きっさてんを でます."
+    },
+    {
+      "question": "きっさてん（　）はいりましょう。",
+      "meaning": "Mình vào quán giải khát đi.",
+      "options": [
+        "に",
+        "を",
+        "で",
+        "が"
+      ],
+      "answer": 0,
+      "explanation": "Nơi đi vào đi với trợ từ に: きっさてんに はいります."
+    },
+    {
+      "question": "「たべます」は なんグループの どうしですか。",
+      "instruction": "Chọn nhóm của động từ.",
+      "meaning": "“たべます” là động từ nhóm mấy?",
+      "options": [
+        "Nhóm II",
+        "Nhóm I",
+        "Nhóm III"
+      ],
+      "answer": 0,
+      "explanation": "Âm trước ます là べ (hàng え) nên たべます thuộc nhóm II: thể て là たべて."
+    },
+    {
+      "question": "わたしは ＿＿ ＿＿ ★ ＿＿。",
+      "instruction": "Sắp xếp các từ cho đúng thứ tự và chọn từ ở vị trí ★.",
+      "meaning": "Tôi đang đợi bạn ở nhà ga.",
+      "options": [
+        "ともだちを",
+        "えきで",
+        "まって",
+        "います"
+      ],
+      "answer": 2,
+      "explanation": "Câu đúng: わたしは えきで ともだちを まって います。 Nơi xảy ra hành động đi với で, người được đợi đi với を, V て います: đang làm."
+    },
+    {
+      "question": "すみませんが、＿＿ ＿＿ ★ ＿＿。",
+      "instruction": "Sắp xếp các từ cho đúng thứ tự và chọn từ ở vị trí ★.",
+      "meaning": "Xin lỗi, hãy cho tôi biết địa chỉ và tên.",
+      "options": [
+        "なまえを",
+        "じゅうしょと",
+        "おしえて",
+        "ください"
+      ],
+      "answer": 2,
+      "explanation": "Câu đúng: すみませんが、じゅうしょと なまえを おしえて ください。 N1 と N2 を V て ください."
+    }
+  ]
+}

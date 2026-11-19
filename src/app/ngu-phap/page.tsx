@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { PageHead } from "@/components/ui";
-import { getGrammarLessons } from "@/lib/data";
+import { getGrammarLessons, getVerbData } from "@/lib/data";
 
 export const metadata: Metadata = { title: "Ngữ pháp" };
 
 export default function Page() {
   const lessons = getGrammarLessons();
+  const verbs = getVerbData().verbs;
+  const maxVerbLesson = Math.max(...verbs.map((v) => v.lesson));
   const total = lessons.reduce((s, l) => s + l.points.length, 0);
   return (
     <>
@@ -21,7 +23,7 @@ export default function Page() {
         </h3>
         <p>
           Phân biệt động từ nhóm I, II, III và cách chia thể て, ない, từ điển, た — nền tảng cho ngữ pháp từ Bài 14 trở đi. Có bảng
-          động từ Bài 1–13 và bài luyện tập.
+          {verbs.length} động từ Bài 1–{maxVerbLesson} và bài luyện tập.
         </p>
       </Link>
 
