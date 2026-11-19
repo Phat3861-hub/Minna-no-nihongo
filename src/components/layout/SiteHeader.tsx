@@ -5,8 +5,9 @@ import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import { NAV, isActive, isGroup, type NavGroup } from "@/lib/nav";
 import type { KanjiBrief, VocabWord } from "@/lib/types";
-import { IconChevron, IconClose, IconMenu, IconSearch } from "../icons";
+import { IconChevron, IconClose, IconColumns, IconMenu, IconSearch } from "../icons";
 import QuickSearch from "./QuickSearch";
+import SplitView, { useSplit } from "./SplitView";
 import ThemeToggle from "./ThemeToggle";
 
 function Dropdown({ g, pathname }: { g: NavGroup; pathname: string }) {
@@ -73,6 +74,7 @@ export default function SiteHeader({ words, kanjiIndex }: { words: VocabWord[]; 
   const pathname = usePathname() || "/";
   const [drawer, setDrawer] = useState(false);
   const [search, setSearch] = useState(false);
+  const [split, setSplit] = useSplit();
 
   useEffect(() => setDrawer(false), [pathname]);
 
@@ -137,6 +139,16 @@ export default function SiteHeader({ words, kanjiIndex }: { words: VocabWord[]; 
             </button>
             <button type="button" className="icon-btn search-icon-btn" onClick={() => setSearch(true)} aria-label="Tìm từ vựng">
               <IconSearch />
+            </button>
+            <button
+              type="button"
+              className="icon-btn split-btn"
+              aria-pressed={split}
+              onClick={() => setSplit(!split)}
+              aria-label={split ? "Tắt chia đôi màn hình" : "Chia đôi màn hình"}
+              title={split ? "Tắt chia đôi màn hình" : "Chia đôi màn hình"}
+            >
+              <IconColumns />
             </button>
             <ThemeToggle />
             <button type="button" className="icon-btn menu-btn" onClick={() => setDrawer(true)} aria-label="Mở menu" aria-expanded={drawer}>
@@ -203,6 +215,8 @@ export default function SiteHeader({ words, kanjiIndex }: { words: VocabWord[]; 
           </aside>
         </>
       )}
+
+      <SplitView />
 
       {search && <QuickSearch words={words} kanjiIndex={kanjiIndex} onClose={() => setSearch(false)} />}
     </>
