@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { IconLeft, IconRight } from "@/components/icons";
 import QuizPlayer from "@/components/quiz/QuizPlayer";
-import { ChipPicker, ConfirmButton, Empty, Meter, OptionsPanel, Segmented, Switch, useHotkeys } from "@/components/ui";
+import { ChipPicker, ConfirmButton, Empty, Meter, OptionsPanel, Segmented, Switch, UnmarkButton, useHotkeys } from "@/components/ui";
 import KanjiBreakdown from "@/components/vocab/KanjiBreakdown";
 import WordRow, { GroupTag, verbGroupOf } from "@/components/vocab/WordRow";
 import { useDoneSet } from "@/lib/progress";
@@ -35,7 +35,7 @@ export default function VocabStudy({
   const [dir, setDir] = useStored<Dir>("mnn.dir", "jv", oneOf("jv", "vj"));
   const [rom, setRom] = useStored("mnn.rom", true, isBool);
   const [showKb, setShowKb] = useStored("mnn.kb", true, isBool);
-  const { done, toggle, clear } = useDoneSet("vocab");
+  const { done, toggle, clear, removeMany } = useDoneSet("vocab");
 
   const [onlyNew, setOnlyNew] = useState(false);
   const [onlyKanji, setOnlyKanji] = useState(false);
@@ -302,6 +302,9 @@ export default function VocabStudy({
             <em>
               {d}/{L.words.length} đã thuộc
             </em>
+            {d > 0 && (
+              <UnmarkButton label="Bỏ thuộc bài này" count={d} unit="từ" onConfirm={() => removeMany(L.words.map((w) => w.id))} />
+            )}
           </div>
           <ul className="words">
             {ws.map((w) => {
@@ -348,6 +351,9 @@ export default function VocabStudy({
             }}
           />
           <p className="summary">{summary}</p>
+          <div className="summary-actions">
+            <UnmarkButton count={selDone} unit="từ" onConfirm={() => removeMany(selWords.map((w) => w.id))} />
+          </div>
         </section>
         <OptionsPanel>
           <span className="field-label">Hướng ôn</span>

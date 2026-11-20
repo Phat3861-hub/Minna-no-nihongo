@@ -5,7 +5,7 @@ import { useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { IconLeft, IconRight } from "@/components/icons";
 import QuizPlayer from "@/components/quiz/QuizPlayer";
-import { ChipPicker, ConfirmButton, Empty, Meter, OptionsPanel, Segmented, Switch, useHotkeys } from "@/components/ui";
+import { ChipPicker, ConfirmButton, Empty, Meter, OptionsPanel, Segmented, Switch, UnmarkButton, useHotkeys } from "@/components/ui";
 import { buildKanjiCtx, kanjiSources, makeKQ, sentTarget, splitSentence, type KQType, type KSrc } from "@/lib/kanjiQuiz";
 import { useDoneSet } from "@/lib/progress";
 import { newQuiz, type QItem, type Quiz } from "@/lib/quiz";
@@ -103,7 +103,7 @@ export default function KanjiStudy({ data, uses }: { data: KanjiData; uses: Reco
   const [qtype, setQtype] = useStored<KQType>("mnn.kq", "mean", oneOf("mean", "read", "write", "sread", "swrite", "mix"));
   const [count, setCount] = useStored<Count>("mnn.kcount", "10", oneOf("10", "20", "all"));
   const [rom, setRom] = useStored("mnn.rom", true, isBool);
-  const { done, toggle, clear } = useDoneSet("kanji");
+  const { done, toggle, clear, removeMany } = useDoneSet("kanji");
   const [onlyNew, setOnlyNew] = useState(false);
   const [shuffle, setShuffle] = useState(false);
   const [pickId, setPickId] = useState<string | null>(null);
@@ -465,6 +465,9 @@ export default function KanjiStudy({ data, uses }: { data: KanjiData; uses: Reco
             }}
           />
           <p className="summary">{summary}</p>
+          <div className="summary-actions">
+            <UnmarkButton count={selDone} unit="chữ" onConfirm={() => removeMany(selItems.map((o) => o.id))} />
+          </div>
         </section>
         <OptionsPanel>
           {mode === "quiz" && (

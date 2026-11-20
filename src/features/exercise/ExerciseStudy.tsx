@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { Fragment, useEffect, useMemo, useState } from "react";
 import QuizPlayer from "@/components/quiz/QuizPlayer";
-import { ChipPicker, ConfirmButton, Empty, OptionsPanel, Segmented, Switch } from "@/components/ui";
+import { ChipPicker, ConfirmButton, Empty, OptionsPanel, Segmented, Switch, UnmarkButton } from "@/components/ui";
 import { useDoneSet } from "@/lib/progress";
 import { newQuiz, rightText, type QItem, type Quiz } from "@/lib/quiz";
 import { numArray, oneOf, toggleIn, useStored } from "@/lib/store";
@@ -35,7 +35,7 @@ export default function ExerciseStudy({ lessons, questions }: { lessons: { lesso
   const N = lessons.length;
   const [sel, setSel] = useStored<number[]>("mnn.esel", [1], numArray((n) => n >= 1 && n <= N));
   const [count, setCount] = useStored<Count>("mnn.ecount", "10", oneOf("10", "20", "all"));
-  const { done, toggle, clear } = useDoneSet("exercise");
+  const { done, toggle, clear, removeMany } = useDoneSet("exercise");
   const [onlyNew, setOnlyNew] = useState(false);
   const [quiz, setQuiz] = useState<Quiz<Meta> | null>(null);
   const selSet = useMemo(() => new Set(sel), [sel]);
@@ -107,6 +107,9 @@ export default function ExerciseStudy({ lessons, questions }: { lessons: { lesso
             }}
           />
           <p className="summary">{summary}</p>
+          <div className="summary-actions">
+            <UnmarkButton label="Bỏ đánh dấu làm đúng" count={selDone} unit="câu" onConfirm={() => removeMany(items.map((o) => o.id))} />
+          </div>
         </section>
         <OptionsPanel>
           <span className="field-label">Số câu mỗi vòng</span>
