@@ -149,6 +149,35 @@ export function ConfirmButton({ onConfirm, children, confirmText }: { onConfirm:
   );
 }
 
+/** Nút “Bỏ thuộc tất cả” cho các mục đang chọn (bấm 2 lần để xác nhận) */
+export function UnmarkButton({ count, onConfirm, label = "Bỏ thuộc tất cả", unit = "mục" }: { count: number; onConfirm: () => void; label?: string; unit?: string }) {
+  const [armed, setArmed] = useState(false);
+  useEffect(() => {
+    if (!armed) return;
+    const t = setTimeout(() => setArmed(false), 4000);
+    return () => clearTimeout(t);
+  }, [armed]);
+  useEffect(() => {
+    if (!count) setArmed(false);
+  }, [count]);
+  return (
+    <button
+      type="button"
+      className={"btn sm unmark" + (armed ? " bad" : "")}
+      disabled={!count}
+      title={count ? `Bỏ dấu “đã thuộc” của ${count} ${unit} trong phần đang chọn` : "Chưa có mục nào được đánh dấu"}
+      onClick={() => {
+        if (armed) {
+          setArmed(false);
+          onConfirm();
+        } else setArmed(true);
+      }}
+    >
+      {armed ? `Bấm lần nữa để bỏ ${count} ${unit}` : `${label}${count ? ` (${count})` : ""}`}
+    </button>
+  );
+}
+
 /** Lắng nghe phím tắt trên toàn trang (bỏ qua khi đang gõ trong ô nhập) */
 export function useHotkeys(handler: (e: KeyboardEvent) => void, deps: unknown[]) {
   useEffect(() => {

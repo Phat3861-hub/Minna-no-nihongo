@@ -16,5 +16,10 @@ export function useDoneSet(kind: keyof typeof KEYS) {
       return want ? [...prev, id] : prev.filter((x) => x !== id);
     });
   const clear = () => setArr([]);
-  return { done: set, toggle, clear };
+  /** Bỏ đánh dấu một nhóm mục (ví dụ: các bài đang chọn) */
+  const removeMany = (ids: string[]) => {
+    const rm = new Set(ids);
+    setArr((prev) => prev.filter((x) => !rm.has(x)));
+  };
+  return { done: set, toggle, clear, removeMany };
 }
