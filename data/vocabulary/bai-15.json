@@ -1,0 +1,29 @@
+{
+  "lesson": 15,
+  "title": "Xin phép, cấm đoán và trạng thái",
+  "words": [
+    { "kana": "おきます", "kanji": "置きます", "vi": "đặt, để", "note": "Khác với 起きます (thức dậy, Bài 4) – cùng cách đọc nhưng khác nhóm động từ" },
+    { "kana": "つくります", "kanji": "作ります", "vi": "làm, chế tạo, sản xuất", "note": "Cũng viết 造ります khi nói về chế tạo lớn (tàu, nhà máy…)" },
+    { "kana": "うります", "kanji": "売ります", "vi": "bán" },
+    { "kana": "しります", "kanji": "知ります", "vi": "biết", "note": "Biết rồi: しって います. Không biết: しりません (không nói しって いません)" },
+    { "kana": "すみます", "kanji": "住みます", "vi": "sống, ở", "note": "Đang sống ở N: N に すんで います" },
+    { "kana": "けんきゅうします", "kanji": "研究します", "vi": "nghiên cứu" },
+    { "kana": "しりょう", "kanji": "資料", "vi": "tài liệu, tư liệu" },
+    { "kana": "カタログ", "kanji": "", "vi": "ca-ta-lô, sách giới thiệu sản phẩm" },
+    { "kana": "じこくひょう", "kanji": "時刻表", "vi": "bảng giờ tàu chạy" },
+    { "kana": "ふく", "kanji": "服", "vi": "quần áo" },
+    { "kana": "せいひん", "kanji": "製品", "vi": "sản phẩm" },
+    { "kana": "ソフト", "kanji": "", "vi": "phần mềm" },
+    { "kana": "でんしじしょ", "kanji": "電子辞書", "vi": "kim từ điển, từ điển điện tử" },
+    { "kana": "けいざい", "kanji": "経済", "vi": "kinh tế" },
+    { "kana": "しやくしょ", "kanji": "市役所", "vi": "tòa thị chính, ủy ban thành phố" },
+    { "kana": "こうこう", "kanji": "高校", "vi": "trường trung học phổ thông (cấp 3)" },
+    { "kana": "はいしゃ", "kanji": "歯医者", "vi": "nha sĩ, phòng khám nha khoa" },
+    { "kana": "どくしん", "kanji": "独身", "vi": "độc thân" },
+    { "kana": "すみません", "kanji": "", "vi": "xin lỗi (khi không đồng ý cho phép)", "note": "すみません、ちょっと…: từ chối nhẹ nhàng khi người khác xin phép" },
+    { "kana": "おもいだします", "kanji": "思い出します", "vi": "nhớ lại, hồi tưởng" },
+    { "kana": "いらっしゃいます", "kanji": "", "vi": "có, ở (cách nói kính trọng của います)", "note": "ごかぞくは どちらに いらっしゃいますか: Gia đình anh/chị ở đâu ạ?" },
+    { "kana": "にっぽんばし", "kanji": "日本橋", "vi": "Nippombashi (khu mua bán đồ điện tử ở Osaka)" },
+    { "kana": "みんなの インタビュー", "kanji": "", "vi": "“Phỏng vấn mọi người” (tên chương trình TV giả định)" }
+  ]
+}

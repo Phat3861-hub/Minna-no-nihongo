@@ -243,6 +243,13 @@
     {"lesson": 14, "masu": "はいります", "kanji": "入ります", "vi": "vào", "group": 1, "exception": "Thể từ điển はいる trông giống nhóm II nhưng là nhóm I", "forms": {"dict": "はいる", "te": "はいって", "nai": "はいらない", "ta": "はいった"}},
     {"lesson": 14, "masu": "でます", "kanji": "出ます", "vi": "ra, ra khỏi", "group": 2, "forms": {"dict": "でる", "te": "でて", "nai": "でない", "ta": "でた"}},
     {"lesson": 14, "masu": "ふります", "kanji": "降ります", "vi": "(mưa) rơi", "group": 1, "forms": {"dict": "ふる", "te": "ふって", "nai": "ふらない", "ta": "ふった"}},
-    {"lesson": 14, "masu": "コピーします", "kanji": "", "vi": "photocopy", "group": 3, "forms": {"dict": "コピーする", "te": "コピーして", "nai": "コピーしない", "ta": "コピーした"}}
+    {"lesson": 14, "masu": "コピーします", "kanji": "", "vi": "photocopy", "group": 3, "forms": {"dict": "コピーする", "te": "コピーして", "nai": "コピーしない", "ta": "コピーした"}},
+    {"lesson": 15, "masu": "おきます", "kanji": "置きます", "vi": "đặt, để", "group": 1, "exception": "Cùng cách đọc với 起きます (thức dậy, nhóm II) nhưng 置きます là nhóm I", "forms": {"dict": "おく", "te": "おいて", "nai": "おかない", "ta": "おいた"}},
+    {"lesson": 15, "masu": "つくります", "kanji": "作ります", "vi": "làm, chế tạo", "group": 1, "forms": {"dict": "つくる", "te": "つくって", "nai": "つくらない", "ta": "つくった"}},
+    {"lesson": 15, "masu": "うります", "kanji": "売ります", "vi": "bán", "group": 1, "forms": {"dict": "うる", "te": "うって", "nai": "うらない", "ta": "うった"}},
+    {"lesson": 15, "masu": "しります", "kanji": "知ります", "vi": "biết", "group": 1, "exception": "Biết: しって います; không biết: しりません", "forms": {"dict": "しる", "te": "しって", "nai": "しらない", "ta": "しった"}},
+    {"lesson": 15, "masu": "すみます", "kanji": "住みます", "vi": "sống, ở", "group": 1, "forms": {"dict": "すむ", "te": "すんで", "nai": "すまない", "ta": "すんだ"}},
+    {"lesson": 15, "masu": "けんきゅうします", "kanji": "研究します", "vi": "nghiên cứu", "group": 3, "forms": {"dict": "けんきゅうする", "te": "けんきゅうして", "nai": "けんきゅうしない", "ta": "けんきゅうした"}},
+    {"lesson": 15, "masu": "おもいだします", "kanji": "思い出します", "vi": "nhớ lại", "group": 1, "forms": {"dict": "おもいだす", "te": "おもいだして", "nai": "おもいださない", "ta": "おもいだした"}}
   ]
 }

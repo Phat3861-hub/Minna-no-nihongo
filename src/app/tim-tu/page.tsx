@@ -2,14 +2,13 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 import { ClientOnly, PageHead } from "@/components/ui";
 import SearchStudy from "@/features/search/SearchStudy";
-import { getKanjiIndex, getVerbData, getVocabLessons } from "@/lib/data";
+import { getKanjiIndex, getVerbGroupMap, getVocabLessons } from "@/lib/data";
 
 export const metadata: Metadata = { title: "Tìm từ" };
 
 export default function Page() {
   const lessons = getVocabLessons();
-  const verbGroups: Record<string, number> = {};
-  for (const v of getVerbData().verbs) verbGroups[v.masu] = v.group;
+  const verbGroups = getVerbGroupMap();
   return (
     <>
       <PageHead jp="検索" eyebrow=" · Tìm từ" title="Tìm từ vựng">

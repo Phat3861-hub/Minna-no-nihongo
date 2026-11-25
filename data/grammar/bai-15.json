@@ -1,0 +1,114 @@
+{
+  "lesson": 15,
+  "title": "Xin phép, cấm đoán và V て います (trạng thái, thói quen)",
+  "points": [
+    {
+      "pattern": "V て も いいですか",
+      "meaning": "Tôi (làm) V có được không? (xin phép)",
+      "explanations": [
+        "Dùng thể て + も いいですか để xin phép người nghe cho mình làm việc gì đó.",
+        "Đồng ý: ええ、いいですよ／どうぞ.",
+        "Từ chối nhẹ nhàng: すみません、ちょっと…. Từ chối dứt khoát (thường dùng cho quy định): いいえ、いけません."
+      ],
+      "examples": [
+        { "jp": "しゃしんを とっても いいですか。── ええ、いいですよ。", "vi": "Tôi chụp ảnh có được không? ── Vâng, được chứ." },
+        { "jp": "この カタログを もらっても いいですか。── ええ、どうぞ。", "vi": "Tôi lấy cuốn ca-ta-lô này được không? ── Vâng, xin mời." },
+        { "jp": "たばこを すっても いいですか。── すみません、ちょっと…。", "vi": "Tôi hút thuốc có được không? ── Xin lỗi, hơi…" }
+      ]
+    },
+    {
+      "pattern": "V て も いいです",
+      "meaning": "(Bạn) được phép làm V",
+      "explanations": [
+        "Câu khẳng định, dùng để cho phép người khác làm gì đó.",
+        "Không nên dùng để nói với người trên vì nghe như mình đang “ban phép”."
+      ],
+      "examples": [
+        { "jp": "ここに すわっても いいです。", "vi": "Bạn có thể ngồi ở đây." },
+        { "jp": "この じしょを つかっても いいですよ。", "vi": "Bạn dùng cuốn từ điển này cũng được đấy." }
+      ]
+    },
+    {
+      "pattern": "V て は いけません",
+      "meaning": "Không được (làm) V (cấm đoán)",
+      "explanations": [
+        "Diễn tả sự cấm đoán, thường dùng cho quy định, nội quy hoặc người trên nói với người dưới.",
+        "Trả lời câu xin phép V ても いいですか bằng cách cấm: いいえ、いけません.",
+        "Không dùng với người trên vì nghe rất mạnh và thiếu lịch sự."
+      ],
+      "examples": [
+        { "jp": "ここで たばこを すっては いけません。", "vi": "Không được hút thuốc ở đây." },
+        { "jp": "せんせい、ここで あそんでも いいですか。── いいえ、いけません。", "vi": "Thưa cô, chúng em chơi ở đây được không ạ? ── Không, không được." },
+        { "jp": "びじゅつかんで しゃしんを とっては いけません。", "vi": "Không được chụp ảnh trong bảo tàng mỹ thuật." }
+      ]
+    },
+    {
+      "pattern": "V て います (trạng thái kết quả)",
+      "meaning": "Trạng thái còn lại sau khi hành động đã xảy ra",
+      "explanations": [
+        "Ngoài nghĩa “đang làm” (Bài 14), V て います còn diễn tả trạng thái kết quả của một hành động đã xảy ra và vẫn còn đến hiện tại.",
+        "Hay gặp với: けっこんします (đã kết hôn), すみます (đang sống ở), しります (biết), もちます (có, sở hữu).",
+        "けっこんして います = đã kết hôn (và hiện vẫn đang trong hôn nhân), không phải “đang làm đám cưới”."
+      ],
+      "examples": [
+        { "jp": "わたしは けっこんして います。", "vi": "Tôi đã kết hôn (đã có gia đình)." },
+        { "jp": "マリアさんは おおさかに すんで います。", "vi": "Chị Maria đang sống ở Osaka." },
+        { "jp": "わたしは カメラを もって います。", "vi": "Tôi có máy ảnh." },
+        { "jp": "わたしは どくしんです。けっこんして いません。", "vi": "Tôi độc thân. Tôi chưa kết hôn." }
+      ]
+    },
+    {
+      "pattern": "しって います／しりません",
+      "meaning": "Biết / Không biết",
+      "explanations": [
+        "Khẳng định dùng しって います (biết).",
+        "Phủ định dùng しりません, không nói しって いません.",
+        "Câu hỏi: N を しって いますか."
+      ],
+      "examples": [
+        { "jp": "ミラーさんの じゅうしょを しって いますか。── はい、しって います。", "vi": "Bạn có biết địa chỉ của anh Miller không? ── Vâng, tôi biết." },
+        { "jp": "── いいえ、しりません。", "vi": "Không, tôi không biết." }
+      ],
+      "note": "わかります (Bài 9) là hiểu, nắm được; しって います là biết (có thông tin về điều gì đó)."
+    },
+    {
+      "pattern": "V て います (thói quen, nghề nghiệp)",
+      "meaning": "Làm V (hành động lặp đi lặp lại, công việc lâu dài)",
+      "explanations": [
+        "Diễn tả hành động lặp lại trong thời gian dài, thường dùng để nói về nghề nghiệp, công việc, hoặc việc mà một công ty làm.",
+        "Hỏi nghề nghiệp: おしごとは なんですか. Trả lời bằng V て います hoặc N です."
+      ],
+      "examples": [
+        { "jp": "IMCは コンピューターソフトを つくって います。", "vi": "Công ty IMC làm (sản xuất) phần mềm máy tính." },
+        { "jp": "スーパーで ナンプラーを うって います。", "vi": "Siêu thị có bán nước mắm Thái." },
+        { "jp": "わたしは だいがくで けいざいを けんきゅうして います。", "vi": "Tôi đang nghiên cứu kinh tế ở trường đại học." }
+      ]
+    },
+    {
+      "pattern": "N に V (に chỉ điểm đến của hành động)",
+      "meaning": "Vào / lên / ngồi vào N",
+      "explanations": [
+        "Với các động từ như はいります (vào), すわります (ngồi), のります (lên xe), のぼります (leo lên), つきます (đến nơi), trợ từ に chỉ nơi mà người hay vật đi tới sau hành động.",
+        "Phân biệt: nơi đi ra khỏi dùng を (へやを でます), nơi đi vào dùng に (へやに はいります)."
+      ],
+      "examples": [
+        { "jp": "ここに はいっては いけません。", "vi": "Không được vào đây." },
+        { "jp": "この いすに すわっても いいですか。", "vi": "Tôi ngồi vào ghế này có được không?" },
+        { "jp": "きょうとえきで 16ばんせんの でんしゃに のって ください。", "vi": "Ở ga Kyoto hãy lên tàu ở đường ray số 16." }
+      ]
+    },
+    {
+      "pattern": "N1 に N2 を V",
+      "meaning": "Làm V với N2 tại / vào N1",
+      "explanations": [
+        "に chỉ nơi mà kết quả của hành động còn lại: nơi đặt đồ, nơi viết chữ, nơi đỗ xe…",
+        "Hay dùng với おきます (đặt), かきます (viết), とめます (đỗ xe)."
+      ],
+      "examples": [
+        { "jp": "ここに くるまを とめては いけません。", "vi": "Không được đỗ xe ở đây." },
+        { "jp": "つくえの うえに しりょうを おいて ください。", "vi": "Hãy đặt tài liệu lên trên bàn." },
+        { "jp": "ここに じゅうしょを かいて ください。", "vi": "Hãy viết địa chỉ vào đây." }
+      ]
+    }
+  ]
+}

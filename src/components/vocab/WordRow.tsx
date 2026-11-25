@@ -11,7 +11,9 @@ export const GROUP_NAME = ["", "Nhóm I", "Nhóm II", "Nhóm III"];
 
 export function verbGroupOf(w: VocabWord, groups?: Record<string, number>) {
   if (!groups) return 0;
-  return groups[w.kana.replace(/^\[[^\]]*\]/, "")] || 0;
+  const strip = (s: string) => s.replace(/^\[[^\]]*\]/, "");
+  const kana = strip(w.kana);
+  return groups[`${kana}|${strip(w.kanji)}`] || groups[kana] || 0;
 }
 
 export function GroupTag({ g }: { g: number }) {
