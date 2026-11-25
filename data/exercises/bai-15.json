@@ -1,0 +1,348 @@
+{
+  "lesson": 15,
+  "questions": [
+    {
+      "question": "ここで しゃしんを（　）も いいですか。",
+      "meaning": "Tôi chụp ảnh ở đây có được không?",
+      "options": [
+        "とって",
+        "とり",
+        "とる",
+        "とります"
+      ],
+      "answer": 0,
+      "explanation": "V て も いいですか: xin phép. とります (nhóm I, âm り) → とって."
+    },
+    {
+      "question": "この ペンを（　）も いいですか。",
+      "meaning": "Tôi dùng cây bút này có được không?",
+      "options": [
+        "つかって",
+        "つかいて",
+        "つかんで",
+        "つかう"
+      ],
+      "answer": 0,
+      "explanation": "つかいます (nhóm I, âm い) → って: つかって."
+    },
+    {
+      "question": "まどを あけて（　）いいですか。",
+      "meaning": "Tôi mở cửa sổ có được không?",
+      "options": [
+        "も",
+        "は",
+        "を",
+        "が"
+      ],
+      "answer": 0,
+      "explanation": "Xin phép: V て も いいですか. Trợ từ も đứng ngay sau thể て."
+    },
+    {
+      "question": "ここで たばこを すって（　）いけません。",
+      "meaning": "Không được hút thuốc ở đây.",
+      "options": [
+        "は",
+        "も",
+        "が",
+        "を"
+      ],
+      "answer": 0,
+      "explanation": "Cấm đoán: V て は いけません. Trợ từ は đứng sau thể て."
+    },
+    {
+      "question": "びじゅつかんで しゃしんを とっては（　）。",
+      "meaning": "Không được chụp ảnh trong bảo tàng mỹ thuật.",
+      "options": [
+        "いけません",
+        "いいです",
+        "いいですか",
+        "います"
+      ],
+      "answer": 0,
+      "explanation": "V て は いけません: diễn tả sự cấm đoán, thường dùng cho nội quy."
+    },
+    {
+      "question": "この しりょうを もらっても いいですか。── ええ、（　）。",
+      "meaning": "Tôi lấy tài liệu này được không? ── Vâng, xin mời.",
+      "options": [
+        "どうぞ",
+        "いけません",
+        "しりません",
+        "すみません、ちょっと…"
+      ],
+      "answer": 0,
+      "explanation": "Đồng ý cho phép: ええ、どうぞ／ええ、いいですよ."
+    },
+    {
+      "question": "まどを あけても いいですか。──（　）、ちょっと…。さむいですから。",
+      "meaning": "Tôi mở cửa sổ được không? ── Xin lỗi, hơi… Vì trời lạnh.",
+      "options": [
+        "すみません",
+        "どうぞ",
+        "ええ",
+        "いいですよ"
+      ],
+      "answer": 0,
+      "explanation": "Từ chối nhẹ nhàng khi người khác xin phép: すみません、ちょっと…."
+    },
+    {
+      "question": "わたしは とうきょうに（　）。",
+      "hint": "trạng thái hiện tại",
+      "meaning": "Tôi đang sống ở Tokyo.",
+      "options": [
+        "すんで います",
+        "すみて います",
+        "すんで ください",
+        "すみましょう"
+      ],
+      "answer": 0,
+      "explanation": "すみます (nhóm I, âm み) → すんで. N に すんで います: trạng thái đang sống ở N."
+    },
+    {
+      "question": "わたしは おおさか（　）すんで います。",
+      "meaning": "Tôi đang sống ở Osaka.",
+      "options": [
+        "に",
+        "で",
+        "を",
+        "へ"
+      ],
+      "answer": 0,
+      "explanation": "すみます đi với trợ từ に: N に すんで います."
+    },
+    {
+      "question": "サントスさんは（　）います。おくさんは マリアさんです。",
+      "meaning": "Anh Santos đã kết hôn. Vợ anh ấy là chị Maria.",
+      "options": [
+        "けっこんして",
+        "けっこんしって",
+        "けっこんすて",
+        "けっこんしんで"
+      ],
+      "answer": 0,
+      "explanation": "けっこんします (nhóm III) → けっこんして. けっこんして います: đã kết hôn (trạng thái kết quả)."
+    },
+    {
+      "question": "わたしは どくしんです。まだ けっこんして（　）。",
+      "meaning": "Tôi độc thân. Tôi vẫn chưa kết hôn.",
+      "options": [
+        "いません",
+        "います",
+        "いけません",
+        "ください"
+      ],
+      "answer": 0,
+      "explanation": "Phủ định của trạng thái V て います là V て いません."
+    },
+    {
+      "question": "ミラーさんの でんわばんごうを しって いますか。── いいえ、（　）。",
+      "meaning": "Bạn có biết số điện thoại của anh Miller không? ── Không, tôi không biết.",
+      "options": [
+        "しりません",
+        "しって いません",
+        "しりませんでした",
+        "わかりませんです"
+      ],
+      "answer": 0,
+      "explanation": "Phủ định của しって います là しりません, không nói しって いません."
+    },
+    {
+      "question": "あの ひとを（　）か。── ええ、ワットさんです。",
+      "meaning": "Bạn có biết người kia không? ── Có, đó là anh Watt.",
+      "options": [
+        "しって います",
+        "しります",
+        "しりません",
+        "しって ください"
+      ],
+      "answer": 0,
+      "explanation": "Hỏi biết hay không: N を しって いますか. Khẳng định là しって います."
+    },
+    {
+      "question": "わたしは カメラを（　）います。",
+      "hint": "trạng thái sở hữu",
+      "meaning": "Tôi có máy ảnh.",
+      "options": [
+        "もって",
+        "もちて",
+        "もんで",
+        "もいて"
+      ],
+      "answer": 0,
+      "explanation": "もちます (nhóm I, âm ち) → もって. もって います: có, sở hữu."
+    },
+    {
+      "question": "IMCは コンピューターソフトを（　）。",
+      "hint": "công việc lâu dài của công ty",
+      "meaning": "Công ty IMC sản xuất phần mềm máy tính.",
+      "options": [
+        "つくって います",
+        "つくりましょう",
+        "つくっても いいです",
+        "つくっては いけません"
+      ],
+      "answer": 0,
+      "explanation": "V て います còn diễn tả hành động lặp lại lâu dài như nghề nghiệp, công việc của công ty."
+    },
+    {
+      "question": "あの みせで でんしじしょを（　）いますか。",
+      "meaning": "Cửa hàng kia có bán kim từ điển không?",
+      "options": [
+        "うって",
+        "うりて",
+        "うんで",
+        "ういて"
+      ],
+      "answer": 0,
+      "explanation": "うります (nhóm I, âm り) → うって. うって います: có bán (việc làm thường xuyên)."
+    },
+    {
+      "question": "カリナさんは だいがくで びじゅつを（　）います。",
+      "meaning": "Chị Karina đang nghiên cứu mỹ thuật ở trường đại học.",
+      "options": [
+        "けんきゅうして",
+        "けんきゅうって",
+        "けんきゅうしって",
+        "けんきゅうすて"
+      ],
+      "answer": 0,
+      "explanation": "けんきゅうします (nhóm III) → けんきゅうして."
+    },
+    {
+      "question": "つくえの うえ（　）しりょうを おいて ください。",
+      "meaning": "Hãy đặt tài liệu lên trên bàn.",
+      "options": [
+        "に",
+        "で",
+        "を",
+        "が"
+      ],
+      "answer": 0,
+      "explanation": "N1 に N2 を おきます: に chỉ nơi đặt đồ vật."
+    },
+    {
+      "question": "しりょうは つくえの うえに（　）ください。",
+      "meaning": "Hãy đặt tài liệu ở trên bàn.",
+      "options": [
+        "おいて",
+        "おきて",
+        "おって",
+        "おんで"
+      ],
+      "answer": 0,
+      "explanation": "おきます (置きます, đặt) là nhóm I, âm き → いて: おいて. Còn おきます (起きます, thức dậy) là nhóm II → おきて."
+    },
+    {
+      "question": "ここに くるまを（　）は いけません。",
+      "meaning": "Không được đỗ xe ở đây.",
+      "options": [
+        "とめて",
+        "とまって",
+        "とって",
+        "とめり"
+      ],
+      "answer": 0,
+      "explanation": "とめます (dừng, đỗ xe, nhóm II) → とめて. V て は いけません: cấm."
+    },
+    {
+      "question": "この へや（　）はいっては いけません。",
+      "meaning": "Không được vào căn phòng này.",
+      "options": [
+        "に",
+        "を",
+        "で",
+        "から"
+      ],
+      "answer": 0,
+      "explanation": "Nơi đi vào đi với trợ từ に: へやに はいります."
+    },
+    {
+      "question": "この いす（　）すわっても いいですか。",
+      "meaning": "Tôi ngồi vào chiếc ghế này có được không?",
+      "options": [
+        "に",
+        "を",
+        "で",
+        "が"
+      ],
+      "answer": 0,
+      "explanation": "すわります đi với に chỉ chỗ ngồi: いすに すわります."
+    },
+    {
+      "question": "ごかぞくは どちらに（　）か。── にほんに います。",
+      "hint": "cách nói kính trọng",
+      "meaning": "Gia đình anh ở đâu ạ? ── Gia đình tôi ở Nhật.",
+      "options": [
+        "いらっしゃいます",
+        "います",
+        "すんで います",
+        "あります"
+      ],
+      "answer": 0,
+      "explanation": "いらっしゃいます là cách nói kính trọng của います, dùng khi hỏi về gia đình người khác."
+    },
+    {
+      "question": "わたしは にほんごが すこし（　）。",
+      "meaning": "Tôi hiểu tiếng Nhật một chút.",
+      "options": [
+        "わかります",
+        "しって います",
+        "しります",
+        "しりません"
+      ],
+      "answer": 0,
+      "explanation": "Hiểu một ngôn ngữ dùng N が わかります. しって います là biết (thông tin về điều gì đó)."
+    },
+    {
+      "question": "わたしの ちちは（　）。",
+      "hint": "nói về nghề nghiệp",
+      "meaning": "Bố tôi làm nha sĩ.",
+      "options": [
+        "はいしゃです",
+        "はいしゃして います",
+        "はいしゃを して いません",
+        "はいしゃが います"
+      ],
+      "answer": 0,
+      "explanation": "Nói nghề nghiệp có thể dùng N です: ちちは はいしゃです. はいしゃ là danh từ, không ghép với します."
+    },
+    {
+      "question": "テストの とき、じしょを（　）は いけません。",
+      "meaning": "Trong giờ kiểm tra, không được xem từ điển.",
+      "options": [
+        "みて",
+        "みって",
+        "みんで",
+        "みせて"
+      ],
+      "answer": 0,
+      "explanation": "みます (xem, nhóm II) → みて. みせて là thể て của みせます (cho xem)."
+    },
+    {
+      "question": "＿＿ ＿＿ ★ ＿＿ いいですか。",
+      "instruction": "Sắp xếp các từ cho đúng thứ tự và chọn từ ở vị trí ★.",
+      "meaning": "Tôi để hành lý ở đây có được không?",
+      "options": [
+        "にもつを",
+        "ここに",
+        "おいても",
+        "すみません、"
+      ],
+      "answer": 0,
+      "explanation": "Câu đúng: すみません、ここに にもつを おいても いいですか。 N1 に N2 を V て も いいですか."
+    },
+    {
+      "question": "わたしの いもうとは ＿＿ ＿＿ ★ ＿＿。",
+      "instruction": "Sắp xếp các từ cho đúng thứ tự và chọn từ ở vị trí ★.",
+      "meaning": "Em gái tôi đang sống ở Tokyo.",
+      "options": [
+        "すんで",
+        "とうきょう",
+        "に",
+        "います"
+      ],
+      "answer": 0,
+      "explanation": "Câu đúng: わたしの いもうとは とうきょう に すんで います。 N に すんで います: đang sống ở N."
+    }
+  ]
+}

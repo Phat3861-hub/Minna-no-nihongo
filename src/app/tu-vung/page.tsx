@@ -1,14 +1,13 @@
 import type { Metadata } from "next";
 import { ClientOnly, PageHead } from "@/components/ui";
 import VocabStudy from "@/features/vocab/VocabStudy";
-import { getKanjiIndex, getVerbData, getVocabLessons } from "@/lib/data";
+import { getKanjiIndex, getVerbGroupMap, getVocabLessons } from "@/lib/data";
 
 export const metadata: Metadata = { title: "Từ vựng" };
 
 export default function Page() {
   const lessons = getVocabLessons();
-  const verbGroups: Record<string, number> = {};
-  for (const v of getVerbData().verbs) verbGroups[v.masu] = v.group;
+  const verbGroups = getVerbGroupMap();
   const total = lessons.reduce((s, l) => s + l.words.length, 0);
   return (
     <>

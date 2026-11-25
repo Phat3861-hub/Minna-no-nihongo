@@ -146,3 +146,19 @@ export const getSpeaking = cache((): SpeakingData => {
 });
 
 export const getVerbData = cache((): VerbData => readJson<VerbData>("verbs.json"));
+
+/**
+ * Bảng tra nhóm động từ cho phần Từ vựng.
+ * Khóa "kana|kanji" (phân biệt 起きます / 置きます); khóa chỉ có kana khi mọi động từ cùng cách đọc chung một nhóm.
+ */
+export const getVerbGroupMap = cache((): Record<string, number> => {
+  const out: Record<string, number> = {};
+  const byKana = new Map<string, Set<number>>();
+  for (const v of getVerbData().verbs) {
+    out[`${v.masu}|${v.kanji}`] = v.group;
+    if (!byKana.has(v.masu)) byKana.set(v.masu, new Set());
+    byKana.get(v.masu)!.add(v.group);
+  }
+  for (const [k, gs] of byKana) if (gs.size === 1) out[k] = [...gs][0];
+  return out;
+});
