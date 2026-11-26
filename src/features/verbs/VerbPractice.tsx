@@ -14,14 +14,16 @@ const TYPES: [VQType, string][] = [
   ["nai", "Thể ない"],
   ["dict", "Thể từ điển"],
   ["ta", "Thể た"],
+  ["tesp", "Thể て đặc biệt"],
   ["mix", "Trộn"],
 ];
 
-export default function VerbPractice({ verbs }: { verbs: Verb[] }) {
-  const [type, setType] = useStored<VQType>("mnn.vq", "group", oneOf("group", "te", "nai", "dict", "ta", "mix"));
+export default function VerbPractice({ verbs, special = [] }: { verbs: Verb[]; special?: Verb[] }) {
+  const [type, setType] = useStored<VQType>("mnn.vq", "group", oneOf("group", "te", "nai", "dict", "ta", "tesp", "mix"));
   const [count, setCount] = useStored<"10" | "20" | "all">("mnn.vcount", "10", oneOf("10", "20", "all"));
   const [quiz, setQuiz] = useState<Quiz<VMeta> | null>(null);
-  const start = () => setQuiz(newQuiz(verbQuestions(verbs, type, count === "all" ? "all" : +count)));
+  const pool = type === "tesp" && special.length ? special : verbs;
+  const start = () => setQuiz(newQuiz(verbQuestions(pool, type, count === "all" ? "all" : +count)));
   useEffect(() => start(), [type, count]); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
@@ -94,6 +96,12 @@ export default function VerbPractice({ verbs }: { verbs: Verb[] }) {
                   <span className="why-h">Quy tắc</span>
                   {ruleText(v, kind)}
                 </div>
+                {v.exception && v.group !== 2 && (
+                  <div className="why">
+                    <span className="why-h">Lưu ý</span>
+                    {v.exception}
+                  </div>
+                )}
               </>
             );
           }}
@@ -114,7 +122,7 @@ export default function VerbPractice({ verbs }: { verbs: Verb[] }) {
           })}
           reviewJp
           onNew={() => start()}
-          onRetry={(wr) => setQuiz(newQuiz(wr.map((x) => makeVerbQ(x.meta.v, x.meta.kind, verbs))))}
+          onRetry={(wr) => setQuiz(newQuiz(wr.map((x) => makeVerbQ(x.meta.v, x.meta.kind, pool))))}
         />
       )}
     </div>

@@ -179,6 +179,496 @@
     "Cẩn thận với các động từ nhóm I có thể từ điển kết thúc bằng える／いる như かえる (về), きる (cắt), はいる (vào): chúng vẫn là nhóm I vì thể ます là かえります, きります, はいります.",
     "Khi học từ mới là động từ, hãy học luôn nhóm của nó."
   ],
+  "teSpecial": {
+    "note": "Các động từ N5 có thể て đặc biệt hoặc dễ nhầm. Học thuộc thể て của từng từ và chú ý nhóm của nó.",
+    "groups": [
+      {
+        "title": "Ngoại lệ duy nhất của nhóm I",
+        "desc": "Theo quy tắc き → いて, nhưng 行きます lại thành って. Đây là ngoại lệ duy nhất của thể て nhóm I.",
+        "items": [
+          {
+            "masu": "いきます",
+            "kanji": "行きます",
+            "vi": "đi",
+            "group": 1,
+            "exception": "Ngoại lệ: いって (không phải いいて)",
+            "forms": {
+              "dict": "いく",
+              "te": "いって",
+              "nai": "いかない",
+              "ta": "いった"
+            }
+          }
+        ]
+      },
+      {
+        "title": "Nhóm III – phải học thuộc",
+        "desc": "Động từ bất quy tắc, không theo quy tắc nào.",
+        "items": [
+          {
+            "masu": "します",
+            "kanji": "",
+            "vi": "làm",
+            "group": 3,
+            "forms": {
+              "dict": "する",
+              "te": "して",
+              "nai": "しない",
+              "ta": "した"
+            }
+          },
+          {
+            "masu": "きます",
+            "kanji": "来ます",
+            "vi": "đến",
+            "group": 3,
+            "exception": "Đọc là きて (không phải くて)",
+            "forms": {
+              "dict": "くる",
+              "te": "きて",
+              "nai": "こない",
+              "ta": "きた"
+            }
+          },
+          {
+            "masu": "べんきょうします",
+            "kanji": "勉強します",
+            "vi": "học",
+            "group": 3,
+            "exception": "Danh từ + します → Danh từ + して",
+            "forms": {
+              "dict": "べんきょうする",
+              "te": "べんきょうして",
+              "nai": "べんきょうしない",
+              "ta": "べんきょうした"
+            }
+          },
+          {
+            "masu": "せんたくします",
+            "kanji": "洗濯します",
+            "vi": "giặt giũ",
+            "group": 3,
+            "forms": {
+              "dict": "せんたくする",
+              "te": "せんたくして",
+              "nai": "せんたくしない",
+              "ta": "せんたくした"
+            }
+          },
+          {
+            "masu": "そうじします",
+            "kanji": "掃除します",
+            "vi": "dọn dẹp",
+            "group": 3,
+            "forms": {
+              "dict": "そうじする",
+              "te": "そうじして",
+              "nai": "そうじしない",
+              "ta": "そうじした"
+            }
+          }
+        ]
+      },
+      {
+        "title": "Nhóm II dù âm trước ます thuộc hàng い",
+        "desc": "Nhìn giống nhóm I nhưng là nhóm II: chỉ cần bỏ ます, thêm て.",
+        "items": [
+          {
+            "masu": "みます",
+            "kanji": "見ます",
+            "vi": "xem, nhìn",
+            "group": 2,
+            "exception": "Không phải みんで",
+            "forms": {
+              "dict": "みる",
+              "te": "みて",
+              "nai": "みない",
+              "ta": "みた"
+            }
+          },
+          {
+            "masu": "おきます",
+            "kanji": "起きます",
+            "vi": "thức dậy",
+            "group": 2,
+            "exception": "Không phải おいて",
+            "forms": {
+              "dict": "おきる",
+              "te": "おきて",
+              "nai": "おきない",
+              "ta": "おきた"
+            }
+          },
+          {
+            "masu": "かります",
+            "kanji": "借ります",
+            "vi": "mượn",
+            "group": 2,
+            "exception": "Không phải かって",
+            "forms": {
+              "dict": "かりる",
+              "te": "かりて",
+              "nai": "かりない",
+              "ta": "かりた"
+            }
+          },
+          {
+            "masu": "います",
+            "kanji": "",
+            "vi": "có, ở (người, động vật)",
+            "group": 2,
+            "exception": "Không phải いって",
+            "forms": {
+              "dict": "いる",
+              "te": "いて",
+              "nai": "いない",
+              "ta": "いた"
+            }
+          },
+          {
+            "masu": "あびます",
+            "kanji": "浴びます",
+            "vi": "tắm (vòi sen)",
+            "group": 2,
+            "exception": "Không phải あんで",
+            "forms": {
+              "dict": "あびる",
+              "te": "あびて",
+              "nai": "あびない",
+              "ta": "あびた"
+            }
+          },
+          {
+            "masu": "おります",
+            "kanji": "降ります",
+            "vi": "xuống (xe, tàu)",
+            "group": 2,
+            "exception": "Không phải おって",
+            "forms": {
+              "dict": "おりる",
+              "te": "おりて",
+              "nai": "おりない",
+              "ta": "おりた"
+            }
+          },
+          {
+            "masu": "できます",
+            "kanji": "",
+            "vi": "có thể, làm được",
+            "group": 2,
+            "exception": "Không phải できいて",
+            "forms": {
+              "dict": "できる",
+              "te": "できて",
+              "nai": "できない",
+              "ta": "できた"
+            }
+          },
+          {
+            "masu": "きます",
+            "kanji": "着ます",
+            "vi": "mặc (áo)",
+            "group": 2,
+            "exception": "Cùng thể て với 来ます (đến): きて",
+            "forms": {
+              "dict": "きる",
+              "te": "きて",
+              "nai": "きない",
+              "ta": "きた"
+            }
+          }
+        ]
+      },
+      {
+        "title": "Nhóm I nhưng thể từ điển trông giống nhóm II",
+        "desc": "Thể từ điển kết thúc bằng 〜いる／〜える nên dễ tưởng là nhóm II, nhưng thật ra là nhóm I: り → って.",
+        "items": [
+          {
+            "masu": "かえります",
+            "kanji": "帰ります",
+            "vi": "về",
+            "group": 1,
+            "exception": "Không phải かえて",
+            "forms": {
+              "dict": "かえる",
+              "te": "かえって",
+              "nai": "かえらない",
+              "ta": "かえった"
+            }
+          },
+          {
+            "masu": "きります",
+            "kanji": "切ります",
+            "vi": "cắt",
+            "group": 1,
+            "exception": "Không phải きて",
+            "forms": {
+              "dict": "きる",
+              "te": "きって",
+              "nai": "きらない",
+              "ta": "きった"
+            }
+          },
+          {
+            "masu": "はいります",
+            "kanji": "入ります",
+            "vi": "vào",
+            "group": 1,
+            "exception": "Không phải はいて",
+            "forms": {
+              "dict": "はいる",
+              "te": "はいって",
+              "nai": "はいらない",
+              "ta": "はいった"
+            }
+          },
+          {
+            "masu": "はしります",
+            "kanji": "走ります",
+            "vi": "chạy",
+            "group": 1,
+            "exception": "Không phải はして",
+            "forms": {
+              "dict": "はしる",
+              "te": "はしって",
+              "nai": "はしらない",
+              "ta": "はしった"
+            }
+          },
+          {
+            "masu": "しります",
+            "kanji": "知ります",
+            "vi": "biết",
+            "group": 1,
+            "exception": "Không phải して",
+            "forms": {
+              "dict": "しる",
+              "te": "しって",
+              "nai": "しらない",
+              "ta": "しった"
+            }
+          },
+          {
+            "masu": "いります",
+            "kanji": "要ります",
+            "vi": "cần",
+            "group": 1,
+            "exception": "Không phải いて",
+            "forms": {
+              "dict": "いる",
+              "te": "いって",
+              "nai": "いらない",
+              "ta": "いった"
+            }
+          }
+        ]
+      },
+      {
+        "title": "Âm ぎ → いで và âm に → んで",
+        "desc": "ぎ có dấu ゛ nên thành いで (không phải いて). 死にます là động từ N5 duy nhất có âm に.",
+        "items": [
+          {
+            "masu": "およぎます",
+            "kanji": "泳ぎます",
+            "vi": "bơi",
+            "group": 1,
+            "forms": {
+              "dict": "およぐ",
+              "te": "およいで",
+              "nai": "およがない",
+              "ta": "およいだ"
+            }
+          },
+          {
+            "masu": "いそぎます",
+            "kanji": "急ぎます",
+            "vi": "vội",
+            "group": 1,
+            "forms": {
+              "dict": "いそぐ",
+              "te": "いそいで",
+              "nai": "いそがない",
+              "ta": "いそいだ"
+            }
+          },
+          {
+            "masu": "ぬぎます",
+            "kanji": "脱ぎます",
+            "vi": "cởi (quần áo, giày)",
+            "group": 1,
+            "forms": {
+              "dict": "ぬぐ",
+              "te": "ぬいで",
+              "nai": "ぬがない",
+              "ta": "ぬいだ"
+            }
+          },
+          {
+            "masu": "しにます",
+            "kanji": "死にます",
+            "vi": "chết",
+            "group": 1,
+            "exception": "Động từ duy nhất có âm に: しんで",
+            "forms": {
+              "dict": "しぬ",
+              "te": "しんで",
+              "nai": "しなない",
+              "ta": "しんだ"
+            }
+          }
+        ]
+      },
+      {
+        "title": "Dễ nhầm vì cùng cách đọc hoặc gần giống",
+        "desc": "Cùng cách đọc ở thể ます hoặc thể て nhưng là từ khác nhau. Hãy nhìn chữ kanji và nghĩa.",
+        "items": [
+          {
+            "masu": "きます",
+            "kanji": "来ます",
+            "vi": "đến",
+            "group": 3,
+            "exception": "来て (きて)",
+            "forms": {
+              "dict": "くる",
+              "te": "きて",
+              "nai": "こない",
+              "ta": "きた"
+            }
+          },
+          {
+            "masu": "きます",
+            "kanji": "着ます",
+            "vi": "mặc",
+            "group": 2,
+            "exception": "着て (きて)",
+            "forms": {
+              "dict": "きる",
+              "te": "きて",
+              "nai": "きない",
+              "ta": "きた"
+            }
+          },
+          {
+            "masu": "きります",
+            "kanji": "切ります",
+            "vi": "cắt",
+            "group": 1,
+            "exception": "切って (きって)",
+            "forms": {
+              "dict": "きる",
+              "te": "きって",
+              "nai": "きらない",
+              "ta": "きった"
+            }
+          },
+          {
+            "masu": "おきます",
+            "kanji": "起きます",
+            "vi": "thức dậy",
+            "group": 2,
+            "exception": "起きて (おきて)",
+            "forms": {
+              "dict": "おきる",
+              "te": "おきて",
+              "nai": "おきない",
+              "ta": "おきた"
+            }
+          },
+          {
+            "masu": "おきます",
+            "kanji": "置きます",
+            "vi": "đặt, để",
+            "group": 1,
+            "exception": "置いて (おいて)",
+            "forms": {
+              "dict": "おく",
+              "te": "おいて",
+              "nai": "おかない",
+              "ta": "おいた"
+            }
+          },
+          {
+            "masu": "いきます",
+            "kanji": "行きます",
+            "vi": "đi",
+            "group": 1,
+            "exception": "行って (いって)",
+            "forms": {
+              "dict": "いく",
+              "te": "いって",
+              "nai": "いかない",
+              "ta": "いった"
+            }
+          },
+          {
+            "masu": "いいます",
+            "kanji": "言います",
+            "vi": "nói",
+            "group": 1,
+            "exception": "言って (いって) – giống 行って",
+            "forms": {
+              "dict": "いう",
+              "te": "いって",
+              "nai": "いわない",
+              "ta": "いった"
+            }
+          },
+          {
+            "masu": "かきます",
+            "kanji": "書きます",
+            "vi": "viết",
+            "group": 1,
+            "exception": "書いて (かいて)",
+            "forms": {
+              "dict": "かく",
+              "te": "かいて",
+              "nai": "かかない",
+              "ta": "かいた"
+            }
+          },
+          {
+            "masu": "かいます",
+            "kanji": "買います",
+            "vi": "mua",
+            "group": 1,
+            "exception": "買って (かって)",
+            "forms": {
+              "dict": "かう",
+              "te": "かって",
+              "nai": "かわない",
+              "ta": "かった"
+            }
+          },
+          {
+            "masu": "かします",
+            "kanji": "貸します",
+            "vi": "cho mượn",
+            "group": 1,
+            "exception": "貸して (かして)",
+            "forms": {
+              "dict": "かす",
+              "te": "かして",
+              "nai": "かさない",
+              "ta": "かした"
+            }
+          },
+          {
+            "masu": "ききます",
+            "kanji": "聞きます",
+            "vi": "nghe",
+            "group": 1,
+            "exception": "聞いて (きいて)",
+            "forms": {
+              "dict": "きく",
+              "te": "きいて",
+              "nai": "きかない",
+              "ta": "きいた"
+            }
+          }
+        ]
+      }
+    ]
+  },
   "verbs": [
     {"lesson": 2, "masu": "ちがいます", "kanji": "違います", "vi": "không phải, sai rồi", "group": 1, "forms": {"dict": "ちがう", "te": "ちがって", "nai": "ちがわない", "ta": "ちがった"}},
     {"lesson": 4, "masu": "おきます", "kanji": "起きます", "vi": "thức dậy", "group": 2, "exception": "Âm き thuộc hàng い nhưng là nhóm II", "forms": {"dict": "おきる", "te": "おきて", "nai": "おきない", "ta": "おきた"}},
