@@ -91,25 +91,28 @@ function wrongForms(v: Verb, f: VerbFormKey): string[] {
   return f === "ta" ? out.map(toTa) : out;
 }
 
-export type VQType = "group" | VerbFormKey | "mix";
+export type VQType = "group" | VerbFormKey | "mix" | "tesp";
 export type VMeta = { v: Verb; kind: "group" | VerbFormKey };
 
 export function makeVerbQ(v: Verb, kind: "group" | VerbFormKey, all: Verb[]) {
   if (kind === "group") {
     return {
-      id: `group:${v.lesson}:${v.masu}`,
+      id: `group:${v.lesson}:${v.masu}:${v.kanji}`,
       meta: { v, kind } as VMeta,
       opts: [1, 2, 3].map((g) => ({ text: GROUP_LABEL[g], ok: g === v.group })),
     };
   }
   const correct = v.forms[kind];
   const pool = shuffled(wrongForms(v, kind)).concat(shuffled(all.filter((x) => x !== v).map((x) => x.forms[kind])));
-  return { id: `${kind}:${v.lesson}:${v.masu}`, meta: { v, kind } as VMeta, opts: shuffled(buildOptions(correct, pool)) };
+  return { id: `${kind}:${v.lesson}:${v.masu}:${v.kanji}`, meta: { v, kind } as VMeta, opts: shuffled(buildOptions(correct, pool)) };
 }
 
 export function verbQuestions(verbs: Verb[], t: VQType, n: number | "all") {
   const kinds: ("group" | VerbFormKey)[] = ["group", "te", "nai", "dict", "ta"];
-  let list = shuffled(verbs).map((v) => ({ v, kind: t === "mix" ? kinds[Math.floor(Math.random() * kinds.length)] : t }));
+  let list = shuffled(verbs).map((v) => ({
+    v,
+    kind: t === "mix" ? kinds[Math.floor(Math.random() * kinds.length)] : t === "tesp" ? ("te" as const) : t,
+  }));
   if (n !== "all") list = list.slice(0, n);
   return list.map((x) => makeVerbQ(x.v, x.kind, verbs));
 }

@@ -14,6 +14,17 @@ const ROWS = [
 
 export default function Page() {
   const d = getVerbData();
+  // Các động từ đặc biệt của thể て (bỏ trùng) dùng cho bài luyện “Thể て đặc biệt”
+  const seen = new Set<string>();
+  const special = (d.teSpecial?.groups ?? [])
+    .flatMap((g) => g.items)
+    .filter((v) => {
+      const k = `${v.masu}|${v.kanji}`;
+      if (seen.has(k)) return false;
+      seen.add(k);
+      return true;
+    })
+    .map((v) => ({ ...v, lesson: 0 }));
   const maxLesson = Math.max(...d.verbs.map((v) => v.lesson));
   const lastGrammar = getGrammarLessons().at(-1)!.lesson;
   return (
@@ -28,6 +39,7 @@ export default function Page() {
           <a href="#nhan-biet" className="btn ghost sm">1. Nhận biết nhóm</a>
           <a href="#bang-dong-tu" className="btn ghost sm">2. Bảng động từ Bài 1–{maxLesson}</a>
           <a href="#cach-chia" className="btn ghost sm">3. Cách chia các thể</a>
+          {d.teSpecial && <a href="#the-te-dac-biet" className="btn ghost sm">3b. Thể て đặc biệt</a>}
           <a href="#luyen-tap" className="btn ghost sm">4. Luyện tập</a>
         </div>
       </nav>
@@ -125,10 +137,56 @@ export default function Page() {
         ))}
       </div>
 
+      {d.teSpecial && (
+        <>
+          <h2 className="section-title" id="the-te-dac-biet">
+            3b. Thể て – các từ đặc biệt cần nhớ <span className="tag-sm">N5</span>
+          </h2>
+          <p className="cap">{d.teSpecial.note} Muốn tự kiểm tra, chọn kiểu “Thể て đặc biệt” ở mục Luyện tập bên dưới.</p>
+          {d.teSpecial.groups.map((g, gi) => (
+            <section key={gi} className="panel te-sp">
+              <h3>{g.title}</h3>
+              <p className="cap">{g.desc}</p>
+              <div className="table-wrap">
+                <table className="vt">
+                  <thead>
+                    <tr>
+                      <th>Thể ます</th>
+                      <th>Nghĩa</th>
+                      <th>Nhóm</th>
+                      <th>Thể て</th>
+                      <th>Lưu ý</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {g.items.map((v, i) => (
+                      <tr key={i}>
+                        <td className="jp">
+                          {v.masu}
+                          {v.kanji && <span className="muted small"> {v.kanji}</span>}
+                        </td>
+                        <td style={{ whiteSpace: "normal", minWidth: 120 }}>{v.vi}</td>
+                        <td>
+                          <span className={`grp g${v.group}`}>{["", "Nhóm I", "Nhóm II", "Nhóm III"][v.group]}</span>
+                        </td>
+                        <td className="jp te-cell">{v.forms.te}</td>
+                        <td style={{ whiteSpace: "normal", minWidth: 160 }} className="muted">
+                          {v.exception ?? ""}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </section>
+          ))}
+        </>
+      )}
+
       <h2 className="section-title" id="luyen-tap">4. Luyện tập</h2>
       <p className="cap">Chọn kiểu câu hỏi: phân loại nhóm hoặc chia sang một thể. Sau mỗi câu có giải thích quy tắc.</p>
       <ClientOnly>
-        <VerbPractice verbs={d.verbs} />
+        <VerbPractice verbs={d.verbs} special={special} />
       </ClientOnly>
 
       <div className="lesson-nav">

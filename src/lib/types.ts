@@ -120,5 +120,7 @@ export type VerbData = {
     rules: { group: number; items: string[] }[];
   }[];
   tips: string[];
+  /** Thể て: các động từ N5 đặc biệt hoặc dễ nhầm */
+  teSpecial?: { note: string; groups: { title: string; desc: string; items: Omit<Verb, "lesson">[] }[] };
   verbs: Verb[];
 };
